@@ -1,0 +1,130 @@
+/* This file controls the navbar colors and the sidebar heading level colors. */
+/* customsyle.css controls the sidebar filename level colors. */
+
+:root {
+    --samsung_blue: #242c9c;
+    --blue_color: #daab32;
+    --heading_colors: #1b212c;
+    --background_color: #ffffff;
+  }
+
+
+.summary {
+    color: #808080;
+    border-left: 5px solid #4978c4;
+    font-size:16px;
+}
+
+/*h1{} */
+h2 {color: var(--heading_colors); font-weight: bold;}
+h3 {color: var(--heading_colors); font-weight: bold;}
+h4 {color: var(--heading_colors); }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: var(--samsung_blue);
+    color: white;
+}
+
+.nav > li.active > a {
+    background-color: var(--samsung_blue);
+}
+
+.nav > li > a:hover {
+    background-color: var(--samsung_blue);
+}
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    background-color: var(--samsung_blue);
+    color: white;
+}
+
+.nav li.thirdlevel > a {
+    background-color: var(--background_color)!important;
+    color: #4978c4;
+    font-weight: bold;
+}
+
+a[data-toggle="tooltip"] {
+    color: #649345;
+    font-style: italic;
+    cursor: default;
+}
+
+.navbar-inverse {
+    background-color: var(--samsung_blue);
+    border-color: var(--blue_color);
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+     color: #f0f0f0;
+}
+
+a.navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: var(--samsung_blue);
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #4978c4 !important;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: var(--samsung_blue);
+    border-color: var(--samsung_blue);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: var(--samsung_blue);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #4978c4;
+    border-color: var(--samsung_blue);
+}
+
+.printTitle {
+    color: var(--blue_color) !important;
+}
+
+body.print h1 {color: var(--blue_color) !important; font-size:28px !important;}
+body.print h2 {color: #595959 !important; font-size:20px !important;}
+body.print h3 {color: #E50E51 !important; font-size:14px !important;}
+body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
+
+.anchorjs-link:hover {
+    color: #216f9b;
+}
+
+div.sidebarTitle {
+    color: #333333;
+}
+
+li.sidebarTitle {
+  margin-top:20px;
+    font-weight:normal;
+    font-size:130%;
+    color: #222222;
+    margin-bottom:10px;
+    margin-left: 5px;
+
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: var(--blue_color);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: var(--blue_color);
+}
