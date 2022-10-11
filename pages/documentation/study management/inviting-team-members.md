@@ -24,4 +24,4 @@ To invite a member to the team and assign the member a role:
 
     > `Principal Investigator` is the only role available in the alpha version (v0.9) of the portal.
 
-4. Click **Invite** to send the prospective new member an invitation email.
+4. Click **Invite Member**  to send the prospective new member an invitation email.

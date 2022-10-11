@@ -5,11 +5,22 @@ permalink: building-the-app.html
 toc: false
 
 ---
-* Mention basic pieces to include
-  * determine eligibility
-  * get informed consent
-  * register
-  * etc...
+participants wear the Samsung Galaxy Watch 4 and use an Android mobile app to collect the data. Follow these steps to use the Samsung Health Stack app SDK to create and customize the app:
+
+1. If you are not already familiar with developing code in Android Studio, take a look at https://developer.android.com/studio/intro.
+
+2. In Android Studio, clone the https://github.com/S-HealthStack/starter-app GitHub repository to retrieve the app starter code.
+
+   > git clone https://github.com/S-HealthStack/starter-app.git
+
+3. Edit the code in the `main` branch to customize it for our study.
+
+Mention basic pieces to include
+
+* determine eligibility
+* get informed consent
+* register
+* etc...
 
 Next, we create a mobile app to enroll participants and obtain their vital signs. We can use our App SDK for this.  Many features are available with a few simple customizations. 
 

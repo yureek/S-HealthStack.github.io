@@ -84,12 +84,8 @@ entries:
       url: /building-the-app.html
       output: web, pdf
 
-    - title: Configuring the App
-      url: /coming-soon.html
-      output: web, pdf
-
-    - title: Other SDK details?
-      url: /coming-soon.html
+    - title: Configuring the App Environment
+      url: /configuring-the-app.html
       output: web, pdf
 
   - title: Study Execution
@@ -97,15 +93,11 @@ entries:
     folderitems:
 
     - title: Onboarding Participants
-      url: /coming-soon.html
+      url: /onboarding-participants.html
       output: web, pdf
 
-    - title: Collecting the Survey Data
-      url: /coming-soon.html
-      output: web, pdf
-
-    - title: Collecting the Sensor Data
-      url: /coming-soon.html
+    - title: Collecting Data
+      url: /collecting-data.html
       output: web, pdf
 
   - title: Results Analysis

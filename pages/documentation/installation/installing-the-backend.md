@@ -79,7 +79,7 @@ After successful gradle build, build docker image of hrp-platform 0.1.0 in platf
 
 `docker ps `
 
-Now run the Postgres Container under hrp-Postgres and expose the environmental password of the variable name POSTGRES_PASSWORD with value docker to the container. Further launches the container in the background and Bind port 5432 on localhost to port 5432 within the container 
+Now run the Postgres Container under hrp-Postgres and expose the environmental password of the variable name POSTGRES_PASSWORD with value docker to the container. Further launches the container in the background and bind port 5432 on localhost to port 5432 within the container 
 
 `docker run --name hrp -platform- network hrp-platform -- network hrp -e DB_HOST=471C510ee91b -e DB_PORT= 5432 -e DB_NAME = postgres` 
 
