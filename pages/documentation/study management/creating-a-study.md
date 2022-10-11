@@ -1,0 +1,23 @@
+---
+title: Creating a Study
+sidebar: doc_sidebar
+permalink: creating-a-study.html
+toc: false
+---
+
+A Samsung Health Stack study is a container you create within the web portal to manage all aspects of your participant study. A container consists of the team members running the study, the list of participants, participant surveys, survey results, participant vital signs tracked through the wearable device, graphs giving insights into the data collected, and more.
+
+To create a new study:
+
+1. From anywhere within the web portal, click the current study name displayed in the top, left corner of the portal window.
+    {% include inline_image.html file="creating-a-study.png" alt="" %}
+
+2. On the **Study Collection** page that appears, click **Create new study**.
+
+    > When logging in to the portal for the very first time, the **Create a study** page automatically appears instead.
+
+3. Enter a name for your study.
+
+4. Select a color for the study logo.
+
+5. Click **Create Study**.

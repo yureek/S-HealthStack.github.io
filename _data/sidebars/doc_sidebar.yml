@@ -1,0 +1,131 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Documentation
+  version: v0.9
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Getting Started Tutorial
+      url: /tutorial.html
+      output: web, pdf
+
+    - title: Contributing to the Open Source Project
+      url: /coming-soon.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: Installing the Backend System
+      url: /installing-the-backend.html
+      output: web, pdf
+
+    - title: Installing the App SDK
+      url: /installing-the-sdk.html
+      output: web, pdf
+
+    - title: Installing the Web Portal
+      url: /installing-the-portal.html
+      output: web, pdf
+
+  - title: Study Management
+    output: web, pdf
+    folderitems:
+    
+    - title: Creating a Study
+      url: /creating-a-study.html
+      output: web, pdf
+
+    - title: Inviting Team Members and Assigning Roles
+      url: /inviting-team-members.html
+      output: web, pdf
+
+    - title: Creating a Survey
+      url: /creating-a-survey.html
+      output: web, pdf
+
+    - title: Previewing a Survey
+      url: /previewing-a-survey.html
+      output: web, pdf
+
+    - title: Scheduling and Publishing a Survey
+      url: /publishing-a-survey.html
+      output: web, pdf
+
+  - title: App Creation
+    output: web, pdf
+    folderitems:
+
+    - title: Building the Mobile App
+      url: /building-the-app.html
+      output: web, pdf
+
+    - title: Configuring the App Environment
+      url: /configuring-the-app.html
+      output: web, pdf
+
+  - title: Study Execution
+    output: web, pdf
+    folderitems:
+
+    - title: Onboarding Participants
+      url: /onboarding-participants.html
+      output: web, pdf
+
+    - title: Collecting Data
+      url: /collecting-data.html
+      output: web, pdf
+
+  - title: Results Analysis
+    output: web, pdf
+    folderitems:
+
+    - title: Viewing Graphs
+      url: /coming-soon.html
+      output: web, pdf
+
+    - title: Running Queries
+      url: /running-a-query.html
+      output: web, pdf
+
+    - title: Viewing Individual Results
+      url: /coming-soon.html
+      output: web, pdf
+
+    - title: Exporting Data for External Analysis
+      url: /exporting-data.html
+      output: web, pdf
+
+  - title: API Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Backend API Endpoints
+      url: /backend-api-endpoints.html
+      output: web, pdf
+
+# Copyright 2021 Google LLC
