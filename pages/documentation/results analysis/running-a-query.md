@@ -17,4 +17,3 @@ To run a data query:
 3. Click the standard column header arrows to sort the output on a particular column.
 4. Hover over a column header and click the **X** to remove the column from the query.
 5. Click **Run** to apply your adjustments and rerun the query.
-

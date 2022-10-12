@@ -7,6 +7,12 @@ toc: true
 # Back End API
 ## Version: 0.9.0
 
+<span style="color:red">We also provide the swagger.yml for each module, so you can refer it.</span>
+
+- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml)
+- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml)
+- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml)
+
 ### /projects
 
 #### GET
@@ -71,27 +77,6 @@ Register user as a participant of project
 | Code | Description |
 | ---- | ----------- |
 | 201 | Null response |
-| default | unexpected error |
-
-### /projects/{projectId}/users/{userId}
-
-#### GET
-##### Summary
-
-get user information
-
-##### Parameters
-
-| Name | Located in | Description | Required | Schema |
-| ---- | ---------- | ----------- | -------- | ---- |
-| projectId | path | The id of the project to retrieve | Yes | string |
-| userId | path | The id of the user to retrieve | Yes | string |
-
-##### Responses
-
-| Code | Description |
-| ---- | ----------- |
-| 200 | Expected response to a valid request |
 | default | unexpected error |
 
 ### /projects/{projectId}/tasks
@@ -175,33 +160,10 @@ Retrieve tasks with a specific task_id
 | 200 | OK |
 | default | unexpected error |
 
-#### PUT
-##### Summary
-
-Create revision of a task.
-
-##### Description
-
-Revision Id will be updated.
-
-##### Parameters
-
-| Name | Located in | Description | Required | Schema |
-| ---- | ---------- | ----------- | -------- | ---- |
-| projectId | path | The id of the project to retrieve | Yes | string |
-| taskId | path | The id of the task | Yes | string |
-
-##### Responses
-
-| Code | Description |
-| ---- | ----------- |
-| 201 | OK |
-| default | unexpected error |
-
 #### PATCH
 ##### Summary
 
-Edit a specific task
+Update a specific task
 
 ##### Description
 
@@ -220,29 +182,6 @@ A task only in DRAFT status can be updated. This is for auto-save or status chan
 | Code | Description |
 | ---- | ----------- |
 | 204 | No Content |
-| default | unexpected error |
-
-#### DELETE
-##### Summary
-
-Delete task.
-
-##### Description
-
-Delete all tasks with id
-
-##### Parameters
-
-| Name | Located in | Description | Required | Schema |
-| ---- | ---------- | ----------- | -------- | ---- |
-| projectId | path | The id of the project to retrieve | Yes | string |
-| taskId | path | The id of the task | Yes | string |
-
-##### Responses
-
-| Code | Description |
-| ---- | ----------- |
-| 204 | OK |
 | default | unexpected error |
 
 ### Models

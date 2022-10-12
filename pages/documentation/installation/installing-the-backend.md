@@ -5,112 +5,130 @@ permalink: installing-the-backend.html
 toc: false
 ---
 
-#### Prerequisite
+### Prerequisite
 
 #### Docker
 
 Install using the following guide [Install Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/)
 
-#### **Getting started**
+## **Getting started**
 
-Firstly, create a docker network hrp to connect docker containers by using the following syntax
+### Installation
 
-`Docker run --name hrp-postgres –network`
+#### **1. Create Network**
 
-#### Installation
+Create a docker network **hrp** to connect docker containers by the following command: 
 
-#### 1. Creates Network
+```
+docker network create hrp
+```
 
-create a docker network **hrp** to connect docker containers by using the following syntax: 
-
-`docker network create hrp`
-
-#### 2. Deploy Postgres
+#### **2. Deploy Postgres**
 
 After creating the network, deploy Postgres by following the instructions. 
 
-Pull(Download) the latest or specific version of Postgres images by: 
+Run the Postgres container, the command will start the Postgres container under hrp network and set the environmental variable for the initial password. 
 
-`docker pull postgres:14.5` 
+Pulling the image will be done automatically.
 
-Now run the Postgres container, the command will start the Postgres container under hrp-Postgres and expose the environmental password of the variable name POSTGRES_PASSWORD with value docker to the container. Further launches the container in the background, and Bind port 5432 on localhost to port 5432 within the container. 
-
-`Docker run --name hrp-postgres –network`
+```
+docker run \
+    -d \
+    --name hrp-postgres \
+    --network hrp \
+    -e POSTGRES_PASSWORD=password \
+    postgres:14.5
+```
 
 Now, clone the latest version with: 
 
-`git clone: https://github.com/S-HealthStack/backend-system` - Connect to preview 
+```
+git clone https://github.com/S-HealthStack/backend-system
+```
 
 The git clone command will download the repository that already exists on GitHub including all files.
 
-#### **3. Create File “Create-account-key.json file** 
+#### **3. Create Firebase `service-account-key.json` file** 
 
-Now create a JSON file in the research platform directory. For that change directory by using the below command: 
+Now create a firebase service account JSON file in the backend server directory.
 
-`cd research-platform`
+You can follow the detailed documentation in [here](https://firebase.google.com/docs/admin/setup?authuser=0).
 
-Further, list all files and directories of the platform by using the *ls* command. 
+```
+cd backend-system
+touch service-account-key.json
+```
 
-`ls platform/service-account-key.json` 
+And update the `service-account-key.json` file.
 
-#### Building
+### Building
 
 #### **4. Deploy platform** 
 
 Now deploy the platform by following below instructions. 
 
-The first step is to build by using grade build command that creates a jar file of the application and test the code formatting by: 
+The first step is testing the code and formatting by:
 
-`./gradlew : platform: build -x detekt -x test -x ktlintMainSourceSetCheck `
+```
+./gradlew :platform:ktlintFormat test
+```
 
-After successful gradle build, build docker image of hrp-platform 0.1.0 in platform` directory by using command: 
+The next step is to build by using grade build command that creates a jar file of the application:
 
-`docker build --tag hrp-platform: 0.1.0 ./ platform/ `
+```
+./gradlew :platform:build -x detekt
+```
 
-#### **Now list all images and containers within hrp network by Grep command.** 
+After successful gradle build, build docker image of hrp-platform 0.9.0 in platform` directory by using command: 
 
-`docker images | grep hrp`
+```
+docker build --tag hrp-platform:0.9.0 ./platform/
+```
 
-#### **After a successful build, run the container of hrp-platform.** 
+**Now list all images and containers within hrp network by grep command.** 
 
-`docker run --name hrp -platform --network hrp`. 
+```
+docker images | grep hrp
+```
 
-#### **To ensure hrp-platform container is running use Ps command.** 
+**After a successful build, run the container of hrp-platform.** 
 
-`docker ps `
+```
+docker run \
+    -d \
+    -p 3030:3030 \
+    --name hrp-platform \
+    --network hrp \
+    -e DB_HOST=hrp-postgres \
+    -e DB_PASSWORD=password \
+    -e GOOGLE_APPLICATION_CREDENTIALS=service-account-key.json \
+    hrp-platform:0.9.0
+```
 
-Now run the Postgres Container under hrp-Postgres and expose the environmental password of the variable name POSTGRES_PASSWORD with value docker to the container. Further launches the container in the background and bind port 5432 on localhost to port 5432 within the container 
+**To ensure hrp-platform container is running use ps command.** 
 
-`docker run --name hrp -platform- network hrp-platform -- network hrp -e DB_HOST=471C510ee91b -e DB_PORT= 5432 -e DB_NAME = postgres` 
+```
+docker ps | grep hrp-platform
+```
 
-To ensure Postgres container is running use Ps command 
+**Now connect to localhost:3030/api/projects**. 
 
-`Docker ps `
+```
+curl --location --request GET localhost:3030/api/projects
+```
 
-**Now connect to local host:3030/Api/projects**. 
-
-`curl -i local host:3030/api/projects `
-
-#### 5. Deploy trino
+#### **5. Deploy trino**
 
 Now, deploy trino by creating new directory trino/etc/catalog and then change directory: 
 
-`mkdir trino` 
+```
+mkdir -p trino/etc/catalog
+``` 
 
-`cd trino` 
-
-`mkdir etc/catalog`
-
-`mkdir etc`
-
-`cd etc`  
-
-`mkdir catlog` 
-
-Now, save the jvm.config file 
+Then, create the `jvm.config` file 
 
 ```
-echo"\
+echo "\
 -server
 -Xmx16G
 -XX: InitialRAMPercentage=80 
@@ -126,113 +144,132 @@ echo"\
 -Djak.attach.allowAttachSelf=true 
 -Didk.nio.maxCachedBufferSize=2000000 
 -XX:+UnlockDiagnosticVMOptions 
--XX:+UseAESCTRIntrinsics\  
-">jvm.config 
+-XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config 
 ```
 
-#### **After successful configuration pull(download) trinodb/trino 393 version.** 
+**After successful configuration pull(download) trinodb/trino 393 version.** 
 
-`docker pull trinodb/trino:393` 
+```
+docker pull trinodb/trino:393
+``` 
 
 Further, run the hrp-trino container from trinodb/trino image and map hrp-trino default port 8080 to inside of container port of 8080 by using the following command. 
 
-`docker run --name hrp-trino --network hr-d -p 8080:8080 --volume $HOME/research-platform/trino/` 
+```
+docker run \
+    -d \
+    -p 8080:8080 \
+    --name hrp-trino \
+    --network hrp \
+    --volume trino/etc/catalog \
+    trinodb/trino:393
+```
 
-###### 6. Deploy data-query-service
+#### **6. Deploy data-query-service**
 
 Now, deploy data-query-service. The first step is to change the directory and build the application data-query-service and generate a jar file, performing a code test. 
 
-`cd../..` 
+```
+./gradlew :data-query-service:build -x detekt
+``` 
 
-`/gradlew : data-query-service:build -x detekt -x test` 
+**After gradle build and code, test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.** 
 
-#### **After gradle build and code, test a build docker image of data-query-service tag 0.1.0 in data-query-service directory.** 
-
-`docker build -tag hrp-data-query-service:0.1.0./data-query-service` 
+```
+docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
+```
 
 list all images related to hrp-a-query-service by using grep command. 
 
+```
 docker images | grep hrp-data-query-service 
+```
 
-#### **Run hrp-data-query-service container, exposing the environmental USER with value docker to the container and skipping the first line** 
+**Run hrp-data-query-service container, exposing the environmental USER with value docker to the container and skipping the first line** 
 
-`docker run--name hrp-data-query-service--network-eCATALOG_USER=postgres-eTRINO_HOST=$(dockerps p-trino | awk ' (print $1} `
+```
+docker run \
+    -d \
+    --name hrp-data-query-service \
+    --network hrp \
+    -e CATALOG_USER=postgres \
+    -e TRINO_HOST=hrp-trino \
+    -e TRINO_PORT=8080 \
+    hrp-data-query-service:0.9.0
+```  
 
 To ensure successful run, ps command will be used to show all running containers 
 
-`docker ps` 
+```
+docker ps
+``` 
 
-##### Testing APIs
+#### **7. (Optional) Deploy SuperTokens**
 
-##### Test API calls
+Now, deploy [SuperTokens](https://supertokens.com/).
+
+<span style="color:red">You don't have to use SuperTokens for this process. Implement a back-end adapter to complement the Auth Service of your choice. The sample contains adapter of SuperTokens</span>
+
+```
+docker run \
+    -p 3567:3567 \
+    --name hrp-supertokens \
+    --network hrp \
+    -e POSTGRESQL_USER=postgres \
+    -e POSTGRESQL_HOST=hrp-postgres \
+    -e POSTGRESQL_PORT=5432 \
+    -e POSTGRESQL_PASSWORD=password \
+    -d registry.supertokens.io/supertokens/supertokens-postgresql
+```
+
+#### **8. Deploy Account Service**
+
+Run below command to create a docker image of account service.
+
+```
+./gradlew :account-service:build -x detekt
+
+docker build --tag account-service:0.9.0 ./account-service/
+```
+
+Now, deploy the account service using docker container.
+
+```
+docker run \
+    --name hrp-account-service \
+    --network hrp \
+    -d \
+    account-service:0.9.0
+```
+
+### Testing APIs
+
+#### Test API calls
 
 Now test API calls by using CURL command. 
 
-Curl POST command will initiate a POST Request to connect and further transfer data. 
+```
+curl --location --request GET localhost:3030/api/projects
+```
 
-`curl -i -request POST localhost: 3030/api/projects` 
+If you get unauthorized message, platform is deployed successfully.
 
-`curl - localhost:3030/api/projects` 
+#### Retrieve logs of the container
 
-#### **Now run the PSQL Queries within the postgres database and request to connect the application running inside of the container on 3031 port.** 
+To retrieve logs of the container present at the time of execution use: 
 
-`psql -h localhost -p 5432 -U postgres -d postgres `
+```
+docker logs -f hrp-platform
+``` 
 
-`curl-i -request POST localhost: 3030/api/projects --header 'Content-Type: application/JSON`
-
-`--data-raw`
-
-`"{ `
-
-`"name": `
-
-`"'string"` 
-
-`"isOpen": true, `
-
-`"info": { `
-
-`'additionalProp1": (], `
-
-`"additionalProp2": {],` 
-
-`"additionalProp3": (} `
-
-`]` 
-
-To ensure containers are running use ps command. 
-
-`docker ps `
-
-Further to retrieve logs of the container present at the time of execution use: 
-
-`docker logs 645807fb79c` 
-
-#### **STOP AND REMOVE CONTAINERS**
+#### Stop and remove container
 
 Now to stop and remove containers use the following syntax. Further to ensure running container list use docker ps. 
 
-`docker stop 6e45807fb79c` 
+```
+docker stop hrp-platform
 
-`docker rm 6e45807fb79c `
+docker rm hrp-platform
 
-`docker ps -a `
-
-#### **hrp-data-query-service**
-
-`docker run --name hrp-data-query-service --network hrp -e debug=true -e CATALOG_USER=postgres -e TRINO_` 
-
-`T=$ (docker ps | grep hrp-trino | awk `
-
-`" {print $17°) -e TRINO_PORT=8080 -e TRINO_CATALOG=postgresql -d -p 3031:3030 hrp-data-query-service:0`
-
-#### **Connect to localhost**
-
-After a successful run, connect to localhost:3030/api/projects 
-
-`curl -i localhost:3030/api/projects` 
-
-Now to see whether the Data Query service and platform work use the following log command. 
-
-`docker logs 4eb10f4c17e9`
-
+docker ps -a
+```

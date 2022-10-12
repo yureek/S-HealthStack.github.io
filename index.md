@@ -19,7 +19,7 @@ The stack includes:
 
 ## The App SDK
 
-The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to the portal for further analysis. Building blocks cover:
+The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You can create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to the backend system for further analysis. Building blocks cover:
 
 - Participant onboarding and consent
 - Survey presentation
@@ -31,11 +31,11 @@ The app SDK provides developers with what’s needed to create mobile apps that 
 
 The web portal is a customizable dashboard for interactive data visualization. Managers of the studies use the portal to:
 
-- Create surveys
-- Manage participants
+- Create and deploy surveys
+- Manage participants and researchers
 - Analyze participant data
 
-# Recommended Workflow
+## Recommended Workflow
 1.  Set up your environment.
 2.  Set up a study.
 3.  Create a survey to track your study.
