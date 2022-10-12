@@ -9,7 +9,7 @@ toc: false
 
 #### Docker
 
-Install using the following guide [Install Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/)
+Install using the following guide [Install Docker Engine|Docker Documentation](https://docs.docker.com/engine/install/)
 
 ## **Getting started**
 
