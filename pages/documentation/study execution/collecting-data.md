@@ -5,9 +5,8 @@ permalink: collecting-data.html
 toc: false
 ---
 
-Data collection is straightforward. Simply instruct each participant to:
+Collecting data for the study is straightforward. The connected wearable device monitors and records a participant's health data, and surveys can be sent out at whatever frequency is most convenient. After setting up survey schedules as desired, simply instruct each participant to:
 
 - Wear the watch for the duration of the study.
-- Open the app and complete the survey at the scheduled frequency.
-
-- Use the app to see the data visualizations available to keep participants engaged.
+- Open the app and complete the scheduled survey.
+- Participants will also be able to see visualizations of their data through your app.

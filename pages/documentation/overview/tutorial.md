@@ -12,8 +12,8 @@ This getting started tutorial describes the steps you need to be up and running 
 The stack consists of three pieces, which you install separately:
 
 1. [Install the backend services and data engine.](../installation/installing-the-backend.md)
-2. [Install the app software development kit (SDK).](..\installation\installing-the-sdk.md)
-3. [Install the web portal.](..\installation\installing-the-portal.md)
+2. [Install the app software development kit (SDK).](../installation/installing-the-sdk.md)
+3. [Install the web portal.](../installation/installing-the-sdk.md)
 
 ## Set up a study
 
@@ -22,17 +22,18 @@ In this fictitious scenario, we've noticed that people with supernatural physica
 Studies are managed from the Samsung Health Stack web portal. Follow these steps to set up managing the MG study:
 
 1. [Create a new study](../study management/creating-a-study.md) in the web portal.
-
     > Because this is the first time logging in to the portal, the **Create a study** page automatically appears. Enter these parameters:
     >
     > - Study Name: MG Study
-    > - Study Logo: whichever color you prefer 
-2. [Invite team members and assign their roles](..\study management\inviting-team-members.md) to help conduct the study.
+    > - Study Logo: whichever color you prefer
+
+2. [Invite team members and assign their roles](../study management/inviting-team-members.md) to help conduct the study.
 
     > Creating the initial study automatically prompts you to invite team members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
     >
     > - Email: daniel.mccoy@researchuniversity.org
     > - Role: Principal Investigator
+
 3. [Create a participant survey](../study management/creating-a-survey.md).
 
     > From the **Study Management** page, click **Create survey** and enter these parameters:
@@ -43,6 +44,7 @@ Studies are managed from the Samsung Health Stack web portal. Follow these steps
     > - Question 2: Which symptom(s) appeared yesterday?
     >   - Type: Multi-selection
     >   - Options: None, Mind reading, Laser from eyes, Shadow cloaking
+
 5. [Schedule and publish the survey.](../study management/publishing-a-survey.md)
     > From the **Create survey** page, click **Publish** and enter these parameters:
     > - Frequency: Daily
@@ -52,9 +54,9 @@ Studies are managed from the Samsung Health Stack web portal. Follow these steps
 
 For our study, participants wear the Samsung Galaxy Watch 4 and use an Android mobile app to collect the data. Follow these steps to use the Samsung Health Stack app SDK to create and customize the app:
 
-1. If you are not already familiar with developing code in Android Studio, take a look at https://developer.android.com/studio/intro.
+1. If you are not already familiar with developing code in Android Studio, take a look at [https://developer.android.com/studio/intro](https://developer.android.com/studio/intro).
 
-2. In Android Studio, clone the https://github.com/S-HealthStack/starter-app GitHub repository to retrieve the app starter code.
+2. In Android Studio, clone the [Starter App Github repository](https://github.com/S-HealthStack/starter-app) to retrieve the app starter code.
 
    > git clone https://github.com/S-HealthStack/starter-app
 
@@ -62,29 +64,139 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
    > In starter-app/app/src/main/java/com/samsung/healthstack/starter_app/MainActivity.kt:
    >
-   > - In `override fun onCreate`, add a`SyncManager.HealthDataSyncSpec("BloodPressure", 2, TimeUnit.HOURS)`line to capture blood pressure data:
+   > - In `override fun onCreate`, change the code as below:
    >
-   >   ![image-20221011111007882](../../../images/image-20221011111007882.png)
+   >   ```diff
+   >   override fun onCreate(savedInstanceState: Bundle?) {
+   >       super.onCreate(savedInstanceState)
+   >   
+   >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
+   >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
+   >       val healthDataSyncSpecs = listOf(
+   >           SyncManager.HealthDataSyncSpec("HeartRate", 15, TimeUnit.MINUTES),
+   >           SyncManager.HealthDataSyncSpec("Steps", 1, TimeUnit.DAYS),
+   >   -       SyncManager.HealthDataSyncSpec("SleepSession", 1, TimeUnit.DAYS)
+   >   +       SyncManager.HealthDataSyncSpec("SleepSession", 1, TimeUnit.DAYS),
+   >   +       SyncManager.HealthDataSyncSpec("BloodPressure", 2, TimeUnit.HOURS)
+   >       )
+   >   
+   >       HealthPlatformAdapter.initialize(HealthDataService.getClient(this), healthDataRequired)
+   >       ResearchPlatformAdapter.initialize(
+   >           this.getString(R.string.research_platform_endpoint),
+   >           this.getString(R.string.research_project_id)
+   >       )
+   >       TaskRoomDatabase.initialize(this)
+   >   
+   >       setContent {
+   >           Surface {
+   >               AppTheme(appColors) {
+   >                   this.window.statusBarColor = AppTheme.colors.primary.toArgb()
+   >                   BaseApplication(
+   >                       onboardingTask,
+   >                       signUpTask,
+   >                       healthDataToDisplay,
+   >                       healthDataSyncSpecs
+   >                   )
+   >               }
+   >           }
+   >       }
+   >   }
+   >   ```
    >
    > In starter-app/app/src/main/java/com/samsung/healthstack/starter_app/OnboardingModule.kt:
    >
-   > - In `private fun intro`, change `title = "CardioFlow",` to `title = "MG Study",`:
+   > - In `private fun intro`, change the code as below:
    >
-   >    ![image-20221011105615836](../../../images/image-20221011105615836.png)
-   > - In `private fun intro`, change the CardioFlow overview description to `"Overview description about MG Study",`:
+   >   ```diff
+   >   private fun intro(@ApplicationContext context: Context) = IntroModel(
+   >       id = "intro",
+   >   -   title = "CardioFlow",
+   >   +   title = "MG Study",
+   >       drawableId = R.drawable.sample_image_alpha4,
+   >       logoDrawableId = R.drawable.ic_launcher,
+   >       summaries = listOf(
+   >           R.drawable.ic_watch to "Wear your\nwatch",
+   >           R.drawable.ic_alert to "10 min\na day",
+   >           R.drawable.ic_home_task to "2 surveys\na week"
+   >       ),
+   >       sections = listOf(
+   >           IntroSection(
+   >               "Overview",
+   >   -           "CardioFlow is a study developed by the University of California, San Francisco.\n\n" +
+   >   -               "Through this study, we identify and measure the data of your vital signs and symptom reports.\n\n" +
+   >   -               "With your help, we could test our algorithms and develop technology that contributes to preventing cardiovascular diseases in the U.S.",
+   >   +           "Overview description about MG Study"
+   >           ),
+   >           IntroSection(
+   >               "How to participate",
+   >               "Wear the watch as much as possible and take active measurements 3 times a day when notified."
+   >           )
+   >       )
+   >   )
+   >   ```
    >
-   >    ![image-20221011105504839](../../../images/image-20221011105504839.png)
-   > - In `private fun signUp`,  change `title = "CardioFlow",` to `title = "MG Study",`:
+   > - In `private fun signUp`, change the code as below:
    >
-   >    ![image-20221011105355159](../../../images/image-20221011105355159.png)
-   > - In `private fun signUp`,  change `CardioFlow` in `description` to `"MG Study"`:
+   >   ```diff
+   >   private fun signUp() = SignUpModel(
+   >       id = "sign-up-model",
+   >   -   title = "CardioFlow",
+   >   +   title = "MG Study",
+   >       listOf(Basic, Google),
+   >       description = "Thanks for joining the study!\nNow please create an account to keep track\nof your data and keep it safe.",
+   >       drawableId = R.drawable.ic_launcher
+   >   )
+   >   ```
    >
-   >    ![image-20221011105135505](../../../images/image-20221011105135505.png)
+   > - In `private fun registrationCompleted`, change the code as below:
+   >
+   >   ```diff
+   >   private fun registrationCompleted() =
+   >       RegistrationCompletedModel(
+   >           id = "registration-completed-model",
+   >           title = "You are done!",
+   >           buttonText = "Continue",
+   >   -       description = "Congratulations! Everything is all set for you. Now please tap on the button below to start your CardioFlow journey!",
+   >   +       description = "Congratulations! Everything is all set for you. Now please tap on the button below to start your MG Study journey!",
+   >           drawableId = R.drawable.sample_image_alpha1
+   >       )
+   >   ```
+   >
    > - In `private val eligibilityQuestions`, replace the third and fourth questions with a single Galaxy Watch question:
    >  
-   >    ![image-20221011104555745](../../../images/image-20221011104555745.png)
+   >   ```diff
+   >   private val eligibilityQuestions: List<QuestionModel<Any>> = listOf(
+   >       ChoiceQuestionModel(
+   >           "age",
+   >           "What's your age?",
+   >           candidates = (20..50).toList(),
+   >           viewType = DropMenu
+   >       ),
+   >       ChoiceQuestionModel(
+   >           "gender",
+   >           "What's your gender?",
+   >           candidates = listOf("Male", "Female"),
+   >       ),
+   >       ChoiceQuestionModel(
+   >   -        "hasCardiac",
+   >   -        "Do you have any existing cardiac conditions?",
+   >   -        "Examples of cardiac conditions include abnormal heart rhythms, or arrhythmias",
+   >   -        candidates = listOf("Yes", "No"),
+   >   -        answer = "Yes"
+   >   -   ),
+   >   -   ChoiceQuestionModel(
+   >   -        "hasWearableDevice",
+   >   -        "Do you currently own a wearable device?",
+   >   -        "Examples of wearable devices include Samsung Galaxy Watch 4, Fitbit, OuraRing, etc.",
+   >   +        "hasGalaxyWatch"
+   >   +        "Do you have any Galaxy Watch?"
+   >           candidates = listOf("Yes", "No"),
+   >           answer = "Yes"
+   >       )
+   >   ) as List<QuestionModel<Any>>
+   >   ```
 
-4. Register your app with Firebase and update the starter-app/app/google-service.json configuration file. Refer to https://firebase.google.com/docs/android/setup for details.
+4. Register your app with Firebase and update the `starter-app/app/google-service.json` configuration file. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
 5. Test your app in Android Studio.
 
@@ -92,11 +204,9 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
 6. Connect your app and the portal study.
 
-   > <span style="color:red">In ???.xml, associate the API endpoint of the backend system and the app's portal ID.</span>
+   > <span style="color:red">In starter-app/app/src/main/res/values/strings.xml, update the API endpoint of the backend system and the app's portal ID.</span>
 
-7. <span style="color:red">Make the app available for downloading.</span>
-
-8. Download the app and test.
+7. Build the app and test.
 
 ## Onboard the participants
 
@@ -104,7 +214,6 @@ The first step of onboarding is to onboard yourself to live test the app. Follow
 
 1. Download the app to your phone.
 2. Open the app and step through the prompts that you set up while building the app to determine eligibility, request consent, and register those who are eligible.
-   <span style="color:red">*Note: we'll expand this section to match demo better when time permits...*</span>
 3. If not already previously done, install the [Health Platform](https://play.google.com/store/apps/details?id=com.samsung.android.service.health&hl=en&gl=US) service app on your phone.
 4. If not already previously done, <span style="color:red">pair your phone and the Samsung Galaxy Watch 4.</span>
 
@@ -138,6 +247,6 @@ Now, return to the web portal to analyze the results. Results are available for 
    >
    > Due to the limited data sample size, you'll likely see no meaningful difference between two groups.
    
-- [Export the data for external analysis](../results analysis/exporting-data.md)).
+- [Export the data for external analysis](../results analysis/exporting-data.md).
   
-   > In the **Query Results** table, click **Export .csv**.
+   > In the **Query Results** table, click **Export.csv**.
