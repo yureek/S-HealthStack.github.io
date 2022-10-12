@@ -1,5 +1,5 @@
 ---
-title: V0.9 Release Notes
+title: v0.9 Release Notes
 sidebar: none
 permalink: rnindex.html
 toc: false

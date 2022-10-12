@@ -56,7 +56,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
 1. If you are not already familiar with developing code in Android Studio, take a look at [https://developer.android.com/studio/intro](https://developer.android.com/studio/intro).
 
-2. In Android Studio, clone the [Starter App Github repository](https://github.com/S-HealthStack/starter-app) to retrieve the app starter code.
+2. In Android Studio, clone the [starter-app GitHub repository](https://github.com/S-HealthStack/starter-app) to retrieve the app starter code.
 
    > git clone https://github.com/S-HealthStack/starter-app
 
@@ -64,12 +64,12 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
    > In starter-app/app/src/main/java/com/samsung/healthstack/starter_app/MainActivity.kt:
    >
-   > - In `override fun onCreate`, change the code as below:
+   > - In `override fun onCreate`, add a line to capture blood pressure data:
    >
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >   
+   >               
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -79,14 +79,14 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   +       SyncManager.HealthDataSyncSpec("SleepSession", 1, TimeUnit.DAYS),
    >   +       SyncManager.HealthDataSyncSpec("BloodPressure", 2, TimeUnit.HOURS)
    >       )
-   >   
+   >               
    >       HealthPlatformAdapter.initialize(HealthDataService.getClient(this), healthDataRequired)
    >       ResearchPlatformAdapter.initialize(
    >           this.getString(R.string.research_platform_endpoint),
    >           this.getString(R.string.research_project_id)
    >       )
    >       TaskRoomDatabase.initialize(this)
-   >   
+   >               
    >       setContent {
    >           Surface {
    >               AppTheme(appColors) {
@@ -105,7 +105,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >
    > In starter-app/app/src/main/java/com/samsung/healthstack/starter_app/OnboardingModule.kt:
    >
-   > - In `private fun intro`, change the code as below:
+   > - In `private fun intro`, change the study title and intro description:
    >
    >   ```diff
    >   private fun intro(@ApplicationContext context: Context) = IntroModel(
@@ -135,7 +135,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   )
    >   ```
    >
-   > - In `private fun signUp`, change the code as below:
+   > - In `private fun signUp`, change the study title:
    >
    >   ```diff
    >   private fun signUp() = SignUpModel(
@@ -148,7 +148,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   )
    >   ```
    >
-   > - In `private fun registrationCompleted`, change the code as below:
+   > - In `private fun registrationCompleted`, change the the title reference in the description:
    >
    >   ```diff
    >   private fun registrationCompleted() =
@@ -198,15 +198,17 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
 4. Register your app with Firebase and update the `starter-app/app/google-service.json` configuration file. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
-5. Test your app in Android Studio.
+5. Connect your app and the portal study.
 
+   > In starter-app/app/src/main/res/values/strings.xml, update the lines at the bottom of the file that name your backend system's endpoint and app's project ID, for example:
+   > 	`<string name="research_platform_endpoint">https://shs.dev.ai-service.io</string>`
+   > 	`<string name="research_project_id">1</string>`
+
+6. Build the app and test.
+   
    > Due to the lack of mature libraries for wearables, testing with the Android Studio emulator is quite limited. At this point in time, most of the testing needs to happen in the live app.
 
-6. Connect your app and the portal study.
-
-   > <span style="color:red">In starter-app/app/src/main/res/values/strings.xml, update the API endpoint of the backend system and the app's portal ID.</span>
-
-7. Build the app and test.
+7. Make your app available for downloading.
 
 ## Onboard the participants
 
@@ -215,7 +217,7 @@ The first step of onboarding is to onboard yourself to live test the app. Follow
 1. Download the app to your phone.
 2. Open the app and step through the prompts that you set up while building the app to determine eligibility, request consent, and register those who are eligible.
 3. If not already previously done, install the [Health Platform](https://play.google.com/store/apps/details?id=com.samsung.android.service.health&hl=en&gl=US) service app on your phone.
-4. If not already previously done, <span style="color:red">pair your phone and the Samsung Galaxy Watch 4.</span>
+4. If not already previously done, pair your phone and the Samsung Galaxy Watch 4.
 
 Once you've tested the app to your satisfaction, invite prospective participants to complete the participant onboarding steps and join the study.
 
@@ -233,7 +235,9 @@ In a real-world situation, the study would run until the scheduled end date you 
 
 Now, return to the web portal to analyze the results. Results are available for each participant separately and for the study as a whole. You can:
 
-- View various graphs.
+- [View various graphs](../results analysis/viewing-graphs.md).
+
+- [View individual participant results](../results analysis/viewing-individual-results.md).
 
 - [Run queries](../results analysis/running-a-query.md).
   
@@ -249,4 +253,4 @@ Now, return to the web portal to analyze the results. Results are available for 
    
 - [Export the data for external analysis](../results analysis/exporting-data.md).
   
-   > In the **Query Results** table, click **Export.csv**.
+   > In the **Query Results** table, click **Export .csv**.
