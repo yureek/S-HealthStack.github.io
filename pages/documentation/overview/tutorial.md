@@ -69,7 +69,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >               
+   >                                         
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -179,11 +179,12 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 4. Register your app with Firebase and update the `starter-app/app/google-service.json` configuration file. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
 5. Connect your app and the portal study.
-
    > In starter-app/app/src/main/res/values/strings.xml, update the lines at the bottom of the file that name your backend system's endpoint and app's project ID, for example:
-   > 	`<string name="research_platform_endpoint">https://shs.dev.ai-service.io</string>`
-   > 	`<string name="research_project_id">1</string>`
-
+   > ```
+   >   <string name="research_platform_endpoint">https://shs.dev.ai-service.io</string>
+   >   <string name="research_project_id">1</string>
+   > ```
+   
 6. Build the app and test.
    
    > Due to the lack of mature libraries for wearables, testing with the Android Studio emulator is quite limited. At this point in time, most of the testing needs to happen in the live app.

@@ -5,7 +5,7 @@ sidebar: none
 permalink: image-syntax.html
 toc: false
 ---
-<span style="color:red">Don't try to look at this file as rendered html. It'll be way wrong. Just look at in as an .md in Typora.</span>span>
+<span style="color:red">Don't try to look at this file as rendered html. It'll be way wrong. Just look at in as an .md in Typora.</span>
 
 The following line shows the syntax to use for inline images.
 

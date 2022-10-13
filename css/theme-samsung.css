@@ -15,10 +15,10 @@
     font-size:16px;
 }
 
-/*h1{} */
-h2 {color: var(--heading_colors); font-weight: bold;}
-h3 {color: var(--heading_colors); font-weight: bold;}
-h4 {color: var(--heading_colors); }
+h1 {color: var(--heading_colors);}
+h2 {color: var(--heading_colors);}
+h3 {color: var(--heading_colors);}
+h4 {color: var(--heading_colors);}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: var(--samsung_blue);

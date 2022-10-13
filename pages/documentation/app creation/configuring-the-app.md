@@ -5,35 +5,10 @@ permalink: configuring-the-app.html
 toc: false
 ---
 
-Several steps are required to connect the app with the outside world:
+In addition to the [app SDK installation steps](../installation/installing-the-sdk.md), several steps are required to connect the app with the outside world:
 
-### Prerequisite
-
-#### OpenJDK
-
-Setup and install OpenJDK 11
-
-[https://openjdk.org/install/](https://openjdk.org/install/)
-
-#### Android Studio 
-
-Setup and install Android Studio on Windows, macOS, or Linux.
-
-[https://developer.android.com/studio](https://developer.android.com/studio)
-
-#### Firebase
-
-Create firebase project.
-
-[https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup)
-
-#### Clone the repository
-
-Clone the Research-SDK using the following command 
-
-```
-git clone https://github.com/S-HealthStack/app-sdk
-```
+1. Register your app with Firebase and update the starter-app/app/google-service.json configuration file.
+> Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
 ### Configurations
 
