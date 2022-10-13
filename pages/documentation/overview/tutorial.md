@@ -24,30 +24,30 @@ Studies are managed from the Samsung Health Stack web portal. Follow these steps
 1. [Create a new study](../study management/creating-a-study.md) in the web portal.
     > Because this is the first time logging in to the portal, the **Create a study** page automatically appears. Enter these parameters:
     >
-    > - Study Name: MG Study
+    > - Study Name: `MG Study`
     > - Study Logo: whichever color you prefer
 
 2. [Invite team members and assign their roles](../study management/inviting-team-members.md) to help conduct the study.
 
     > Creating the initial study automatically prompts you to invite team members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
     >
-    > - Email: daniel.mccoy@researchuniversity.org
-    > - Role: Principal Investigator
+    > - Email: `daniel.mccoy@researchuniversity.org`
+    > - Role: `Principal Investigator`
 
 3. [Create a participant survey](../study management/creating-a-survey.md).
 
     > From the **Study Management** page, click **Create survey** and enter these parameters:
     > - Title: Daily Symptom Report
-    > - Question 1: How intense were your headaches yesterday?
-    >   - Type: Slider scale
-    >   - Scale: 0 (None) to 10 (Almost dying)
-    > - Question 2: Which symptom(s) appeared yesterday?
-    >   - Type: Multi-selection
-    >   - Options: None, Mind reading, Laser vision, Levitation
+    > - Question 1: `How intense were your headaches yesterday?`
+    >   - Type: `Slider scale`
+    >   - Scale: `0 (None) to 10 (Almost dying)`
+    > - Question 2: `Which symptom did you experience yesterday?`
+    >   - Type: `Single-selection`
+    >   - Options: `Nothing, Mind reading, Laser vision, Levitation`
 
 5. [Schedule and publish the survey.](../study management/publishing-a-survey.md)
     > From the **Create survey** page, click **Publish** and enter these parameters:
-    > - Frequency: Daily
+    > - Frequency: `Daily`
     > - Survey occurrence: Relevant publish time and duration. 
 
 ## Build the mobile app
@@ -58,7 +58,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
 2. In Android Studio, clone the [starter-app GitHub repository](https://github.com/S-HealthStack/starter-app) to retrieve the app starter code.
 
-   > git clone https://github.com/S-HealthStack/starter-app
+   > `git clone https://github.com/S-HealthStack/starter-app`
 
 3. Edit the code in the `main` branch to customize it for our study.
 
@@ -79,34 +79,12 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   +       SyncManager.HealthDataSyncSpec("SleepSession", 1, TimeUnit.DAYS),
    >   +       SyncManager.HealthDataSyncSpec("BloodPressure", 2, TimeUnit.HOURS)
    >       )
-   >               
-   >       HealthPlatformAdapter.initialize(HealthDataService.getClient(this), healthDataRequired)
-   >       ResearchPlatformAdapter.initialize(
-   >           this.getString(R.string.research_platform_endpoint),
-   >           this.getString(R.string.research_project_id)
-   >       )
-   >       TaskRoomDatabase.initialize(this)
-   >               
-   >       setContent {
-   >           Surface {
-   >               AppTheme(appColors) {
-   >                   this.window.statusBarColor = AppTheme.colors.primary.toArgb()
-   >                   BaseApplication(
-   >                       onboardingTask,
-   >                       signUpTask,
-   >                       healthDataToDisplay,
-   >                       healthDataSyncSpecs
-   >                   )
-   >               }
-   >           }
-   >       }
-   >   }
    >   ```
-   >
+   > 
    > In starter-app/app/src/main/java/com/samsung/healthstack/starter_app/OnboardingModule.kt:
-   >
+   > 
    > - In `private fun intro`, change the study title and intro description:
-   >
+   > 
    >   ```diff
    >   private fun intro(@ApplicationContext context: Context) = IntroModel(
    >       id = "intro",
@@ -125,8 +103,10 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   -           "CardioFlow is a study developed by the University of California, San Francisco.\n\n" +
    >   -               "Through this study, we identify and measure the data of your vital signs and symptom reports.\n\n" +
    >   -               "With your help, we could test our algorithms and develop technology that contributes to preventing cardiovascular diseases in the U.S.",
-   >   +           "Overview description about MG Study"
-   >           ),
+   >   +           "There is a Syndrome called "X" and it suddenly gives some people special power.\n\n" +
+   >   +           "We hypothesize that Syndrome X is related to specific vital signs and symptoms.\n\n" +
+   >   +           "So we are doing this mutant gene (MG) study to prove our hypothesis.",
+   >          ),
    >           IntroSection(
    >               "How to participate",
    >               "Wear the watch as much as possible and take active measurements 3 times a day when notified."
@@ -134,9 +114,9 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >       )
    >   )
    >   ```
-   >
+   > 
    > - In `private fun signUp`, change the study title:
-   >
+   > 
    >   ```diff
    >   private fun signUp() = SignUpModel(
    >       id = "sign-up-model",
@@ -147,29 +127,29 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >       drawableId = R.drawable.ic_launcher
    >   )
    >   ```
-   >
+   > 
    > - In `private fun registrationCompleted`, change the the title reference in the description:
-   >
+   > 
    >   ```diff
    >   private fun registrationCompleted() =
    >       RegistrationCompletedModel(
    >           id = "registration-completed-model",
-   >           title = "You are done!",
+   >          title = "You are done!",
    >           buttonText = "Continue",
    >   -       description = "Congratulations! Everything is all set for you. Now please tap on the button below to start your CardioFlow journey!",
    >   +       description = "Congratulations! Everything is all set for you. Now please tap on the button below to start your MG Study journey!",
    >           drawableId = R.drawable.sample_image_alpha1
    >       )
    >   ```
-   >
+   > 
    > - In `private val eligibilityQuestions`, replace the third and fourth questions with a single Galaxy Watch question:
-   >  
+   > 
    >   ```diff
    >   private val eligibilityQuestions: List<QuestionModel<Any>> = listOf(
    >       ChoiceQuestionModel(
-   >           "age",
+   >          "age",
    >           "What's your age?",
-   >           candidates = (20..50).toList(),
+   >          candidates = (20..50).toList(),
    >           viewType = DropMenu
    >       ),
    >       ChoiceQuestionModel(
@@ -195,7 +175,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >       )
    >   ) as List<QuestionModel<Any>>
    >   ```
-
+   
 4. Register your app with Firebase and update the `starter-app/app/google-service.json` configuration file. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
 5. Connect your app and the portal study.
@@ -241,15 +221,38 @@ Now, return to the web portal to analyze the results. Results are available for 
 
 - [Run queries](../results analysis/running-a-query.md).
   
-   > From the **Data Insights** page, in the **DATA QUERY** section, enter these parameters to list people who have experienced any symptoms of Syndrome X:
-   > - Table: <span style="color:red">???</span>
-   > - Query: <span style="color:red">???</span>
+   > From the **Data Insights** page, in the **Data Query** section, enter these parameters to list people who have experienced any symptoms of Syndrome X:
+   > - Table: `item_results`
+   > - Query: `SELECT up.user_id, json_extract_scalar(up.profile, '$.email') AS email, result 
+   >   FROM item_results ir JOIN user_profiles up ON up.user_id = ir.user_id 
+   >   WHERE item_name='Question1' AND result !='Nothing' 
+   >   GROUP BY up.user_id, json_extract_scalar(up.profile, '$.email'), result `
    >
-   > Next, enter these parameters to compare the vital signs of those people and others:
-   > - Table: <span style="color:red">???</span>
-   > - Query: <span style="color:red">???</span>
+   > Next, enter these parameters to compare the vital signs of those people and the people who have symptoms:
+   > - Table: `item_results`
+   > - Query:  `SELECT CASE WHEN hr.user_id IN 
+   >       (
+   >           SELECT user_id 
+   >           FROM item_results 
+   >           WHERE item_name='Question1' AND result !='Nothing' 
+   >           GROUP BY user_id 
+   >       ) THEN 'syndromeX' 
+   >       ELSE 'normal human' 
+   >       END AS result1, 
+   >       AVG(hr.bpm) AS bpm, AVG(CAST(ir.result AS INT)) AS intensity 
+   >   FROM  heartrates hr, item_results ir 
+   >   WHERE ir.user_id=hr.user_id AND hr.user_id=ir.user_id AND ir.item_name='Question0' 
+   >   GROUP BY CASE WHEN hr.user_id IN 
+   >       ( 
+   >           SELECT user_id 
+   >           FROM item_results 
+   >           WHERE item_name='Question1' AND result !='Nothing' 
+   >           GROUP BY user_id 
+   >       ) THEN 'syndromeX' 
+   >       ELSE 'normal human'
+   >       END `
    >
-   > Due to the limited data sample size, you'll likely see no meaningful difference between two groups.
+   > Due to the limited data sample size, you'll likely see no meaningful difference between the two groups.
    
 - [Export the data for external analysis](../results analysis/exporting-data.md).
   
