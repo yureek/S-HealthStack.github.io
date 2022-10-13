@@ -7,17 +7,17 @@ toc: false
 ---
 The following line shows the syntax to use for inline images.
 
-{% include inline_image.html file="filename.png" alt="" %}
+`{% include inline_image.html file="filename.png" alt="" %}`
 
 For example:
 
-{% include inline_image.html file="sample_image.png" alt="" %}
+`{% include inline_image.html file="image-20220929091528372.png" alt="" %}`
 
 Initial setup steps:
 
 * In Typora, configure **File > Preferences > Images** to match:
 
-  ![sample_image](../../images/sample_image.png)
+  ![image-20221005102602385](../../images/image-20221005102602385.png)
 
 * In Figma desktop, set default **Save As** folder???
 
@@ -43,8 +43,10 @@ Alternate steps:
 *  Double-click the word *filename* and type ctrl-v to paste the image into the Typora file.
 *  Double check the image because it will disappear in the next step. :-(
 *  Delete the following bold text:
-   {% include inline_image.html
-       file="**![sample_image](../../../images/**sample_image.png**).png**" alt="" %}
+   `{% include inline_image.html
+       file="`**![image-20220929091528372](../../../images/**`image-20220929091528372.png`**).png**`" alt="" %}`
+   So that it looks like this:
+   `{% include inline_image.html file="image-20220929091528372.png" alt="" %}`
 * Review the results in the local web.
 
 > The filename must not include any path info - just the filename.

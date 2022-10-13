@@ -43,7 +43,7 @@ Studies are managed from the Samsung Health Stack web portal. Follow these steps
     >   - Scale: 0 (None) to 10 (Almost dying)
     > - Question 2: Which symptom(s) appeared yesterday?
     >   - Type: Multi-selection
-    >   - Options: None, Mind reading, Laser from eyes, Shadow cloaking
+    >   - Options: None, Mind reading, Laser vision, Levitation
 
 5. [Schedule and publish the survey.](../study management/publishing-a-survey.md)
     > From the **Create survey** page, click **Publish** and enter these parameters:

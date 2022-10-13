@@ -5,10 +5,24 @@ permalink: viewing-individual-results.html
 toc: false
 ---
 
-Individual participants' average records per data class can be found in participant management. This includes data such as average step count or average heartrate. You can view the records of a specific participant, or the records of a participant relating to a datapoint of interest.
+The portal reports individual participants' average records per data class. The reporting includes data such as average step count or average heartrate. You can view the records of:
 
-To view individual results:
+- A specific participant.
+- A participant relating to a datapoint of interest.
 
-1. From any of the **Overview**, **Study Management**, or **Data Insights** pages, look under the Participant Management selection. You can navigate the Participant List to search for specific participants.
-2. To check the records of a certain participant, click on their Participant ID.
-3. Click on specific points on a graph to view records of the participant associated with that datapoint. For a guide on where to find graphs, refer to [Viewing Graphs](./viewing-graphs.md).
+To view individual participant records:
+
+1. From the **Overview**, **Study Management**, or **Data Insights** page, navigate to the **Participant Management** section.
+   
+1. In the **Participant ID** column, click the desired participant.
+
+To view records of the participant associated with a particular datapoint:
+
+1. From the **Overview** page, navigate to the **Data Sensor** section.
+   ![image1](../../../../healthcare-research-hub-home/images/viewing-graph-1.png)
+2. Scroll to the desired graph.
+3. Click a  specific datapoint on the graph.
+
+
+
+1. For a guide on where to find graphs, refer to [Viewing Graphs](./viewing-graphs.md).
