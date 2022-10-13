@@ -104,7 +104,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Viewing Graphs
+    - title: Viewing Graphs and Charts
       url: /viewing-graphs.html
       output: web, pdf
 
