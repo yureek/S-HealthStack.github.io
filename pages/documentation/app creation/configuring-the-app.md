@@ -5,56 +5,38 @@ permalink: configuring-the-app.html
 toc: false
 ---
 
-In addition to the [app SDK installation steps](../installation/installing-the-sdk.md), several steps are required to connect the app with the outside world:
+In addition to the one-time [app SDK installation steps](../installation/installing-the-sdk.md), these configuration steps are required for each app you develop:
 
-1. Register your app with Firebase and update the starter-app/app/google-service.json configuration file.
+1. Register your app with the Firebase project you created during [app SDK installation](../installation/installing-the-sdk#firebase-project-setup) and update the ***\<repository\>*/app/google-service.json** configuration file. For example:
+
+```
+{
+  "project_info": {
+    "project_number": "100000000000",
+    "project_id": "sample-project",
+    "storage_bucket": "sample-project.appspot.com"
+  },
+  
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100000000000:android:abcdefgh",
+        "android_client_info": {
+          "package_name": "com.samsung.healthcare.kit.sample"
+        }
+      },
+}
+```
 > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
-### Configurations
+2. Associate your app with the backend system and portal study.
+   > In **starter-app/app/src/main/res/values/strings.xml**, update the lines at the bottom of the file that specify your backend system's endpoint and your study's project ID, for example:
+   >
+   > ```
+   > <string name="research_platform_endpoint">https://shs.dev.ai-service.io</string>
+   > <string name="research_project_id">1</string>
+   > ```
+   >
+   > Note: The project ID of your study is contained in the JSON response of a `POST /api/projects` request.
 
-#### Kit and External
-
-This sample application depends on SDK modules so it must have kit and external.
-
-Dependencies can be declared as below.
-
-
-*samples>researchsample>build.gradle.kts*
-
-**Without AAR**
-
-```
-dependencies {
-    implementation(project(":kit"))
-    implementation(project(":external"))
-}
-```
-
-**With AAR**
-
-```
-dependencies {
-    implementation(files("shs-libs/app-sdk-external-alpha.aar"))
-    implementation(files("shs-libs/app-sdk-kit-alpha.aar"))
-}
-```
-
-#### Set URL of backend server and project(study) id for App
-
-This sample App interacts with the backend system for health data upload, task sync, and task result upload so we have to set the project(study) id and URL.
-
-Please open the following file for setting:
-
-
-*res/values/strings.xml*
-
-```
-<string name="research_platform_endpoint">https://{endpoint}</string>
-<string name="research_project_id">{projectId}</string>
-```
-
-### Develop the application
-
-Be aware that the sample app cannot be run on an emulator, and must be tested on a real device.
-
-You can check the detailed documentation in [here](https://developer.android.com/studio/run/device).
+3. Make the app available for downloading...

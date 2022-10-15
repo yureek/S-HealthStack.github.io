@@ -92,34 +92,9 @@ dependencies {
 
 ## Firebase project setup
 
-The sample application uses firebase so `google-services.json` is needed.
+The starter application uses Firebase, so you need to create a Firebase project. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
-To get `google-services.json`, we must set firebase project first.
-
-
-If you follow the [Firebase setup guide](https://firebase.google.com/docs/android/setup), you can get `google-services.json`.
-
-After download the `google-services.json`, paste the file into `app-sdk/samples/researchsample/google-services.json`.
-
-*samples>researchsample>google-services.json*
-
-```
-{
-  "project_info": {
-    "project_number": "100000000000",
-    "project_id": "sample-project",
-    "storage_bucket": "sample-project.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:100000000000:android:abcdefgh",
-        "android_client_info": {
-          "package_name": "com.samsung.healthcare.kit.sample"
-        }
-      },
-...
-```
+>  You create the **starter-app/app/google-service.json** configuration file during [app configuration](../app creation/configuring-the-app) .
 
 ## Set URL of backend server and project Id for App
 
