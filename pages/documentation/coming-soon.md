@@ -6,4 +6,4 @@ permalink: coming-soon.html
 toc: false
 ---
 
-*Coming soon...*
+*Details coming soon...*
