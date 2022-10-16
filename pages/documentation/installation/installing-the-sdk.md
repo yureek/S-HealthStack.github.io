@@ -94,23 +94,11 @@ dependencies {
 
 The starter application uses Firebase, so you need to create a Firebase project. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
 
->  You create the **starter-app/app/google-service.json** configuration file during [app configuration](../app creation/configuring-the-app) .
+## Per app configuration
 
-## Set URL of backend server and project Id for App
+After app creation, for each app you need to:
 
-This sample App interacts with the backend system for health data upload, task sync, and task result upload so we have to set the study(project) id and URL.
+- Register your app with your Firebase project by updating the ***\<repository\>*/app/google-service.json** configuration file.
+- Associate your app with the backend system and portal study.
 
-Please open the following file for setting:
-
-*app-sdk/samples/researchsample/src/main/res/values/strings.xml*
-
-```
-<string name="research_platform_endpoint">https://{endpoint}</string>
-<string name="research_project_id">{projectId}</string>
-```
-
-# Run sample App
-
-Be aware that the sample app cannot be run on an emulator, and must be tested on a real device.
-
-You can check the detailed documentation in [here](https://developer.android.com/studio/run/device).
+Refer to  during [Configuring the App Environment](../app creation/configuring-the-app.md) for details.

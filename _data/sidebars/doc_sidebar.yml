@@ -88,6 +88,10 @@ entries:
       url: /configuring-the-app.html
       output: web, pdf
 
+    - title: Testing the App
+      url: /testing-the-app.html
+      output: web, pdf
+
   - title: Study Execution
     output: web, pdf
     folderitems:
