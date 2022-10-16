@@ -101,4 +101,4 @@ After app creation, for each app you need to:
 - Register your app with your Firebase project by updating the ***\<repository\>*/app/google-service.json** configuration file.
 - Associate your app with the backend system and portal study.
 
-Refer to  during [Configuring the App Environment](../app creation/configuring-the-app.md) for details.
+Refer to [Configuring the App Environment](../app creation/configuring-the-app.md) for details.
