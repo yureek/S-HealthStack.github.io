@@ -131,9 +131,9 @@ li.sidebarTitle {
 
 img.shadow {
     width: 500px;
-    box-shadow: 0 0 3px var(--samsung_blue);
+    box-shadow: 0 0px 7px rgb(0 0 0 / 0.2);
     border-radius: 10px ;
-
+    
 }
 
 img.plain {
