@@ -130,8 +130,8 @@ li.sidebarTitle {
 }
 
 img.shadow {
-    box-shadow: 0px 6px 10px 0px var(--heading_colors);
-    border-radius: 16px;
+    box-shadow: 0px 6px 10px 0px #808080;
+    border-radius: 8px;
 
 }
 
