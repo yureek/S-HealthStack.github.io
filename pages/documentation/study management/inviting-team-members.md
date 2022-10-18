@@ -12,7 +12,7 @@ Invite as many team members to help conduct your study as you desire.
 To invite a member to the team and assign the member a role:
 
 1. From the **Study Settings** page, in the **Members and access** section, click **Invite member**.
-    {% include inline_image.html file="inviting-team-members.png" alt="" %}
+    {% include inline_image.html file="inviting-team-members.png" class = "shadow" alt="" %}
 
 2. Enter the email address of the person to invite to the team.
 

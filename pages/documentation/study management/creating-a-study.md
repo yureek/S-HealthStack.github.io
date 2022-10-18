@@ -10,7 +10,7 @@ A Samsung Health Stack study is a container you create within the web portal to 
 To create a new study:
 
 1. From anywhere within the web portal, click the current study name displayed in the top, left corner of the portal window.
-    {% include inline_image.html file="creating-a-study.png" alt="" %}
+    {% include inline_image.html file="creating-a-study.png" class = "shadow" alt="" %}
 
 2. On the **Study Collection** page that appears, click **Create new study**.
 

@@ -9,11 +9,11 @@ toc: false
 
 The following line shows the syntax to use for inline images.
 
-{% include inline_image.html file="filename.png" alt="" %}
+{% include inline_image.html file="filename.png" class = "shadow or plain" alt="" %}
 
 For example:
 
-{% include inline_image.html file="image-20220929091528372.png" alt="" %}
+{% include inline_image.html file="image-20220929091528372.png" class = "shadow" alt="" %}
 
 Initial setup steps:
 
@@ -44,9 +44,9 @@ Alternate steps:
 *  Double check the image because it will disappear in the next step. :-(
 *  Delete the following bold text:
    {% include inline_image.html
-       file="**![image-20220929091528372](../../../images/**image-20220929091528372.png**).png**" alt="" %}
+       file="**![image-20220929091528372](../../../images/**image-20220929091528372.png**).png**"  class = "shadow" alt="" %}
    So that it looks like this:
-   {% include inline_image.html file="image-20220929091528372.png" alt="" %}
+   {% include inline_image.html file="image-20220929091528372.png" class = "shadow" alt="" %}
 * Review the results in the local web.
 
 > The filename must not include any path info - just the filename.
