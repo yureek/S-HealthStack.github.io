@@ -13,7 +13,7 @@ The stack consists of three pieces, which you install separately:
 
 1. [Install the backend services and data engine.](../installation/installing-the-backend.md)
 2. [Install the app software development kit (SDK).](../installation/installing-the-sdk.md)
-3. [Install the web portal.](../installation/installing-the-sdk.md)
+3. [Install the web portal.](../installation/installing-the-portal.md)
 
 ## Set up a study
 
@@ -69,7 +69,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                 
+   >                                                   
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
