@@ -10,7 +10,7 @@ The web portal provides line graphs and scatter plot charts for easy visualizati
 To view graphs:
 
 1. From the **Overview** page, navigate to the **Sensor Data** section.
-    ![viewing-graphs-1](../../../images/viewing-graphs-1.png)
+    ![viewing-graphs-1](../../../images/viewing-graphs-1.png){: .plain}
 2. Scroll to the desired graph or chart.
 3. Toggle the demographic categories on and off as desired.
 4. Toggle **Average line(s)** on to view the data trends.
