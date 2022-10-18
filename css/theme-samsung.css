@@ -129,11 +129,12 @@ li.sidebarTitle {
     border-color: var(--blue_color);
 }
 
-img.shadow {
+img {
     box-shadow: 0px 6px 10px 0px #dddddd;
     border-radius: 8px;
-
 }
 
 img.plain {
+    box-shadow: 0px 0px 0px 0px #dddddd;
+    border-radius: none;
 }
