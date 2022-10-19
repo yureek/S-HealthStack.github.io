@@ -1,5 +1,5 @@
 ---
-title: Configuring the App Environment
+title: Configuring the App
 sidebar: doc_sidebar
 permalink: configuring-the-app.html
 toc: false

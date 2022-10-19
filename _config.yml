@@ -34,7 +34,8 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Samsung Health Stack
+feedback_subject_line: Samsung Health Stack Feedback
+# Not used - see subject field in email line in feedback.html
 
 feedback_email: s-healthstack@googlegroups.com
 # used as a contact email for the Feedback link in the top navigation bar

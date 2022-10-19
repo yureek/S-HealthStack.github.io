@@ -1,5 +1,5 @@
 ---
-title: What is  Samsung Health Stack?
+title: What is Samsung Health Stack?
 sidebar: doc_sidebar
 permalink: index.html
 toc: false

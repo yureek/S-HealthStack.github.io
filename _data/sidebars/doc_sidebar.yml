@@ -84,7 +84,7 @@ entries:
       url: /building-the-app.html
       output: web, pdf
 
-    - title: Configuring the App Environment
+    - title: Configuring the App
       url: /configuring-the-app.html
       output: web, pdf
 

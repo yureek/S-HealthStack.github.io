@@ -134,7 +134,7 @@ img {
     border-radius: 8px;
 }
 
-img.plain {
-    box-shadow: 0px 0px 0px 0px #dddddd;
+img.noborder {
+    box-shadow: 0px 0px 0px 0px;
     border-radius: none;
 }

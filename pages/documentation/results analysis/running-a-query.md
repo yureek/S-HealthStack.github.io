@@ -13,7 +13,7 @@ To run a data query:
 
 1. From the **Data Insights** page, select a table from the **Select a table** list to populate **Query Results** with all rows of the table.
 
-   {% include inline_image.html  file="running-a-query.png"  class = "shadow" alt="" %}
+   ![running-a-query](../../../images/running-a-query.png)
 
 2. Adjust the `SELECT * FROM <table>` using any valid SQL syntax.
 

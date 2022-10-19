@@ -12,6 +12,6 @@ The web portal provides a straightforward way to export your data to .csv files 
 To export .csv data:
 
 1. From the **Data Insights** page, click **Export .csv**.
-   {% include inline_image.html class="shadow" file="exporting-data.png" alt="" %}
+   ![exporting-data](../../../images/exporting-data.png)
 2. Use the standard file browsing interface to export the data to the desired folder and filename.
 
