@@ -21,7 +21,7 @@ The easiest image capture and placement steps we have so far are:
 
    > When accessing Figma in a browser window, you have to manually move the file from the downloads folder.
 
-*  Wait for the copy complete message to appear at the bottom of the Figma window.
+*  Wait for the action completed message to appear at the bottom of the Figma window.
 
 *  In Typora, from **Format > Image > Insert Local Images**, select the image.
 
@@ -31,7 +31,7 @@ The easiest image capture and placement steps we have so far are:
   *  To replace the dropshadow with a 1px border, add  `{:.thinborder}` to the image markdown syntax.
 
 
-> The dropshadows and thin borders do not appear in the Typora editor. The `{.\<class\>}` syntax is a GitHub-Flavored Markdown proprietary extension.
+> The dropshadows and thin borders do not appear in the Typora editor. The `{:.class}` syntax is a GitHub-Flavored Markdown (GFM) proprietary extension. To see an example of the full syntax, click the image above.
 
 
 
