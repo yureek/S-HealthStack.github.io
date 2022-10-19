@@ -5,21 +5,61 @@ sidebar: none
 permalink: image-syntax.html
 toc: false
 ---
+Initial setup steps:
+
+* In Typora, configure **File > Preferences > Images** to match:
+
+  ![image-20221005102602385](../../images/image-20221005102602385.png){:.thinborder}
+
+The easiest image capture and placement steps we have so far are:
+
+*  In Figma, copy the desired component image and paste it to the **---Technical Doc---** page.
+
+*  Rename the pasted image ***\<same-name-as-md-file\>*.png**.
+
+*  Export the pasted image as PNG to **C:\Dev\healthcare-research-hub-home\images**.
+
+   > When accessing Figma in a browser window, you have to manually move the file from the downloads folder.
+
+*  Wait for the copy complete message to appear at the bottom of the Figma window.
+
+*  In Typora, from **Format > Image > Insert Local Images**, select the image.
+
+* Images render to the web with a dropshadow by default.
+
+  *  To remove the dropshadow, add  `{:.noborder}` to the image markdown syntax.
+  *  To replace the dropshadow with a 1px border, add  `{:.thinborder}` to the image markdown syntax.
+
+
+> The dropshadows and thin borders do not appear in the Typora editor. The `{.\<class\>}` syntax is a GitHub-Flavored Markdown proprietary extension.
+
+
+
+**---- Everything below is now superceded by what is above. ---**
+
 <span style="color:red">Don't try to look at this file as rendered html. It'll be way wrong. Just look at in as an .md in Typora.</span>
 
-The following line shows the syntax to use for inline images.
+The following line shows the syntax to use for inline screenshots. theme-samsung.css adds a dropshadow by default.
 
-{% include inline_image.html file="filename.png" class = "shadow or plain" alt="" %}
+{% include inline_image.html file="filename.png" alt="" %}
 
-For example:
+To remove the dropshadow, use:
 
-{% include inline_image.html file="image-20220929091528372.png" class = "shadow" alt="" %}
+{% include inline_image.html file="filename.png" class = "noborder" alt="" %}
+
+To replace the dropshadow with a 1px border, use:
+
+{% include inline_image.html file="filename.png" class = "thinborder" alt="" %}
+
+For example, the image below uses:
+
+{% include inline_image.html file="image-20221005102602385.png" class = "thinborder" alt="" %}
 
 Initial setup steps:
 
 * In Typora, configure **File > Preferences > Images** to match:
 
-  ![image-20221005102602385](../../images/image-20221005102602385.png)
+  ![image-20221005102602385](../../images/image-20221005102602385.png){:.thinborder}
 
 Though not ideal, the easiest image capture and placement steps we have so far are:
 
