@@ -35,10 +35,12 @@ The web portal is a customizable dashboard for interactive data visualization. M
 - Manage team members and participants
 - Analyze participant data
 
+> As of this writing, Chrome is the only browser supported for accessing the web portal.
+
 ## Recommended Workflow
 1.  Set up your environment.
 2.  Set up a study.
-3.  Create a survey to track your study.
+3.  Create a survey to collect user symptom data.
 4.  Create an app to collect wearable device data.
 5.  Onboard participants.
 6.  Run your study.

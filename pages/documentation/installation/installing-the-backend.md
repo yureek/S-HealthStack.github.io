@@ -5,17 +5,15 @@ permalink: installing-the-backend.html
 toc: false
 ---
 
-### Prerequisite
+# Prerequisite
 
-#### Docker
+## Docker
 
 Install using the following guide [Install Docker Engine - Docker Documentation](https://docs.docker.com/engine/install/)
 
-## **Getting started**
+# Installation
 
-### Installation
-
-#### **1. Create Network**
+## 1. Create Network
 
 Create a docker network **hrp** to connect docker containers by the following command: 
 
@@ -23,7 +21,7 @@ Create a docker network **hrp** to connect docker containers by the following co
 docker network create hrp
 ```
 
-#### **2. Deploy Postgres**
+## 2. Deploy Postgres
 
 After creating the network, deploy Postgres by following the instructions. 
 
@@ -48,7 +46,7 @@ git clone https://github.com/S-HealthStack/backend-system
 
 The git clone command will download the repository that already exists on GitHub including all files.
 
-#### **3. Create Firebase `service-account-key.json` file** 
+## 3. Create Firebase `service-account-key.json` file 
 
 Now create a firebase service account JSON file in the backend server directory.
 
@@ -61,9 +59,9 @@ touch service-account-key.json
 
 And update the `service-account-key.json` file.
 
-### Building
+# Building
 
-#### **4. Deploy platform** 
+## 4. Deploy platform 
 
 Now deploy the platform by following below instructions. 
 
@@ -117,13 +115,13 @@ docker ps | grep hrp-platform
 curl --location --request GET localhost:3030/api/projects
 ```
 
-#### **5. Deploy trino**
+## 5. Deploy trino
 
 Now, deploy trino by creating new directory trino/etc/catalog and then change directory: 
 
 ```
 mkdir -p trino/etc/catalog
-``` 
+```
 
 Then, create the `jvm.config` file 
 
@@ -151,7 +149,7 @@ echo "\
 
 ```
 docker pull trinodb/trino:393
-``` 
+```
 
 Further, run the hrp-trino container from trinodb/trino image and map hrp-trino default port 8080 to inside of container port of 8080 by using the following command. 
 
@@ -165,13 +163,13 @@ docker run \
     trinodb/trino:393
 ```
 
-#### **6. Deploy data-query-service**
+## 6. Deploy data-query-service
 
 Now, deploy data-query-service. The first step is to change the directory and build the application data-query-service and generate a jar file, performing a code test. 
 
 ```
 ./gradlew :data-query-service:build -x detekt
-``` 
+```
 
 **After gradle build and code, test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.** 
 
@@ -196,15 +194,15 @@ docker run \
     -e TRINO_HOST=hrp-trino \
     -e TRINO_PORT=8080 \
     hrp-data-query-service:0.9.0
-```  
+```
 
 To ensure successful run, ps command will be used to show all running containers 
 
 ```
 docker ps
-``` 
+```
 
-#### **7. (Optional) Deploy SuperTokens**
+## 7. (Optional) Deploy SuperTokens
 
 Now, deploy [SuperTokens](https://supertokens.com/).
 
@@ -222,7 +220,7 @@ docker run \
     -d registry.supertokens.io/supertokens/supertokens-postgresql
 ```
 
-#### **8. Deploy Account Service**
+## 8. Deploy Account Service
 
 Run below command to create a docker image of account service.
 
@@ -242,9 +240,9 @@ docker run \
     account-service:0.9.0
 ```
 
-### Testing APIs
+# Testing APIs
 
-#### Test API calls
+## Test API calls
 
 Now test API calls by using CURL command. 
 
@@ -254,15 +252,15 @@ curl --location --request GET localhost:3030/api/projects
 
 If you get unauthorized message, platform is deployed successfully.
 
-#### Retrieve logs of the container
+## Retrieve logs of the container
 
 To retrieve logs of the container present at the time of execution use: 
 
 ```
 docker logs -f hrp-platform
-``` 
+```
 
-#### Stop and remove container
+## Stop and remove container
 
 Now to stop and remove containers use the following syntax. Further to ensure running container list use docker ps. 
 

@@ -4,7 +4,7 @@ sidebar: doc_sidebar
 permalink: publishing-a-survey.html
 toc: false
 ---
-Once you've completed creating your survey questions, the next step is to schedule and publish the survey. You schedule and publish surveys through the Healthcare Research Hub portal.
+Once you've completed creating your survey questions, the next step is to schedule and publish the survey. You schedule and publish surveys through the Samsung Health Stack web portal.
 
 To schedule and publish a survey:
 

@@ -11,7 +11,7 @@ Querying within the web portal allows you to gain some simple insights into your
 
 To run a data query:
 
-1. From the **Data Insights** page, select a table from the **Select a table** list to populate **Query Results** with all rows of the table.
+1. From the **Data Insights** page, in the **Data Query** section, select a table from the **Select a table** list to populate **Query Results** with all rows of the table.
 
    ![running-a-query](../../../images/running-a-query.png)
 

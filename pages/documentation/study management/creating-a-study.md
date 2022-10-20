@@ -7,6 +7,8 @@ toc: false
 
 A Samsung Health Stack study is a container you create within the web portal to manage all aspects of your participant study. A container consists of the team members running the study, the list of participants, participant surveys, survey results, participant vital signs tracked through the wearable device, graphs giving insights into the data collected, and more.
 
+> As of this writing, Chrome is the only browser supported for accessing the web portal.
+
 To create a new study:
 
 1. From anywhere within the web portal, click the current study name displayed in the top, left corner of the portal window.

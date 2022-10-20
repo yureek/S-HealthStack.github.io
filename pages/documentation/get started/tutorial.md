@@ -19,7 +19,11 @@ The stack consists of three pieces, which you install separately:
 
 In this fictitious scenario, we've noticed that people with supernatural physical abilities have begun to appear all over the world. We call this phenomenon *Syndrome X*. We hypothesize that Syndrome X is related to specific vital signs and symptoms, such as heartrate, blood pressure, and headaches. So, we design a study to gather participants who have experienced extraordinary powers, ask them survey questions, and collect their vital signs and any symptoms. We've decided to call it the Mutant Gene (MG) study. We will collect vital signs using the Galaxy Watch 4 and symptoms using a participant survey.
 
-Studies are managed from the Samsung Health Stack web portal. Follow these steps to set up managing the MG study:
+Studies are managed from the Samsung Health Stack web portal.
+
+> As of this writing, Chrome is the only browser supported for accessing the web portal.
+
+Follow these steps to set up managing the MG study:
 
 1. [Create a new study](../study management/creating-a-study.md) in the web portal.
     > Because this is the first time logging in to the portal, the **Create a study** page automatically appears. Enter these parameters:
@@ -69,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                   
+   >                                                     
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
