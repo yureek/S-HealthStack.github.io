@@ -5,269 +5,285 @@ permalink: installing-the-backend.html
 toc: false
 ---
 
-# Prerequisite
+Follow these instructions to install, build, and verify the backend system.
 
-## Docker
+# Install
 
-Install using the following guide [Install Docker Engine - Docker Documentation](https://docs.docker.com/engine/install/)
+## I. Install Docker
+   1. Install Docker using the instructions at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
 
-# Installation
+## II. Create Network
+   1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
 
-## 1. Create Network
+      ```
+      docker network create hrp
+      ```
 
-Create a docker network **hrp** to connect docker containers by the following command: 
+## III. Deploy Postgres
 
-```
-docker network create hrp
-```
+1. Start the PostgreSQL object-relational database system container.
 
-## 2. Deploy Postgres
+   ```
+   docker run \
+       -d \
+       --name hrp-postgres \
+       --network hrp \
+       -e POSTGRES_PASSWORD=password \
+       postgres:14.5
+   ```
+   The command starts the Postgres container under the hrp network and sets the environment variable for the initial password. Pulling the image is done automatically.
 
-After creating the network, deploy Postgres by following the instructions. 
+2. Download the latest Samsung Health Stack backend system from GitHub. 
 
-Run the Postgres container, the command will start the Postgres container under hrp network and set the environmental variable for the initial password. 
+   ```
+   git clone https://github.com/S-HealthStack/backend-system
+   ```
 
-Pulling the image will be done automatically.
+## IV. Create Firebase Service Account
 
-```
-docker run \
-    -d \
-    --name hrp-postgres \
-    --network hrp \
-    -e POSTGRES_PASSWORD=password \
-    postgres:14.5
-```
+1. Create a Firebase `service-account-key.json` file.
 
-Now, clone the latest version with: 
+   ```
+   cd backend-system
+   touch service-account-key.json
+   ```
 
-```
-git clone https://github.com/S-HealthStack/backend-system
-```
-
-The git clone command will download the repository that already exists on GitHub including all files.
-
-## 3. Create Firebase `service-account-key.json` file 
-
-Now create a firebase service account JSON file in the backend server directory.
-
-You can follow the detailed documentation in [here](https://firebase.google.com/docs/admin/setup?authuser=0).
-
-```
-cd backend-system
-touch service-account-key.json
-```
-
-And update the `service-account-key.json` file.
+2. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0).
 
 # Building
 
-## 4. Deploy platform 
+## V. Deploy Platform 
 
-Now deploy the platform by following below instructions. 
+1. Test the code and formatting.
 
-The first step is testing the code and formatting by:
+   ```
+   ./gradlew :platform:ktlintFormat test
+   ```
 
-```
-./gradlew :platform:ktlintFormat test
-```
+2. Build gradle  to create a jar file of the application.
 
-The next step is to build by using grade build command that creates a jar file of the application:
+   ```
+   ./gradlew :platform:build -x detekt
+   ```
 
-```
-./gradlew :platform:build -x detekt
-```
+3. Build a docker image of the hrp-platform 0.9.0 in the platform directory.
 
-After successful gradle build, build docker image of hrp-platform 0.9.0 in platform` directory by using command: 
+   ```
+   docker build --tag hrp-platform:0.9.0 ./platform/
+   ```
 
-```
-docker build --tag hrp-platform:0.9.0 ./platform/
-```
+4. List all images and containers within the hrp network.
 
-**Now list all images and containers within hrp network by grep command.** 
+   ```
+   docker images | grep hrp
+   ```
 
-```
-docker images | grep hrp
-```
+5. Run the hrp-platform container.
 
-**After a successful build, run the container of hrp-platform.** 
+   ```
+   docker run \
+      -d \
+      -p 3030:3030 \
+      --name hrp-platform \
+      --network hrp \
+      -e DB_HOST=hrp-postgres \
+      -e DB_PASSWORD=password \
+      -e GOOGLE_APPLICATION_CREDENTIALS=service-account-key.json \
+      hrp-platform:0.9.0
+   ```
 
-```
-docker run \
-    -d \
-    -p 3030:3030 \
-    --name hrp-platform \
-    --network hrp \
-    -e DB_HOST=hrp-postgres \
-    -e DB_PASSWORD=password \
-    -e GOOGLE_APPLICATION_CREDENTIALS=service-account-key.json \
-    hrp-platform:0.9.0
-```
+6. Verify the hrp-platform container is running.
 
-**To ensure hrp-platform container is running use ps command.** 
+   ```
+   docker ps | grep hrp-platform
+   ```
 
-```
-docker ps | grep hrp-platform
-```
+7. Connect to localhost:3030/api/projects. 
 
-**Now connect to localhost:3030/api/projects**. 
+   ```
+   curl --location --request GET localhost:3030/api/projects
+   ```
 
-```
-curl --location --request GET localhost:3030/api/projects
-```
+## VI. Deploy Trino
 
-## 5. Deploy trino
+1. Create and navigate to the `trino/etc/catalog` directory.
 
-Now, deploy trino by creating new directory trino/etc/catalog and then change directory: 
+   ```
+   mkdir -p trino/etc/catalog
+   cd trino/etc/catalog
+   ```
 
-```
-mkdir -p trino/etc/catalog
-```
+2. Create the `jvm.config` file.
 
-Then, create the `jvm.config` file 
+   ```
+   echo "\
+   -server
+   -Xmx16G
+   -XX: InitialRAMPercentage=80 
+   -XX:MaxRAMPercentage=80 
+   -XX:G1HeapRegionSize=32M 
+   -XX:+ExplicitGCInvokesConcurrent 
+   -XX:+ExitOnOutOfMemoryError 
+   -XX:+HeapDumpOnOutOfMemoryError 
+   -XX:-OmitStackTraceInFastThrow 
+   -XX : ReservedCodeCacheSize=512M 
+   -XX:PerMethodRecompilationCutoff=10000 
+   -XX:PerBytecodeRecompilationCutoff=10000 
+   -Djak.attach.allowAttachSelf=true 
+   -Didk.nio.maxCachedBufferSize=2000000 
+   -XX:+UnlockDiagnosticVMOptions 
+   -XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config 
+   ```
 
-```
-echo "\
--server
--Xmx16G
--XX: InitialRAMPercentage=80 
--XX:MaxRAMPercentage=80 
--XX:G1HeapRegionSize=32M 
--XX:+ExplicitGCInvokesConcurrent 
--XX:+ExitOnOutOfMemoryError 
--XX:+HeapDumpOnOutOfMemoryError 
--XX:-OmitStackTraceInFastThrow 
--XX : ReservedCodeCacheSize=512M 
--XX:PerMethodRecompilationCutoff=10000 
--XX:PerBytecodeRecompilationCutoff=10000 
--Djak.attach.allowAttachSelf=true 
--Didk.nio.maxCachedBufferSize=2000000 
--XX:+UnlockDiagnosticVMOptions 
--XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config 
-```
+3. Download trinodb/trino version 393.
 
-**After successful configuration pull(download) trinodb/trino 393 version.** 
+   ```
+   docker pull trinodb/trino:393
+   ```
 
-```
-docker pull trinodb/trino:393
-```
+4. Run the hrp-trino container from trinodb/trino image and map hrp-trino default port 8080 to inside of container port of 8080. 
 
-Further, run the hrp-trino container from trinodb/trino image and map hrp-trino default port 8080 to inside of container port of 8080 by using the following command. 
+   ```
+   docker run \
+      -d \
+      -p 8080:8080 \
+      --name hrp-trino \
+      --network hrp \
+      --volume trino/etc/catalog \
+      trinodb/trino:393
+   ```
 
-```
-docker run \
-    -d \
-    -p 8080:8080 \
-    --name hrp-trino \
-    --network hrp \
-    --volume trino/etc/catalog \
-    trinodb/trino:393
-```
+## VII. Deploy data-query-service
 
-## 6. Deploy data-query-service
+1. Change the directory and build the application data-query-service and generate a jar file, performing a code test. 
 
-Now, deploy data-query-service. The first step is to change the directory and build the application data-query-service and generate a jar file, performing a code test. 
+   ```
+   ./gradlew :data-query-service:build -x detekt
+   ```
 
-```
-./gradlew :data-query-service:build -x detekt
-```
+2. Test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.
 
-**After gradle build and code, test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.** 
+   ```
+   docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
+   ```
 
-```
-docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
-```
+3. List all images related to hrp-a-query-service. 
 
-list all images related to hrp-a-query-service by using grep command. 
+   ```
+   docker images | grep hrp-data-query-service 
+   ```
 
-```
-docker images | grep hrp-data-query-service 
-```
+4. Run the hrp-data-query-service container, exposing the environmental USER with value docker to the container and skipping the first line.
 
-**Run hrp-data-query-service container, exposing the environmental USER with value docker to the container and skipping the first line** 
+   ```
+   docker run \
+      -d \
+      --name hrp-data-query-service \
+      --network hrp \
+      -e CATALOG_USER=postgres \
+      -e TRINO_HOST=hrp-trino \
+      -e TRINO_PORT=8080 \
+      hrp-data-query-service:0.9.0
+   ```
 
-```
-docker run \
-    -d \
-    --name hrp-data-query-service \
-    --network hrp \
-    -e CATALOG_USER=postgres \
-    -e TRINO_HOST=hrp-trino \
-    -e TRINO_PORT=8080 \
-    hrp-data-query-service:0.9.0
-```
+5. Verify hrp-data-query-service is running.
 
-To ensure successful run, ps command will be used to show all running containers 
+   ```
+   docker ps
+   ```
 
-```
-docker ps
-```
+## VIII. (Optional) Deploy SuperTokens
 
-## 7. (Optional) Deploy SuperTokens
+1. Deploy [SuperTokens](https://supertokens.com/).
 
-Now, deploy [SuperTokens](https://supertokens.com/).
+   ```
+   docker run \
+      -p 3567:3567 \
+      --name hrp-supertokens \
+      --network hrp \
+      -e POSTGRESQL_USER=postgres \
+      -e POSTGRESQL_HOST=hrp-postgres \
+      -e POSTGRESQL_PORT=5432 \
+      -e POSTGRESQL_PASSWORD=password \
+      -d registry.supertokens.io/supertokens/supertokens-postgresql
+   ```
 
-<span style="color:red">You don't have to use SuperTokens for this process. Implement a back-end adapter to complement the Auth Service of your choice. The sample contains adapter of SuperTokens</span>
+> You don't have to use SuperTokens for this process. You can implement a backend adapter to complement the Auth Service of your choice.
 
-```
-docker run \
-    -p 3567:3567 \
-    --name hrp-supertokens \
-    --network hrp \
-    -e POSTGRESQL_USER=postgres \
-    -e POSTGRESQL_HOST=hrp-postgres \
-    -e POSTGRESQL_PORT=5432 \
-    -e POSTGRESQL_PASSWORD=password \
-    -d registry.supertokens.io/supertokens/supertokens-postgresql
-```
+## IX. Deploy Account Service
 
-## 8. Deploy Account Service
+1. Create a Docker image of the account service.
 
-Run below command to create a docker image of account service.
+   ```
+   ./gradlew :account-service:build -x detekt
 
-```
-./gradlew :account-service:build -x detekt
+   docker build --tag account-service:0.9.0 ./account-service/
+   ```
 
-docker build --tag account-service:0.9.0 ./account-service/
-```
+2. Deploy the account service and identify your email server.
 
-Now, deploy the account service using docker container.
+   ```
+   docker run \
+       --name hrp-account-service \
+       --network hrp \
+       -e SMTP_HOST=smtp.server.addr \
+       -e SMTP_POST=smtp_port \
+       -e MAIL_USER=username \
+       -e MAIL_USER_PASSWORD=password \
+       -d \
+       account-service:0.9.0
+   ```
 
-```
-docker run \
-    --name hrp-account-service \
-    --network hrp \
-    -d \
-    account-service:0.9.0
-```
+# Wrap Up
 
-# Testing APIs
+## X. Verify and Clean Up
 
-## Test API calls
+1. Test the API calls. 
 
-Now test API calls by using CURL command. 
+   ```
+   curl --location --request GET localhost:3030/api/projects
+   ```
 
-```
-curl --location --request GET localhost:3030/api/projects
-```
+   > If you get an unauthorized message, the platform has deployed successfully.
 
-If you get unauthorized message, platform is deployed successfully.
+2. Retrieve logs of the container present at the time of execution. 
 
-## Retrieve logs of the container
+   ```
+   docker logs -f hrp-platform
+   ```
 
-To retrieve logs of the container present at the time of execution use: 
+3. Stop and remove the containers, and verify they no longer exist.
 
-```
-docker logs -f hrp-platform
-```
+   ```
+   docker stop hrp-platform
+   docker rm hrp-platform
+   docker ps -a
+   ```
 
-## Stop and remove container
+## XI. Create Initial Login
 
-Now to stop and remove containers use the following syntax. Further to ensure running container list use docker ps. 
+> These steps are temporary for the alpha version only. We intend to have a UI-based solution in place by the beta release.
 
-```
-docker stop hrp-platform
+1. Create the team-admin role.
 
-docker rm hrp-platform
+   ```
+   curl --location --request PUT ``'localhost:3567/recipe/role'` `\``--   header ``'Content-Type: application/json'` `\``--data-raw '{``           ``"role"``: ``"team-admin"``}'
+   ```
 
-docker ps -a
-```
+2. Create the initial user login.
+
+   ```
+   curl --location --request POST ``'localhost:3567/recipe/signup'` `\``--header ``'cdi-version: 2.15'` `\``--header ``'Content-Type: application/json'` `\``--data-raw '{`` ``"email"``: ``"your_address@your_email.com"``,`` ``"password"``: ``"your_password"``}
+   ```
+
+   > Successful creation results in a response similar to: 
+   >
+   > ```
+   > {``  ``"status"``: ``"OK"``,``  ``"user"``: {``    ``"email"``: ``"team-admin@samsung.com"``,``    ``"id"``: ``"785d492b-688f-49c1-adbb-e9c00ed0c5b4"``,``    ``"timeJoined"``: 1664864683438``  ``}``}
+   > ```
+
+3. Assign the role to the user.
+
+   ```
+   curl --location --request PUT ``'localhost:3567/recipe/user/role'` `\``--header ``'Content-Type: application/json'` `\``--data-raw '{`` ``"userId"``: ``"785d492b-688f-49c1-adbb-e9c00ed0c5b4"``,`` ``"role"``: ``"team-admin"``}
+   ```
