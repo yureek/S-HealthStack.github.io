@@ -10,7 +10,7 @@ Follow these instructions to install, build, and verify the backend system.
 # Install
 
 ## I. Install Docker
-   1. Install Docker using the instructions at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
+   1. Install Docker using the instructions at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/){:target="_blank"}.
 
 ## II. Create Network
    1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
@@ -48,7 +48,7 @@ Follow these instructions to install, build, and verify the backend system.
    touch service-account-key.json
    ```
 
-2. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0).
+2. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
 
 # Building
 
@@ -194,7 +194,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## VIII. (Optional) Deploy SuperTokens
 
-1. Deploy [SuperTokens](https://supertokens.com/).
+1. Deploy [SuperTokens](https://supertokens.com/){:target="_blank"}.
 
    ```
    docker run \
