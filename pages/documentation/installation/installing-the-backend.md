@@ -267,23 +267,45 @@ Follow these instructions to install, build, and verify the backend system.
 1. Create the team-admin role.
 
    ```
-   curl --location --request PUT ``'localhost:3567/recipe/role'` `\``--   header ``'Content-Type: application/json'` `\``--data-raw '{``           ``"role"``: ``"team-admin"``}'
+   curl --location --request PUT 'localhost:3567/recipe/role' \
+   --header 'Content-Type: application/json' \
+   --data-raw '{
+     "role": "team-admin"
+   }'
    ```
 
 2. Create the initial user login.
 
    ```
-   curl --location --request POST ``'localhost:3567/recipe/signup'` `\``--header ``'cdi-version: 2.15'` `\``--header ``'Content-Type: application/json'` `\``--data-raw '{`` ``"email"``: ``"your_address@your_email.com"``,`` ``"password"``: ``"your_password"``}
+   curl --location --request POST 'localhost:3567/recipe/signup' \
+   --header 'cdi-version: 2.15' \
+   --header 'Content-Type: application/json' \
+   --data-raw '{
+    "email": "your_address@your_email.com",
+    "password": "your_password"
+   }
    ```
 
    > Successful creation results in a response similar to: 
    >
    > ```
-   > {``  ``"status"``: ``"OK"``,``  ``"user"``: {``    ``"email"``: ``"team-admin@samsung.com"``,``    ``"id"``: ``"785d492b-688f-49c1-adbb-e9c00ed0c5b4"``,``    ``"timeJoined"``: 1664864683438``  ``}``}
+   > {
+   >   "status": "OK",
+   >   "user": {
+   >       "email": "team-admin@samsung.com",
+   >       "id": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
+   >       "timeJoined": 1664864683438
+   >   }
+   > }
    > ```
 
 3. Assign the role to the user.
 
    ```
-   curl --location --request PUT ``'localhost:3567/recipe/user/role'` `\``--header ``'Content-Type: application/json'` `\``--data-raw '{`` ``"userId"``: ``"785d492b-688f-49c1-adbb-e9c00ed0c5b4"``,`` ``"role"``: ``"team-admin"``}
+   curl --location --request PUT 'localhost:3567/recipe/user/role' \
+   --header 'Content-Type: application/json' \
+   --data-raw '{
+     "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
+     "role": "team-admin"
+   }
    ```
