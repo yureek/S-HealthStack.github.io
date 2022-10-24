@@ -73,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                     
+   >                                                         
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -231,16 +231,21 @@ Now, return to the web portal to analyze the results. Results are available for 
   
    > From the **Data Insights** page, in the **Data Query** section, enter these parameters to list people who have experienced any symptoms of Syndrome X:
    > - Table: `item_results`
-   > - Query: `SELECT up.user_id, json_extract_scalar(up.profile, '$.email') AS email, result 
+   > - Query:
+   > ```
+   >   `SELECT up.user_id, json_extract_scalar(up.profile, '$.email') AS email, result 
    >   FROM item_results ir JOIN user_profiles up ON up.user_id = ir.user_id 
    >   WHERE item_name='Question1' AND result !='Nothing' 
    >   GROUP BY up.user_id, json_extract_scalar(up.profile, '$.email'), result `
-   >
+   > ```
+   > 
    > Next, enter these parameters to compare the vital signs of those people and the people who have symptoms:
    > - Table: `item_results`
-   > - Query:  `SELECT CASE WHEN hr.user_id IN 
+   > - Query:
+   > ```
+   >   `SELECT CASE WHEN hr.user_id IN 
    >       (
-   >           SELECT user_id 
+   >       /    SELECT user_id 
    >           FROM item_results 
    >           WHERE item_name='Question1' AND result !='Nothing' 
    >           GROUP BY user_id 
@@ -259,7 +264,8 @@ Now, return to the web portal to analyze the results. Results are available for 
    >       ) THEN 'syndromeX' 
    >       ELSE 'normal human'
    >       END `
-   >
+   > ```
+   > 
    > Due to the limited data sample size, you'll likely see no meaningful difference between the two groups.
    
 - [Export the data for external analysis](../results analysis/exporting-data.md).

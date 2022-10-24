@@ -224,6 +224,7 @@ Follow these instructions to install, build, and verify the backend system.
 
    ```
    docker run \
+       -p 8081:8080 \
        --name hrp-account-service \
        --network hrp \
        -e SMTP_HOST=smtp.server.addr \
