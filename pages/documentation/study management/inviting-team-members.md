@@ -1,5 +1,5 @@
 ---
-title: Inviting Team Members and Assigning 
+title: Inviting Team Members and Assigning Roles
 sidebar: doc_sidebar
 permalink: inviting-team-members.html
 toc: false
