@@ -5,17 +5,15 @@ topnav:
   items:
     - title: Documentation
       url: /index.html
-#    - title: API Reference
-#      url: /api-index.html
+#   - title: API Reference
+#     url: /api-index.html
+    - title: Release Notes
+      url: /v09.html
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Relese Notes
-      folderitems:
-        - title: v0.9
-          url: /rn/index.html
     - title: GitHub
       folderitems:
         - title: backend-system
