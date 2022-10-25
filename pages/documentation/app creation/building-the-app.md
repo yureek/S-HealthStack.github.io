@@ -1,5 +1,5 @@
 ---
-title: Building the App
+title: Building the Mobile App
 sidebar: doc_sidebar
 permalink: building-the-app.html
 toc: false

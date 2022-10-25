@@ -1,5 +1,5 @@
 ---
-title: Inviting Team Members
+title: Inviting Team Members and Assigning 
 sidebar: doc_sidebar
 permalink: inviting-team-members.html
 toc: false
