@@ -13,6 +13,6 @@ As open-source project, you are invited to contribute those visions to grow the 
 
 Contribute to any or all of the components of the tech stack:
 
-- [The backend system](https://github.com/S-HealthStack/backend-system)
-- [The app SDK](https://github.com/S-HealthStack/app-sdk)
-- [The web portal](https://github.com/S-HealthStack/web-portal)
+- [The backend system](https://github.com/S-HealthStack/backend-system){:target="_blank"}
+- [The app SDK](https://github.com/S-HealthStack/app-sdk){:target="_blank"}
+- [The web portal](https://github.com/S-HealthStack/web-portal){:target="_blank"}

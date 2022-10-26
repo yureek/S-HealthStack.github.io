@@ -9,9 +9,9 @@ toc: true
 
 <span style="color:red">We also provide the swagger.yml for each module, so you can refer it.</span>
 
-- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml)
-- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml)
-- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml)
+- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml){:target="_blank"}
+- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml){:target="_blank"}
+- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml){:target="_blank"}
 
 ### /projects
 
