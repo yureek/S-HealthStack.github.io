@@ -73,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                         
+   >                                                             
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -196,7 +196,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
 
    > Due to the lack of mature libraries for wearables, testing with the Android Studio emulator is quite limited. At this point in time, most of the testing needs to happen in the live app.
 
-7. Make your app available for downloading.
+7. Make your app available for downloading by study participants.
 
 ## Onboard the participants
 

@@ -44,7 +44,7 @@ Follow these instructions to install, build, and verify the backend system.
 1. Create a Firebase `service-account-key.json` file.
 
    ```
-   cd backend-system
+   cd backend-system/platform
    touch service-account-key.json
    ```
 
@@ -194,7 +194,10 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## VIII. (Optional) Deploy SuperTokens
 
-1. Deploy [SuperTokens](https://supertokens.com/){:target="_blank"}.
+You don't have to use SuperTokens. You can implement a backend adapter to complement the authorization service of your choice. If you choose to use supertokens:
+1. Create a supertokens database in Postgres.
+
+2. Deploy [SuperTokens](https://supertokens.com/){:target="_blank"}.
 
    ```
    docker run \
@@ -205,10 +208,8 @@ Follow these instructions to install, build, and verify the backend system.
       -e POSTGRESQL_HOST=hrp-postgres \
       -e POSTGRESQL_PORT=5432 \
       -e POSTGRESQL_PASSWORD=password \
-      -d registry.supertokens.io/supertokens/supertokens-postgresql
+      -d supertokens/supertokens-postgresql
    ```
-
-> You don't have to use SuperTokens for this process. You can implement a backend adapter to complement the Auth Service of your choice.
 
 ## IX. Deploy Account Service
 
