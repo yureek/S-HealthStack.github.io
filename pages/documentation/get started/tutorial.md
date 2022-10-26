@@ -58,9 +58,9 @@ Follow these steps to set up managing the MG study:
 
 For our study, participants wear the Samsung Galaxy Watch 4 and use an Android mobile app to collect the data. Follow these steps to use the Samsung Health Stack app SDK to create and customize the app:
 
-1. If you are not already familiar with developing code in Android Studio, take a look at [https://developer.android.com/studio/intro](https://developer.android.com/studio/intro).
+1. If you are not already familiar with developing code in Android Studio, take a look at [https://developer.android.com/studio/intro](https://developer.android.com/studio/intro){:target="_blank"}.
 
-2. In Android Studio, clone the [starter-app GitHub repository](https://github.com/S-HealthStack/starter-app) to retrieve the app starter code.
+2. In Android Studio, clone the [starter-app GitHub repository](https://github.com/S-HealthStack/starter-app){:target="_blank"} to retrieve the app starter code.
 
    > `git clone https://github.com/S-HealthStack/starter-app`
 
@@ -73,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                             
+   >                                                               
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -180,9 +180,9 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ) as List<QuestionModel<Any>>
    >   ```
 
-4. Register your app with the Firebase project you created during [app SDK installation](../installation/installing-the-sdk#firebase-project-setup) and update the **starter-app/app/google-service.json** configuration file.
+4. Register your app with the Firebase project you created during [app SDK installation](../installation/installing-the-sdk.md#firebase-project-setup) and update the **starter-app/app/google-service.json** configuration file.
 
-   > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
+   > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
 
 5. Associate your app with the backend system and portal study.
    > In **starter-app/app/src/main/res/values/strings.xml**, update the lines at the bottom of the file that specify your backend system's endpoint and your study's project ID, for example:
@@ -204,7 +204,7 @@ The first step of onboarding is to onboard yourself to live test the app. Follow
 
 1. Download the app to your phone.
 2. Open the app and step through the prompts that you set up while building the app to determine eligibility, request consent, and register those who are eligible.
-3. If not already previously done, install the [Health Platform](https://play.google.com/store/apps/details?id=com.samsung.android.service.health&hl=en&gl=US) service app on your phone.
+3. If not already previously done, install the [Health Platform](https://play.google.com/store/apps/details?id=com.samsung.android.service.health&hl=en&gl=US){:target="_blank"} service app on your phone.
 4. If not already previously done, pair your phone and the Samsung Galaxy Watch 4.
 
 Once you've tested the app to your satisfaction, invite prospective participants to complete the participant onboarding steps and join the study.

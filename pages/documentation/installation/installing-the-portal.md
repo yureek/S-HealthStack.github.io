@@ -11,7 +11,7 @@ toc: false
 
 Set up and install NodeJS version 16.15.0 or higher.
 
-[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/){:target="_blank"}
 
 # Development environment setup
 
@@ -26,7 +26,7 @@ Set up and install NodeJS version 16.15.0 or higher.
 | Variable    | Description                                                  | Default value |
 | ----------- | ------------------------------------------------------------ | ------------- |
 | API_URL     | Base API URL to access endpoints.                            |               |
-| PUBLIC_PATH | Path will be used to host the app. For example, to host fronted on https://example.com/open-source/portal it should be set to '/open-source/portal'. | /             |
+| PUBLIC_PATH | Path will be used to host the app. For example, to host the frontend on https://example.com/open-source/portal{:target="_blank"} it should be set to '/open-source/portal'. | /             |
 
 ### Option 1: Building static files
 

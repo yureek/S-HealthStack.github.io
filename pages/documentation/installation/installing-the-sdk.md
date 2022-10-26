@@ -11,13 +11,13 @@ toc: false
 
 Setup and install OpenJDK 11.
 
-[https://openjdk.org/install/](https://openjdk.org/install/)
+[https://openjdk.org/install/](https://openjdk.org/install/){:target="_blank"}
 
 ## Android Studio 
 
 Setup and install Android Studio on Windows, macOS, or Linux.
 
-[https://developer.android.com/studio](https://developer.android.com/studio)
+[https://developer.android.com/studio](https://developer.android.com/studio){:target="_blank"}
 
 # Clone the repository
 
@@ -55,7 +55,7 @@ Currently, detekt is not supported because of some issues.
 
 ## Check Coding Style
 
-The [Compose API guidelines](https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-api-guidelines.md) outline the patterns, best practices, and prescriptive style guidelines for writing idiomatic Jetpack Compose APIs. 
+The [Compose API guidelines](https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-api-guidelines.md){:target="_blank"} outline the patterns, best practices, and prescriptive style guidelines for writing idiomatic Jetpack Compose APIs. 
 
 # API Documentation
 
@@ -92,7 +92,7 @@ dependencies {
 
 ## Firebase project setup
 
-The starter application uses Firebase, so you need to create a Firebase project. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup) for details.
+The starter application uses Firebase, so you need to create a Firebase project. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
 
 ## Per app configuration
 
