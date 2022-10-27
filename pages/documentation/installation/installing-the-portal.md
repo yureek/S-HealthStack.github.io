@@ -5,48 +5,53 @@ permalink: installing-the-portal.html
 toc: false
 ---
 
-# Prerequisite
+Follow these instructions to install, build, and verify the web portal.
 
-## NodeJS
+> These steps require successful prior completion of the [backend system installation](installing-the-backend.md).
 
-Set up and install NodeJS version 16.15.0 or higher.
+# I. (Optional) Create Development Environment
 
-[https://nodejs.org/en/download/](https://nodejs.org/en/download/){:target="_blank"}
+These steps are only necessary if you intent to make changes to the source code.
 
-# Development environment setup
+1. Set up and install NodeJS version 16.15.0 or higher using the instructions at [https://nodejs.org/en/download/](https://nodejs.org/en/download/){:target="_blank"}
 
-1. Run `corepack enable` to activate yarn.
-2. Run `yarn` to install dependencies.
-3. Run `yarn dev` to start development server.
+2. Set up yarn:
+   1. Run `corepack enable` to activate yarn.
 
-# Production build
+   2. Run `yarn` to install dependencies.
 
-## Build variables
+   3. Run `yarn dev` to start development server.
 
-| Variable    | Description                                                  | Default value |
-| ----------- | ------------------------------------------------------------ | ------------- |
-| API_URL     | Base API URL to access endpoints.                            |               |
-| PUBLIC_PATH | Path will be used to host the app. For example, to host the frontend on https://example.com/open-source/portal{:target="_blank"} it should be set to '/open-source/portal'. | /             |
 
-### Option 1: Building static files
+# II. Build Production Environment
 
-1. Install NodeJS version 16.15.0 or higher.
-2. Run `corepack enable` to activate yarn.
-3. Run `yarn` to install dependencies.
-4. Run `yarn build` with desired variables set using environment. For example `API_URL=https://example.com yarn build`.
+1. Determine your URLs.
+   
+   | Variable    | Description                                                  | Default value |
+   | ----------- | ------------------------------------------------------------ | ------------- |
+   | API_URL     | Base API URL to access endpoints.                            |               |
+   | PUBLIC_PATH | Path will be used to host the app. For example, to host the frontend on [https://example.com/open-source/portal](https://example.com/open-source/portal){:target="_blank"} it should be set to '/open-source/portal'. | /             |
 
-The resulting static files will be located in `/build` folder and can be hosted using any web server.
+2. Build `Dockerfile` with desired variables provided as build arguments. For example,
+   ```
+   docker build . \
+       -t open-source-portal \
+       --build-arg API_URL='https://example.com' \
+       --build-arg PUBLIC_PATH='/portal'
+   ```
+   The resulting Docker image will run nginx on port `80`.
 
-### Option 2: Docker
+> If you'd prefer to build static files instead of using Docker:
+> 
+> 1. Install NodeJS version 16.15.0 or higher.
+> 2. Run `corepack enable` to activate yarn.
+> 3. Run `yarn` to install dependencies.
+> 4. Run `yarn build` with desired variables set using environment. For example `API_URL=https://example.com yarn build`.
+> 
+> The resulting static files will be located in the `/build` folder and can be hosted using any web server.
 
-1. Build `Dockerfile` with desired variables provided as build args. For example,
-    ```
-    docker build . \
-        -t open-source-portal \
-        --build-arg API_URL='https://example.com' \
-        --build-arg PUBLIC_PATH='/portal'
-    ```
-2. The resulting Docker image will run nginx on port `80`.
-
-# Launch the portal
+# III. Launch Web Portal
 > As of this writing, Chrome is the only browser supported for accessing the web portal.
+
+1. Navigate to your `PUBLIC_PATH` URL.
+2. Enter the [login credentials you created](installing-the-backend.md#xi-create-initial-login) during backend system installation.

@@ -13,7 +13,7 @@ Follow these instructions to install, build, and verify the backend system.
    1. Install Docker using the instructions at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/){:target="_blank"}.
 
 ## II. Create Network
-   1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
+   1. Create a Docker network helm repository proxy (hrp) to connect docker containers. 
 
       ```
       docker network create hrp
@@ -66,7 +66,7 @@ Follow these instructions to install, build, and verify the backend system.
    ./gradlew :platform:build -x detekt
    ```
 
-3. Build a docker image of the hrp-platform 0.9.0 in the platform directory.
+3. Build a Docker image of the hrp-platform 0.9.0 in the platform directory.
 
    ```
    docker build --tag hrp-platform:0.9.0 ./platform/
@@ -161,7 +161,7 @@ Follow these instructions to install, build, and verify the backend system.
    ./gradlew :data-query-service:build -x detekt
    ```
 
-2. Test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.
+2. Test a Docker build image of data-query-service tag 0.9.0 in data-query-service directory.
 
    ```
    docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
@@ -173,7 +173,7 @@ Follow these instructions to install, build, and verify the backend system.
    docker images | grep hrp-data-query-service 
    ```
 
-4. Run the hrp-data-query-service container, exposing the environmental USER with value docker to the container and skipping the first line.
+4. Run the hrp-data-query-service container, exposing the environmental USER with value "docker" to the container and skipping the first line.
 
    ```
    docker run \
