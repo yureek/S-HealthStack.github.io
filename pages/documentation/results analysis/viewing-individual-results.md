@@ -5,7 +5,7 @@ permalink: viewing-individual-results.html
 toc: false
 ---
 
-The portal reports individual participants' average records per data class. The reporting includes data such as average step count or average heartrate. You can view the records of:
+The portal reports individual participants' average records per data class. The reporting includes data such as average step count or average heart rate. You can view the records of:
 
 - A specific participant.
 - A participant relating to a datapoint of interest.
