@@ -10,13 +10,27 @@ Follow these instructions to install, build, and verify the backend system.
 # Install
 
 ## I. Install Docker
-   1. Install Docker using the instructions at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/){:target="_blank"}.
+```
+sudo apt install docker.io
+```
+
+```
+docker --version
+```
+
+```
+sudo systemctl status docker 
+```
 
 ## II. Create Network
-   1. Create a Docker network helm repository proxy (hrp) to connect docker containers. 
+   1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
 
       ```
-      docker network create hrp
+      docker --network
+      ```
+      
+      ```
+      sudo docker network create hrp
       ```
 
 ## III. Deploy Postgres
@@ -24,7 +38,7 @@ Follow these instructions to install, build, and verify the backend system.
 1. Start the PostgreSQL object-relational database system container.
 
    ```
-   docker run \
+   sudo docker run \
        -d \
        --name hrp-postgres \
        --network hrp \
@@ -43,42 +57,92 @@ Follow these instructions to install, build, and verify the backend system.
 
 1. Create a Firebase `service-account-key.json` file.
 
+2. In the Firebase console, open settings > service accounts
+
+3. Click the **generate New Private key** 
+
+4. Securely store the JSON file containing the key
+
    ```
    cd backend-system/platform
    touch service-account-key.json
    ```
 
-2. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
+5. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
 
 # Building
 
 ## V. Deploy Platform 
 
-1. Test the code and formatting.
+1. Prerequisite
+
+   Install java 17
+
+   First, install dependencies for Oracle JDK 17 installation
+
+   ```
+   sudo apt update
+   
+   sudo apt install -y libc6-x32 libc6-i386
+   ```
+
+   Then, download Oracle Java JDK 17 using the `wget` command in the terminal.
+
+   ```
+   wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+   ```
+
+   Finally, install Oracle Java JDK 17 using the `dpkg` command.
+
+   ```
+   sudo dpkg -i jdk-17_linux-x64_bin.deb
+   ```
+
+   Then, install the OpenJDK or JRE package as per the requirement.
+
+   **OpenJDK 17 JDK**
+
+   ```
+   sudo apt install -y openjdk-17-jdk
+   ```
+
+   **OpenJDK 17 JRE**
+
+   ```
+   sudo apt install -y openjdk-17-jre
+   ```
+
+   Check the Latest version 
+
+   ```
+   java -version
+   ```
+
+2. Test the code and formatting.
 
    ```
    ./gradlew :platform:ktlintFormat test
    ```
 
-2. Build gradle  to create a jar file of the application.
+3. Build gradle  to create a jar file of the application.
 
    ```
    ./gradlew :platform:build -x detekt
    ```
 
-3. Build a Docker image of the hrp-platform 0.9.0 in the platform directory.
+4. Build a docker image of the hrp-platform 0.9.0 in the platform directory.
 
    ```
    docker build --tag hrp-platform:0.9.0 ./platform/
    ```
 
-4. List all images and containers within the hrp network.
+5. List all images and containers within the hrp network.
 
    ```
    docker images | grep hrp
    ```
 
-5. Run the hrp-platform container.
+6. Run the hrp-platform container.
 
    ```
    docker run \
@@ -92,13 +156,13 @@ Follow these instructions to install, build, and verify the backend system.
       hrp-platform:0.9.0
    ```
 
-6. Verify the hrp-platform container is running.
+7. Verify the hrp-platform container is running.
 
    ```
    docker ps | grep hrp-platform
    ```
 
-7. Connect to localhost:3030/api/projects. 
+8. Connect to localhost:3030/api/projects. 
 
    ```
    curl --location --request GET localhost:3030/api/projects
@@ -106,11 +170,10 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## VI. Deploy Trino
 
-1. Create and navigate to the `trino/etc/catalog` directory.
+1. Download trinodb/trino version 393.
 
    ```
-   mkdir -p trino/etc/catalog
-   cd trino/etc/catalog
+   docker pull trinodb/trino:393
    ```
 
 2. Create the `jvm.config` file.
@@ -119,20 +182,20 @@ Follow these instructions to install, build, and verify the backend system.
    echo "\
    -server
    -Xmx16G
-   -XX: InitialRAMPercentage=80 
+   -XX:InitialRAMPercentage=80 
    -XX:MaxRAMPercentage=80 
    -XX:G1HeapRegionSize=32M 
    -XX:+ExplicitGCInvokesConcurrent 
    -XX:+ExitOnOutOfMemoryError 
    -XX:+HeapDumpOnOutOfMemoryError 
    -XX:-OmitStackTraceInFastThrow 
-   -XX : ReservedCodeCacheSize=512M 
+   -XX:ReservedCodeCacheSize=512M 
    -XX:PerMethodRecompilationCutoff=10000 
    -XX:PerBytecodeRecompilationCutoff=10000 
    -Djak.attach.allowAttachSelf=true 
    -Didk.nio.maxCachedBufferSize=2000000 
    -XX:+UnlockDiagnosticVMOptions 
-   -XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config 
+   -XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config
    ```
 
 3. Download trinodb/trino version 393.
@@ -146,7 +209,7 @@ Follow these instructions to install, build, and verify the backend system.
    ```
    docker run \
       -d \
-      -p 8080:8080 \
+      -p 8081:8081 \
       --name hrp-trino \
       --network hrp \
       --volume trino/etc/catalog \
@@ -161,7 +224,7 @@ Follow these instructions to install, build, and verify the backend system.
    ./gradlew :data-query-service:build -x detekt
    ```
 
-2. Test a Docker build image of data-query-service tag 0.9.0 in data-query-service directory.
+2. Test a build docker image of data-query-service tag 0.9.0 in data-query-service directory.
 
    ```
    docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
@@ -173,7 +236,7 @@ Follow these instructions to install, build, and verify the backend system.
    docker images | grep hrp-data-query-service 
    ```
 
-4. Run the hrp-data-query-service container, exposing the environmental USER with value "docker" to the container and skipping the first line.
+4. Run the hrp-data-query-service container
 
    ```
    docker run \
@@ -182,7 +245,7 @@ Follow these instructions to install, build, and verify the backend system.
       --network hrp \
       -e CATALOG_USER=postgres \
       -e TRINO_HOST=hrp-trino \
-      -e TRINO_PORT=8080 \
+      -e TRINO_PORT=8081 \
       hrp-data-query-service:0.9.0
    ```
 
@@ -225,7 +288,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    ```
    docker run \
-       -p 8081:8080 \
+       -p 8080:8080 \
        --name hrp-account-service \
        --network hrp \
        -e SMTP_HOST=smtp.server.addr \
@@ -254,14 +317,6 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    docker logs -f hrp-platform
    ```
 
-3. Stop and remove the containers, and verify they no longer exist.
-
-   ```
-   docker stop hrp-platform
-   docker rm hrp-platform
-   docker ps -a
-   ```
-
 ## XI. Create Initial Login
 
 > These steps are temporary for the alpha version only. We intend to have a UI-based solution in place by the beta release.
@@ -285,7 +340,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --data-raw '{
     "email": "your_address@your_email.com",
     "password": "your_password"
-   }
+   }'
    ```
 
    > Successful creation results in a response similar to: 
@@ -302,6 +357,8 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    > ```
 
 3. Assign the role to the user.
+
+   User ID is Unique for every User and can be replaced
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/user/role' \
