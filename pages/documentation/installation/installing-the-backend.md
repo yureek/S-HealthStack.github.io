@@ -7,9 +7,51 @@ toc: false
 
 Follow these instructions to install, build, and verify the backend system.
 
-# Install
+# Prerequisite
 
-## I. Install Docker
+## I. Install java 17
+
+First, install dependencies for Oracle JDK 17 installation
+
+```
+sudo apt update
+
+sudo apt install -y libc6-x32 libc6-i386
+```
+
+Then, download Oracle Java JDK 17 using the `wget` command in the terminal.
+
+```
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+```
+
+Finally, install Oracle Java JDK 17 using the `dpkg` command.
+
+```
+sudo dpkg -i jdk-17_linux-x64_bin.deb
+```
+
+Then, install the OpenJDK or JRE package as per the requirement.
+
+**OpenJDK 17 JDK**
+
+```
+sudo apt install -y openjdk-17-jdk
+```
+
+**OpenJDK 17 JRE**
+
+```
+sudo apt install -y openjdk-17-jre
+```
+
+Check the Latest version 
+
+```
+java -version
+```
+
+## II. Install Docker
 ```
 sudo apt install docker.io
 ```
@@ -21,8 +63,8 @@ docker --version
 ```
 sudo systemctl status docker 
 ```
-
-## II. Create Network
+# Steps
+## III. Create Network
    1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
 
       ```
@@ -33,7 +75,8 @@ sudo systemctl status docker
       sudo docker network create hrp
       ```
 
-## III. Deploy Postgres
+
+## IV. Deploy Postgres
 
 1. Start the PostgreSQL object-relational database system container.
 
@@ -74,75 +117,29 @@ sudo systemctl status docker
 
 ## V. Deploy Platform 
 
-1. Prerequisite
-
-   Install java 17
-
-   First, install dependencies for Oracle JDK 17 installation
-
-   ```
-   sudo apt update
-   
-   sudo apt install -y libc6-x32 libc6-i386
-   ```
-
-   Then, download Oracle Java JDK 17 using the `wget` command in the terminal.
-
-   ```
-   wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
-   ```
-
-   Finally, install Oracle Java JDK 17 using the `dpkg` command.
-
-   ```
-   sudo dpkg -i jdk-17_linux-x64_bin.deb
-   ```
-
-   Then, install the OpenJDK or JRE package as per the requirement.
-
-   **OpenJDK 17 JDK**
-
-   ```
-   sudo apt install -y openjdk-17-jdk
-   ```
-
-   **OpenJDK 17 JRE**
-
-   ```
-   sudo apt install -y openjdk-17-jre
-   ```
-
-   Check the Latest version 
-
-   ```
-   java -version
-   ```
-
-2. Test the code and formatting.
-
-   ```
+1. ```
    ./gradlew :platform:ktlintFormat test
    ```
-
-3. Build gradle  to create a jar file of the application.
+   
+2. Create a jar file of the application.
 
    ```
    ./gradlew :platform:build -x detekt
    ```
 
-4. Build a docker image of the hrp-platform 0.9.0 in the platform directory.
+3. Build a docker image of the hrp-platform 0.9.0 in the platform directory.
 
    ```
    docker build --tag hrp-platform:0.9.0 ./platform/
    ```
 
-5. List all images and containers within the hrp network.
+4. List all images and containers within the hrp network.
 
    ```
    docker images | grep hrp
    ```
 
-6. Run the hrp-platform container.
+5. Run the hrp-platform container.
 
    ```
    docker run \
@@ -156,13 +153,13 @@ sudo systemctl status docker
       hrp-platform:0.9.0
    ```
 
-7. Verify the hrp-platform container is running.
+6. Verify the hrp-platform container is running.
 
    ```
    docker ps | grep hrp-platform
    ```
 
-8. Connect to localhost:3030/api/projects. 
+7. Connect to localhost:3030/api/projects. 
 
    ```
    curl --location --request GET localhost:3030/api/projects
@@ -189,7 +186,7 @@ sudo systemctl status docker
    -XX:+ExitOnOutOfMemoryError 
    -XX:+HeapDumpOnOutOfMemoryError 
    -XX:-OmitStackTraceInFastThrow 
-   -XX:ReservedCodeCacheSize=512M 
+   -XX:ReservedCodeCacheSize=256M 
    -XX:PerMethodRecompilationCutoff=10000 
    -XX:PerBytecodeRecompilationCutoff=10000 
    -Djak.attach.allowAttachSelf=true 
@@ -245,7 +242,7 @@ sudo systemctl status docker
       --network hrp \
       -e CATALOG_USER=postgres \
       -e TRINO_HOST=hrp-trino \
-      -e TRINO_PORT=8081 \
+      -e TRINO_PORT=8080 \
       hrp-data-query-service:0.9.0
    ```
 

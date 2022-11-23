@@ -9,7 +9,7 @@ toc: false
 
 ## OpenJDK
 
-Setup and install OpenJDK 11.
+Setup and install OpenJDK 17.
 
 [https://openjdk.org/install/](https://openjdk.org/install/){:target="_blank"}
 
@@ -78,15 +78,6 @@ Dependencies can be declared as below.
 dependencies {
     implementation(project(":kit"))
     implementation(project(":external"))
-}
-```
-
-**build.gradle**
-
-```
-dependencies {
-    implementation project(':kit')
-    implementation project(':external')
 }
 ```
 
