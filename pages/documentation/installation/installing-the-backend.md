@@ -66,9 +66,9 @@ sudo systemctl status docker
 
 ## File Material
 
-If you want to configure the system using files rather than the text code provided below, you can use download code files from the following zip:
+If you want to configure the system using files rather than the text code provided below, you can use download the following *Configuration.zip* file:
 
-
+[S-HealthStack.github.io/Files/installing-the-backend.html at main · S-HealthStack/S-HealthStack.github.io](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html)
 
 
 
