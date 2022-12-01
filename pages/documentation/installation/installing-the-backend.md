@@ -45,7 +45,7 @@ sudo apt install -y openjdk-17-jdk
 sudo apt install -y openjdk-17-jre
 ```
 
-Check the Latest version 
+Check the Latest version.
 
 ```
 java -version
@@ -63,20 +63,27 @@ docker --version
 ```
 sudo systemctl status docker 
 ```
-# Steps
-## III. Create Network
-   1. Create a docker network helm repository proxy (hrp) to connect docker containers. 
 
-      ```
-      docker --network
-      ```
-      
+## File Material
+
+If you want to configure the system using files rather than the text code provided below, you can use download code files from the following zip:
+
+
+
+
+
+
+## Next Steps
+
+## I. Create a Network
+
+   1. Create a docker network repository proxy (hrp) to connect docker containers. 
+
       ```
       sudo docker network create hrp
       ```
 
-
-## IV. Deploy Postgres
+## II. Deploy Postgres
 
 1. Start the PostgreSQL object-relational database system container.
 
@@ -96,7 +103,7 @@ sudo systemctl status docker
    git clone https://github.com/S-HealthStack/backend-system
    ```
 
-## IV. Create Firebase Service Account
+## III. Create Firebase Service Account
 
 1. Create a Firebase `service-account-key.json` file.
 
@@ -165,7 +172,106 @@ sudo systemctl status docker
    curl --location --request GET localhost:3030/api/projects
    ```
 
-## VI. Deploy Trino
+
+
+## VI. Configuration
+
+1.Create Haproxy service 404.http file:
+
+```
+HTTP/1.0 404 Not Found
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+<!DOCTYPE html><html><head><title>404 - Error report</title></head>
+<body>404 Not Found</body>
+</html>
+```
+
+2.Create the haproxy/cors.lua file
+
+```
+core.register_service("cors-response", "http", function(applet)
+applet:set_status(200)
+applet:add_header("Content-Length","0")
+applet:add_header("Access-Control-Allow-Origin",applet.headers["origin"][0])
+applet:add_header("Access-Control-Allow-Credentials","true")
+applet:add_header("Access-Control-Allow-Headers","*")
+applet:add_header("Access-Control-Allow-Methods","GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS")
+applet:add_header("Access-Control-Max-Age", "1728000")
+applet:start_response()
+end)
+```
+
+3.Create the haproxy/cors-origins.lst file:
+
+```
+localhost.*
+
+.*\.mydomain\.com:[8080|8443]
+```
+
+4.Create the haproxy/haproxy.cfg file: 
+
+```
+global
+lua-load /usr/local/etc/haproxy/cors.lua
+defaults
+log global
+mode http
+timeout connect 5000ms
+timeout client 50000ms
+timeout server 50000ms
+option httplog
+log stdout local0
+
+frontend stats
+bind *:8404
+stats enable
+stats uri /
+stats refresh 10s
+
+frontend http_frontend
+bind :3035
+compression algo gzip
+compression type text/css text/html text/javascript application/javascript text/plain text/xml application/json
+
+# CORS configuration
+# capture origin HTTP header
+#capture request header origin len 128
+# add Access-Control-Allow-Origin HTTP header to response if origin matches the list of allowed URLs
+http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if !METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
+# if a preflight request is made, use CORS preflight backend
+http-request use-service lua.cors-response if METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
+acl has_account-service path_beg /account-service
+acl has_query path_reg \/api\/projects\/[0-9]*\/sql$
+acl has_platform path_reg \/api\/projects$
+use_backend platform if has_platform
+use_backend account-service if has_account-service
+use_backend query-service if has_query
+default_backend empty
+backend platform
+http-request set-header Host localhost
+http-response set-header Server None
+server platform hrp-platform:3030 check
+
+backend account-service
+http-request set-header Host localhost
+http-response set-header Server None
+server account-service hrp-account-service:8081 check
+
+backend query-service
+http-request set-header Host localhost
+http-response set-header Server None
+server query-service hrp-data-query-service:3031 check
+
+backend empty
+errorfile 503 /usr/local/etc/haproxy/errors/404.htt
+```
+
+
+
+## V. Deploy Trino
 
 1. Download trinodb/trino version 393.
 
@@ -201,7 +307,19 @@ sudo systemctl status docker
    docker pull trinodb/trino:393
    ```
 
-4. Run the hrp-trino container from trinodb/trino image and map hrp-trino default port 8080 to inside of container port of 8080. 
+4. Create the trino/etc/postgresql/postgresql.properties file: 
+
+   ```
+   connector.name=postgresql 
+   
+   connection-url=jdbc:postgresql://hrp-postgres:5432/postgres 
+   
+   connection-user=postgres 
+   
+   connection-password=password
+   ```
+
+5. Run the hrp-trino container trinodb/trino imthe age and map hrp-trino default port 8080 to inside of container port of 8080. 
 
    ```
    docker run \
@@ -212,6 +330,17 @@ sudo systemctl status docker
       --volume trino/etc/catalog \
       trinodb/trino:393
    ```
+
+6. Create trino-rule-update-service/Dockerfile 
+
+   ```
+   FROM openjdk:17.0.2-jdk-oracle
+   ARG JAR_FILE=build/libs/*.jar
+   COPY ${JAR_FILE} application.jar
+   ENTRYPOINT ["java","-jar","/application.jar"]
+   ```
+
+   
 
 ## VII. Deploy data-query-service
 
@@ -242,7 +371,7 @@ sudo systemctl status docker
       --network hrp \
       -e CATALOG_USER=postgres \
       -e TRINO_HOST=hrp-trino \
-      -e TRINO_PORT=8080 \
+      -e TRINO_PORT=3031 \
       hrp-data-query-service:0.9.0
    ```
 
@@ -252,7 +381,7 @@ sudo systemctl status docker
    docker ps
    ```
 
-## VIII. (Optional) Deploy SuperTokens
+## VIII. Deploy SuperTokens
 
 You don't have to use SuperTokens. You can implement a backend adapter to complement the authorization service of your choice. If you choose to use supertokens:
 1. Create a supertokens database in Postgres.
@@ -277,7 +406,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    ```
    ./gradlew :account-service:build -x detekt
-
+   
    docker build --tag account-service:0.9.0 ./account-service/
    ```
 
@@ -285,7 +414,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    ```
    docker run \
-       -p 8080:8080 \
+        -p 8080:8080 \
        --name hrp-account-service \
        --network hrp \
        -e SMTP_HOST=smtp.server.addr \
@@ -300,7 +429,13 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 ## X. Verify and Clean Up
 
-1. Test the API calls. 
+1. Start docker-compose file 
+
+   ```
+   docker-compose up -d
+   ```
+
+2. Test the API calls. 
 
    ```
    curl --location --request GET localhost:3030/api/projects
@@ -308,7 +443,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    > If you get an unauthorized message, the platform has deployed successfully.
 
-2. Retrieve logs of the container present at the time of execution. 
+3. Retrieve logs of the container present at the time of execution. 
 
    ```
    docker logs -f hrp-platform
@@ -365,3 +500,16 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      "role": "team-admin"
    }
    ```
+
+4 .Open the WEB portal: http://localhost   
+
+   ```
+   Push F12 in browser;
+   Select “Application” tab;
+   Select Local Storage -> localhost
+   Change API_URL value. API_URL: http://localhost:3035 
+   Reload the page (F5).
+   ```
+
+   
+
