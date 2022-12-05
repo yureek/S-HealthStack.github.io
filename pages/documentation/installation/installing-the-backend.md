@@ -7,75 +7,66 @@ toc: false
 
 Follow these instructions to install, build, and verify the backend system.
 
-# Prerequisite
+# Prerequisites
 
-## I. Install java 17
+## I. Install Java 17
 
-First, install dependencies for Oracle JDK 17 installation
+1. Install the dependencies for an Oracle JDK 17 installation.
 
-```
-sudo apt update
+   ```
+   sudo apt update
+   sudo apt install -y libc6-x32 libc6-i386
+   ```
+   
+2. Download Oracle Java JDK 17 using the `wget` command in the terminal <!--what terminal? How is this different than where they type the sudo command in step 1?-->.
 
-sudo apt install -y libc6-x32 libc6-i386
-```
+   ```
+   wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+   ```
 
-Then, download Oracle Java JDK 17 using the `wget` command in the terminal.
+3. Install Oracle Java JDK 17.
 
-```
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
-```
+   ```
+   sudo dpkg -i jdk-17_linux-x64_bin.deb
+   ```
 
-Finally, install Oracle Java JDK 17 using the `dpkg` command.
+4. Install the OpenJDK or JRE package as per the requirement.<!--What requirement?-->Perform one of these OpenJDK installs depending on ????
+   - OpenJDK 17 JDK
+      ```
+      sudo apt install -y openjdk-17-jdk
+      ```
 
-```
-sudo dpkg -i jdk-17_linux-x64_bin.deb
-```
+   - OpenJDK 17 JRE
+      ```
+      sudo apt install -y openjdk-17-jre
+      ```
 
-Then, install the OpenJDK or JRE package as per the requirement.
+5. Verify that you have successfully installed version 17.
 
-**OpenJDK 17 JDK**
-
-```
-sudo apt install -y openjdk-17-jdk
-```
-
-**OpenJDK 17 JRE**
-
-```
-sudo apt install -y openjdk-17-jre
-```
-
-Check the Latest version.
-
-```
-java -version
-```
+   ```
+   java -version
+   ```
 
 ## II. Install Docker
-```
-sudo apt install docker.io
-```
 
-```
-docker --version
-```
+1. Install Docker.
 
-```
-sudo systemctl status docker 
-```
+      ```
+      sudo apt install docker.io
+      ```
+      
+2. Confirm successful installation.
+      ```
+      docker --version
+      sudo systemctl status docker 
+      ```
 
-## File Material
+# Build
 
-If you want to configure the system using files rather than the text code provided below, you can use download the following *Configuration.zip* file:
+>  To build the system using files rather than steps  <!--I. through ??-->, navigate to [S-HealthStack.github.io/Files/installing-the-backend.html](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html), download **Configuration.zip**, and <!--???-->.
+<!--Why the confusing folder name? Should this link be bold?-->
 
-[S-HealthStack.github.io/Files/installing-the-backend.html](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html)
-
-
-
-
-## Next Steps
-
-## I. Create a Network
+## III. Create a Network
 
    1. Create a docker network repository proxy (hrp) to connect docker containers. 
 
@@ -83,7 +74,7 @@ If you want to configure the system using files rather than the text code provid
       sudo docker network create hrp
       ```
 
-## II. Deploy Postgres
+## IV. Deploy Postgres
 
 1. Start the PostgreSQL object-relational database system container.
 
@@ -103,28 +94,28 @@ If you want to configure the system using files rather than the text code provid
    git clone https://github.com/S-HealthStack/backend-system
    ```
 
-## III. Create Firebase Service Account
+## V. Create Firebase Service Account
 
-1. Create a Firebase `service-account-key.json` file.
+1. Create a Firebase **service-account-key.json** file.
 
-2. In the Firebase console, open settings > service accounts
+2. In the Firebase console, open **Settings > Service accounts**.
 
-3. Click the **generate New Private key** 
+3. Click **Generate new private key** .
 
-4. Securely store the JSON file containing the key
+4. Securely store the JSON file containing the key. <!--Why aren't cd and touch in step 1?-->
 
    ```
    cd backend-system/platform
    touch service-account-key.json
    ```
 
-5. Update the `service-account-key.json` file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
+5. Update the **service-account-key.json** file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
 
-# Building
+## VI. Deploy Platform 
 
-## V. Deploy Platform 
-
-1. ```
+1. Test and format the code.
+   
+   ```
    ./gradlew :platform:ktlintFormat test
    ```
    
@@ -172,114 +163,109 @@ If you want to configure the system using files rather than the text code provid
    curl --location --request GET localhost:3030/api/projects
    ```
 
+## VII. Haproxy Configuration
 
+1. Create the Haproxy **service 404.http** file with these contents:
 
-## VI. Configuration
+   ```
+   HTTP/1.0 404 Not Found
+   Cache-Control: no-cache
+   Connection: close
+   Content-Type: text/html
+   <!DOCTYPE html><html><head><title>404 - Error report</title></head>
+   <body>404 Not Found</body>
+   </html>
+   ```
 
-1.Create Haproxy service 404.http file:
+2. Create the **haproxy/cors.lua** file with these contents:
 
-```
-HTTP/1.0 404 Not Found
-Cache-Control: no-cache
-Connection: close
-Content-Type: text/html
-<!DOCTYPE html><html><head><title>404 - Error report</title></head>
-<body>404 Not Found</body>
-</html>
-```
+   ```
+   core.register_service("cors-response", "http", function(applet)
+   applet:set_status(200)
+   applet:add_header("Content-Length","0")
+   applet:add_header("Access-Control-Allow-Origin",applet.headers["origin"][0])
+   applet:add_header("Access-Control-Allow-Credentials","true")
+   applet:add_header("Access-Control-Allow-Headers","*")
+   applet:add_header("Access-Control-Allow-Methods","GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS")
+   applet:add_header("Access-Control-Max-Age", "1728000")
+   applet:start_response()
+   end)
+   ```
 
-2.Create the haproxy/cors.lua file
+3. Create the **haproxy/cors-origins.lst** file with these contents:
 
-```
-core.register_service("cors-response", "http", function(applet)
-applet:set_status(200)
-applet:add_header("Content-Length","0")
-applet:add_header("Access-Control-Allow-Origin",applet.headers["origin"][0])
-applet:add_header("Access-Control-Allow-Credentials","true")
-applet:add_header("Access-Control-Allow-Headers","*")
-applet:add_header("Access-Control-Allow-Methods","GET, HEAD, POST, PUT, DELETE, PATCH, OPTIONS")
-applet:add_header("Access-Control-Max-Age", "1728000")
-applet:start_response()
-end)
-```
+   ```
+   localhost.*
+   .*\.mydomain\.com:[8080|8443]
+   ```
 
-3.Create the haproxy/cors-origins.lst file:
+4. Create the **haproxy/haproxy.cfg** file with these contents:
 
-```
-localhost.*
+   ```
+   global
+   lua-load /usr/local/etc/haproxy/cors.lua
+   defaults
+   log global
+   mode http
+   timeout connect 5000ms
+   timeout client 50000ms
+   timeout server 50000ms
+   option httplog
+   log stdout local0
+   
+   frontend stats
+   bind *:8404
+   stats enable
+   stats uri /
+   stats refresh 10s
+   
+   frontend http_frontend
+   bind :3035
+   compression algo gzip
+   compression type text/css text/html text/javascript application/javascript text/plain text/xml application/json
+   
+   # CORS configuration
+   # capture origin HTTP header
+   # capture request header origin len 128
+   # add Access-Control-Allow-Origin HTTP header to response if origin matches the list of allowed URLs
+   http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if !METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
+   # if a preflight request is made, use CORS preflight backend
+   http-request use-service lua.cors-response if METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
+   acl has_account-service path_beg /account-service
+   acl has_query path_reg \/api\/projects\/[0-9]*\/sql$
+   acl has_platform path_reg \/api\/projects$
+   use_backend platform if has_platform
+   use_backend account-service if has_account-service
+   use_backend query-service if has_query
+   default_backend empty
+   backend platform
+   http-request set-header Host localhost
+   http-response set-header Server None
+   server platform hrp-platform:3030 check
+   
+   backend account-service
+   http-request set-header Host localhost
+   http-response set-header Server None
+   server account-service hrp-account-service:8081 check
+   
+   backend query-service
+   http-request set-header Host localhost
+   http-response set-header Server None
+   server query-service hrp-data-query-service:3031 check
+   
+   backend empty
+   errorfile 503 /usr/local/etc/haproxy/errors/404.htt
+   ```
 
-.*\.mydomain\.com:[8080|8443]
-```
-
-4.Create the haproxy/haproxy.cfg file: 
-
-```
-global
-lua-load /usr/local/etc/haproxy/cors.lua
-defaults
-log global
-mode http
-timeout connect 5000ms
-timeout client 50000ms
-timeout server 50000ms
-option httplog
-log stdout local0
-
-frontend stats
-bind *:8404
-stats enable
-stats uri /
-stats refresh 10s
-
-frontend http_frontend
-bind :3035
-compression algo gzip
-compression type text/css text/html text/javascript application/javascript text/plain text/xml application/json
-
-# CORS configuration
-# capture origin HTTP header
-#capture request header origin len 128
-# add Access-Control-Allow-Origin HTTP header to response if origin matches the list of allowed URLs
-http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if !METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
-# if a preflight request is made, use CORS preflight backend
-http-request use-service lua.cors-response if METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
-acl has_account-service path_beg /account-service
-acl has_query path_reg \/api\/projects\/[0-9]*\/sql$
-acl has_platform path_reg \/api\/projects$
-use_backend platform if has_platform
-use_backend account-service if has_account-service
-use_backend query-service if has_query
-default_backend empty
-backend platform
-http-request set-header Host localhost
-http-response set-header Server None
-server platform hrp-platform:3030 check
-
-backend account-service
-http-request set-header Host localhost
-http-response set-header Server None
-server account-service hrp-account-service:8081 check
-
-backend query-service
-http-request set-header Host localhost
-http-response set-header Server None
-server query-service hrp-data-query-service:3031 check
-
-backend empty
-errorfile 503 /usr/local/etc/haproxy/errors/404.htt
-```
-
-
-
-## V. Deploy Trino
+## VIII. Deploy Trino
 
 1. Download trinodb/trino version 393.
 
-   ```
+```
    docker pull trinodb/trino:393
-   ```
+```
 
-2. Create the `jvm.config` file.
+2. Create the **jvm.config** file.
 
    ```
    echo "\
@@ -301,25 +287,16 @@ errorfile 503 /usr/local/etc/haproxy/errors/404.htt
    -XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config
    ```
 
-3. Download trinodb/trino version 393.
-
-   ```
-   docker pull trinodb/trino:393
-   ```
-
-4. Create the trino/etc/postgresql/postgresql.properties file: 
+3. Create the **trino/etc/postgresql/postgresql.properties** file with these contents:: 
 
    ```
    connector.name=postgresql 
-   
    connection-url=jdbc:postgresql://hrp-postgres:5432/postgres 
-   
    connection-user=postgres 
-   
    connection-password=password
    ```
 
-5. Run the hrp-trino container trinodb/trino imthe age and map hrp-trino default port 8080 to inside of container port of 8080. 
+5. Run the hrp-trino container trinodb/trino image and map the hrp-trino default port 8080 to inside of container port of 8080. <!--Why 8080 here but 8081 in instruction?-->
 
    ```
    docker run \
@@ -331,7 +308,7 @@ errorfile 503 /usr/local/etc/haproxy/errors/404.htt
       trinodb/trino:393
    ```
 
-6. Create trino-rule-update-service/Dockerfile 
+6. Create **trino-rule-update-service/Dockerfile** with these contents:
 
    ```
    FROM openjdk:17.0.2-jdk-oracle
@@ -342,7 +319,7 @@ errorfile 503 /usr/local/etc/haproxy/errors/404.htt
 
    
 
-## VII. Deploy data-query-service
+## IX. Deploy data-query-service
 
 1. Change the directory and build the application data-query-service and generate a jar file, performing a code test. 
 
@@ -362,7 +339,7 @@ errorfile 503 /usr/local/etc/haproxy/errors/404.htt
    docker images | grep hrp-data-query-service 
    ```
 
-4. Run the hrp-data-query-service container
+4. Run the hrp-data-query-service container.
 
    ```
    docker run \
@@ -381,7 +358,7 @@ errorfile 503 /usr/local/etc/haproxy/errors/404.htt
    docker ps
    ```
 
-## VIII. Deploy SuperTokens
+## X. Deploy SuperTokens
 
 You don't have to use SuperTokens. You can implement a backend adapter to complement the authorization service of your choice. If you choose to use supertokens:
 1. Create a supertokens database in Postgres.
@@ -400,13 +377,13 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
       -d supertokens/supertokens-postgresql
    ```
 
-## IX. Deploy Account Service
+## XI. Deploy Account Service
 
 1. Create a Docker image of the account service.
 
    ```
    ./gradlew :account-service:build -x detekt
-   
+
    docker build --tag account-service:0.9.0 ./account-service/
    ```
 
@@ -427,9 +404,9 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 # Wrap Up
 
-## X. Verify and Clean Up
+## XII. Verify and Clean Up
 
-1. Start docker-compose file 
+1. Start the docker-compose file.
 
    ```
    docker-compose up -d
@@ -449,7 +426,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    docker logs -f hrp-platform
    ```
 
-## XI. Create Initial Login
+## XIII. Create Initial Login
 
 > These steps are temporary for the alpha version only. We intend to have a UI-based solution in place by the beta release.
 
@@ -488,9 +465,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    > }
    > ```
 
-3. Assign the role to the user.
-
-   User ID is Unique for every User and can be replaced
+3. Copy the returned `id` to the `userId` field in the following command to assign the team-admin role to the user.
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/user/role' \
@@ -501,15 +476,14 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    }
    ```
 
-4 .Open the WEB portal: http://localhost   
+## XIV. Launch the Web Portal
 
-   ```
-   Push F12 in browser;
-   Select “Application” tab;
-   Select Local Storage -> localhost
-   Change API_URL value. API_URL: http://localhost:3035 
-   Reload the page (F5).
-   ```
+1. In Chrome, navigate to http://localhost.
 
-   
+2. Specify the port you configured in the **haproxy.cfg** file.
 
+   1. Press F12 to open the inspector.
+   2. Click the **Application** tab.
+   3. Select **Local Storage > localhost**.
+   4. Change the value for the `API_URL` key to `http://localhost:3035`.
+3. Press F5 to reload the page and open the web portal.

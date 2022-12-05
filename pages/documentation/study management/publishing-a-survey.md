@@ -16,11 +16,11 @@ To schedule and publish a survey:
     - Daily - Participants complete this survey type each day of the study.
     - Weekly - Participants complete this survey type once a week for the duration of the study.
     - Monthly - Participants complete this survey type once a month for the duration of the study.
-    > For months with fewer days than the date selected, the survey occurs on the last day of the month
+    > In the alpha version (v0.9), specifying a monthly survey to occur on the 29th, 30th, or 31st results in the survey not occurring in months without the specified day.<!--For months with fewer days than the date selected, the survey occurs on the last day of the month.-->
 4. For **Publish time**, select the dates and times to start and end when the survey is accessible in the app.
- > **Publish Time** is local time for each participant and must be in the future for all participants.
+ > **Publish Time** <!--is local time for each participant and -->must be in the future for all participants and displays in the local time for the Eastern-most participant.
 4. For **Valid duration**, specify the length of time that each occurrence of the survey remains available to participants.
-5. Optionally, select **Allow late response after selected duration** to allow participants to take the survey even after the recommended completion time.
+5. Optionally, select **Allow late response after selected duration** to allow participants to take the survey even after the specified **Valid duration** time has passed.
 
    > This feature has not been implemented in the alpha version (v0.9).
 7. Click **Publish**.
