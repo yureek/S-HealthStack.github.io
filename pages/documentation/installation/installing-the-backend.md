@@ -63,7 +63,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 # Build
 
->  To build the system using files rather than steps  <!--I. through ??-->, navigate to [S-HealthStack.github.io/Files/installing-the-backend.html](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html), download **Configuration.zip**, and <!--???-->.
+>  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [S-HealthStack.github.io/Files/installing-the-backend.html](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html), download **Configuration.zip**, and extract the contents to the your **backed-system** directory.<!--is this correct???-->.
 <!--Why the confusing folder name? Should this link be bold?-->
 
 ## III. Create a Network
@@ -165,7 +165,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## VII. Haproxy Configuration
 
-1. Create the Haproxy **service 404.http** file with these contents:
+1. Create the Haproxy service **haproxy/404.http** file with these contents:<!-- I added haproxy/ - correct?-->
 
    ```
    HTTP/1.0 404 Not Found
@@ -406,7 +406,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 ## XII. Verify and Clean Up
 
-1. Start the docker-compose file.
+1. Start the docker-compose file. <!--Is this the .yml file? What if they don't use the .zip?-->
 
    ```
    docker-compose up -d
