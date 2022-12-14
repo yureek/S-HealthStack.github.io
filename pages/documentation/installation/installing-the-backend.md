@@ -65,7 +65,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 # Build
 
->  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [this files directory](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/files/installing-the-backend), download **backend-config-files.zip**, extract the contents to a temporary location of your choosing, and move each desired file into place as you encounter them in the steps below.
+>  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [this GitHub directory](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/files/installing-the-backend){:target="_blank"}, download **backend-config-files.zip**, extract the contents to a temporary location of your choosing, and move each desired file into place as you encounter them in the steps below.
 
 ## III. Create a Network
 
