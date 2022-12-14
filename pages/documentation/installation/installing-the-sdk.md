@@ -5,91 +5,86 @@ permalink: installing-the-sdk.html
 toc: false
 ---
 
-# Prerequisite
+Follow these instructions to install, build, and verify the app SDK.
 
-## OpenJDK
+> These steps require successful prior completion of the [backend system installation](installing-the-backend.md).
 
-Setup and install OpenJDK 17.
+# Prerequisites
 
-[https://openjdk.org/install/](https://openjdk.org/install/){:target="_blank"}
+## I. Install OpenJDK 17
 
-## Android Studio 
+1. Set up and install OpenJDK 17 using the instructions at [https://openjdk.org/install/](https://openjdk.org/install/){:target="_blank"}.
 
-Setup and install Android Studio on Windows, macOS, or Linux.
+## II. Install Android Studio 
 
-[https://developer.android.com/studio](https://developer.android.com/studio){:target="_blank"}
+1. Set up and install Android Studio on Windows, macOS, or Linux using the instructions at [https://developer.android.com/studio](https://developer.android.com/studio){:target="_blank"}.
 
-# Clone the repository
+## III. Clone the Repository
 
-Clone the Research-SDK using the following command 
+1. Clone the app SDK repository. 
 
-```git
-git clone https://github.com/S-HealthStack/app-sdk
-```
+   ```
+   git clone https://github.com/S-HealthStack/app-sdk
+   ```
 
 # Build
+<!-- Zain to check if detekt is supported -->
 
-Currently, detekt is not supported because of some issues.
+## IV. Prepare the Modules
+1. Clean all modules.
+   ```
+   ./gradlew clean 
+   ```
 
-```bash
-# clean all modules
-./gradlew clean 
+2. Build either all modules or just the kit.
 
-# build all modules including sample modules
-./gradlew build -x detekt
+   - To build all modules, including sample modules:
 
-# build only kit module
-# this action generates aar(android archive package)
-./gradlew :kit:build -x detekt
-```
+      ```
+      ./gradlew build -x detekt
+      ```
 
-## Unit Test
+   - To build just the kit module and generate an android archive package (aar):
 
-```bash
-# test all modules including samples
-./gradlew test
+      ```
+      ./gradlew :kit:build -x detekt
+      ```
 
-# test only kit
-./gradlew :kit:test
-```
+## V. Unit Test
 
-## Check Coding Style
+1. Test either all modules or just the kit.
 
-The [Compose API guidelines](https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-api-guidelines.md){:target="_blank"} outline the patterns, best practices, and prescriptive style guidelines for writing idiomatic Jetpack Compose APIs. 
+   - To test all modules, including samples:
 
-# API Documentation
+      ```
+      ./gradlew test
+      ```
 
-To view the API Reference please visit the [API Reference](/backend-api-endpoints.html) Page.
+   - To test just the kit:
 
-# Configurations
-
-## Kit and External
-
-This sample application depends on SDK modules so it must have kit and external.
-
-Dependencies can be declared as below.
+      ```
+      ./gradlew :kit:test
+      ```
 
 
-*samples>researchsample>build.gradle.kts*
+## VI. Check the Coding Style
 
-**build.gradle.kts**
+1. Use the [Compose API guidelines](https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-api-guidelines.md){:target="_blank"} to check your coding style. The guidelines outline the patterns, best practices, and prescriptive style guidelines for writing idiomatic Jetpack Compose APIs. 
 
-```
-dependencies {
-    implementation(project(":kit"))
-    implementation(project(":external"))
-}
-```
+## VII. Create a Firebase Project
 
-## Firebase project setup
+1. Follow the instructions at [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} to add a Firebase project to the Firebase account you created during backend system installation.
 
-The starter application uses Firebase, so you need to create a Firebase project. Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
-
-## Per app configuration
+## VIII. Per App Configuration
 
 After app creation, for each app you need to:
 
-- Register your app with your Firebase project by updating the ***\<repository\>*/app/google-service.json** configuration file.
-- Associate your app with the backend system and portal study.
+1. Register your app with your Firebase project by updating the ***\<repository\>*/app/google-service.json** configuration file.
+
+2. Associate your app with the backend system and portal study.
 
 Refer to [Configuring the App Environment](../app creation/configuring-the-app.md) for details.
+
+## IX. API Reference Documentation
+
+Refer to our [API reference documentation](/backend-api-endpoints.html) for details on all the backend API endpoints.

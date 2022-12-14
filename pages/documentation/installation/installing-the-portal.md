@@ -39,7 +39,7 @@ These steps are only necessary if you intent to make changes to the source code.
        --build-arg API_URL='https://example.com' \
        --build-arg PUBLIC_PATH='/portal'
    ```
-   The resulting Docker image will run nginx on port `80`.
+   The resulting Docker image runs nginx on port `80`.
 
 > If you'd prefer to build static files instead of using Docker:
 > 

@@ -11,26 +11,28 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## I. Install Java 17
 
-1. Install the dependencies for an Oracle JDK 17 installation.
+1. Open a Linux terminal window.
+
+2. Install the dependencies for an Oracle JDK 17 installation.
 
    ```
    sudo apt update
    sudo apt install -y libc6-x32 libc6-i386
    ```
-   
-2. Download Oracle Java JDK 17 using the `wget` command in the terminal <!--what terminal? How is this different than where they type the sudo command in step 1?-->.
+
+3. Download Oracle Java JDK 17.
 
    ```
    wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
    ```
 
-3. Install Oracle Java JDK 17.
+4. Install Oracle Java JDK 17.
 
    ```
    sudo dpkg -i jdk-17_linux-x64_bin.deb
    ```
 
-4. Install the OpenJDK or JRE package as per the requirement.<!--What requirement?-->Perform one of these OpenJDK installs depending on ????
+5. Install either the OpenJDK or JRE package.
    - OpenJDK 17 JDK
       ```
       sudo apt install -y openjdk-17-jdk
@@ -41,7 +43,7 @@ Follow these instructions to install, build, and verify the backend system.
       sudo apt install -y openjdk-17-jre
       ```
 
-5. Verify that you have successfully installed version 17.
+6. Verify that you have successfully installed version 17.
 
    ```
    java -version
@@ -63,8 +65,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 # Build
 
->  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [S-HealthStack.github.io/Files/installing-the-backend.html](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/Files/installing-the-backend.html), download **Configuration.zip**, and extract the contents to the your **backed-system** directory.<!--is this correct???-->.
-<!--Why the confusing folder name? Should this link be bold?-->
+>  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [this files directory](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/files/installing-the-backend), download **backend-config-files.zip**, extract the contents to a temporary location of your choosing, and move each desired file into place as you encounter them in the steps below.
 
 ## III. Create a Network
 
@@ -97,19 +98,17 @@ Follow these instructions to install, build, and verify the backend system.
 ## V. Create Firebase Service Account
 
 1. Create a Firebase **service-account-key.json** file.
-
-2. In the Firebase console, open **Settings > Service accounts**.
-
-3. Click **Generate new private key** .
-
-4. Securely store the JSON file containing the key. <!--Why aren't cd and touch in step 1?-->
-
    ```
    cd backend-system/platform
    touch service-account-key.json
    ```
 
-5. Update the **service-account-key.json** file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
+2. In the Firebase console, navigate to **Settings > Service accounts**.
+
+3. Click **Generate new private key**.
+
+4. Update the **service-account-key.json** file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
+   >  Be sure to keep this file private and securely-stored. It contains your unique security key.
 
 ## VI. Deploy Platform 
 
@@ -165,7 +164,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 ## VII. Haproxy Configuration
 
-1. Create the Haproxy service **haproxy/404.http** file with these contents:<!-- I added haproxy/ - correct?-->
+1. Create the Haproxy service **haproxy/404.http** file with these contents:
 
    ```
    HTTP/1.0 404 Not Found
@@ -265,7 +264,7 @@ Follow these instructions to install, build, and verify the backend system.
    docker pull trinodb/trino:393
 ```
 
-2. Create the **jvm.config** file.
+2. Create the **trino/etc/catalog/jvm.config** file with these contents:
 
    ```
    echo "\
@@ -287,7 +286,7 @@ Follow these instructions to install, build, and verify the backend system.
    -XX:+UseAESCTRIntrinsics" > trino/etc/catalog/jvm.config
    ```
 
-3. Create the **trino/etc/postgresql/postgresql.properties** file with these contents:: 
+3. Create the **trino/etc/postgresql/postgresql.properties** file with these contents:
 
    ```
    connector.name=postgresql 
@@ -296,7 +295,7 @@ Follow these instructions to install, build, and verify the backend system.
    connection-password=password
    ```
 
-5. Run the hrp-trino container trinodb/trino image and map the hrp-trino default port 8080 to inside of container port of 8080. <!--Why 8080 here but 8081 in instruction?-->
+5. Run the hrp-trino container trinodb/trino image and map the hrp-trino default port 8081 to the inside of the container port of 8081.
 
    ```
    docker run \
@@ -308,7 +307,7 @@ Follow these instructions to install, build, and verify the backend system.
       trinodb/trino:393
    ```
 
-6. Create **trino-rule-update-service/Dockerfile** with these contents:
+6. Create the **trino-rule-update-service/Dockerfile** file with these contents:
 
    ```
    FROM openjdk:17.0.2-jdk-oracle
@@ -406,13 +405,148 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 ## XII. Verify and Clean Up
 
-1. Start the docker-compose file. <!--Is this the .yml file? What if they don't use the .zip?-->
+1. Create the **docker-compose.yml** file with these contents:
+   ```
+   version: '3.5'
+   
+   services:
+     postgres:
+       container_name: hrp-postgres
+       image: postgres:14.5
+       environment:
+         POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+       ports:
+         - "5432:5432"
+       networks:
+         - hrp
+       restart: unless-stopped 
+     supertokens:
+       container_name: hrp-supertokens
+       image: supertokens/supertokens-postgresql
+       depends_on:
+           - postgres
+       environment:
+           POSTGRESQL_USER: ${POSTGRESQL_USER:-postgres}
+           POSTGRESQL_HOST: ${POSTGRESQL_HOST:-hrp-postgres}
+           POSTGRESQL_PORT: ${POSTGRESQL_PORT:-5432}
+           POSTGRESQL_PASSWORD: ${POSTGRESQL_PASSWORD:-password}
+           POSTGRESQL_DATABASE_NAME: ${POSTGRESQL_DATABASE_NAME:-supertokens}
+       ports:
+           - "3567:3567"
+       networks:
+           - hrp
+     platform:
+       container_name: hrp-platform
+       image: hrp-platform:0.9.0
+       depends_on:
+           - postgres
+       environment:
+           DB_HOST: ${DB_HOST:-hrp-postgres}
+           DB_PASSWORD: ${DB_HOST:-password}
+           GOOGLE_APPLICATION_CREDENTIALS:    ${GOOGLE_APPLICATION_CREDENTIALS:-service-account-key.json}
+           JWK_URL: ${JWK_URL:-http://hrp-supertokens:3567/recipe/jwt/jwks}
+           ACCOUNT_SERVICE_URL: ${ACCOUNT_SERVICE_URL:-http://hrp-account-service:8081}
+       ports:
+           - "3030:3030"
+       networks:
+         - hrp
+     account-service:
+       container_name: hrp-account-service
+       image: account-service:0.9.0
+       depends_on:
+           - supertokens
+       environment:
+           SMTP_HOST: ${SMTP_HOST:-smtp.gmail.com}
+           SMTP_PORT: ${SMTP_PORT:-465}
+           MAIL_USER: ${MAIL_USER:-testl@gmail.com}
+           MAIL_USER_PASSWORD: ${MAIL_USER_PASSWORD:-PasswordTest}
+           SUPER_TOKEN_URL: ${SUPER_TOKEN_URL:-http://hrp-supertokens:3567}
+           JWK_URL: ${JWK_URL:-http://hrp-supertokens:3567/recipe/jwt/jwks}
+        
+       ports:
+           - "8081:8081"
+       networks:
+           - hrp
+     trino:
+       container_name: hrp-trino
+       image: trinodb/trino:402
+       depends_on:
+           - postgres
+       ports:
+           - "8080:8080"
+       volumes:
+           - ./rule-update/:/etc/trino/access-control/
+           - ./trino/etc/catalog/jvm.config:/etc/jvm.config
+           - ./trino/etc/postgresql/postgresql.properties:/etc/trino/catalog/postgresql.properties
+       networks:
+           - hrp
+   
+     data-query-service:
+       container_name: hrp-data-query-service
+       image: hrp-data-query-service:0.9.0
+       depends_on:
+           - trino
+       environment:
+           TRINO_CATALOG: ${TRINO_CATALOG:-postgresql}
+           TRINO_HOST: ${TRINO_HOST:-hrp-trino}
+           TRINO_PORT: ${TRINO_PORT:-8080}
+           JWK_URL: ${JWK_URL:-http://hrp-supertokens:3567/recipe/jwt/jwks}
+           debug: true
+       ports:
+           - "3031:3031"
+       networks:
+           - hrp
+     trino-rule-update-service:
+       container_name: hrp-trino-rule-update-service
+       image: trino-rule-update-service:0.9.0
+       environment:
+           FIXED_DELAY_MILLISEC: ${FIXED_DELAY_MILLISEC:-5000}
+           ACCOUNT_SERVICE_URL: ${ACCOUNT_SERVICE_URL:-http://hrp-account-service:8081}
+       depends_on:
+           - account-service
+       volumes:
+           - ./rule-update/rules.json:/etc/trino/access-control/rules.json
+       networks:
+           - hrp
+     web:
+       container_name: open-source-portal
+       image: docker.io/library/open-source-portal
+       depends_on:
+           - account-service
+       ports:
+         - "80:80"
+       networks:
+         - hrp
+       restart: unless-stopped 
+     haproxy:
+       image: haproxy:2.6.6
+       container_name: hrp-balancer
+       depends_on:
+           - web
+       ports:
+         - "3035:3035"
+         - "8404:8404"
+       volumes:
+           - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+           - ./haproxy/404.http:/usr/local/etc/haproxy/errors/404.http:ro
+           - ./haproxy/cors-origins.lst:/usr/local/etc/haproxy/cors-origins.lst:ro
+           - ./haproxy/cors.lua:/usr/local/etc/haproxy/cors.lua:ro
+       networks:
+         - hrp
+       restart: unless-stopped
+   networks:
+     hrp:
+       external: true
+       driver: bridge
+   ```
+   
+2. Start the **docker-compose.yml** file. 
 
    ```
    docker-compose up -d
    ```
 
-2. Test the API calls. 
+3. Test the API calls. 
 
    ```
    curl --location --request GET localhost:3030/api/projects
@@ -420,7 +554,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    > If you get an unauthorized message, the platform has deployed successfully.
 
-3. Retrieve logs of the container present at the time of execution. 
+4. Retrieve logs of the container present at the time of execution. 
 
    ```
    docker logs -f hrp-platform
