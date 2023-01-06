@@ -225,7 +225,7 @@ Follow these instructions to install, build, and verify the backend system.
    
    # CORS configuration
    # capture origin HTTP header
-   # capture request header origin len 128
+   capture request header origin len 128
    # add Access-Control-Allow-Origin HTTP header to response if origin matches the list of allowed URLs
    http-response add-header Access-Control-Allow-Origin %[capture.req.hdr(0)] if !METH_OPTIONS { capture.req.hdr(0) -m reg -f /usr/local/etc/haproxy/cors-origins.lst }
    # if a preflight request is made, use CORS preflight backend
@@ -245,15 +245,15 @@ Follow these instructions to install, build, and verify the backend system.
    backend account-service
    http-request set-header Host localhost
    http-response set-header Server None
-   server account-service hrp-account-service:8081 check
-   
+   server account-service hrp-account-service:8080 check
+      
    backend query-service
    http-request set-header Host localhost
    http-response set-header Server None
-   server query-service hrp-data-query-service:3031 check
+   server query-service hrp-data-query-service:3030 check
    
    backend empty
-   errorfile 503 /usr/local/etc/haproxy/errors/404.htt
+   errorfile 503 /usr/local/etc/haproxy/errors/404.http
    ```
 
 ## VIII. Deploy Trino
@@ -605,8 +605,9 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    curl --location --request PUT 'localhost:3567/recipe/user/role' \
    --header 'Content-Type: application/json' \
    --data-raw '{
-     "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
-     "role": "team-admin"
+   "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
+   "role": "team-admin"
+   }'
    }
    ```
 
