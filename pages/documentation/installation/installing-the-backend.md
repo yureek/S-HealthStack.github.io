@@ -389,16 +389,18 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 2. Deploy the account service and identify your email server.
 
    ```
-   docker run \
-        -p 8080:8080 \
-       --name hrp-account-service \
-       --network hrp \
-       -e SMTP_HOST=smtp.server.addr \
-       -e SMTP_POST=smtp_port \
-       -e MAIL_USER=username \
-       -e MAIL_USER_PASSWORD=password \
-       -d \
-       account-service:0.9.0
+docker run \
+     -p 8080:8080 \
+    --name hrp-account-service \
+    --network hrp \
+    -e SMTP_HOST=smtp.server.addr \
+    -e SMTP_POST=smtp_port \
+    -e MAIL_USER=username \
+    -e MAIL_USER_PASSWORD=password \
+    -e SUPER_TOKEN_URL: ${SUPER_TOKEN_URL:-http://hrp-supertokens:3567} \
+    -e JWK_URL: ${JWK_URL:-http://hrp-supertokens:3567/recipe/jwt/jwks} \
+    -d \
+    account-service:0.9.0
    ```
 
 # Wrap Up
