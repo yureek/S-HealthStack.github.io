@@ -51,7 +51,7 @@ The easiest image capture and placement steps we have so far are:
 
 *  Rename the pasted image ***\<same-name-as-md-file\>*.png**.
 
-*  Export the pasted image as PNG to **C:\Dev\healthcare-research-hub-home\images**.
+*  Export the pasted image as PNG to **C:\Dev\healthstack-ghpages\images**.
 
    > When accessing Figma in a browser window, you have to manually move the file from the downloads folder.
 
@@ -102,7 +102,7 @@ Though not ideal, the easiest image capture and placement steps we have so far a
 *  Rename the pasted image *same-name-as-md-file.png* and at the same time copy the name to the clipboard.
 *  Export the pasted image as PNG.
 *  Wait for the copy complete message to appear at the bottom of the Figma window.
-*  Move the PNG from the downloads folder to C:\Dev\healthcare-research-hub-home\images.
+*  Move the PNG from the downloads folder to C:\Dev\healthstack-ghpages\images.
 *  In Typora, double-click the word *filename* and type ctrl-v to paste the name saved in the clipboard.
 *  Review the results in the local web.
 

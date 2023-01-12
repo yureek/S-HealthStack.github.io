@@ -25,4 +25,4 @@ To schedule and publish a survey:
    > This feature has not been implemented in the alpha version (v0.9).
 7. Click **Publish**.
 
-> Once published, surveys cannot be modified in Healthcare Research Hub v0.9.
+> Once published, surveys cannot be modified in Samsung Health Stack v0.9.
