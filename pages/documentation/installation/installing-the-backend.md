@@ -610,7 +610,6 @@ docker run \
    "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
    "role": "team-admin"
    }'
-   }
    ```
 
 ## XIV. Launch the Web Portal
