@@ -617,18 +617,18 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --data-raw '{ "email": "your_address@your_email.com", "password": "your_password" }'
    ```
 
-> Successful creation results in a response similar to: 
->
-> ```
-> {
->   "status": "OK",
->   "user": {
->       "email": "team-admin@samsung.com",
->       "id": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
->       "timeJoined": 1664864683438
->   }
-> }
-> ```
+   > Successful creation results in a response similar to: 
+   >
+   > ```
+   > {
+   >   "status": "OK",
+   >   "user": {
+   >       "email": "team-admin@samsung.com",
+   >       "id": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
+   >       "timeJoined": 1664864683438
+   >   }
+   > }
+   > ```
 
 3. Copy the returned `id` to the `userId` field in the following command to assign the team-admin role to the user.
 
@@ -637,16 +637,6 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --header 'Content-Type: application/json'
    --data-raw '{ "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4", "role": "team-admin" }'
    ```
-
-## <!--XIV. Verify Project Access-->
-
-1. <!--Test the API calls.-->
-
-   ```
-   curl --location --request GET localhost:3030/api/projects
-   ```
-
-   > <!--If you get an unauthorized message, the platform has deployed successfully.-->
 
 ## XIV. Launch the Web Portal
 
@@ -659,3 +649,15 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    3. Select **Local Storage > localhost**.
    4. Change the value for the `API_URL` key to `http://localhost:3035`.
 3. Press F5 to reload the page and open the web portal.
+
+<!-- ## XIV. Verify Project Access-->
+
+<!-- 1. Test the API calls.-->
+
+<!--   ```-->
+<!--   curl --location --request GET localhost:3030/api/projects-->
+<!--   ```-->
+
+<!--   > If you get an unauthorized message, the platform has deployed successfully.-->
+
+<!-- ## XV. Launch the Web Portal-->
