@@ -638,17 +638,17 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --data-raw '{ "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4", "role": "team-admin" }'
    ```
 
-## XIV. Verify Project Access
+## <!--XIV. Verify Project Access-->
 
-1. Test the API calls.
+1. <!--Test the API calls.-->
 
    ```
    curl --location --request GET localhost:3030/api/projects
    ```
 
-   > If you get an unauthorized message, the platform has deployed successfully.
+   > <!--If you get an unauthorized message, the platform has deployed successfully.-->
 
-## XV. Launch the Web Portal
+## XIV. Launch the Web Portal
 
 1. In Chrome, navigate to http://localhost.
 
