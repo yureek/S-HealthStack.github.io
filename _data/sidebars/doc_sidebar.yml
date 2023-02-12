@@ -128,8 +128,19 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Account Service API Endpoints
+      url: /account-service-api-endpoints.html
+      output: web, pdf
+      type: homepage
+
     - title: Backend API Endpoints
       url: /backend-api-endpoints.html
       output: web, pdf
+      type: homepage
+    
+    - title: Data Query API Endpoints
+      url: /data-query-api-endpoints.html
+      output: web, pdf
+      type: homepage
 
 # Copyright 2021 Google LLC

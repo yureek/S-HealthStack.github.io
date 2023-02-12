@@ -2,35 +2,35 @@
 title: Backend API Endpoints
 sidebar: doc_sidebar
 permalink: backend-api-endpoints.html
-toc: true
+toc: false
 ---
-# Back End API
+# Backend API Endpoints
 ## Version: 0.9.0
 
 <span style="color:red">We also provide the swagger.yml for each module, so you can refer it.</span>
 
-- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml){:target="_blank"}
-- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml){:target="_blank"}
-- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml){:target="_blank"}
+- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml)
+- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml)
+- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml)
 
 ### /projects
 
 #### GET
 ##### Summary
 
-get all project lists
+Get all project lists.
 
 ##### Responses
 
 | Code | Description |
 | ---- | ----------- |
 | 200 | List of projects |
-| default | unexpected error |
+| default | Unexpected Error |
 
 #### POST
 ##### Summary
 
-Create a new study project for healthcare research
+Create a new study project for healthcare research.
 
 ##### Responses
 
@@ -160,10 +160,33 @@ Retrieve tasks with a specific task_id
 | 200 | OK |
 | default | unexpected error |
 
+#### PUT
+##### Summary
+
+Create revision of a task.
+
+##### Description
+
+Revision Id will be updated.
+
+##### Parameters
+
+| Name | Located in | Description | Required | Schema |
+| ---- | ---------- | ----------- | -------- | ---- |
+| projectId | path | The id of the project to retrieve | Yes | string |
+| taskId | path | The id of the task | Yes | string |
+
+##### Responses
+
+| Code | Description |
+| ---- | ----------- |
+| 201 | OK |
+| default | unexpected error |
+
 #### PATCH
 ##### Summary
 
-Update a specific task
+Edit a specific task
 
 ##### Description
 
@@ -182,6 +205,29 @@ A task only in DRAFT status can be updated. This is for auto-save or status chan
 | Code | Description |
 | ---- | ----------- |
 | 204 | No Content |
+| default | unexpected error |
+
+#### DELETE
+##### Summary
+
+Delete task.
+
+##### Description
+
+Delete all tasks with id
+
+##### Parameters
+
+| Name | Located in | Description | Required | Schema |
+| ---- | ---------- | ----------- | -------- | ---- |
+| projectId | path | The id of the project to retrieve | Yes | string |
+| taskId | path | The id of the task | Yes | string |
+
+##### Responses
+
+| Code | Description |
+| ---- | ----------- |
+| 204 | OK |
 | default | unexpected error |
 
 ### Models
@@ -381,7 +427,7 @@ A task only in DRAFT status can be updated. This is for auto-save or status chan
 
 | Name | Type | Description | Required |
 | ---- | ---- | ----------- | -------- |
-| revisionId | string |  | No |
+| revisionId | integer |  | No |
 | taskId | string |  | No |
 | userId | string |  | No |
 | startedAt | dateTime |  | No |
