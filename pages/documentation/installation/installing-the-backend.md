@@ -600,6 +600,25 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 > These steps are temporary. We intend to implement a UI-based solution by the official release.
 
+### With Mail Server
+When a mail server is available, perform these steps:
+
+1. Create the initial user login.
+
+   ```
+   curl --location --request POST 'localhost:8080/account-service/signup'
+   --header 'Content-Type: application/json'
+   --data-raw '{
+     "email": "your_address@your_email.com",
+     "password": "your_password"
+   }'
+   ```
+2. Check the verification email and activate the login.
+> The system automatically assigns the `team-admin` role to the first user to create a login.
+
+### Without Mail Server
+When a mail server is not available, perform these steps:
+
 1. Create the team-admin role.
 
    ```
@@ -607,6 +626,15 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --header 'Content-Type: application/json'
    --data-raw '{ "role": "team-admin" }'
    ```
+
+   > Successful result: 
+   >
+   > ```
+   > {
+   >   "status": "OK",
+   >   "createdNewRole":true
+   > }
+   > ```
 
 2. Create the initial user login.
 
@@ -617,13 +645,13 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    --data-raw '{ "email": "your_address@your_email.com", "password": "your_password" }'
    ```
 
-   > Successful creation results in a response similar to: 
+   > Successful result is similar to: 
    >
    > ```
    > {
    >   "status": "OK",
    >   "user": {
-   >       "email": "team-admin@samsung.com",
+   >       "email": "your_address@your_email.com",
    >       "id": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
    >       "timeJoined": 1664864683438
    >   }
@@ -635,8 +663,61 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    ```
    curl --location --request PUT 'localhost:3567/recipe/user/role'
    --header 'Content-Type: application/json'
-   --data-raw '{ "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4", "role": "team-admin" }'
+   --data-raw '{
+     "userId": "785d492b-688f-49c1-adbb-e9c00ed0c5b4",
+     "role": "team-admin"
+   }'
    ```
+
+   > Successful result: 
+   >
+   > ```
+   > {
+   >   "status": "OK",
+   >   "didUserAlreadyHaveRole":false
+   > }
+   > ```
+
+4. Copy the returned `email` to the `email` field and the returned `id` to the `userId` field in the following command to retrieve a verifcation token.
+
+   ```
+   $ curl --location --request POST 'localhost:3567/recipe/user/email/verify/token' \
+   --header 'Content-Type: application/json' \
+   --data-raw '{
+     "userId": "7e5b869e-ed96-4768-9595-93a459f9f5ad",
+     "email": "team-admin@samsung.com"
+   }'
+   ```
+
+   > Successful result: 
+   >
+   > ```
+   > {
+   >   "status":"OK",
+   >   "token":"MTEwMjg5OTNjY2...ZDY0ZjUyZjc0M2Vj"
+   > }
+   > ```
+
+5. Copy the returned `token` to the `token` field to activate your account.
+
+   ```
+   $ curl --location --request POST 'localhost:3567/recipe/user/email/verify' \
+   --header 'Content-Type: application/json' \
+   --data-raw '{
+       "method": "token",
+       "token": "MTEwMjg5OTNjY2...ZDY0ZjUyZjc0M2Vj"
+   }'
+   ```
+
+   > Successful result: 
+   >
+   > ```
+   > {
+   >   "status":"OK",
+   >   "userId":"7e5b869e-ed96-4768-9595-93a459f9f5ad",
+   >   "email":"team-admin@samsung.com"
+   > }
+   > ```
 
 ## XIV. Launch the Web Portal
 
