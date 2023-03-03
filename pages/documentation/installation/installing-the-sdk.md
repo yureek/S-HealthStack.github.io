@@ -7,7 +7,7 @@ toc: false
 
 Follow these instructions to install, build, and verify the app SDK.
 
-> These steps require successful prior completion of the [backend system installation](installing-the-backend.md).
+> This installation requires successful prior completion of the [backend system installation](installing-the-backend.md).
 
 # Prerequisites
 

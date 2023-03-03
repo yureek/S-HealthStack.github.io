@@ -23,3 +23,5 @@ To create a new study:
 4. Select a color for the study logo.
 
 5. Click **Create Study**.
+
+When created, the system adds the `Study Operator` study-level role to your account settings for the specific study.
