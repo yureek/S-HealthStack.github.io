@@ -614,12 +614,12 @@ When a mail server is available, perform these steps:
    }'
    ```
 2. Check the account activation email and activate the login.
-> The system automatically assigns the `Team Admin` team-level role to the first user to create an account.
+> The system automatically assigns the `Team Admin` team role to the first user to create an account.
 
 ### Without Mail Server
 When a mail server is not available, perform these steps:
 
-1. Create the `Team Admin` team-level role.
+1. Create the `Team Admin` team role.
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/role'
@@ -658,7 +658,7 @@ When a mail server is not available, perform these steps:
    > }
    > ```
 
-3. Copy the returned `id` to the `userId` field in the following command to assign the `Team Admin` team-level role to the user.
+3. Copy the returned `id` to the `userId` field in the following command to assign the `Team Admin` team role to the user.
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/user/role'

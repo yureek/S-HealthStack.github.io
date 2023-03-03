@@ -36,6 +36,10 @@ entries:
       url: /contributing-to-the-project.html
       output: web, pdf
 
+    - title: Creating an Account
+      url: /creating-an-account.html
+      output: web, pdf
+
   - title: Installation
     output: web, pdf
     folderitems:

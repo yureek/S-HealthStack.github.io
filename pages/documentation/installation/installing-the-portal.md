@@ -58,4 +58,5 @@ Follow these instructions to install, build, and verify the web portal.
 3. Follow the prompts to generate an account activation email.
 4. Open the email and complete the account creation and sign in process.
 
-When completed, the system adds the `Team Admin` system-level role to your account settings.
+When completed, the system adds the `Team Admin` team role to your account settings if you are the very first user to create an account. The system adds the `Team Member` team role to the account settings of all subsequent accounts upon creation. 
+

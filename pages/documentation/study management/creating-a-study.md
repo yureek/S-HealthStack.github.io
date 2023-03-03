@@ -24,4 +24,4 @@ To create a new study:
 
 5. Click **Create Study**.
 
-When created, the system adds the `Study Operator` study-level role to your account settings for the specific study.
+When created, the system adds the `Study Operator` study role to your account settings for the specific study.

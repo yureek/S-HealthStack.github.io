@@ -7,7 +7,7 @@ toc: false
 
 In addition to the one-time [app SDK installation steps](../installation/installing-the-sdk.md), these configuration steps are required for each app you develop:
 
-1. Register your app with the Firebase project you created during [app SDK installation](../installation/installing-the-sdk.md#firebase-project-setup) and update the ***\<repository\>*/app/google-service.json** configuration file.
+1. Register your app with [the Firebase project you created](../installation/installing-the-sdk.md#vii-create-a-firebase-project) during app SDK installation and update the ***\<repository\>*/app/google-service.json** configuration file.
 > For example:
 > ```
 > {
@@ -28,7 +28,7 @@ In addition to the one-time [app SDK installation steps](../installation/install
 > }
 > ```
 > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
-2. Associate your app with the backend system and portal study.
+1. Associate your app with the backend system and portal study.
    > In **starter-app/app/src/main/res/values/strings.xml**, update the lines at the bottom of the file that specify your backend system's endpoint and your study's project ID, for example:
    >
    > ```
@@ -38,4 +38,4 @@ In addition to the one-time [app SDK installation steps](../installation/install
    >
    > Note: The project ID of your study is contained in the JSON response of a `POST /api/projects` request.
 
-3. Make the app available for downloading by study participants.
+2. Make the app available for downloading by study participants.

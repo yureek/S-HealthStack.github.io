@@ -180,7 +180,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ) as List<QuestionModel<Any>>
    >   ```
 
-4. Register your app with the Firebase project you created during [app SDK installation](../installation/installing-the-sdk.md#firebase-project-setup) and update the **starter-app/app/google-service.json** configuration file.
+4. Register your app with [the Firebase project you created](../installation/installing-the-sdk.md#vii-create-a-firebase-project) during app SDK installation and update the **starter-app/app/google-service.json** configuration file.
 
    > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
 
