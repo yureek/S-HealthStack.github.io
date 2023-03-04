@@ -65,7 +65,7 @@ The table shows available features for each role.
     <th style="text-align: center;">Study Operator</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Study Overview</b></td>
+    <td colspan="6"><b>Study Overview</b></td>
   </tr>
   <tr>
     <td></td>
@@ -100,7 +100,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Participant List</b></td>
+    <td colspan="6"><b>Participant List</b></td>
   </tr>
   <tr>
     <td></td>
@@ -119,7 +119,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>In-Lab Visit</b></td>
+    <td colspan="6"><b>In-Lab Visit</b></td>
   </tr>
   <tr>
     <td></td>
@@ -146,7 +146,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Surveys</b></td>
+    <td colspan="6"><b>Surveys</b></td>
   </tr>
   <tr>
     <td></td>
@@ -181,7 +181,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Activities</b></td>
+    <td colspan="6"><b>Activities</b></td>
   </tr>
   <tr>
     <td></td>
@@ -216,7 +216,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Educational Content</b></td>
+    <td colspan="6"><b>Educational Content</b></td>
   </tr>
   <tr>
     <td></td>
@@ -243,7 +243,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Sensor Data Viewing</b></td>
+    <td colspan="6"><b>Sensor Data Viewing</b></td>
   </tr>
   <tr>
     <td></td>
@@ -255,14 +255,14 @@ The table shows available features for each role.
   </tr>
   <tr>
     <td></td>
-    <td>Avg Resting HR by Age</b></td>
+    <td>Avg Resting HR by Age</td>
     <td style="text-align: center;">Yes</td>
     <td style="text-align: center;">Yes</td>
     <td style="text-align: center;">Yes</td>
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Data Queries</b></td>
+    <td colspan="6"><b>Data Queries</b></td>
   </tr>
   <tr>
     <td></td>
@@ -281,7 +281,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Management Access</b></td>
+    <td colspan="6"><b>Management Access</b></td>
   </tr>
   <tr>
     <td></td>
