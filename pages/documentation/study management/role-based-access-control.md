@@ -39,8 +39,6 @@ The table shows available features for each role.
 </table>
 
 
-
-
 # Study Roles
 
 Study roles control access to various aspects of the study. To be part of the team for a given study, a person must have one or more study roles assigned. Available roles are:
