@@ -32,7 +32,7 @@ The table shows available features for each role.
     <td style="text-align: center;">No</td>
   </tr>
   <tr>
-    <td style="border-right: 1px solid black;">Invite New Members</td>
+    <td style="border-right: 1px solid black;">Invite Team Members</td>
     <td style="text-align: center;">Yes</td>
     <td style="text-align: center;">No</td>
   </tr>
@@ -308,6 +308,7 @@ The table shows available features for each role.
     <td style="text-align: center;">Yes</td>
   </tr>
 </table>
+
 
 
 
