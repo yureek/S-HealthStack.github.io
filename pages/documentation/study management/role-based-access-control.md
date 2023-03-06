@@ -243,6 +243,14 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
+    <td></td>
+    <td>Publish</td>
+    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">N/A</td>
+  </tr>
+  <tr>
     <td colspan="6"><b>Sensor Data Viewing</b></td>
   </tr>
   <tr>
@@ -308,6 +316,7 @@ The table shows available features for each role.
     <td style="text-align: center;">Yes</td>
   </tr>
 </table>
+
 
 
 

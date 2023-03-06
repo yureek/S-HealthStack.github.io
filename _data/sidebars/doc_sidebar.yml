@@ -112,6 +112,14 @@ entries:
       url: /collecting-data.html
       output: web, pdf
 
+    - title: Tracking Survey Responses
+      url: /tracking-survey-responses.html
+      output: web, pdf
+
+    - title: Viewing Survey Analytics
+      url: /viewing-survey-analytics.html
+      output: web, pdf
+
   - title: Results Analysis
     output: web, pdf
     folderitems:
