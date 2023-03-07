@@ -24,4 +24,4 @@ To create a new study:
 
 5. Click **Create Study**.
 
-When created, the system adds the `Study Operator` [study role](role-based-access-control.md#study-roles) to your account settings for the specific study.
+When created, the system adds the `Project Owner` [study role](role-based-access-control.md#study-roles) to your account settings for the specific study.
