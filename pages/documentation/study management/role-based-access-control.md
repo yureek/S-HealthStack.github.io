@@ -46,7 +46,7 @@ Study roles control access to various aspects of the study. To be part of the te
 - Principal Investigator - has full access to all aspects of the study.
 - Research Assistant - has access to most aspects of the study.
 - Data Scientist - has access to most aspects of the study, but no access to participants' personal information.
-- Study Operator - is the person who adds the study to the health stack.
+- Project Owner - is the person who adds the study to the health stack.
 
 > The`Research Assistant`and `Data Scientist` study roles are not yet available in the current version (v0.9) of the Samsung Health Stack.
 
@@ -62,7 +62,7 @@ The table shows available features for each role.
     <th style="text-align: center;">Principal Investigator</th>
     <th style="text-align: center;">Research Assistant</th>
     <th style="text-align: center;">Data Scientist</th>
-    <th style="text-align: center;">Study Operator</th>
+    <th style="text-align: center;">Project Owner</th>
   </tr>
   <tr>
     <td colspan="6"><b>Study Overview</b></td>
@@ -316,6 +316,7 @@ The table shows available features for each role.
     <td style="text-align: center;">Yes</td>
   </tr>
 </table>
+
 
 
 

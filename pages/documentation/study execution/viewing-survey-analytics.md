@@ -9,7 +9,7 @@ The web portal provides easy visualization of survey response analytics. For eac
 
 To view survey response analytics:
 
-1. From the **Study Management** page, navigate to the **Study Management** section.
+1. From the **Study Management** page, navigate to the **Survey Management** section.
 2. Under **Published**, click any survey.
 3. Click the **Survey Analytics** tab.
     ![viewing-survey-analytics](../../../images/viewing-survey-analytics.png)

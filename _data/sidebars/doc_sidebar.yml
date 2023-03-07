@@ -60,12 +60,12 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: Creating a Study
-      url: /creating-a-study.html
-      output: web, pdf
-
     - title: Role-Based Access Control
       url: /role-based-access-control.html
+      output: web, pdf
+
+    - title: Creating a Study
+      url: /creating-a-study.html
       output: web, pdf
 
     - title: Inviting Team Members and Assigning Roles

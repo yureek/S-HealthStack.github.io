@@ -9,7 +9,7 @@ The web portal provides easy visualization of survey response percentages. For e
 
 To view survey responses:
 
-1. From the **Study Management** page, navigate to the **Study Management** section.
+1. From the **Study Management** page, navigate to the **Survey Management** section.
 2. Under **Published**, click any survey.
 3. Click the **Survey Responses** tab.
     ![tracking-survey-responses](../../../images/tracking-survey-responses.png)
