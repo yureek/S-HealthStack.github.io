@@ -289,7 +289,7 @@ The table shows available features for each role.
     <td style="text-align: center;">N/A</td>
   </tr>
   <tr>
-    <td colspan="6"><b>Management Access</b></td>
+    <td colspan="6"><b>Member Access</b></td>
   </tr>
   <tr>
     <td></td>
@@ -324,6 +324,7 @@ The table shows available features for each role.
     <td style="text-align: center;">Yes</td>
   </tr>
 </table>
+
 
 
 

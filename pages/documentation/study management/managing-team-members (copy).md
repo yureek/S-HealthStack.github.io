@@ -23,7 +23,7 @@ Invite as many team members to help conduct your study as you desire.
 
 To add a member to the team and assign the member a role:
 
-1. From the **Study Settings** page, in the **Study Settings** section, click **Invite member**.
+1. From the **Study Settings** page, in the **Members and access** section, click **Invite member**.
     ![inviting-team-members](../../../images/inviting-team-members.png)
 
 2. Enter the email address of the person to invite to the team.
@@ -48,14 +48,12 @@ When completed, the system adds the selected study role to the person's account 
 
 # Editing Team Member Information
 
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version.
+Email address
+
+Role
 
 # Removing a Team Member
 
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version.
-
 To remove a person from the study team:
 
-1. From the **Study Settings** page, in the **Members and access** table, locate the row with the desired member and click **EDIT**.
-2. Adjust the data to your liking.
-3. Click **Save**.
+1. From the **Study Settings** page, in the **Members and access** section, click **Invite member**.
