@@ -48,14 +48,19 @@ When completed, the system adds the selected study role to the person's account 
 
 # Editing Team Member Information
 
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version.
-
-# Removing a Team Member
-
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version.
-
-To remove a person from the study team:
+To edit a member's information:
 
 1. From the **Study Settings** page, in the **Members and access** table, locate the row with the desired member and click **EDIT**.
 2. Adjust the data to your liking.
 3. Click **Save**.
+
+> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, the action simply silently fails.
+
+# Removing a Team Member
+
+To remove a person from the study team:
+
+1. From the **Study Settings** page, in the **Members and access** table, locate the row with the desired member and click **EDIT**.
+2. Click **Remove member from study**.
+
+> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, you get a success message, but the member is not removed.
