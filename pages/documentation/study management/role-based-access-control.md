@@ -309,6 +309,14 @@ The table shows available features for each role.
   </tr>
   <tr>
     <td></td>
+    <td>Invite Members</td>
+    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">If study creator</td>
+    <td style="text-align: center;">If study creator</td>
+    <td style="text-align: center;">Yes</td>
+  </tr>
+  <tr>
+    <td></td>
     <td>Delete Members</td>
     <td style="text-align: center;">Yes</td>
     <td style="text-align: center;">If study creator</td>
@@ -316,7 +324,6 @@ The table shows available features for each role.
     <td style="text-align: center;">Yes</td>
   </tr>
 </table>
-
 
 
 

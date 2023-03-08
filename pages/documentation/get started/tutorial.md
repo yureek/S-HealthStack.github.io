@@ -31,7 +31,7 @@ Follow these steps to set up managing the MG study:
     > - Study Name: `MG Study`
     > - Study Logo: whichever color you prefer
 
-2. [Invite team members and assign their roles](../study management/inviting-team-members.md) to help conduct the study.
+2. [Invite team members and assign their roles](../study management/managing-team-members.md#inviting-team-members-and-assigning-roles) to help conduct the study.
 
     > Creating the initial study automatically prompts you to invite team members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
     >

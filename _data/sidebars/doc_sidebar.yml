@@ -68,8 +68,8 @@ entries:
       url: /creating-a-study.html
       output: web, pdf
 
-    - title: Inviting Team Members and Assigning Roles
-      url: /inviting-team-members.html
+    - title: Managing Team Members
+      url: /managing-team-members.html
       output: web, pdf
 
     - title: Creating a Survey

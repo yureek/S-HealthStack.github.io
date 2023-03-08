@@ -17,7 +17,7 @@ To create your account from the command line:
 
 To invite a new team member to create their account using the web portal:
 
-1. Refer to [Inviting Team Members and Assigning Roles](../study management/inviting-team-members.md).
+1. Refer to [Inviting Team Members and Assigning Roles](../study management/managing-team-members.md#inviting-team-members-and-assigning-roles).
 
 To use code to invite a new team member to create their account:
 
