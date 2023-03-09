@@ -614,7 +614,8 @@ When a mail server is available, perform these steps:
    }'
    ```
 2. Check the account activation email and activate the login.
-> The system automatically assigns the `Team Admin` [team role](role-based-access-control.md#team-roles) to the first user to create an account.
+> The system automatically assigns the `Team Admin` [team role](role-based-access-control.md#team-roles) to the first user to create an account. Because this role has advanced access to the health stack, we recommend that your system administrator creates the first account.
+
 
 ### Without Mail Server
 When a mail server is not available, perform these steps:
