@@ -19,7 +19,7 @@ These actions are available for managing the team members participating in a giv
 
 Invite as many team members to help conduct your study as you desire.
 
-> Only members with the `Project Owner` or `Principal Investigator` [study roles](role-based-access-control.md#study-roles) have the ability to invite members.
+<!-- Only members with the `Project Owner` or `Principal Investigator` [study roles](role-based-access-control.md#study-roles) have the ability to invite members.-->
 
 To add a member to the study and assign the member a role for the study:
 
