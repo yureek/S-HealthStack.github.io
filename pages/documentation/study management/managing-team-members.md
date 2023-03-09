@@ -7,7 +7,7 @@ toc: false
 
 # Overview
 
-Each study can have any number of the team members participate in conducting the study.
+Your team consists of as many members as is pertinent for you. Thus, the health stack puts no restrictions on the number of team members working on studies in your organization. Each study can have any number of the team members participate in conducting the study. And, team member management happens at the study level.
 
 These actions are available for managing the team members participating in a given study:
 
