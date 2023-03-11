@@ -14,30 +14,11 @@ Team roles control access at the health stack level. Available roles are:
 - Team Admin
 - Team Member
 
-The table shows available features for each role.
+From the version v0.9 web portal, the sole team admin is the first person to create a health stack account. Accounts for all others are team member accounts.
 
-<table>
-  <tr>
-    <th style="text-align: center; border-right: 1px solid black;">Features</th>
-    <th colspan="2" style="text-align: center;">Roles</th>
-  </tr>
-   <tr>
-    <th style="text-align: center; border-right: 1px solid black;"></th>
-    <th style="text-align: center;">Team Admin</th>
-    <th style="text-align: center;">Team Member</th>
-  </tr>
-  <tr>
-    <td style="border-right: 1px solid black;">Create Study</td>
-    <td style="text-align: center;">Yes</td>
-    <td style="text-align: center;">No</td>
-  </tr>
-  <tr>
-    <td style="border-right: 1px solid black;">Invite Team Members</td>
-    <td style="text-align: center;">Yes</td>
-    <td style="text-align: center;">No</td>
-  </tr>
-</table>
+> From the command line or code, having more than one team admin is possible.
 
+In version v0.9, the team admin can create studies and invite members.
 
 # Study Roles
 
@@ -47,7 +28,7 @@ Study roles control access to various aspects of the study. To be part of the te
 - Research Assistant - has access to most aspects of the study.
 - Data Scientist - has access to most aspects of the study, but no access to participants' personal information.
 
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, the`Research Assistant`and `Data Scientist` study roles are not available and the `Principal Investigator` study role displays in the **Members and access** table as `Researcher`.
+> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, the`Research Assistant`and `Data Scientist` study roles are not available and the `Principal Investigator` study role displays  as `Researcher`in the **Members and access** table.
 
 The table shows available features for each role.
 
@@ -274,7 +255,7 @@ The table shows available features for each role.
   <tr>
     <td></td>
     <td>Edit Members</td>
-    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">Yes*</td>
     <td style="text-align: center;">If study creator</td>
     <td style="text-align: center;">If study creator</td>
   </tr>
@@ -288,9 +269,12 @@ The table shows available features for each role.
   <tr>
     <td></td>
     <td>Delete Members</td>
-    <td style="text-align: center;">Yes</td>
+    <td style="text-align: center;">Yes*</td>
     <td style="text-align: center;">If study creator</td>
     <td style="text-align: center;">If study creator</td>
+  </tr>
+  <tr>
+    <td colspan="6">* The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version.</td>
   </tr>
 </table>
 
@@ -312,3 +296,4 @@ The table shows available features for each role.
     <td style="text-align: center;">If study creator or granted access</td>
   </tr>
 -->
+

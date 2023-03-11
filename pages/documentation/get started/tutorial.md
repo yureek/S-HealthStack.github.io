@@ -31,9 +31,9 @@ Follow these steps to set up managing the MG study:
     > - Study Name: `MG Study`
     > - Study Logo: whichever color you prefer
 
-2. [Invite team members and assign their roles](../study management/managing-team-members.md#inviting-team-members-and-assigning-roles) to help conduct the study.
+2. [Invite members and assign their roles](../study management/managing-members.md#inviting-members-and-assigning-roles) to help conduct the study.
 
-    > Creating the initial study automatically prompts you to invite team members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
+    > Creating the initial study automatically prompts you to invite members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
     >
     > - Email: `daniel.mccoy@researchuniversity.org`
     > - Role: `Principal Investigator`
@@ -49,7 +49,7 @@ Follow these steps to set up managing the MG study:
     >   - Type: `Single-selection`
     >   - Options: `Nothing, Mind reading, Laser vision, Levitation`
 
-5. [Schedule and publish the survey.](../study management/publishing-a-survey.md)
+4. [Schedule and publish the survey.](../study management/publishing-a-survey.md)
     > From the **Create survey** page, click **Publish** and enter these parameters:
     > - Frequency: `Daily`
     > - Survey occurrence: Relevant publish time and duration. 

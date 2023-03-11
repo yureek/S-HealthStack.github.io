@@ -1,25 +1,25 @@
 ---
-title: Managing Team Members
+title: Managing Members
 sidebar: doc_sidebar
-permalink: managing-team-members.html
+permalink: managing-members.html
 toc: false
 ---
 
 # Overview
 
-Your team consists of as many members as is pertinent for you. Thus, the health stack puts no restrictions on the number of team members working on studies in your organization. Each study can have any number of the team members participate in conducting the study. And, team member management happens at the study level.
+Your team consists of as many members as is pertinent for you. Thus, the health stack puts no restrictions on the number of members working on studies in your organization. Each study can have any number of the members participate in conducting the study. And, member management happens at the study level.
 
-These actions are available for managing the team members participating in a given study:
+These actions are available for managing the members participating in a given study:
 
-- [Inviting Team Members and Assigning Roles](#Inviting -team-members-and-assigning-roles)
-- [Editing Team Member Information](#editing-team-member-information)
-- [Removing a Team Member from a Study](#removing-a-team-member-from-a-study)
+- [Inviting Members and Assigning Roles](#Inviting -members-and-assigning-roles)
+- [Editing Member Information](#editing-member-information)
+- [Removing a Member from a Study](#removing-a-member-from-a-study)
 
-# Inviting Team Members and Assigning Roles
+# Inviting Members and Assigning Roles
 
-Invite as many team members to help conduct your study as you desire.
+Invite as many members to help conduct your study as you desire.
 
-<!-- Only members with the `Project Owner` or `Principal Investigator` [study roles](role-based-access-control.md#study-roles) have the ability to invite members.-->
+<!-- Not all members can invite other members. Refer to [study roles](role-based-access-control.md#study-roles) for details.-->
 
 To add a member to the study and assign the member a role for the study:
 
@@ -28,17 +28,17 @@ To add a member to the study and assign the member a role for the study:
 
 2. Enter the email address of the person to invite to the study.
 
-3. Select a study role for the team member for this study. The [role-based access control](role-based-access-control.md) feature provides security with differing levels of access permission granted to different roles:
+3. Select a study role for the member for this study. The [role-based access control](role-based-access-control.md) feature provides security with differing levels of access permission granted to different roles:
 
     - Principal Investigator - has full access to all aspects of the study.
     - Research Assistant - has access to the participant data.
     - Data Scientist - has access to essential features of the data analysis.
 
-    > `Principal Investigator` is the only study role available in the beta version (v0.9) of the portal.
+    > `Principal Investigator` is the only study role available in version v0.9 of the portal. And the role appears in the **Members and access** table as `Reseracher`.
 
-4. Click **Invite Member** to add the team member to the study.
+4. Click **Invite Member** to add the member to the study.
 
-5. Notify the person that you have added them as a team member for the study in the best way for your use case.
+5. Notify the person that you have added them as a member for the study in the best way for your use case.
 
 > If the person does not already have an account, they receive an account activation email containing instructions to create their account.
 
@@ -46,7 +46,7 @@ When completed, the system adds the selected study role to the person's account 
 
 > People can have different roles for different studies.
 
-# Editing Team Member Information
+# Editing Member Information
 
 > The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, the action simply silently fails.
 
@@ -56,11 +56,11 @@ To edit a member's information for the study:
 2. Adjust the data to your liking.
 3. Click **Save**.
 
-# Removing a Team Member from a Study
+# Removing a Member from a Study
 
 > The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, you get a success message, but the member is not removed.
 
-To remove a team member from a study:
+To remove a member from a study:
 
 1. From the **Study Settings** page, in the **Members and access** table, locate the row with the desired member and click **EDIT**.
 2. Click **Remove member from study**.

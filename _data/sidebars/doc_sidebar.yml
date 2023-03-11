@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Documentation
-  version: v0.9
+  version: v0.9 (beta)
   folders:
 
   - title:
@@ -68,8 +68,8 @@ entries:
       url: /creating-a-study.html
       output: web, pdf
 
-    - title: Managing Team Members
-      url: /managing-team-members.html
+    - title: Managing  Members
+      url: /managing-members.html
       output: web, pdf
 
     - title: Creating a Survey

@@ -15,10 +15,9 @@ To create your account from the command line:
 
 1. Refer to  [Create Initial Account](../installation/installing-the-backend.md#xiii-create-initial-account) in the backend system installation instructions.
 
-To invite a team member to create their account (as part of joining a study) using the web portal:
+To invite a member to create their account (as part of joining a study) using the web portal:
 
-1. Refer to [Inviting Team Members and Assigning Roles](../study management/managing-team-members.md#inviting-team-members-and-assigning-roles).
-
-To use code to invite a team member to create their account (as part of joining a study):
+1. Refer to [Inviting Members and Assigning Roles](../study management/managing-team-members.md#inviting-team-members-and-assigning-roles).
+member to create their account (as part of joining a study):
 
 1. Refer to `/account-service/invitations` in [Account Service API Endpoints](../../api reference/account-services.md).
