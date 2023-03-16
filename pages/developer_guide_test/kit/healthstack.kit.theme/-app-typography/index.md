@@ -1,7 +1,5 @@
 ---
 title: AppTypography
-permalink: /kit/healthstack.kit.theme/-app-typography/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)
 

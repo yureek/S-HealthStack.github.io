@@ -1,7 +1,5 @@
 ---
 title: body2
-permalink: /kit/healthstack.kit.theme/-app-typography/body2.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[body2](body2.html)
 

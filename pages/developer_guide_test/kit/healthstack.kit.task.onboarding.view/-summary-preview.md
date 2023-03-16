@@ -1,7 +1,5 @@
 ---
 title: SummaryPreview
-permalink: /kit/healthstack.kit.task.onboarding.view/-summary-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view](index.html)/[SummaryPreview](-summary-preview.html)
 

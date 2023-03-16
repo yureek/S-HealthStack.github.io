@@ -17,83 +17,12 @@ $dokka.location:healthstack.kit.auth/FirebaseGoogleAuthContract/parseResult/#kot
 $dokka.location:healthstack.kit.auth/SignInProvider.Basic///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.auth/-sign-in-provider/-basic/index.html
 $dokka.location:healthstack.kit.auth/SignInProvider.Google///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.auth/-sign-in-provider/-google/index.html
 $dokka.location:healthstack.kit.auth/SignInProvider///PointingToDeclaration/kit/healthstack.kit.auth/-sign-in-provider/index.html
-$dokka.location:healthstack.kit.task.activity.model////PointingToDeclaration/kit/healthstack.kit.task.activity.model/index.html
-$dokka.location:healthstack.kit.task.activity.model/GaitAndBalanceIntroModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-gait-and-balance-intro-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/GaitAndBalanceIntroModel/GaitAndBalanceIntroModel/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.Int?#kotlin.String?#healthstack.kit.ui.TextType/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-gait-and-balance-intro-model/-gait-and-balance-intro-model.html
-$dokka.location:healthstack.kit.task.activity.model/GaitAndBalanceResultModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-gait-and-balance-result-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/GaitAndBalanceResultModel/GaitAndBalanceResultModel/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.Int?#kotlin.String?/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-gait-and-balance-result-model/-gait-and-balance-result-model.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel/SimpleViewActivityModel/#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]?#kotlin.Int?#kotlin.String?#healthstack.kit.ui.TextType/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/-simple-view-activity-model.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel/body/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/body.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel/buttonText/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/button-text.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel/header/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/header.html
-$dokka.location:healthstack.kit.task.activity.model/SimpleViewActivityModel/textType/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-simple-view-activity-model/text-type.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedIntroModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedIntroModel/TappingSpeedIntroModel/#kotlin.String#kotlin.String#kotlin.Int?#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/-tapping-speed-intro-model.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedIntroModel/handType/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/hand-type.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedIntroModel/rightHand/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/right-hand.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedMeasureModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedMeasureModel/TappingSpeedMeasureModel/#kotlin.String#kotlin.String#kotlin.Int?#kotlin.Boolean#kotlin.Int/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/-tapping-speed-measure-model.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedMeasureModel/handType/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/hand-type.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedMeasureModel/measureTimeSecond/#/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/measure-time-second.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedResultModel///PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-result-model/index.html
-$dokka.location:healthstack.kit.task.activity.model/TappingSpeedResultModel/TappingSpeedResultModel/#kotlin.String#kotlin.String#kotlin.Int?/PointingToDeclaration/kit/healthstack.kit.task.activity.model/-tapping-speed-result-model/-tapping-speed-result-model.html
-$dokka.location:healthstack.kit.task.activity.predefined////PointingToDeclaration/kit/healthstack.kit.task.activity.predefined/index.html
-$dokka.location:healthstack.kit.task.activity.predefined/TappingSpeedActivityTask///PointingToDeclaration/kit/healthstack.kit.task.activity.predefined/-tapping-speed-activity-task/index.html
-$dokka.location:healthstack.kit.task.activity.predefined/TappingSpeedActivityTask/CardView/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.task.activity.predefined/-tapping-speed-activity-task/-card-view.html
-$dokka.location:healthstack.kit.task.activity.predefined/TappingSpeedActivityTask/TappingSpeedActivityTask/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[healthstack.kit.task.base.Step[healthstack.kit.task.base.StepModel,*]]#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.task.activity.predefined/-tapping-speed-activity-task/-tapping-speed-activity-task.html
-$dokka.location:healthstack.kit.task.activity.step////PointingToDeclaration/kit/healthstack.kit.task.activity.step/index.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedIntroStep///PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-intro-step/index.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedIntroStep/Render/#healthstack.kit.task.base.CallbackCollection/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-intro-step/-render.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedIntroStep/TappingSpeedIntroStep/#kotlin.String#kotlin.String#healthstack.kit.task.activity.model.TappingSpeedIntroModel#healthstack.kit.task.base.View[healthstack.kit.task.activity.model.TappingSpeedIntroModel]/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-intro-step/-tapping-speed-intro-step.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedMeasureStep///PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-measure-step/index.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedMeasureStep/Render/#healthstack.kit.task.base.CallbackCollection/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-measure-step/-render.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedMeasureStep/TappingSpeedMeasureStep/#kotlin.String#kotlin.String#healthstack.kit.task.activity.model.TappingSpeedMeasureModel#healthstack.kit.task.base.View[healthstack.kit.task.activity.model.TappingSpeedMeasureModel]/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-measure-step/-tapping-speed-measure-step.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedResultStep///PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-result-step/index.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedResultStep/Render/#healthstack.kit.task.base.CallbackCollection/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-result-step/-render.html
-$dokka.location:healthstack.kit.task.activity.step/TappingSpeedResultStep/TappingSpeedResultStep/#kotlin.String#kotlin.String#healthstack.kit.task.activity.model.TappingSpeedResultModel#healthstack.kit.task.base.View[healthstack.kit.task.activity.model.TappingSpeedResultModel]/PointingToDeclaration/kit/healthstack.kit.task.activity.step/-tapping-speed-result-step/-tapping-speed-result-step.html
-$dokka.location:healthstack.kit.task.activity.view.common////PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/index.html
-$dokka.location:healthstack.kit.task.activity.view.common//SimpleViewButtonPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-view-button-preview.html
-$dokka.location:healthstack.kit.task.activity.view.common//SimpleViewNoButtonBulletPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-view-no-button-bullet-preview.html
-$dokka.location:healthstack.kit.task.activity.view.common//SimpleViewNoButtonPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-view-no-button-preview.html
-$dokka.location:healthstack.kit.task.activity.view.common//SimpleViewResultPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-view-result-preview.html
-$dokka.location:healthstack.kit.task.activity.view.common/SimpleActivityView///PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-activity-view/index.html
-$dokka.location:healthstack.kit.task.activity.view.common/SimpleActivityView/Render/#TypeParam(bounds=[healthstack.kit.task.activity.model.SimpleViewActivityModel])#healthstack.kit.task.base.CallbackCollection#healthstack.kit.task.survey.question.SubStepHolder?/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-activity-view/-render.html
-$dokka.location:healthstack.kit.task.activity.view.common/SimpleActivityView/SimpleActivityView/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view.common/-simple-activity-view/-simple-activity-view.html
-$dokka.location:healthstack.kit.task.activity.view////PointingToDeclaration/kit/healthstack.kit.task.activity.view/index.html
-$dokka.location:healthstack.kit.task.activity.view//GaitAndBalanceIntroPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-gait-and-balance-intro-preview.html
-$dokka.location:healthstack.kit.task.activity.view//TappingSpeedIntroPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-intro-preview.html
-$dokka.location:healthstack.kit.task.activity.view//TappingSpeedMeasurePreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-measure-preview.html
-$dokka.location:healthstack.kit.task.activity.view//TappingSpeedResultPreview/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-result-preview.html
-$dokka.location:healthstack.kit.task.activity.view/GaitAndBalanceIntroView///PointingToDeclaration/kit/healthstack.kit.task.activity.view/-gait-and-balance-intro-view/index.html
-$dokka.location:healthstack.kit.task.activity.view/GaitAndBalanceIntroView/GaitAndBalanceIntroView/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-gait-and-balance-intro-view/-gait-and-balance-intro-view.html
-$dokka.location:healthstack.kit.task.activity.view/GaitAndBalanceIntroView/Render/#healthstack.kit.task.activity.model.GaitAndBalanceIntroModel#healthstack.kit.task.base.CallbackCollection#healthstack.kit.task.survey.question.SubStepHolder?/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-gait-and-balance-intro-view/-render.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedIntroView///PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-intro-view/index.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedIntroView/Render/#healthstack.kit.task.activity.model.TappingSpeedIntroModel#healthstack.kit.task.base.CallbackCollection#healthstack.kit.task.survey.question.SubStepHolder?/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-intro-view/-render.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedIntroView/TappingSpeedIntroView/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-intro-view/-tapping-speed-intro-view.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedMeasureView///PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-measure-view/index.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedMeasureView/Render/#healthstack.kit.task.activity.model.TappingSpeedMeasureModel#healthstack.kit.task.base.CallbackCollection#healthstack.kit.task.survey.question.SubStepHolder?/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-measure-view/-render.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedMeasureView/TappingSpeedMeasureView/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-measure-view/-tapping-speed-measure-view.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedResultView///PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-result-view/index.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedResultView/Render/#healthstack.kit.task.activity.model.TappingSpeedResultModel#healthstack.kit.task.base.CallbackCollection#healthstack.kit.task.survey.question.SubStepHolder?/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-result-view/-render.html
-$dokka.location:healthstack.kit.task.activity.view/TappingSpeedResultView/TappingSpeedResultView/#/PointingToDeclaration/kit/healthstack.kit.task.activity.view/-tapping-speed-result-view/-tapping-speed-result-view.html
-$dokka.location:healthstack.kit.task.activity////PointingToDeclaration/kit/healthstack.kit.task.activity/index.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask///PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/index.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/ActivityTask/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[healthstack.kit.task.base.Step[healthstack.kit.task.base.StepModel,*]]/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/-activity-task.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/CardView/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/-card-view.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/Render/#/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/-render.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/pageCallbacks/#/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/page-callbacks.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/result/#/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/result.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/startedAt/#/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/started-at.html
-$dokka.location:healthstack.kit.task.activity/ActivityTask/taskId/#/PointingToDeclaration/kit/healthstack.kit.task.activity/-activity-task/task-id.html
 $dokka.location:healthstack.kit.task.base////PointingToDeclaration/kit/healthstack.kit.task.base/index.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection///PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/index.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection/CallbackCollection/#/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/-callback-collection.html
-$dokka.location:healthstack.kit.task.base/CallbackCollection/getActivityResult/#/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/get-activity-result.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection/getEligibility/#/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/get-eligibility.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection/next/#/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/next.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection/prev/#/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/prev.html
-$dokka.location:healthstack.kit.task.base/CallbackCollection/setActivityResult/#kotlin.String#kotlin.Any/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/set-activity-result.html
 $dokka.location:healthstack.kit.task.base/CallbackCollection/setEligibility/#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.task.base/-callback-collection/set-eligibility.html
 $dokka.location:healthstack.kit.task.base/ImageArticleModel///PointingToDeclaration/kit/healthstack.kit.task.base/-image-article-model/index.html
 $dokka.location:healthstack.kit.task.base/ImageArticleModel/ImageArticleModel/#kotlin.String#kotlin.String#kotlin.String#kotlin.Int?/PointingToDeclaration/kit/healthstack.kit.task.base/-image-article-model/-image-article-model.html
@@ -132,7 +61,6 @@ $dokka.location:healthstack.kit.task.base/Task/description/#/PointingToDeclarati
 $dokka.location:healthstack.kit.task.base/Task/equals/#kotlin.Any?/PointingToDeclaration/kit/healthstack.kit.task.base/-task/equals.html
 $dokka.location:healthstack.kit.task.base/Task/hashCode/#/PointingToDeclaration/kit/healthstack.kit.task.base/-task/hash-code.html
 $dokka.location:healthstack.kit.task.base/Task/id/#/PointingToDeclaration/kit/healthstack.kit.task.base/-task/id.html
-$dokka.location:healthstack.kit.task.base/Task/isActive/#/PointingToDeclaration/kit/healthstack.kit.task.base/-task/is-active.html
 $dokka.location:healthstack.kit.task.base/Task/isCompleted/#/PointingToDeclaration/kit/healthstack.kit.task.base/-task/is-completed.html
 $dokka.location:healthstack.kit.task.base/Task/name/#/PointingToDeclaration/kit/healthstack.kit.task.base/-task/name.html
 $dokka.location:healthstack.kit.task.base/View///PointingToDeclaration/kit/healthstack.kit.task.base/-view/index.html
@@ -285,7 +213,6 @@ $dokka.location:healthstack.kit.task.survey.question.component/Component///Point
 $dokka.location:healthstack.kit.task.survey.question.component/Component/Component/#/PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-component/-component.html
 $dokka.location:healthstack.kit.task.survey.question.component/Component/Render/#TypeParam(bounds=[healthstack.kit.task.survey.question.model.QuestionModel[*]])#healthstack.kit.task.base.CallbackCollection/PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-component/-render.html
 $dokka.location:healthstack.kit.task.survey.question.component/MultiChoiceQuestionComponent///PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/index.html
-$dokka.location:healthstack.kit.task.survey.question.component/MultiChoiceQuestionComponent/CheckBoxGroupPreview/#/PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/-check-box-group-preview.html
 $dokka.location:healthstack.kit.task.survey.question.component/MultiChoiceQuestionComponent/MultiChoiceQuestionComponent/#/PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/-multi-choice-question-component.html
 $dokka.location:healthstack.kit.task.survey.question.component/MultiChoiceQuestionComponent/Render/#TypeParam(bounds=[healthstack.kit.task.survey.question.model.MultiChoiceQuestionModel])#healthstack.kit.task.base.CallbackCollection/PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/-render.html
 $dokka.location:healthstack.kit.task.survey.question.component/QuestionComponent.Companion///PointingToDeclaration/kit/healthstack.kit.task.survey.question.component/-question-component/-companion/index.html
@@ -427,9 +354,8 @@ $dokka.location:healthstack.kit.theme/AppTypography/title2/#/PointingToDeclarati
 $dokka.location:healthstack.kit.theme/AppTypography/title3/#/PointingToDeclaration/kit/healthstack.kit.theme/-app-typography/title3.html
 $dokka.location:healthstack.kit.theme/AppTypography/topBar/#/PointingToDeclaration/kit/healthstack.kit.theme/-app-typography/top-bar.html
 $dokka.location:healthstack.kit.ui.layout////PointingToDeclaration/kit/healthstack.kit.ui.layout/index.html
-$dokka.location:healthstack.kit.ui.layout//ImageArticleLayout/#kotlin.String#healthstack.kit.task.base.ImageArticleModel#kotlin.String#kotlin.Function0[kotlin.Unit]#kotlin.Function0[kotlin.Unit]#kotlin.Boolean#healthstack.kit.ui.ButtonShape/PointingToDeclaration/kit/healthstack.kit.ui.layout/-image-article-layout.html
-$dokka.location:healthstack.kit.ui.layout//ImageArticleLayoutRoundPreview/#/PointingToDeclaration/kit/healthstack.kit.ui.layout/-image-article-layout-round-preview.html
-$dokka.location:healthstack.kit.ui.layout//ImageArticleLayoutSquarePreview/#/PointingToDeclaration/kit/healthstack.kit.ui.layout/-image-article-layout-square-preview.html
+$dokka.location:healthstack.kit.ui.layout//ImageArticleLayout/#kotlin.String#healthstack.kit.task.base.ImageArticleModel#kotlin.String#kotlin.Function0[kotlin.Unit]#kotlin.Function0[kotlin.Unit]#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.ui.layout/-image-article-layout.html
+$dokka.location:healthstack.kit.ui.layout//ImageArticleLayoutPreview/#/PointingToDeclaration/kit/healthstack.kit.ui.layout/-image-article-layout-preview.html
 $dokka.location:healthstack.kit.ui.util////PointingToDeclaration/kit/healthstack.kit.ui.util/index.html
 $dokka.location:healthstack.kit.ui.util/ViewUtil///PointingToDeclaration/kit/healthstack.kit.ui.util/-view-util/index.html
 $dokka.location:healthstack.kit.ui.util/ViewUtil/showToastMessage/#android.content.Context#kotlin.String/PointingToDeclaration/kit/healthstack.kit.ui.util/-view-util/show-toast-message.html
@@ -437,22 +363,14 @@ $dokka.location:healthstack.kit.ui////PointingToDeclaration/kit/healthstack.kit
 $dokka.location:healthstack.kit.ui//BottomBar/#kotlin.String#kotlin.Boolean#healthstack.kit.ui.ButtonShape#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-bar.html
 $dokka.location:healthstack.kit.ui//BottomBar/#kotlin.String#kotlin.String#kotlin.Function0[kotlin.Unit]#kotlin.Function0[kotlin.Unit]#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-bar.html
 $dokka.location:healthstack.kit.ui//BottomBarWithGradientBackground/#kotlin.String#kotlin.Boolean#androidx.compose.ui.graphics.Brush#healthstack.kit.ui.ButtonShape#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-bar-with-gradient-background.html
-$dokka.location:healthstack.kit.ui//BottomRoundButton/#kotlin.String#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-round-button.html
-$dokka.location:healthstack.kit.ui//BottomRoundButtonPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-round-button-preview.html
+$dokka.location:healthstack.kit.ui//BottomButtonPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-button-preview.html
 $dokka.location:healthstack.kit.ui//BottomSquareButton/#kotlin.String#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-square-button.html
-$dokka.location:healthstack.kit.ui//BottomSquareButtonPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-bottom-square-button-preview.html
-$dokka.location:healthstack.kit.ui//CircularTimer/#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Color#androidx.compose.ui.unit.Dp#androidx.compose.ui.unit.TextUnit#kotlin.Int/PointingToDeclaration/kit/healthstack.kit.ui/-circular-timer.html
 $dokka.location:healthstack.kit.ui//ConsentTopBarPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-consent-top-bar-preview.html
 $dokka.location:healthstack.kit.ui//ConsentTopBarPreview2/#/PointingToDeclaration/kit/healthstack.kit.ui/-consent-top-bar-preview2.html
-$dokka.location:healthstack.kit.ui//ConsentTopBarPreview3/#/PointingToDeclaration/kit/healthstack.kit.ui/-consent-top-bar-preview3.html
 $dokka.location:healthstack.kit.ui//KitButton/#kotlin.String#androidx.compose.ui.graphics.Color#androidx.compose.ui.graphics.Color#androidx.compose.foundation.shape.RoundedCornerShape#androidx.compose.foundation.BorderStroke?#androidx.compose.ui.Modifier#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-kit-button.html
 $dokka.location:healthstack.kit.ui//LabeledCheckBoxCheckedPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-labeled-check-box-checked-preview.html
 $dokka.location:healthstack.kit.ui//LabeledCheckBoxUnCheckedPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-labeled-check-box-un-checked-preview.html
 $dokka.location:healthstack.kit.ui//LabeledCheckbox/#kotlin.Boolean#kotlin.Function1[kotlin.Boolean,kotlin.Unit]#kotlin.String/PointingToDeclaration/kit/healthstack.kit.ui/-labeled-checkbox.html
-$dokka.location:healthstack.kit.ui//ListedText/#kotlin.collections.List[kotlin.String]#healthstack.kit.ui.TextType#androidx.compose.ui.unit.Dp#androidx.compose.ui.text.TextStyle#androidx.compose.ui.graphics.Color#androidx.compose.ui.text.style.TextAlign/PointingToDeclaration/kit/healthstack.kit.ui/-listed-text.html
-$dokka.location:healthstack.kit.ui//ListedTextBulletPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-listed-text-bullet-preview.html
-$dokka.location:healthstack.kit.ui//ListedTextNumberPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-listed-text-number-preview.html
-$dokka.location:healthstack.kit.ui//ListedTextPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-listed-text-preview.html
 $dokka.location:healthstack.kit.ui//RoundButton/#kotlin.String#androidx.compose.ui.graphics.Color#androidx.compose.ui.graphics.Color#androidx.compose.foundation.BorderStroke?#androidx.compose.ui.Modifier#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kit/healthstack.kit.ui/-round-button.html
 $dokka.location:healthstack.kit.ui//RoundTextField/#androidx.compose.ui.Modifier#kotlin.String#kotlin.Function1[kotlin.String,kotlin.Unit]#kotlin.String#androidx.compose.material.TextFieldColors#kotlin.Boolean/PointingToDeclaration/kit/healthstack.kit.ui/-round-text-field.html
 $dokka.location:healthstack.kit.ui//RoundTextFieldMaskedPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-round-text-field-masked-preview.html
@@ -472,22 +390,11 @@ $dokka.location:healthstack.kit.ui//TopBar/#kotlin.String#androidx.compose.ui.gr
 $dokka.location:healthstack.kit.ui//TopBar/#kotlin.String#androidx.compose.ui.graphics.Color#kotlin.Function0[kotlin.Unit]?/PointingToDeclaration/kit/healthstack.kit.ui/-top-bar.html
 $dokka.location:healthstack.kit.ui//WeeklyCard/#java.time.LocalDate#androidx.compose.ui.Modifier/PointingToDeclaration/kit/healthstack.kit.ui/-weekly-card.html
 $dokka.location:healthstack.kit.ui//WeeklyCardPreview/#/PointingToDeclaration/kit/healthstack.kit.ui/-weekly-card-preview.html
-$dokka.location:healthstack.kit.ui//formatTime/#kotlin.Int/PointingToDeclaration/kit/healthstack.kit.ui/format-time.html
 $dokka.location:healthstack.kit.ui/ButtonShape.ROUND///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.ui/-button-shape/-r-o-u-n-d/index.html
 $dokka.location:healthstack.kit.ui/ButtonShape.SQUARE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.ui/-button-shape/-s-q-u-a-r-e/index.html
 $dokka.location:healthstack.kit.ui/ButtonShape///PointingToDeclaration/kit/healthstack.kit.ui/-button-shape/index.html
-$dokka.location:healthstack.kit.ui/TextType.BULLET///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.ui/-text-type/-b-u-l-l-e-t/index.html
-$dokka.location:healthstack.kit.ui/TextType.NUMBER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.ui/-text-type/-n-u-m-b-e-r/index.html
-$dokka.location:healthstack.kit.ui/TextType.PARAGRAPH///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kit/healthstack.kit.ui/-text-type/-p-a-r-a-g-r-a-p-h/index.html
-$dokka.location:healthstack.kit.ui/TextType///PointingToDeclaration/kit/healthstack.kit.ui/-text-type/index.html
 healthstack.kit.annotation
 healthstack.kit.auth
-healthstack.kit.task.activity
-healthstack.kit.task.activity.model
-healthstack.kit.task.activity.predefined
-healthstack.kit.task.activity.step
-healthstack.kit.task.activity.view
-healthstack.kit.task.activity.view.common
 healthstack.kit.task.base
 healthstack.kit.task.onboarding
 healthstack.kit.task.onboarding.model

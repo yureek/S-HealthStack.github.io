@@ -1,7 +1,5 @@
 ---
 title: checkBoxTexts
-permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/check-box-texts.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[checkBoxTexts](check-box-texts.html)
 

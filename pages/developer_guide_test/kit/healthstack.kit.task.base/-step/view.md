@@ -1,7 +1,5 @@
 ---
 title: view
-permalink: /kit/healthstack.kit.task.base/-step/view.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[view](view.html)
 

@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.ui.util
-permalink: /kit/healthstack.kit.ui.util/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui.util](index.html)
 

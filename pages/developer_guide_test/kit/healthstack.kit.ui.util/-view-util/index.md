@@ -1,7 +1,5 @@
 ---
 title: ViewUtil
-permalink: /kit/healthstack.kit.ui.util/-view-util/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.ui.util](../index.html)/[ViewUtil](index.html)
 
@@ -21,5 +19,5 @@ object [ViewUtil](index.html)
 
 | Name | Summary |
 |---|---|
-| [showToastMessage](show-toast-message.html) | [androidJvm]<br>fun [showToastMessage](show-toast-message.html)(context: Context, message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
+| [showToastMessage](show-toast-message.html) | [androidJvm]<br>fun [showToastMessage](show-toast-message.html)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 

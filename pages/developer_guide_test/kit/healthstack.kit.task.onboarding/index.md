@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.task.onboarding
-permalink: /kit/healthstack.kit.task.onboarding/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding](index.html)
 
@@ -16,5 +14,5 @@ permalink: /kit/healthstack.kit.task.onboarding/index.html
 
 | Name | Summary |
 |---|---|
-| [OnboardingTask](-onboarding-task/index.html) | [androidJvm]<br>open class [OnboardingTask](-onboarding-task/index.html) : [OrderedTask](../healthstack.kit.task.base/-ordered-task/index.html) |
+| [OnboardingTask](-onboarding-task/index.html) | [androidJvm]<br>class [OnboardingTask](-onboarding-task/index.html) : [OrderedTask](../healthstack.kit.task.base/-ordered-task/index.html) |
 

@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.onboarding.view/-intro-view/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[IntroView](index.html)/[Render](-render.html)
 

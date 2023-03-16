@@ -1,7 +1,5 @@
 ---
 title: createIntent
-permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/create-intent.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)/[createIntent](create-intent.html)
 
@@ -12,7 +10,7 @@ permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/create-inten
 
 
 [androidJvm]\
-open override fun [createIntent](create-intent.html)(context: Context, input: [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)): Intent
+open override fun [createIntent](create-intent.html)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), input: [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)): [Intent](https://developer.android.com/reference/kotlin/android/content/Intent.html)
 
 
 

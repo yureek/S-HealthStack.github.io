@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.activity.view.common/-simple-activity-view/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.view.common](../index.html)/[SimpleActivityView](index.html)/[Render](-render.html)
 

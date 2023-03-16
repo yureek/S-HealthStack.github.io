@@ -1,7 +1,5 @@
 ---
 title: updateColorsFrom
-permalink: /kit/healthstack.kit.theme/-app-colors/update-colors-from.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[updateColorsFrom](update-colors-from.html)
 

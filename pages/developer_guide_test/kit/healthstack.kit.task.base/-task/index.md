@@ -1,7 +1,5 @@
 ---
 title: Task
-permalink: /kit/healthstack.kit.task.base/-task/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)
 
@@ -39,7 +37,7 @@ SimpleTask - Task with one Step. OrderedTask - Task with multiple Steps.
 
 | Name | Summary |
 |---|---|
-| [CardView](-card-view.html) | [androidJvm]<br>@Composable<br>abstract fun [CardView](-card-view.html)(onClick: () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html))<br>A method for rendering CardView UI. |
+| [CardView](-card-view.html) | [androidJvm]<br>@Composable<br>abstract fun [CardView](-card-view.html)(onClick: () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)) |
 | [equals](equals.html) | [androidJvm]<br>open operator override fun [equals](equals.html)(other: [Any](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)?): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [hashCode](hash-code.html) | [androidJvm]<br>open override fun [hashCode](hash-code.html)(): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [Render](-render.html) | [androidJvm]<br>@Composable<br>abstract fun [Render](-render.html)()<br>A method for rendering UI. |
@@ -50,12 +48,11 @@ SimpleTask - Task with one Step. OrderedTask - Task with multiple Steps.
 
 | Name | Summary |
 |---|---|
-| [callback](callback.html) | [androidJvm]<br>var [callback](callback.html): () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null<br>a method handling task's state when it is finished |
-| [canceled](canceled.html) | [androidJvm]<br>var [canceled](canceled.html): () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null<br>a method handling task's state when it is canceled |
+| [callback](callback.html) | [androidJvm]<br>var [callback](callback.html): () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null<br>a method returning task's state |
+| [canceled](canceled.html) | [androidJvm]<br>var [canceled](canceled.html): () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null |
 | [description](description.html) | [androidJvm]<br>val [description](description.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>concise description of task |
 | [id](id.html) | [androidJvm]<br>val [id](id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>id |
-| [isActive](is-active.html) | [androidJvm]<br>var [isActive](is-active.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = true |
-| [isCompleted](is-completed.html) | [androidJvm]<br>var [isCompleted](is-completed.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false<br>flag for completion of task |
+| [isCompleted](is-completed.html) | [androidJvm]<br>var [isCompleted](is-completed.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = false |
 | [name](name.html) | [androidJvm]<br>val [name](name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>name |
 
 

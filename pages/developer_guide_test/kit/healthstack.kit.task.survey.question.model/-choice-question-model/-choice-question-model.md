@@ -1,7 +1,5 @@
 ---
 title: ChoiceQuestionModel
-permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/-choice-question-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[ChoiceQuestionModel](index.html)/[ChoiceQuestionModel](-choice-question-model.html)
 

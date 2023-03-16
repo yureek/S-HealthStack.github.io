@@ -1,7 +1,5 @@
 ---
 title: EligibilityIntroModel
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-eligibility-intro-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)/[EligibilityIntroModel](-eligibility-intro-model.html)
 

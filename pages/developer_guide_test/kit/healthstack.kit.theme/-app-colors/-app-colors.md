@@ -1,7 +1,5 @@
 ---
 title: AppColors
-permalink: /kit/healthstack.kit.theme/-app-colors/-app-colors.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[AppColors](-app-colors.html)
 

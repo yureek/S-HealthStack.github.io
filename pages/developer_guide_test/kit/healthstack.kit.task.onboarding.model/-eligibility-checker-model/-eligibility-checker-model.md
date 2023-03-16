@@ -1,7 +1,5 @@
 ---
 title: EligibilityCheckerModel
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-checker-model/-eligibility-checker-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityCheckerModel](index.html)/[EligibilityCheckerModel](-eligibility-checker-model.html)
 

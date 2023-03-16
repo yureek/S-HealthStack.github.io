@@ -1,7 +1,5 @@
 ---
 title: Progress
-permalink: /kit/healthstack.kit.task.base/-ordered-task/-progress/index.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.base](../../index.html)/[OrderedTask](../index.html)/[Progress](index.html)
 
@@ -13,8 +11,6 @@ permalink: /kit/healthstack.kit.task.base/-ordered-task/-progress/index.html
 
 [androidJvm]\
 inner class [Progress](index.html)
-
-Inner class indicating progress of this [OrderedTask](../index.html)
 
 
 
@@ -31,6 +27,6 @@ Inner class indicating progress of this [OrderedTask](../index.html)
 
 | Name | Summary |
 |---|---|
-| [current](current.html) | [androidJvm]<br>var [current](current.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) = 0<br>currently rendered [Step](../../-step/index.html) |
-| [length](length.html) | [androidJvm]<br>val [length](length.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)<br>a number of [Step](../../-step/index.html)s of this [OrderedTask](../index.html) |
+| [current](current.html) | [androidJvm]<br>var [current](current.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) = 0 |
+| [length](length.html) | [androidJvm]<br>val [length](length.html): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

@@ -1,7 +1,5 @@
 ---
 title: copy
-permalink: /kit/healthstack.kit.theme/-app-colors/copy.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[copy](copy.html)
 

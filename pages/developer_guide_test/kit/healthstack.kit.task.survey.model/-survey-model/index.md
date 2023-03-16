@@ -1,7 +1,5 @@
 ---
 title: SurveyModel
-permalink: /kit/healthstack.kit.task.survey.model/-survey-model/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.model](../index.html)/[SurveyModel](index.html)
 

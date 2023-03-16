@@ -1,7 +1,5 @@
 ---
 title: SignUpStep
-permalink: /kit/healthstack.kit.task.signup.step/-sign-up-step/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.step](../index.html)/[SignUpStep](index.html)
 

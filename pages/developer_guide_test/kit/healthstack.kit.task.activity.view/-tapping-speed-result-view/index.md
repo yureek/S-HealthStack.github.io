@@ -1,7 +1,5 @@
 ---
 title: TappingSpeedResultView
-permalink: /kit/healthstack.kit.task.activity.view/-tapping-speed-result-view/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.view](../index.html)/[TappingSpeedResultView](index.html)
 

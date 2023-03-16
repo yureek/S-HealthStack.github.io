@@ -1,7 +1,5 @@
 ---
 title: id
-permalink: /kit/healthstack.kit.task.base/-step-model/id.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)/[id](id.html)
 

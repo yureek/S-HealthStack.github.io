@@ -1,7 +1,5 @@
 ---
 title: SquareTextFieldUnMaskedPreview
-permalink: /kit/healthstack.kit.ui/-square-text-field-un-masked-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[SquareTextFieldUnMaskedPreview](-square-text-field-un-masked-preview.html)
 

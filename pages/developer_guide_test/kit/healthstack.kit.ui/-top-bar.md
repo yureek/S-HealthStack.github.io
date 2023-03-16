@@ -1,7 +1,5 @@
 ---
 title: TopBar
-permalink: /kit/healthstack.kit.ui/-top-bar.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[TopBar](-top-bar.html)
 

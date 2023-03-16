@@ -1,7 +1,5 @@
 ---
 title: BULLET
-permalink: /kit/healthstack.kit.ui/-text-type/-b-u-l-l-e-t/index.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.ui](../../index.html)/[TextType](../index.html)/[BULLET](index.html)
 

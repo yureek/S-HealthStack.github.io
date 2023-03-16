@@ -1,7 +1,5 @@
 ---
 title: SurveyStep
-permalink: /kit/healthstack.kit.task.survey.step/-survey-step/-survey-step.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.step](../index.html)/[SurveyStep](index.html)/[SurveyStep](-survey-step.html)
 

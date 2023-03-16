@@ -1,7 +1,5 @@
 ---
 title: SimpleViewActivityModel
-permalink: /kit/healthstack.kit.task.activity.model/-simple-view-activity-model/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[SimpleViewActivityModel](index.html)
 

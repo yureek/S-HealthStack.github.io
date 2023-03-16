@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.survey.question.component/-component/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[Component](index.html)/[Render](-render.html)
 

@@ -1,7 +1,5 @@
 ---
 title: DropDownGroup
-permalink: /kit/healthstack.kit.task.survey.question.component/-choice-question-component/-drop-down-group.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)/[DropDownGroup](-drop-down-group.html)
 

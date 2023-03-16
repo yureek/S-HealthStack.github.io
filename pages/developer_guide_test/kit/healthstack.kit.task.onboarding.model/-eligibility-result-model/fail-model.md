@@ -1,7 +1,5 @@
 ---
 title: failModel
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-result-model/fail-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityResultModel](index.html)/[failModel](fail-model.html)
 

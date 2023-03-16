@@ -1,7 +1,5 @@
 ---
 title: GaitAndBalanceIntroModel
-permalink: /kit/healthstack.kit.task.activity.model/-gait-and-balance-intro-model/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[GaitAndBalanceIntroModel](index.html)
 

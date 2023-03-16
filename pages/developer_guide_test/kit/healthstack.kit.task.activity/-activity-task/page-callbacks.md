@@ -1,7 +1,5 @@
 ---
 title: pageCallbacks
-permalink: /kit/healthstack.kit.task.activity/-activity-task/page-callbacks.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity](../index.html)/[ActivityTask](index.html)/[pageCallbacks](page-callbacks.html)
 

@@ -1,7 +1,5 @@
 ---
 title: MultiPageSurveyLayout
-permalink: /kit/healthstack.kit.task.survey.view/-multi-page-survey-layout.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.view](index.html)/[MultiPageSurveyLayout](-multi-page-survey-layout.html)
 

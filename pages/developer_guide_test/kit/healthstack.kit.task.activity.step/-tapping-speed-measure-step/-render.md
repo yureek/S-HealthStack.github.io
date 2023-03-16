@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.activity.step/-tapping-speed-measure-step/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.step](../index.html)/[TappingSpeedMeasureStep](index.html)/[Render](-render.html)
 

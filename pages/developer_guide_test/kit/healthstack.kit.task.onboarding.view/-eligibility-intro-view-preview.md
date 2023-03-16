@@ -1,7 +1,5 @@
 ---
 title: EligibilityIntroViewPreview
-permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view](index.html)/[EligibilityIntroViewPreview](-eligibility-intro-view-preview.html)
 
@@ -20,7 +18,7 @@ permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view-pre
 
 
 
-@Preview(showBackground = true, device = &quot;id:Nexus 6&quot;)
+@Preview(showBackground = true)
 
 
 

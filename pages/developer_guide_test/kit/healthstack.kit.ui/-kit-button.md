@@ -1,7 +1,5 @@
 ---
 title: KitButton
-permalink: /kit/healthstack.kit.ui/-kit-button.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[KitButton](-kit-button.html)
 
@@ -27,7 +25,7 @@ fun [KitButton](-kit-button.html)(text: [String](https://kotlinlang.org/api/late
         MaterialTheme.shapes.small.bottomStart,
     ), border: BorderStroke? = null, modifier: Modifier = Modifier
         .height(44.dp)
-        .fillMaxWidth(), enabled: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = true, onClick: () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html))
+        .width(320.dp), enabled: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = true, onClick: () -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html))
 
 
 

@@ -1,7 +1,5 @@
 ---
 title: EligibilityIntroStep
-permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-intro-step/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityIntroStep](index.html)
 

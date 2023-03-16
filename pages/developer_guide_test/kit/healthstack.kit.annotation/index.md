@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.annotation
-permalink: /kit/healthstack.kit.annotation/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.annotation](index.html)
 

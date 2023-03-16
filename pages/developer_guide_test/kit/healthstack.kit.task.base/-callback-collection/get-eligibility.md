@@ -1,7 +1,5 @@
 ---
 title: getEligibility
-permalink: /kit/healthstack.kit.task.base/-callback-collection/get-eligibility.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[CallbackCollection](index.html)/[getEligibility](get-eligibility.html)
 

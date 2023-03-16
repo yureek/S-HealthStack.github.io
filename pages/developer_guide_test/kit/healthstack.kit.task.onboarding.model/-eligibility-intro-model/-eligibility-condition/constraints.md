@@ -1,7 +1,5 @@
 ---
 title: constraints
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-eligibility-condition/constraints.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[EligibilityCondition](index.html)/[constraints](constraints.html)
 

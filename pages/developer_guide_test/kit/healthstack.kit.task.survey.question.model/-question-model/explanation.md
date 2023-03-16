@@ -1,7 +1,5 @@
 ---
 title: explanation
-permalink: /kit/healthstack.kit.task.survey.question.model/-question-model/explanation.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[QuestionModel](index.html)/[explanation](explanation.html)
 

@@ -1,7 +1,5 @@
 ---
 title: setActivityResult
-permalink: /kit/healthstack.kit.task.base/-callback-collection/set-activity-result.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[CallbackCollection](index.html)/[setActivityResult](set-activity-result.html)
 

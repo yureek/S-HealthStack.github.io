@@ -1,7 +1,5 @@
 ---
 title: buttonText
-permalink: /kit/healthstack.kit.task.activity.model/-simple-view-activity-model/button-text.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[SimpleViewActivityModel](index.html)/[buttonText](button-text.html)
 
