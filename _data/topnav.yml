@@ -8,7 +8,7 @@ topnav:
 #   - title: API Reference
 #     url: /api-index.html
     - title: Release Notes
-      url: /v09.html
+      url: /v09beta.html
 
 #Topnav dropdowns
 topnav_dropdowns:

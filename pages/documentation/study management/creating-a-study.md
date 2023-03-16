@@ -26,4 +26,4 @@ To create a new study:
 
 When created, your account settings identify you as the creator of the study.
 
-<!-- When created, the system adds the `Study Creator` [study role](role-based-access-control.md#study-roles) to your account settings for the specific study and `(Study Creator)` appears next to your name in the `Members and access` table.-->
+<!-- Hopefully only the second half of this sentence is needed to add to the sentence above for v1.0...  When created, the system adds the `Study Creator` [study role](role-based-access-control.md#study-roles) to your account settings for the specific study and `(Study Creator)` appears next to your name in the **Members and access** table.-->

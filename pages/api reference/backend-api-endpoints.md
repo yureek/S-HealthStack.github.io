@@ -5,13 +5,7 @@ permalink: backend-api-endpoints.html
 toc: false
 ---
 # Backend API Endpoints
-## Version: 0.9.0
-
-<span style="color:red">We also provide the swagger.yml for each module, so you can refer it.</span>
-
-- [platform](https://github.com/S-HealthStack/backend-system/blob/main/platform/swagger.yml)
-- [data query service](http://github.com/S-HealthStack/backend-system/tree/main/data-query-service/swagger.yml)
-- [account service](https://github.com/S-HealthStack/backend-system/blob/main/account-service/swagger.yml)
+## Version: 0.9
 
 ### /projects
 

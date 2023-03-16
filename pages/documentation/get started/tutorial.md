@@ -73,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                               
+   >                                                                   
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
@@ -132,7 +132,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   )
    >   ```
    > 
-   > - In `private fun registrationCompleted`, change the the title reference in the description:
+   > - In `private fun registrationCompleted`, change the title reference in the description:
    > 
    >   ```diff
    >   private fun registrationCompleted() =
@@ -204,7 +204,7 @@ The first step of onboarding is to onboard yourself to live test the app. Follow
 
 1. Download the app to your phone.
 2. Open the app and step through the prompts that you set up while building the app to determine eligibility, request consent, and register those who are eligible.
-3. If not already previously done, install the [Health Platform](https://play.google.com/store/apps/details?id=com.samsung.android.service.health&hl=en&gl=US){:target="_blank"} service app on your phone.
+3. If not already previously done, install the [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata){:target="_blank"} app on your phone.
 4. If not already previously done, pair your phone and the Samsung Galaxy Watch 4.
 
 Once you've tested the app to your satisfaction, invite prospective participants to complete the participant onboarding steps and join the study.

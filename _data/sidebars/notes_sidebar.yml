@@ -19,12 +19,17 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: v0.9
+  - title: Version v0.9
     output: web, pdf
     folderitems:
 
-    - title: v0.9 (alpha)
-      url: /v09.html
+    - title: Version v0.9b (beta)
+      url: /v09beta.html
+      output: web, pdf
+      type: homepage
+
+    - title: Version v0.9a (alpha)
+      url: /v09alpha.html
       output: web, pdf
       type: homepage
 
