@@ -1,43 +1,12 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: sidebar
-  product: Documentation
-  version: v0.9beta
+- product: Documentation
+  version: v0.9 (beta)
+
+- title: Developer Guide 
   folders:
-
-  - title: 
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title: 
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    - title: What is Samsung Health Stack?
-      url: /index.html
-      output: web, pdf
-      type: homepage
-      
-  - title: 
-    output: web, pdf
-    folderitems:
-
-  - title: DEVELOPER GUIDE
-    output: web, pdf
-    folderitems:
-
-    -
-
+  
   - title: Get Started
     output: web, pdf
     folderitems:
@@ -131,17 +100,9 @@ entries:
           url: /data-query-api-endpoints.html
           output: web, pdf
 
-  - title: 
-    output: web, pdf
-    folderitems:
 
-    -
-
-  - title: PORTAL USER GUIDE
-    output: web, pdf
-    folderitems:
-
-    -
+- title: Portal User Guide
+  folders:
 
   - title: Study Management
     output: web, pdf
@@ -214,5 +175,4 @@ entries:
     - title: Exporting Data for External Analysis
       url: /exporting-data.html
       output: web, pdf
-
 # Copyright 2021 Google LLC
