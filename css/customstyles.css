@@ -1,14 +1,3 @@
-:root {
-    --samsung_blue: #2E68FF;
-    --shd_mid_blue:#2EA7FF;
-    --shs_low_blue: #2EA7FF;
-    --blue_color: #daab32;
-    --heading_colors: #1b212c;
-    --background_color: #ffffff;
-    --nav_background: linear-gradient(to right, var(--samsung_blue), var(--shs_low_blue));
-    --nav_background_opposite: linear-gradient(to bottom, var(--samsung_blue), var(--shs_low_blue));
-  }
-
 /* Creating H0 for title */
 h0 {
     display: block;
@@ -420,7 +409,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav > li.active > a  {
-background-color: var(--samsung_blue);
+background-color: #2E68FF;
 }
 
 .nav li a {
