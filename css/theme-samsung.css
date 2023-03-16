@@ -3,9 +3,13 @@
 
 :root {
     --samsung_blue: #242c9c;
+    --shd_mid_blue:#2E68FF;
+    --shs_low_blue: #2EA7FF;
     --blue_color: #daab32;
     --heading_colors: #1b212c;
     --background_color: #ffffff;
+    --nav_background: linear-gradient(to right, var(--samsung_blue), var(--shs_low_blue));
+    --nav_background_opposite: linear-gradient(to bottom, var(--samsung_blue), var(--shs_low_blue));
   }
 
 
@@ -19,7 +23,10 @@ h1 {color: var(--heading_colors);}
 h2 {color: var(--heading_colors);}
 h3 {color: var(--heading_colors);}
 h4 {color: var(--heading_colors);}
-
+.navbar {
+    padding: 10px;
+    background: var(--nav_background);
+}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: var(--samsung_blue);
     color: white;
@@ -103,29 +110,6 @@ body.print h2 {color: #595959 !important; font-size:20px !important;}
 body.print h3 {color: #E50E51 !important; font-size:14px !important;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
 
-.anchorjs-link:hover {
-    color: #216f9b;
-}
-
-div.sidebarTitle {
-    color: #333333;
-}
-
-li.sidebarTitle {
-    text-align: center;
-    padding: 10px 0 10px 0;
-    font-size: 90%;
-    background-color: var(--samsung_blue);
-    color: var(--background_color);
-    
-
-}
-.sidebartext{
-    color: var(--samsung_blue);
-    font-weight: bold;
-    text-align: center;
-    margin: 10px;
-}
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: var(--blue_color);
@@ -149,4 +133,29 @@ img.thinborder {
     box-shadow: 0px 0px 0px 0px;
     border-radius: 8px;
     border: 1px solid var(--samsung_blue);
+}
+
+
+.anchorjs-link:hover {
+    color: #216f9b;
+}
+
+div.sidebarTitle {
+    color: #333333;
+}
+
+li.sidebarTitle {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 90%;
+    background: var(--nav_background);
+    color: var(--background_color);
+    
+
+}
+.sidebartext{
+    color: var(--samsung_blue);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
 }
