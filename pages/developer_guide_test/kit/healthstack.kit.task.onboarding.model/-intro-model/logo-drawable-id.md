@@ -1,5 +1,7 @@
 ---
 title: logoDrawableId
+permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/logo-drawable-id.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[logoDrawableId](logo-drawable-id.html)
 

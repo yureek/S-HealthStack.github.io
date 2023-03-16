@@ -1,5 +1,7 @@
 ---
 title: TappingSpeedMeasureModel
+permalink: /kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/-tapping-speed-measure-model.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[TappingSpeedMeasureModel](index.html)/[TappingSpeedMeasureModel](-tapping-speed-measure-model.html)
 

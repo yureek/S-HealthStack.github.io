@@ -1,5 +1,7 @@
 ---
 title: primaryVariant
+permalink: /kit/healthstack.kit.theme/-app-colors/primary-variant.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[primaryVariant](primary-variant.html)
 

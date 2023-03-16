@@ -1,5 +1,7 @@
 ---
 title: StatusCard
+permalink: /kit/healthstack.kit.ui/-status-card.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[StatusCard](-status-card.html)
 

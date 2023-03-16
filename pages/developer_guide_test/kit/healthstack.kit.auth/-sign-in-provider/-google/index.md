@@ -1,5 +1,7 @@
 ---
 title: Google
+permalink: /kit/healthstack.kit.auth/-sign-in-provider/-google/index.html
+
 ---
 //[kit](../../../../index.html)/[healthstack.kit.auth](../../index.html)/[SignInProvider](../index.html)/[Google](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: ListedTextBulletPreview
+permalink: /kit/healthstack.kit.ui/-listed-text-bullet-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[ListedTextBulletPreview](-listed-text-bullet-preview.html)
 

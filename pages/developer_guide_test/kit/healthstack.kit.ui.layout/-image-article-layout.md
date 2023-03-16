@@ -1,5 +1,7 @@
 ---
 title: ImageArticleLayout
+permalink: /kit/healthstack.kit.ui.layout/-image-article-layout.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui.layout](index.html)/[ImageArticleLayout](-image-article-layout.html)
 

@@ -1,5 +1,7 @@
 ---
 title: ConsentTopBarPreview3
+permalink: /kit/healthstack.kit.ui/-consent-top-bar-preview3.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[ConsentTopBarPreview3](-consent-top-bar-preview3.html)
 

@@ -1,5 +1,7 @@
 ---
 title: TextType
+permalink: /kit/healthstack.kit.ui/-text-type/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.ui](../index.html)/[TextType](index.html)
 

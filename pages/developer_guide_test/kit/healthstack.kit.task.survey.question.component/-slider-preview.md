@@ -1,5 +1,7 @@
 ---
 title: SliderPreview
+permalink: /kit/healthstack.kit.task.survey.question.component/-slider-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.question.component](index.html)/[SliderPreview](-slider-preview.html)
 

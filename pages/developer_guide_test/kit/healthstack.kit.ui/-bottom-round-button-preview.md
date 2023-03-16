@@ -1,5 +1,7 @@
 ---
 title: BottomRoundButtonPreview
+permalink: /kit/healthstack.kit.ui/-bottom-round-button-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomRoundButtonPreview](-bottom-round-button-preview.html)
 

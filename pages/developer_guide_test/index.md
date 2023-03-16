@@ -1,7 +1,8 @@
 ---
 title: SDK Document
-sidebar: doc_sidebar
 permalink: kit.html
+
+sidebar: doc_sidebar
 toc: false
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: createIntent
+permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/create-intent.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)/[createIntent](create-intent.html)
 

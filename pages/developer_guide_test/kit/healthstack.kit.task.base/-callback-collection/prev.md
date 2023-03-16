@@ -1,5 +1,7 @@
 ---
 title: prev
+permalink: /kit/healthstack.kit.task.base/-callback-collection/prev.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[CallbackCollection](index.html)/[prev](prev.html)
 

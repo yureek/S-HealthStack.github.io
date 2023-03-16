@@ -1,5 +1,7 @@
 ---
 title: BottomSquareButton
+permalink: /kit/healthstack.kit.ui/-bottom-square-button.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomSquareButton](-bottom-square-button.html)
 

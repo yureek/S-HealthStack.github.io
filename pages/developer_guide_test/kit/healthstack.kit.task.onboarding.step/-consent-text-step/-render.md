@@ -1,5 +1,7 @@
 ---
 title: Render
+permalink: /kit/healthstack.kit.task.onboarding.step/-consent-text-step/-render.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[ConsentTextStep](index.html)/[Render](-render.html)
 

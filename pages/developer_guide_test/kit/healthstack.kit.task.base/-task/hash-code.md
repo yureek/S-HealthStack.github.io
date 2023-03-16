@@ -1,5 +1,7 @@
 ---
 title: hashCode
+permalink: /kit/healthstack.kit.task.base/-task/hash-code.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[hashCode](hash-code.html)
 

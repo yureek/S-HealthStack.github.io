@@ -1,5 +1,7 @@
 ---
 title: LockScreenOrientation
+permalink: /kit/healthstack.kit.task.onboarding.view.layout/-lock-screen-orientation.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[LockScreenOrientation](-lock-screen-orientation.html)
 

@@ -1,5 +1,7 @@
 ---
 title: canceled
+permalink: /kit/healthstack.kit.task.base/-task/canceled.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[canceled](canceled.html)
 

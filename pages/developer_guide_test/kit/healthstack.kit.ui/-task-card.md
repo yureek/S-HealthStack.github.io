@@ -1,5 +1,7 @@
 ---
 title: TaskCard
+permalink: /kit/healthstack.kit.ui/-task-card.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[TaskCard](-task-card.html)
 

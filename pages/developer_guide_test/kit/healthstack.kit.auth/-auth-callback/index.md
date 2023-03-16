@@ -1,5 +1,7 @@
 ---
 title: AuthCallback
+permalink: /kit/healthstack.kit.auth/-auth-callback/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[AuthCallback](index.html)
 

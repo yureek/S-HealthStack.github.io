@@ -1,5 +1,7 @@
 ---
 title: isActive
+permalink: /kit/healthstack.kit.task.base/-task/is-active.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[isActive](is-active.html)
 

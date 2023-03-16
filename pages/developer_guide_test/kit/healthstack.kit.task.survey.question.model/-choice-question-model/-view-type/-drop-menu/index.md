@@ -1,5 +1,7 @@
 ---
 title: DropMenu
+permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/-view-type/-drop-menu/index.html
+
 ---
 //[kit](../../../../../index.html)/[healthstack.kit.task.survey.question.model](../../../index.html)/[ChoiceQuestionModel](../../index.html)/[ViewType](../index.html)/[DropMenu](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: BottomBar
+permalink: /kit/healthstack.kit.ui/-bottom-bar.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomBar](-bottom-bar.html)
 

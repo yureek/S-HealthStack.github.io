@@ -1,5 +1,7 @@
 ---
 title: healthstack.kit.auth
+permalink: /kit/healthstack.kit.auth/index.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.auth](index.html)
 

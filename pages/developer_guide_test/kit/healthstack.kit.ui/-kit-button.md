@@ -1,5 +1,7 @@
 ---
 title: KitButton
+permalink: /kit/healthstack.kit.ui/-kit-button.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[KitButton](-kit-button.html)
 

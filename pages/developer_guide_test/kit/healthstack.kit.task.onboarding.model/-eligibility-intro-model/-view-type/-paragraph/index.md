@@ -1,5 +1,7 @@
 ---
 title: Paragraph
+permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-view-type/-paragraph/index.html
+
 ---
 //[kit](../../../../../index.html)/[healthstack.kit.task.onboarding.model](../../../index.html)/[EligibilityIntroModel](../../index.html)/[ViewType](../index.html)/[Paragraph](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: CardView
+permalink: /kit/healthstack.kit.task.base/-task/-card-view.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[CardView](-card-view.html)
 

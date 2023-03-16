@@ -1,5 +1,7 @@
 ---
 title: AppTheme
+permalink: /kit/healthstack.kit.theme/-app-theme/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTheme](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: SdkCard
+permalink: /kit/healthstack.kit.ui/-sdk-card.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[SdkCard](-sdk-card.html)
 

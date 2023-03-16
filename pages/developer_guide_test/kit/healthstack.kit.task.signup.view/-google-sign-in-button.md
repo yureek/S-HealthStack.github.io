@@ -1,5 +1,7 @@
 ---
 title: GoogleSignInButton
+permalink: /kit/healthstack.kit.task.signup.view/-google-sign-in-button.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.signup.view](index.html)/[GoogleSignInButton](-google-sign-in-button.html)
 

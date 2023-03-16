@@ -1,5 +1,7 @@
 ---
 title: ButtonShape
+permalink: /kit/healthstack.kit.ui/-button-shape/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.ui](../index.html)/[ButtonShape](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: LabeledCheckbox
+permalink: /kit/healthstack.kit.ui/-labeled-checkbox.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[LabeledCheckbox](-labeled-checkbox.html)
 

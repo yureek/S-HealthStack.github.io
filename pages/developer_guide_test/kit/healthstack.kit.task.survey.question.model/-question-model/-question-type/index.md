@@ -1,5 +1,7 @@
 ---
 title: QuestionType
+permalink: /kit/healthstack.kit.task.survey.question.model/-question-model/-question-type/index.html
+
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.survey.question.model](../../index.html)/[QuestionModel](../index.html)/[QuestionType](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: next
+permalink: /kit/healthstack.kit.task.base/-callback-collection/next.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[CallbackCollection](index.html)/[next](next.html)
 

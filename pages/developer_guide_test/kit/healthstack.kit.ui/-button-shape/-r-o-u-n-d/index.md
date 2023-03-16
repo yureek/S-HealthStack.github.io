@@ -1,5 +1,7 @@
 ---
 title: ROUND
+permalink: /kit/healthstack.kit.ui/-button-shape/-r-o-u-n-d/index.html
+
 ---
 //[kit](../../../../index.html)/[healthstack.kit.ui](../../index.html)/[ButtonShape](../index.html)/[ROUND](index.html)
 

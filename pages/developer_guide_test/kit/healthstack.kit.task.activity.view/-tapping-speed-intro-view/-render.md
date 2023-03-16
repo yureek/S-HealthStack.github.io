@@ -1,5 +1,7 @@
 ---
 title: Render
+permalink: /kit/healthstack.kit.task.activity.view/-tapping-speed-intro-view/-render.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.view](../index.html)/[TappingSpeedIntroView](index.html)/[Render](-render.html)
 

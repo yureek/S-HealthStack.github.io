@@ -1,5 +1,7 @@
 ---
 title: getResponse
+permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/get-response.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[ChoiceQuestionModel](index.html)/[getResponse](get-response.html)
 

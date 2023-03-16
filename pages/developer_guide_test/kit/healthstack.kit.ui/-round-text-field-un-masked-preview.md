@@ -1,5 +1,7 @@
 ---
 title: RoundTextFieldUnMaskedPreview
+permalink: /kit/healthstack.kit.ui/-round-text-field-un-masked-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[RoundTextFieldUnMaskedPreview](-round-text-field-un-masked-preview.html)
 

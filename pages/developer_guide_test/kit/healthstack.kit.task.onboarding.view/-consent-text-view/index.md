@@ -1,5 +1,7 @@
 ---
 title: ConsentTextView
+permalink: /kit/healthstack.kit.task.onboarding.view/-consent-text-view/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[ConsentTextView](index.html)
 

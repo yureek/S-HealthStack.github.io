@@ -1,5 +1,7 @@
 ---
 title: taskId
+permalink: /kit/healthstack.kit.task.survey/-survey-task/task-id.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey](../index.html)/[SurveyTask](index.html)/[taskId](task-id.html)
 

@@ -1,5 +1,7 @@
 ---
 title: ListedTextPreview
+permalink: /kit/healthstack.kit.ui/-listed-text-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[ListedTextPreview](-listed-text-preview.html)
 

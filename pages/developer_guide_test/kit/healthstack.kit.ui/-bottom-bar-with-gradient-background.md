@@ -1,5 +1,7 @@
 ---
 title: BottomBarWithGradientBackground
+permalink: /kit/healthstack.kit.ui/-bottom-bar-with-gradient-background.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomBarWithGradientBackground](-bottom-bar-with-gradient-background.html)
 

@@ -1,5 +1,7 @@
 ---
 title: EligibilityOverviewCard
+permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view/-eligibility-overview-card.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[EligibilityOverviewCard](-eligibility-overview-card.html)
 

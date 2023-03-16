@@ -1,5 +1,7 @@
 ---
 title: DropdownPreview
+permalink: /kit/healthstack.kit.task.survey.question.component/-dropdown-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.question.component](index.html)/[DropdownPreview](-dropdown-preview.html)
 

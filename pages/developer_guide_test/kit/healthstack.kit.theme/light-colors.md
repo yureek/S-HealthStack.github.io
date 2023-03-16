@@ -1,5 +1,7 @@
 ---
 title: lightColors
+permalink: /kit/healthstack.kit.theme/light-colors.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.theme](index.html)/[lightColors](light-colors.html)
 

@@ -1,5 +1,7 @@
 ---
 title: step
+permalink: /kit/healthstack.kit.task.survey/-survey-task/step.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey](../index.html)/[SurveyTask](index.html)/[step](step.html)
 

@@ -1,5 +1,7 @@
 ---
 title: healthstack.kit.task.onboarding.step
+permalink: /kit/healthstack.kit.task.onboarding.step/index.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.step](index.html)
 

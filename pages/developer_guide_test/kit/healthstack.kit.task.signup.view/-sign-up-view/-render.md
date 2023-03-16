@@ -1,5 +1,7 @@
 ---
 title: Render
+permalink: /kit/healthstack.kit.task.signup.view/-sign-up-view/-render.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.view](../index.html)/[SignUpView](index.html)/[Render](-render.html)
 

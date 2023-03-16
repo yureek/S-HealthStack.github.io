@@ -1,5 +1,7 @@
 ---
 title: EligibilityResultViewSuccessPreview
+permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-result-view-success-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view](index.html)/[EligibilityResultViewSuccessPreview](-eligibility-result-view-success-preview.html)
 

@@ -1,5 +1,7 @@
 ---
 title: WeeklyCardPreview
+permalink: /kit/healthstack.kit.ui/-weekly-card-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[WeeklyCardPreview](-weekly-card-preview.html)
 

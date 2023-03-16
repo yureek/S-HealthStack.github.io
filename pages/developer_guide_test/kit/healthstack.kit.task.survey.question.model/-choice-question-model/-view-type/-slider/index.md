@@ -1,5 +1,7 @@
 ---
 title: Slider
+permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/-view-type/-slider/index.html
+
 ---
 //[kit](../../../../../index.html)/[healthstack.kit.task.survey.question.model](../../../index.html)/[ChoiceQuestionModel](../../index.html)/[ViewType](../index.html)/[Slider](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: SimpleViewNoButtonBulletPreview
+permalink: /kit/healthstack.kit.task.activity.view.common/-simple-view-no-button-bullet-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.activity.view.common](index.html)/[SimpleViewNoButtonBulletPreview](-simple-view-no-button-bullet-preview.html)
 

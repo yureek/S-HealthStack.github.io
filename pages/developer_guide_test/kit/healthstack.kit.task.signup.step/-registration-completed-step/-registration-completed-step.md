@@ -1,5 +1,7 @@
 ---
 title: RegistrationCompletedStep
+permalink: /kit/healthstack.kit.task.signup.step/-registration-completed-step/-registration-completed-step.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.step](../index.html)/[RegistrationCompletedStep](index.html)/[RegistrationCompletedStep](-registration-completed-step.html)
 

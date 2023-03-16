@@ -1,5 +1,7 @@
 ---
 title: conditions
+permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/conditions.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)/[conditions](conditions.html)
 

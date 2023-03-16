@@ -1,5 +1,7 @@
 ---
 title: MultiChoiceQuestionModel
+permalink: /kit/healthstack.kit.task.survey.question.model/-multi-choice-question-model/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[MultiChoiceQuestionModel](index.html)
 

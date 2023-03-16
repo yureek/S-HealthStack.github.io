@@ -1,5 +1,7 @@
 ---
 title: GaitAndBalanceResultModel
+permalink: /kit/healthstack.kit.task.activity.model/-gait-and-balance-result-model/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[GaitAndBalanceResultModel](index.html)
 

@@ -1,5 +1,7 @@
 ---
 title: ConsentTextStep
+permalink: /kit/healthstack.kit.task.onboarding.step/-consent-text-step/-consent-text-step.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[ConsentTextStep](index.html)/[ConsentTextStep](-consent-text-step.html)
 

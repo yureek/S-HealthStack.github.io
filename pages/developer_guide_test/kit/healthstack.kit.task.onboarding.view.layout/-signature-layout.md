@@ -1,5 +1,7 @@
 ---
 title: SignatureLayout
+permalink: /kit/healthstack.kit.task.onboarding.view.layout/-signature-layout.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[SignatureLayout](-signature-layout.html)
 

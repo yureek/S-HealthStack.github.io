@@ -1,5 +1,7 @@
 ---
 title: SignatureViewPreview
+permalink: /kit/healthstack.kit.task.onboarding.view.layout/-signature-view-preview.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[SignatureViewPreview](-signature-view-preview.html)
 

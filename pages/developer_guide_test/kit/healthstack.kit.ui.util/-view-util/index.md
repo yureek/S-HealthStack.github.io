@@ -1,5 +1,7 @@
 ---
 title: ViewUtil
+permalink: /kit/healthstack.kit.ui.util/-view-util/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.ui.util](../index.html)/[ViewUtil](index.html)
 

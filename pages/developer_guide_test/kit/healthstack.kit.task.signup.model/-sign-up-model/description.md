@@ -1,5 +1,7 @@
 ---
 title: description
+permalink: /kit/healthstack.kit.task.signup.model/-sign-up-model/description.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.model](../index.html)/[SignUpModel](index.html)/[description](description.html)
 

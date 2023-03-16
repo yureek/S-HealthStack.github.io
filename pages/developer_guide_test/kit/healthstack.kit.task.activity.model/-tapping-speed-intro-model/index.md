@@ -1,5 +1,7 @@
 ---
 title: TappingSpeedIntroModel
+permalink: /kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/index.html
+
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[TappingSpeedIntroModel](index.html)
 

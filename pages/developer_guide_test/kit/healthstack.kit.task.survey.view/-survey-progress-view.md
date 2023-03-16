@@ -1,5 +1,7 @@
 ---
 title: SurveyProgressView
+permalink: /kit/healthstack.kit.task.survey.view/-survey-progress-view.html
+
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.view](index.html)/[SurveyProgressView](-survey-progress-view.html)
 
