@@ -1,5 +1,5 @@
 ---
-title: Version v0.9b (beta) Release Notes
+title: Version vv0.9b (beta) Release Notes
 sidebar: notes_sidebar
 permalink: v09beta.html
 toc: false
