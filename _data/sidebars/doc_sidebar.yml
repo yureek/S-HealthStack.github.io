@@ -6,11 +6,11 @@ entries:
   version: v0.9beta
   folders:
 
-  - title:
+  - title: 
     output: pdf
     type: frontmatter
     folderitems:
-    - title:
+    - title: 
       url: /titlepage.html
       output: pdf
       type: frontmatter
@@ -19,14 +19,28 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Get Started
+  - title: Overview
     output: web, pdf
     folderitems:
 
-    - title: Overview
+    - title: What is Samsung Health Stack?
       url: /index.html
       output: web, pdf
       type: homepage
+      
+  - title: 
+    output: web, pdf
+    folderitems:
+
+  - title: DEVELOPER GUIDE
+    output: web, pdf
+    folderitems:
+
+    -
+
+  - title: Get Started
+    output: web, pdf
+    folderitems:
 
     - title: Getting Started Tutorial
       url: /tutorial.html
@@ -56,9 +70,78 @@ entries:
       url: /installing-the-portal.html
       output: web, pdf
 
-    - title: Connect Your Database
+    - title: Connecting your Database
       url: /database_config.html
       output: web, pdf
+
+  - title: App Creation
+    output: web, pdf
+    folderitems:
+
+    - title: Building the Mobile App
+      url: /building-the-app.html
+      output: web, pdf
+
+    - title: Configuring the App
+      url: /configuring-the-app.html
+      output: web, pdf
+
+    - title: Testing the App
+      url: /testing-the-app.html
+      output: web, pdf
+
+  - title: Study Execution
+    output: web, pdf
+    folderitems:
+
+    - title: Onboarding Participants
+      url: /onboarding-participants.html
+      output: web, pdf
+
+    - title: Collecting Data
+      url: /collecting-data.html
+      output: web, pdf
+
+  - title: Reference Materials
+    output: web, pdf
+    folderitems:
+
+    - title: SDK Packages
+      url: /kit.html
+      output: web, pdf
+
+      subfolders:
+      - title: API Reference
+        output: web, pdf
+        subfolderitems:
+
+        - title: Overview
+          url: /api-reference.html
+          output: web, pdf
+
+        - title: Account Service API Endpoints
+          url: /account-service-api-endpoints.html
+          output: web, pdf
+
+        - title: Backend API Endpoints
+          url: /backend-api-endpoints.html
+          output: web, pdf
+    
+        - title: Data Query API Endpoints
+          url: /data-query-api-endpoints.html
+          output: web, pdf
+
+  - title: 
+    output: web, pdf
+    folderitems:
+
+    -
+
+  - title: PORTAL USER GUIDE
+    output: web, pdf
+    folderitems:
+
+    -
 
   - title: Study Management
     output: web, pdf
@@ -76,6 +159,10 @@ entries:
       url: /managing-members.html
       output: web, pdf
 
+  - title: Content Creation
+    output: web, pdf
+    folderitems:
+    
     - title: Creating a Survey
       url: /creating-a-survey.html
       output: web, pdf
@@ -86,22 +173,6 @@ entries:
 
     - title: Scheduling and Publishing a Survey
       url: /publishing-a-survey.html
-      output: web, pdf
-
-  - title: App Creation
-    output: web, pdf
-    folderitems:
-
-    - title: Building the Mobile App
-      url: /building-the-app.html
-      output: web, pdf
-
-    - title: Configuring the App
-      url: /configuring-the-app.html
-      output: web, pdf
-
-    - title: Testing the App
-      url: /testing-the-app.html
       output: web, pdf
 
   - title: Study Execution
@@ -143,34 +214,5 @@ entries:
     - title: Exporting Data for External Analysis
       url: /exporting-data.html
       output: web, pdf
-
-  - title: Developer Reference
-    output: web, pdf
-    folderitems:
-
-    - title: SDK Packages
-      url: /kit.html
-      output: web, pdf
-
-      subfolders:
-      - title: API Reference
-        output: web, pdf
-        subfolderitems:
-
-        - title: Overview
-          url: /api-reference.html
-          output: web, pdf
-
-        - title: Account Service API Endpoints
-          url: /account-service-api-endpoints.html
-          output: web, pdf
-
-        - title: Backend API Endpoints
-          url: /backend-api-endpoints.html
-          output: web, pdf
-    
-        - title: Data Query API Endpoints
-          url: /data-query-api-endpoints.html
-          output: web, pdf
 
 # Copyright 2021 Google LLC
