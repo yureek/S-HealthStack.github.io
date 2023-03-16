@@ -1,0 +1,27 @@
+---
+title: StatusCard
+permalink: /kit/healthstack.kit.ui/-status-card.html
+
+---
+//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[StatusCard](-status-card.html)
+
+
+
+# StatusCard
+
+
+
+[androidJvm]\
+
+
+
+
+@Composable
+
+
+
+fun [StatusCard](-status-card.html)(@DrawableResdrawableId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), value: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), unit: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) = &quot;&quot;)
+
+
+
+
