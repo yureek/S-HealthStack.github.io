@@ -2,9 +2,8 @@
 title: Backend API Endpoints
 sidebar: doc_sidebar
 permalink: backend-api-endpoints.html
-toc: false
+toc: true
 ---
-# Backend API Endpoints
 ## Version: 0.9
 
 ### /projects

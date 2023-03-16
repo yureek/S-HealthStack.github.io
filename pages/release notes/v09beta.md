@@ -1,5 +1,5 @@
 ---
-title: Versv0.9b (beta) Release Notes
+title: Version v0.9b (beta) Release Notes
 sidebar: notes_sidebar
 permalink: v09beta.html
 toc: false
@@ -9,15 +9,16 @@ toc: false
 
 # What's New
 
-Samsung Health Stack version 0.9 (v0.9) beta is now available at [https://github.com/S-HealthStack](https://github.com/S-HealthStack){:target="_blank"}. The beta version contains many internal improvements and has gone through a rigorous verification process. The sections below describe what's new that is visible from the outside.
+Samsung Health Stack version 0.9 (v0.9) beta is now available at [https://github.com/S-HealthStack](https://github.com/S-HealthStack){:target="_blank"}. The beta version contains many internal improvements and has gone through a rigorous verification process. The sections below describe what's new that is visible from the outside. 
 
 ## Documentation
 
 The [s-healthstack.io](https://s-healthstack.io) documentation is now much more robust. It still primarily uses non-technical language, focused for non-developer researchers and describes in detail all features of the web portal.
 
-The API Reference (found as the last category in the left navigation panel ) is improved with details for all account service, data query, and backend API requests.
+The Developer Reference (found as the last category in the left navigation panel) now contains:
 
-The app SDK documentation (found ...) is greatly improved and now publicly available.
+- The API Reference - improved with details for all account service, data query, and backend API requests.
+- The app SDK documentation - greatly improved and now publicly available.
 
 ## Health Connect
 
@@ -25,5 +26,5 @@ Samsung Health Stack has integrated the [Health Connect](https://developer.andro
 
 ## Account Creation
 
-Every member collaborating on a study needs a health stack account. In addition to the [command account creation](../documentation/installation/installing-the-backend.md#xiii-create-initial-account) available in the alpha version, initial account creation is now available through an easy to use [web portal user interface](../documentation/installation/installing-the-portal.md#iii-launch-web-portal-and-create-account).
+Every member collaborating on a study needs a health stack account. In addition to the [command line account creation](../documentation/installation/installing-the-backend.md#xiii-create-initial-account) available in the alpha version, initial account creation is now available through an easy to use [web portal user interface](../documentation/installation/installing-the-portal.md#iii-launch-web-portal-and-create-account).
 
