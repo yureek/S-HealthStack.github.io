@@ -5,7 +5,7 @@ permalink: creating-a-study.html
 toc: false
 ---
 
-A Samsung Health Stack study is a container you create within the web portal to manage all aspects of your participant study. A container consists of the team members running the study, the list of participants, participant surveys, survey results, participant vital signs tracked through the wearable device, graphs giving insights into the data collected, and more.
+A Samsung Health Stack study is a container you create to manage all aspects of your participant study. A container consists of the team members running the study, the list of participants, participant surveys, survey results, participant vital signs tracked through the wearable device, graphs giving insights into the data collected, and more.
 
 > As of this writing, Chrome is the only browser supported for accessing the web portal.
 
@@ -23,3 +23,7 @@ To create a new study:
 4. Select a color for the study logo.
 
 5. Click **Create Study**.
+
+When created, your account settings identify you as the creator of the study.
+
+<!-- When created, the system adds the `Study Creator` [study role](role-based-access-control.md#study-roles) to your account settings for the specific study and `(Study Creator)` appears next to your name in the `Members and access` table.-->

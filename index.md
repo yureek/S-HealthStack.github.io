@@ -32,7 +32,7 @@ The app SDK provides developers with what’s needed to create mobile apps that 
 The web portal is a customizable dashboard for interactive data visualization. Managers of the studies use the portal to:
 
 - Create and deploy surveys
-- Manage team members and participants
+- Manage members and participants
 - Analyze participant data
 
 > As of this writing, Chrome is the only browser supported for accessing the web portal.

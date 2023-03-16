@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Documentation
-  version: v0.9
+  version: v0.9 (beta)
   folders:
 
   - title:
@@ -36,6 +36,10 @@ entries:
       url: /contributing-to-the-project.html
       output: web, pdf
 
+    - title: Creating an Account
+      url: /creating-an-account.html
+      output: web, pdf
+
   - title: Installation
     output: web, pdf
     folderitems:
@@ -61,12 +65,16 @@ entries:
     output: web, pdf
     folderitems:
     
+    - title: Role-Based Access Control
+      url: /role-based-access-control.html
+      output: web, pdf
+
     - title: Creating a Study
       url: /creating-a-study.html
       output: web, pdf
 
-    - title: Inviting Team Members and Assigning Roles
-      url: /inviting-team-members.html
+    - title: Managing  Members
+      url: /managing-members.html
       output: web, pdf
 
     - title: Creating a Survey
@@ -107,6 +115,14 @@ entries:
 
     - title: Collecting Data
       url: /collecting-data.html
+      output: web, pdf
+
+    - title: Tracking Survey Responses
+      url: /tracking-survey-responses.html
+      output: web, pdf
+
+    - title: Viewing Survey Analytics
+      url: /viewing-survey-analytics.html
       output: web, pdf
 
   - title: Results Analysis

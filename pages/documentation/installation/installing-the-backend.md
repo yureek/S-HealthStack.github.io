@@ -128,7 +128,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    docker build --tag hrp-account-service:0.9.0 ./account-service/
    ```
 
-3. Deploy the account service and identify your email server.
+3. Deploy the account service and identify your mail server.
 
    ```
    docker run \
@@ -596,14 +596,14 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 # Wrap Up
 
-## XIII. Create Initial Login
+## XIII. Create Initial Account
 
-> These steps are temporary. We intend to implement a UI-based solution by the official release.
+> If you intend to use the web portal and a mail server, skip this step and proceed to [web portal installation and setup](installing-the-portal.md).
 
 ### With Mail Server
 When a mail server is available, perform these steps:
 
-1. Create the initial user login.
+1. Create an account for the initial user.
 
    ```
    curl --location --request POST 'localhost:8080/account-service/signup'
@@ -613,13 +613,14 @@ When a mail server is available, perform these steps:
      "password": "your_password"
    }'
    ```
-2. Check the verification email and activate the login.
-> The system automatically assigns the `team-admin` role to the first user to create a login.
+2. Check the account activation email and activate the login.
+> The system automatically assigns the `Team Admin` [team role](role-based-access-control.md#team-roles) to the first user to create an account. Because this role has advanced access to the health stack, we recommend that your system administrator creates the first account.
+
 
 ### Without Mail Server
 When a mail server is not available, perform these steps:
 
-1. Create the team-admin role.
+1. Create the `Team Admin` team role.
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/role'
@@ -658,7 +659,7 @@ When a mail server is not available, perform these steps:
    > }
    > ```
 
-3. Copy the returned `id` to the `userId` field in the following command to assign the team-admin role to the user.
+3. Copy the returned `id` to the `userId` field in the following command to assign the `Team Admin` team role to the user.
 
    ```
    curl --location --request PUT 'localhost:3567/recipe/user/role'
@@ -719,17 +720,17 @@ When a mail server is not available, perform these steps:
    > }
    > ```
 
-## XIV. Launch the Web Portal
+<!-- ## XIV. Launch the Web Portal-->
 
-1. In Chrome, navigate to http://localhost.
+<!-- 1. In Chrome, navigate to http://localhost. -->
 
-2. Specify the port you configured in the **haproxy.cfg** file.
+<!-- 2. Specify the port you configured in the **haproxy.cfg** file.-->
 
-   1. Press F12 to open the inspector.
-   2. Click the **Application** tab.
-   3. Select **Local Storage > localhost**.
-   4. Change the value for the `API_URL` key to `http://localhost:3035`.
-3. Press F5 to reload the page and open the web portal.
+<!--    1. Press F12 to open the inspector.-->
+<!--    2. Click the **Application** tab.-->
+<!--    3. Select **Local Storage > localhost**.-->
+<!--    4. Change the value for the `API_URL` key to `http://localhost:3035`.-->
+<!-- 3. Press F5 to reload the page and open the web portal.-->
 
 <!-- ## XIV. Verify Project Access-->
 

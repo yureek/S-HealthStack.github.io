@@ -35,7 +35,7 @@ To create a new survey:
 
 4. Click **Add question** and repeat the previous step for each question in your survey.
 
-    > To quick start a new question, click the **Copy** icon in the lower right of a similar question.
+    > To quickly start a new question, click the **Copy** icon in the lower right of a similar question.
 
 5. Use the left-side handles to drag and drop the questions in your desired order.
 
