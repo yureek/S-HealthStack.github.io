@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.theme
-permalink: /kit/healthstack.kit.theme/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.theme](index.html)
 

@@ -1,7 +1,5 @@
 ---
 title: IntroSections
-permalink: /kit/healthstack.kit.task.onboarding.view/-intro-sections.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view](index.html)/[IntroSections](-intro-sections.html)
 

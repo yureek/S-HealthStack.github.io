@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.task.activity.view
-permalink: /kit/healthstack.kit.task.activity.view/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.activity.view](index.html)
 

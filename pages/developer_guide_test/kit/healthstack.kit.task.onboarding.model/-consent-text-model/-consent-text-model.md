@@ -1,7 +1,5 @@
 ---
 title: ConsentTextModel
-permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/-consent-text-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[ConsentTextModel](-consent-text-model.html)
 

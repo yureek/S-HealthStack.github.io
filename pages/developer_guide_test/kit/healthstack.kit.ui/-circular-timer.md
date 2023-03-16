@@ -1,7 +1,5 @@
 ---
 title: CircularTimer
-permalink: /kit/healthstack.kit.ui/-circular-timer.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[CircularTimer](-circular-timer.html)
 

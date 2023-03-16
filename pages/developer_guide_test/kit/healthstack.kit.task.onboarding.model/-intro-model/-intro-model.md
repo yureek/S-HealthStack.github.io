@@ -1,7 +1,5 @@
 ---
 title: IntroModel
-permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/-intro-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[IntroModel](-intro-model.html)
 

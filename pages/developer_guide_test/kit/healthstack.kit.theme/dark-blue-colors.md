@@ -1,7 +1,5 @@
 ---
 title: darkBlueColors
-permalink: /kit/healthstack.kit.theme/dark-blue-colors.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.theme](index.html)/[darkBlueColors](dark-blue-colors.html)
 

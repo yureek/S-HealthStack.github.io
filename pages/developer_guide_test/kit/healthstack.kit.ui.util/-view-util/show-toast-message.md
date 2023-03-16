@@ -1,7 +1,5 @@
 ---
 title: showToastMessage
-permalink: /kit/healthstack.kit.ui.util/-view-util/show-toast-message.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.ui.util](../index.html)/[ViewUtil](index.html)/[showToastMessage](show-toast-message.html)
 
@@ -12,7 +10,7 @@ permalink: /kit/healthstack.kit.ui.util/-view-util/show-toast-message.html
 
 
 [androidJvm]\
-fun [showToastMessage](show-toast-message.html)(context: Context, message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+fun [showToastMessage](show-toast-message.html)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), message: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
 
 
 

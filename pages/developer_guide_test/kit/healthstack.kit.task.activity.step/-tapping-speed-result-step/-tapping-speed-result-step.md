@@ -1,7 +1,5 @@
 ---
 title: TappingSpeedResultStep
-permalink: /kit/healthstack.kit.task.activity.step/-tapping-speed-result-step/-tapping-speed-result-step.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.step](../index.html)/[TappingSpeedResultStep](index.html)/[TappingSpeedResultStep](-tapping-speed-result-step.html)
 

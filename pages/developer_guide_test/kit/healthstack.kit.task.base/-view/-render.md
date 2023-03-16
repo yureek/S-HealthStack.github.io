@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.base/-view/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[View](index.html)/[Render](-render.html)
 

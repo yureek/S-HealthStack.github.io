@@ -1,7 +1,5 @@
 ---
 title: handType
-permalink: /kit/healthstack.kit.task.activity.model/-tapping-speed-intro-model/hand-type.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[TappingSpeedIntroModel](index.html)/[handType](hand-type.html)
 

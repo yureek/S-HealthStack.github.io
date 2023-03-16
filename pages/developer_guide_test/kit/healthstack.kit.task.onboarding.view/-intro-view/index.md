@@ -1,7 +1,5 @@
 ---
 title: IntroView
-permalink: /kit/healthstack.kit.task.onboarding.view/-intro-view/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[IntroView](index.html)
 

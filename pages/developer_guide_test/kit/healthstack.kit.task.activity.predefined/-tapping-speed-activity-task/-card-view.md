@@ -1,7 +1,5 @@
 ---
 title: CardView
-permalink: /kit/healthstack.kit.task.activity.predefined/-tapping-speed-activity-task/-card-view.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.predefined](../index.html)/[TappingSpeedActivityTask](index.html)/[CardView](-card-view.html)
 

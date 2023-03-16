@@ -1,7 +1,5 @@
 ---
 title: drawableId
-permalink: /kit/healthstack.kit.task.base/-step-model/drawable-id.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)/[drawableId](drawable-id.html)
 

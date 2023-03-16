@@ -1,7 +1,5 @@
 ---
 title: formatTime
-permalink: /kit/healthstack.kit.ui/format-time.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[formatTime](format-time.html)
 

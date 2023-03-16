@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.signup.step/-registration-completed-step/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.step](../index.html)/[RegistrationCompletedStep](index.html)/[Render](-render.html)
 

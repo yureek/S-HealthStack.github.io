@@ -1,7 +1,5 @@
 ---
 title: TappingSpeedActivityTask
-permalink: /kit/healthstack.kit.task.activity.predefined/-tapping-speed-activity-task/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.predefined](../index.html)/[TappingSpeedActivityTask](index.html)
 

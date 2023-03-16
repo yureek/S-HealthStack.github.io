@@ -1,7 +1,5 @@
 ---
 title: SinglePageSurveyLayout
-permalink: /kit/healthstack.kit.task.survey.view/-single-page-survey-layout.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.view](index.html)/[SinglePageSurveyLayout](-single-page-survey-layout.html)
 

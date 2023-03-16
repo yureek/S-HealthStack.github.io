@@ -1,7 +1,5 @@
 ---
 title: viewType
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/view-type.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)/[viewType](view-type.html)
 

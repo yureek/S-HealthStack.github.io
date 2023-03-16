@@ -1,7 +1,5 @@
 ---
 title: name
-permalink: /kit/healthstack.kit.task.base/-step/name.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[name](name.html)
 

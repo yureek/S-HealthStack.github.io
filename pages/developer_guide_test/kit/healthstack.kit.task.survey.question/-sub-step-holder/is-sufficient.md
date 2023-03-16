@@ -1,7 +1,5 @@
 ---
 title: isSufficient
-permalink: /kit/healthstack.kit.task.survey.question/-sub-step-holder/is-sufficient.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question](../index.html)/[SubStepHolder](index.html)/[isSufficient](is-sufficient.html)
 

@@ -1,7 +1,5 @@
 ---
 title: equals
-permalink: /kit/healthstack.kit.task.base/-task/equals.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[equals](equals.html)
 

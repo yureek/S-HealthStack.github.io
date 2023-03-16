@@ -1,7 +1,5 @@
 ---
 title: EligibilityCondition
-permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-eligibility-condition/index.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[EligibilityCondition](index.html)
 

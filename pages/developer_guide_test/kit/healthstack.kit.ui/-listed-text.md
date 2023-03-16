@@ -1,7 +1,5 @@
 ---
 title: ListedText
-permalink: /kit/healthstack.kit.ui/-listed-text.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[ListedText](-listed-text.html)
 

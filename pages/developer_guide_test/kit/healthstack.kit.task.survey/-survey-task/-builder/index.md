@@ -1,7 +1,5 @@
 ---
 title: Builder
-permalink: /kit/healthstack.kit.task.survey/-survey-task/-builder/index.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.survey](../../index.html)/[SurveyTask](../index.html)/[Builder](index.html)
 

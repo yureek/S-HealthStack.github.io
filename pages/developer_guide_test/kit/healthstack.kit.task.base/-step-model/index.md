@@ -1,7 +1,5 @@
 ---
 title: StepModel
-permalink: /kit/healthstack.kit.task.base/-step-model/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)
 
@@ -57,10 +55,6 @@ Then, View renders UI using Model's data.
 
 | Name |
 |---|
-| [SimpleViewActivityModel](../../healthstack.kit.task.activity.model/-simple-view-activity-model/index.html) |
-| [TappingSpeedIntroModel](../../healthstack.kit.task.activity.model/-tapping-speed-intro-model/index.html) |
-| [TappingSpeedMeasureModel](../../healthstack.kit.task.activity.model/-tapping-speed-measure-model/index.html) |
-| [TappingSpeedResultModel](../../healthstack.kit.task.activity.model/-tapping-speed-result-model/index.html) |
 | [ImageArticleModel](../-image-article-model/index.html) |
 | [ConsentTextModel](../../healthstack.kit.task.onboarding.model/-consent-text-model/index.html) |
 | [EligibilityIntroModel](../../healthstack.kit.task.onboarding.model/-eligibility-intro-model/index.html) |

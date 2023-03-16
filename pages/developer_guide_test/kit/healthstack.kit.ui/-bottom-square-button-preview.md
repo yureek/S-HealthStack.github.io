@@ -1,7 +1,5 @@
 ---
 title: BottomSquareButtonPreview
-permalink: /kit/healthstack.kit.ui/-bottom-square-button-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomSquareButtonPreview](-bottom-square-button-preview.html)
 

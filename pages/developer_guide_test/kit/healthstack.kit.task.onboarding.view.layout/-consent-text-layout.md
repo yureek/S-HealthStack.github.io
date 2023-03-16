@@ -1,7 +1,5 @@
 ---
 title: ConsentTextLayout
-permalink: /kit/healthstack.kit.task.onboarding.view.layout/-consent-text-layout.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[ConsentTextLayout](-consent-text-layout.html)
 

@@ -1,7 +1,5 @@
 ---
 title: addQuestion
-permalink: /kit/healthstack.kit.task.survey/-survey-task/-builder/add-question.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.task.survey](../../index.html)/[SurveyTask](../index.html)/[Builder](index.html)/[addQuestion](add-question.html)
 

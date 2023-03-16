@@ -1,7 +1,5 @@
 ---
 title: FirebaseGoogleAuthContract
-permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/-firebase-google-auth-contract.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)/[FirebaseGoogleAuthContract](-firebase-google-auth-contract.html)
 

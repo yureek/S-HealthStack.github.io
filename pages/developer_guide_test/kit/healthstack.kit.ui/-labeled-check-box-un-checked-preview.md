@@ -1,7 +1,5 @@
 ---
 title: LabeledCheckBoxUnCheckedPreview
-permalink: /kit/healthstack.kit.ui/-labeled-check-box-un-checked-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[LabeledCheckBoxUnCheckedPreview](-labeled-check-box-un-checked-preview.html)
 

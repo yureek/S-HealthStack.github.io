@@ -1,7 +1,5 @@
 ---
 title: View
-permalink: /kit/healthstack.kit.task.base/-view/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[View](index.html)
 
@@ -43,10 +41,6 @@ It has composable function [Render](-render.html), which renders UI using data i
 
 | Name |
 |---|
-| [TappingSpeedIntroView](../../healthstack.kit.task.activity.view/-tapping-speed-intro-view/index.html) |
-| [TappingSpeedMeasureView](../../healthstack.kit.task.activity.view/-tapping-speed-measure-view/index.html) |
-| [TappingSpeedResultView](../../healthstack.kit.task.activity.view/-tapping-speed-result-view/index.html) |
-| [SimpleActivityView](../../healthstack.kit.task.activity.view.common/-simple-activity-view/index.html) |
 | [ConsentTextView](../../healthstack.kit.task.onboarding.view/-consent-text-view/index.html) |
 | [EligibilityIntroView](../../healthstack.kit.task.onboarding.view/-eligibility-intro-view/index.html) |
 | [EligibilityResultView](../../healthstack.kit.task.onboarding.view/-eligibility-result-view/index.html) |

@@ -1,7 +1,5 @@
 ---
 title: viewType
-permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/view-type.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[ChoiceQuestionModel](index.html)/[viewType](view-type.html)
 

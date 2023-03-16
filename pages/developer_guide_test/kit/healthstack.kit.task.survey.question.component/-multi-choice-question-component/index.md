@@ -1,7 +1,5 @@
 ---
 title: MultiChoiceQuestionComponent
-permalink: /kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[MultiChoiceQuestionComponent](index.html)
 
@@ -29,6 +27,5 @@ class [MultiChoiceQuestionComponent](index.html)&lt;[T](index.html) : [MultiChoi
 
 | Name | Summary |
 |---|---|
-| [CheckBoxGroupPreview](-check-box-group-preview.html) | [androidJvm]<br>@[PreviewGenerated](../../healthstack.kit.annotation/-preview-generated/index.html)<br>@Preview(showBackground = true)<br>@Composable<br>fun [CheckBoxGroupPreview](-check-box-group-preview.html)() |
 | [Render](-render.html) | [androidJvm]<br>@Composable<br>open override fun [Render](-render.html)(model: [T](index.html), callbackCollection: [CallbackCollection](../../healthstack.kit.task.base/-callback-collection/index.html))<br>A method rendering UI. |
 

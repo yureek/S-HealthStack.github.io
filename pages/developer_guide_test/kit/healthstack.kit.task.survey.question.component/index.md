@@ -1,7 +1,5 @@
 ---
 title: healthstack.kit.task.survey.question.component
-permalink: /kit/healthstack.kit.task.survey.question.component/index.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.question.component](index.html)
 

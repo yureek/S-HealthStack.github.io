@@ -1,7 +1,5 @@
 ---
 title: EligibilityCheckerViewPreview
-permalink: /kit/healthstack.kit.task.survey.view/-eligibility-checker-view-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.task.survey.view](index.html)/[EligibilityCheckerViewPreview](-eligibility-checker-view-preview.html)
 

@@ -1,7 +1,5 @@
 ---
 title: measureTimeSecond
-permalink: /kit/healthstack.kit.task.activity.model/-tapping-speed-measure-model/measure-time-second.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.activity.model](../index.html)/[TappingSpeedMeasureModel](index.html)/[measureTimeSecond](measure-time-second.html)
 

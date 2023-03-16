@@ -1,7 +1,5 @@
 ---
 title: QuestionSubStep
-permalink: /kit/healthstack.kit.task.survey.question/-question-sub-step/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.survey.question](../index.html)/[QuestionSubStep](index.html)
 

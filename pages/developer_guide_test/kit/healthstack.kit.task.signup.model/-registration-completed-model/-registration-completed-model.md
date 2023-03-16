@@ -1,7 +1,5 @@
 ---
 title: RegistrationCompletedModel
-permalink: /kit/healthstack.kit.task.signup.model/-registration-completed-model/-registration-completed-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[RegistrationCompletedModel](-registration-completed-model.html)
 

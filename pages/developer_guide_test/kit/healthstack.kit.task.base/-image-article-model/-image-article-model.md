@@ -1,7 +1,5 @@
 ---
 title: ImageArticleModel
-permalink: /kit/healthstack.kit.task.base/-image-article-model/-image-article-model.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[ImageArticleModel](index.html)/[ImageArticleModel](-image-article-model.html)
 

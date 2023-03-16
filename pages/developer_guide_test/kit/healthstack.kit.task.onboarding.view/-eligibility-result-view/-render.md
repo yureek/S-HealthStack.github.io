@@ -1,7 +1,5 @@
 ---
 title: Render
-permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-result-view/-render.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityResultView](index.html)/[Render](-render.html)
 

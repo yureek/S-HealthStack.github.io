@@ -10,16 +10,10 @@ Samsung Health Stack SDK (Software Development Kit) includes a variety of packag
 ## Packages
 
 
-| Name |
-|---|
+| Name                                                         |
+| ------------------------------------------------------------ |
 | [healthstack.kit.annotation](kit/healthstack.kit.annotation/index.html) |
-| [healthstack.kit.auth](kit/healthstack.kit.auth/index.html) |
-| [healthstack.kit.task.activity](kit/healthstack.kit.task.activity/index.html) |
-| [healthstack.kit.task.activity.model](kit/healthstack.kit.task.activity.model/index.html) |
-| [healthstack.kit.task.activity.predefined](kit/healthstack.kit.task.activity.predefined/index.html) |
-| [healthstack.kit.task.activity.step](kit/healthstack.kit.task.activity.step/index.html) |
-| [healthstack.kit.task.activity.view](kit/healthstack.kit.task.activity.view/index.html) |
-| [healthstack.kit.task.activity.view.common](kit/healthstack.kit.task.activity.view.common/index.html) |
+| [healthstack.kit.auth](kit/healthstack.kit.auth/index.html)  |
 | [healthstack.kit.task.base](kit/healthstack.kit.task.base/index.html) |
 | [healthstack.kit.task.onboarding](kit/healthstack.kit.task.onboarding/index.html) |
 | [healthstack.kit.task.onboarding.model](kit/healthstack.kit.task.onboarding.model/index.html) |
@@ -38,7 +32,7 @@ Samsung Health Stack SDK (Software Development Kit) includes a variety of packag
 | [healthstack.kit.task.survey.step](kit/healthstack.kit.task.survey.step/index.html) |
 | [healthstack.kit.task.survey.view](kit/healthstack.kit.task.survey.view/index.html) |
 | [healthstack.kit.theme](kit/healthstack.kit.theme/index.html) |
-| [healthstack.kit.ui](kit/healthstack.kit.ui/index.html) |
+| [healthstack.kit.ui](kit/healthstack.kit.ui/index.html)      |
 | [healthstack.kit.ui.layout](kit/healthstack.kit.ui.layout/index.html) |
 | [healthstack.kit.ui.util](kit/healthstack.kit.ui.util/index.html) |
 

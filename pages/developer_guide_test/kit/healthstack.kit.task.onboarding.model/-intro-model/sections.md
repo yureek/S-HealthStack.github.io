@@ -1,7 +1,5 @@
 ---
 title: sections
-permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/sections.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[sections](sections.html)
 

@@ -1,7 +1,5 @@
 ---
 title: NUMBER
-permalink: /kit/healthstack.kit.ui/-text-type/-n-u-m-b-e-r/index.html
-
 ---
 //[kit](../../../../index.html)/[healthstack.kit.ui](../../index.html)/[TextType](../index.html)/[NUMBER](index.html)
 

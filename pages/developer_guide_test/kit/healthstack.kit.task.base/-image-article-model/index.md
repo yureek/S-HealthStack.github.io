@@ -1,7 +1,5 @@
 ---
 title: ImageArticleModel
-permalink: /kit/healthstack.kit.task.base/-image-article-model/index.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[ImageArticleModel](index.html)
 
@@ -13,8 +11,6 @@ permalink: /kit/healthstack.kit.task.base/-image-article-model/index.html
 
 [androidJvm]\
 class [ImageArticleModel](index.html)(val id: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val title: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val description: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val drawableId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)?) : [StepModel](../-step-model/index.html)
-
-A [StepModel](../-step-model/index.html) with image.
 
 
 

@@ -1,7 +1,5 @@
 ---
 title: StatusCardPreview
-permalink: /kit/healthstack.kit.ui/-status-card-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[StatusCardPreview](-status-card-preview.html)
 

@@ -1,7 +1,5 @@
 ---
 title: EligibilityCheckerStep
-permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-checker-step/-eligibility-checker-step.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityCheckerStep](index.html)/[EligibilityCheckerStep](-eligibility-checker-step.html)
 

@@ -1,7 +1,5 @@
 ---
 title: onSuccess
-permalink: /kit/healthstack.kit.auth/-auth-callback/on-success.html
-
 ---
 //[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[AuthCallback](index.html)/[onSuccess](on-success.html)
 

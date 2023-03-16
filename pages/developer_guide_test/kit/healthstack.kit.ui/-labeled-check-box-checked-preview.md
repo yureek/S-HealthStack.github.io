@@ -1,7 +1,5 @@
 ---
 title: LabeledCheckBoxCheckedPreview
-permalink: /kit/healthstack.kit.ui/-labeled-check-box-checked-preview.html
-
 ---
 //[kit](../../index.html)/[healthstack.kit.ui](index.html)/[LabeledCheckBoxCheckedPreview](-labeled-check-box-checked-preview.html)
 
