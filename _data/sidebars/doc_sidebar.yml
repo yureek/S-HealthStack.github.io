@@ -19,7 +19,7 @@ entries:
 #      type: homepage
 
     - title: Getting Started Tutorial
-      url: /tutorial.html
+      url: /full-tutorial.html
       output: web, pdf
 
     - title: Contributing to the Open Source Project

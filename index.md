@@ -14,8 +14,10 @@ A technology stack (tech stack) is a collection of tools, applications, and serv
 The stack includes:
 
 -   A software development kit (SDK) for app development
--   A web portal for survey creation, participant management, and data analysis
+-   A web portal for survey creation, team member management, participant tracking, and data analysis
 -   Backend services and a data engine available through application programming interface (API) endpoints
+
+Develop your app using the full stack (recommended) or just the SDK, depending on your use case.
 
 ## The App SDK
 
@@ -29,7 +31,7 @@ The app SDK provides developers with what’s needed to create mobile apps that 
 
 ## The Web Portal
 
-The web portal is a customizable dashboard for interactive data visualization. Managers of the studies use the portal to:
+The web portal is a customizable dashboard for interactive data visualization. Managers of studies use the portal to:
 
 - Manage research team members
 - Create and deploy app content (for example, participant surveys)
@@ -39,6 +41,7 @@ The web portal is a customizable dashboard for interactive data visualization. M
 > As of this writing, Chrome is the only browser supported for accessing the web portal.
 
 ## Recommended Workflow
+
 1.  Set up your environment.
 2.  Set up a study.
 3.  Create a survey to collect user symptom data.

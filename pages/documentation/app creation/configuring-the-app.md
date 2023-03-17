@@ -28,7 +28,7 @@ In addition to the one-time [app SDK installation steps](../installation/install
 > }
 > ```
 > Refer to [https://firebase.google.com/docs/android/setup](https://firebase.google.com/docs/android/setup){:target="_blank"} for details.
-1. Associate your app with the backend system and portal study.
+2. For full-stack implementations only, associate your app with the backend system and portal study.
    > In **starter-app/app/src/main/res/values/strings.xml**, update the lines at the bottom of the file that specify your backend system's endpoint and your study's project ID, for example:
    >
    > ```
@@ -38,4 +38,4 @@ In addition to the one-time [app SDK installation steps](../installation/install
    >
    > Note: The project ID of your study is contained in the JSON response of a `POST /api/projects` request.
 
-2. Make the app available for downloading by study participants.
+3. Make the app available for downloading by study participants.

@@ -1,11 +1,11 @@
 ---
-title: Getting Started Tutorial
+title: Full-Stack Tutorial
 sidebar: doc_sidebar
-permalink: tutorial.html
+permalink: full-tutorial.html
 toc: true
 ---
 
-This getting started tutorial describes the steps you need to be up and running with your own study. The best way to explain the steps is to walk through a simple example, which was presented at the Samsung Developer Conference (SDC2022). Follow these steps to get started with Samsung Health Stack.
+This getting started tutorial describes the steps you need to be up and running with your own study using the full Samsung Health Stack. The best way to explain the steps is to walk through a simple example, which was presented at the Samsung Developer Conference (SDC2022). Follow these steps to get started with .
 
 ## Set up your environment
 
@@ -73,7 +73,7 @@ For our study, participants wear the Samsung Galaxy Watch 4 and use an Android m
    >   ```diff
    >   override fun onCreate(savedInstanceState: Bundle?) {
    >       super.onCreate(savedInstanceState)
-   >                                                                   
+   >                                                                     
    >       val healthDataRequired = listOf("HeartRate", "Steps", "SleepSession")
    >       val healthDataToDisplay = listOf(HEART_RATE, SLEEP_SESSION, TASK_DATA_TYPE)
    >       val healthDataSyncSpecs = listOf(
