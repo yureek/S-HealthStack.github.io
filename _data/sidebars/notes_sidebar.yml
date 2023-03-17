@@ -13,11 +13,11 @@ entries:
     folderitems:
 
     - title: Version v0.9b (beta)
-      url: /overview.html
+      url: /v09beta.html
       output: web, pdf
 
     - title: Version v0.9a (alpha)
-      url: /overview.html
+      url: /v09alpha.html
       output: web, pdf
 
 # Copyright 2021 Google LLC
