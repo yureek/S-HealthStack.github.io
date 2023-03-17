@@ -99,8 +99,8 @@ entries:
           url: /account-service-api-endpoints.html
           output: web, pdf
 
-        - title: Backend API Endpoints
-          url: /backend-api-endpoints.html
+        - title: Study API Endpoints
+          url: /study-api-endpoints.html
           output: web, pdf
     
         - title: Data Query API Endpoints

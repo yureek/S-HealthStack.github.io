@@ -1,7 +1,7 @@
 ---
-title: Backend API Endpoints
+title: Study API Endpoints
 sidebar: doc_sidebar
-permalink: backend-api-endpoints.html
+permalink: study-api-endpoints.html
 toc: true
 ---
 ## Version: 0.9

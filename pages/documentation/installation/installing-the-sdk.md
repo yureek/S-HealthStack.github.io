@@ -87,4 +87,4 @@ Refer to [Configuring the App Environment](../app creation/configuring-the-app.m
 
 ## IX. API Reference Documentation
 
-Refer to our [API reference documentation](/backend-api-endpoints.html) for details on all the backend API endpoints.
+Refer to our [API reference documentation](/api-refernce.html) for details on all the backend API endpoints.
