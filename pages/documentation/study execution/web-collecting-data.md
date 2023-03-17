@@ -1,7 +1,7 @@
 ---
 title: Collecting Survey and Sensor Data
 sidebar: doc_sidebar
-permalink: collecting-data.html
+permalink: web-collecting-data.html
 toc: false
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: SDK Document
+title: SDK Reference Documentation
 sidebar: doc_sidebar
 permalink: kit.html
 toc: false
 
 ---
 
-Samsung Health Stack SDK (Software Development Kit) includes a variety of packages to make developing research apps quicker and with a robust structure. Explore the following packages to see the structure of SDK. 
+Samsung Health Stack Software Development Kit (SDK) includes a variety of packages to make developing research apps quicker and with a robust structure. Explore the following packages to see the structure of SDK. 
 
 ## Packages
 

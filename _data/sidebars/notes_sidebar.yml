@@ -5,31 +5,19 @@ entries:
   version:
   folders:
 
-  - title:
-    output: web, pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
+- title: 
+  folders:
+  
   - title: Version v0.9
     output: web, pdf
     folderitems:
 
     - title: Version v0.9b (beta)
-      url: /v09beta.html
+      url: /overview.html
       output: web, pdf
-      type: homepage
 
     - title: Version v0.9a (alpha)
-      url: /v09alpha.html
+      url: /overview.html
       output: web, pdf
-      type: homepage
 
 # Copyright 2021 Google LLC

@@ -14,7 +14,7 @@ entries:
     - title: Overview
       url: /overview.html
       output: web, pdf
-#      url: /index.html
+#      url: /overview.html
 #      output: web, pdf
 #      type: homepage
 
@@ -71,42 +71,40 @@ entries:
     folderitems:
 
     - title: Onboarding Participants
-      url: /onboarding-participants.html
+      url: /dev-onboarding-participants.html
       output: web, pdf
 
     - title: Collecting Data
-      url: /collecting-data.html
+      url: /dev-collecting-data.html
       output: web, pdf
 
-  - title: Reference Materials
+  - title: SDK Reference
     output: web, pdf
     folderitems:
 
-    - title: SDK Packages
+    - title: Packages
       url: /kit.html
       output: web, pdf
 
-      subfolders:
-      - title: API Reference
-        output: web, pdf
-        subfolderitems:
+  - title: API Reference
+    output: web, pdf
+    folderitems:
 
-        - title: Overview
-          url: /api-reference.html
-          output: web, pdf
+    - title: Overview
+      url: /api-reference.html
+      output: web, pdf
 
-        - title: Account Service API Endpoints
-          url: /account-service-api-endpoints.html
-          output: web, pdf
+    - title: Account Service API Endpoints
+      url: /account-service-api-endpoints.html
+      output: web, pdf
 
-        - title: Study API Endpoints
-          url: /study-api-endpoints.html
-          output: web, pdf
+    - title: Study API Endpoints
+      url: /study-api-endpoints.html
+      output: web, pdf
     
-        - title: Data Query API Endpoints
-          url: /data-query-api-endpoints.html
-          output: web, pdf
-
+    - title: Data Query API Endpoints
+      url: /data-query-api-endpoints.html
+      output: web, pdf
 
 - title: Portal User Guide
   folders:
@@ -148,11 +146,11 @@ entries:
     folderitems:
 
     - title: Onboarding Participants
-      url: /onboarding-participants.html
+      url: /web-onboarding-participants.html
       output: web, pdf
 
     - title: Collecting Data
-      url: /collecting-data.html
+      url: /web-collecting-data.html
       output: web, pdf
 
     - title: Tracking Survey Responses

@@ -1,7 +1,7 @@
 ---
 title: Onboarding Participants
 sidebar: doc_sidebar
-permalink: onboarding-participants.html
+permalink: web-onboarding-participants.html
 toc: false
 ---
 
