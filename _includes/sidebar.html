@@ -17,7 +17,7 @@
           {% if folderitem.external_url %}
           <li><a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a></li>
           {% elsif page.url == folderitem.url %}
-          <li class="active"><a title="{{folderitem.title}}" href="{{site.url |prepend: folderitem.url }}" target = "_self">{{folderitem.title}}</a></li>
+          <li class="active"><a title="{{folderitem.title}}" href="{{site.url |append: folderitem.url }}" target = "_self">{{folderitem.title}}</a></li>
           {% elsif folderitem.type == "empty" %}
           <li><a title="{{folderitem.title}}" href="{{site.url |append: folderitem.url }}"target = "_self">{{folderitem.title}}</a></li>
 
