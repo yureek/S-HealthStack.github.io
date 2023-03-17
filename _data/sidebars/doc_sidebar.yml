@@ -12,9 +12,11 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /index.html
+      url: /overview.html
       output: web, pdf
-      type: homepage
+#      url: /index.html
+#      output: web, pdf
+#      type: homepage
 
     - title: Getting Started Tutorial
       url: /tutorial.html
