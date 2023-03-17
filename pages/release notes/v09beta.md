@@ -17,7 +17,7 @@ The [s-healthstack.io](https://s-healthstack.io) documentation is now much more 
 
 The Developer Reference (found as the last category in the left navigation panel) now contains:
 
-- The API Reference - improved with details for all account service, data query, and backend API requests.
+- The API Reference - improved with details for all account service, data query, and study API requests.
 - The app SDK documentation - greatly improved and now publicly available.
 
 ## Health Connect

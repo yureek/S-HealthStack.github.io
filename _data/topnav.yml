@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: Documentation
+      url: /index.html
     - title: Release Notes
       url: /v09beta.html
 

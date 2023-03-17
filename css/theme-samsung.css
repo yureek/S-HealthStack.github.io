@@ -6,9 +6,10 @@
     --shd_mid_blue:#2E68FF;
     --shs_low_blue: #2EA7FF;
     --blue_color: #daab32;
-    --heading_colors: #1b212c;
+    --heading_color: #1b212c;
     --background_color: #ffffff;
-    --nav_background: linear-gradient(to right, var(--samsung_blue), var(--shs_low_blue));
+    --nav_background: var(--samsung_blue);
+/*    --nav_background: linear-gradient(to right, var(--samsung_blue), var(--shs_low_blue)); */
     --nav_background_opposite: linear-gradient(to bottom, var(--samsung_blue), var(--shs_low_blue));
   }
 
@@ -19,10 +20,10 @@
     font-size:16px;
 }
 
-h1 {color: var(--heading_colors);}
-h2 {color: var(--heading_colors);}
-h3 {color: var(--heading_colors);}
-h4 {color: var(--heading_colors);}
+h1 {color: var(--heading_color);}
+h2 {color: var(--heading_color);}
+h3 {color: var(--heading_color);}
+h4 {color: var(--heading_color);}
 .navbar {
     padding: 10px;
     background: var(--nav_background);
@@ -151,11 +152,11 @@ li.sidebarTitle {
     background: var(--nav_background);
     color: var(--background_color);
     
-
 }
 .sidebartext{
-    color: var(--samsung_blue);
+    color: var(--heading_color);
     font-weight: bold;
     text-align: center;
-    margin: 10px;
+    margin-top: 25px; 
+    margin-bottom: 5px; 
 }

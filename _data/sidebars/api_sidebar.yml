@@ -28,8 +28,8 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Backend API Endpoints
-      url: /backend-api-endpoints.html
+    - title: Study API Endpoints
+      url: /study-api-endpoints.html
       output: web, pdf
       type: homepage
     
