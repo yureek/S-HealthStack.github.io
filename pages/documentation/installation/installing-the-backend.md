@@ -13,35 +13,18 @@ Follow these instructions to install, build, and verify the backend system.
 
 1. Open a Linux terminal window.
 
-2. Install the dependencies for an Oracle JDK 17 installation.
+2. Update the package cache and upgrade the system packages.
 
    ```
    sudo apt update
-   sudo apt install -y libc6-x32 libc6-i386
+   sudo apt upgrade
    ```
 
-3. Download Oracle Java JDK 17.
+3. Install the OpenJDK package.
 
    ```
-   wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+   sudo apt install -y openjdk-17-jdk-headless unzip
    ```
-
-4. Install Oracle Java JDK 17.
-
-   ```
-   sudo dpkg -i jdk-17_linux-x64_bin.deb
-   ```
-
-5. Install either the OpenJDK or JRE package.
-   - OpenJDK 17 JDK
-      ```
-      sudo apt install -y openjdk-17-jdk
-      ```
-
-   - OpenJDK 17 JRE
-      ```
-      sudo apt install -y openjdk-17-jre
-      ```
 
 6. Verify that you have successfully installed version 17.
 
@@ -49,17 +32,13 @@ Follow these instructions to install, build, and verify the backend system.
    java -version
    ```
 
-## II. Install Docker
+## II. Install Docker and Docker Compose
 
-1. Install Docker.
-
-      ```
-      sudo apt install docker.io
-      ```
+1. Follow the instructions at https://docs.docker.com/engine/install/ubuntu/ to install Docker and Docker Compose.
       
 2. Confirm successful installation.
       ```
-      docker --version
+      sudo docker --version
       sudo systemctl status docker
       ```
 
@@ -103,7 +82,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 2. Deploy [SuperTokens](https://supertokens.com/){:target="_blank"}.
 
    ```
-   docker run \
+   sudo docker run \
      -p 3567:3567 \
      --name hrp-supertokens \
      --network hrp \
@@ -125,13 +104,13 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    ```
    ./gradlew :account-service:build -x detekt
  
-   docker build --tag hrp-account-service:0.9.0 ./account-service/
+   sudo docker build --tag hrp-account-service:0.9.0 ./account-service/
    ```
 
 3. Deploy the account service and identify your mail server.
 
    ```
-   docker run \
+   sudo docker run \
      -p 8080:8080 \
      --name hrp-account-service \
      --network hrp \
@@ -181,7 +160,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 3. Create a Docker image of hrp-platform 0.9.0 in the platform directory.
 
    ```
-   docker build --tag hrp-platform:0.9.0 ./platform/
+   sudo docker build --tag hrp-platform:0.9.0 ./platform/
    ```
 
 4. In Postgres, create a database named `healthstack`.
@@ -189,7 +168,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 5. Run the hrp-platform container.
 
    ```
-   docker run \
+   sudo docker run \
      -d \
      -p 3030:3030 \
      --name hrp-platform \
@@ -207,7 +186,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 6. Verify the hrp-platform container is running.
 
    ```
-   docker ps | grep hrp-platform
+   sudo docker ps | grep hrp-platform
    ```
 
 ## IX. Deploy trino-rule-update-service
@@ -226,14 +205,14 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    ```
    ./gradlew :trino-rule-update-service:build -x detekt
     
-   docker build --tag hrp-trino-rule-update-service:0.9.0 ./trino-rule-update-service/
+   sudo docker build --tag hrp-trino-rule-update-service:0.9.0 ./trino-rule-update-service/
    ```
 3. Create a **rule-update** directory.
 
 4. Deploy trino-rule-update-service.
 
    ```
-   docker run \
+   sudo docker run \
      --name hrp-trino-rule-update-service \
      --network hrp \
      -e FIXED_DELAY_MILLISEC=5000 \
@@ -248,7 +227,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 1. Download trinodb/trino version 402.
 
 ```
-   docker pull trinodb/trino:402
+   sudo docker pull trinodb/trino:402
 ```
 
 2. Create the **trino/etc/catalog/jvm.config** file with these contents:
@@ -285,7 +264,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 4. Run the hrp-trino container trinodb/trino image (mapping the hrp-trino default port 8080).
 
    ```
-   docker run \
+   sudo docker run \
      -d \
      --name hrp-trino \
      --network hrp \
@@ -306,13 +285,13 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 2. Create a Docker image of data-query-service tag 0.9.0 in the **data-query-service** directory.
 
    ```
-   docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
+   sudo docker build --tag hrp-data-query-service:0.9.0 ./data-query-service/
    ```
 
 3. Run the hrp-data-query-service container.
 
    ```
-   docker run \
+   sudo docker run \
      -d \
      --name hrp-data-query-service \
      --network hrp \
@@ -327,7 +306,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 4. Verify hrp-data-query-service is running.
 
    ```
-   docker ps
+   sudo docker ps
    ```
 
 ## XII. Haproxy Configuration
@@ -432,7 +411,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 5. Run the hrp-proxy container.
 
    ```
-   docker run \
+   sudo docker run \
      -d \
      -p 3035:3035 \
      -p 8404:8404 \
@@ -444,7 +423,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      haproxy:2.6.6
    ```
 
-## XII. Deploy docker-compose.yml
+## XIII. Deploy docker-compose.yml
 
 1. Create the **docker-compose.yml** file with these contents:
    ```
@@ -584,19 +563,19 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 2. Start the **docker-compose.yml** file.
 
    ```
-   docker-compose up -d
+   sudo docker-compose up -d
    ```
 
 3. Retrieve logs of the container present at the time of execution.
 
    ```
-   docker logs -f hrp-platform
+   sudo docker logs -f hrp-platform
    ```
 
 
 # Wrap Up
 
-## XIII. Create Initial Account
+## XIV. Create Initial Account
 
 > If you intend to use the web portal and a mail server, skip this step and proceed to [web portal installation and setup](installing-the-portal.md).
 
