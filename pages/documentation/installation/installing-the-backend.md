@@ -7,9 +7,18 @@ toc: false
 
 Follow these instructions to install, build, and verify the backend system.
 
+# System Requirements
+
+To operate the backend system you need:
+
+- A 64-bit Linux machine running Ubuntu, Debian, CentOS, or similar either as bare metal or a cloud instance.
+- Access to the local machine or development server as a non-root user with sudo privileges. 
+
+> The installation steps are for the Ubuntu/Debian environment. 
+
 # Prerequisites
 
-## I. Install Java 17
+## I. Bring the Environment Current
 
 1. Open a Linux terminal window.
 
@@ -19,6 +28,8 @@ Follow these instructions to install, build, and verify the backend system.
    sudo apt update
    sudo apt upgrade
    ```
+
+## II. Install Java 17
 
 3. Install the OpenJDK package.
 
@@ -32,10 +43,10 @@ Follow these instructions to install, build, and verify the backend system.
    java -version
    ```
 
-## II. Install Docker and Docker Compose
+## III. Install Docker and Docker Compose
 
 1. Follow the instructions at https://docs.docker.com/engine/install/ubuntu/ to install Docker and Docker Compose.
-      
+   
 2. Confirm successful installation.
       ```
       sudo docker --version
@@ -46,7 +57,7 @@ Follow these instructions to install, build, and verify the backend system.
 
 >  For your convenience, we've created some of the config files for you. To optionally use them, navigate to [this GitHub directory](https://github.com/S-HealthStack/S-HealthStack.github.io/tree/main/files/installing-the-backend){:target="_blank"}, download **backend-config-files.zip**, extract the contents to a temporary location of your choosing, and move each desired file into place as you encounter them in the steps below.
 
-## III. Create a Network
+## IV. Create a Network
 
    1. Create a docker network repository proxy (hrp) to connect docker containers.
 
@@ -54,7 +65,7 @@ Follow these instructions to install, build, and verify the backend system.
       sudo docker network create hrp
       ```
 
-## IV. Deploy Postgres
+## V. Deploy Postgres
 
 1. Start the PostgreSQL object-relational database system container.
 
@@ -74,7 +85,7 @@ Follow these instructions to install, build, and verify the backend system.
    git clone https://github.com/S-HealthStack/backend-system
    ```
 
-## V. Deploy SuperTokens
+## VI. Deploy SuperTokens
 
 You don't have to use SuperTokens. You can implement a backend adapter to complement the authorization service of your choice. If you choose to use supertokens:
 1. In Postgres, create a database named `supertokens`.
@@ -95,7 +106,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      supertokens/supertokens-postgresql
    ```
 
-## VI. Deploy Account Service
+## VII. Deploy Account Service
 
 1. In Postgres, create a database named `tokens`.
 
@@ -103,8 +114,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
    ```
    ./gradlew :account-service:build -x detekt
- 
-   sudo docker build --tag hrp-account-service:0.9.0 ./account-service/
+    sudo docker build --tag hrp-account-service:0.9.0 ./account-service/
    ```
 
 3. Deploy the account service and identify your mail server.
@@ -128,11 +138,11 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      hrp-account-service:0.9.0
    ```
 
-## VII. Create Firebase Service Account
+## VIII. Create Firebase Service Account
 
 1. Create a Firebase **service-account-key.json** file.
    ```
-   cd backend-system/platform
+   cd <install_path>/backend-system/platform
    touch service-account-key.json
    ```
 
@@ -143,7 +153,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 4. Update the **service-account-key.json** file using the instructions at [https://firebase.google.com/docs/admin/setup?authuser=0](https://firebase.google.com/docs/admin/setup?authuser=0){:target="_blank"}.
    >  Be sure to keep this file private and securely-stored. It contains your unique security key.
 
-## VIII. Deploy Platform
+## IX. Deploy Platform
 
 1. Test and format the code.
    
@@ -189,7 +199,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    sudo docker ps | grep hrp-platform
    ```
 
-## IX. Deploy trino-rule-update-service
+## X. Deploy trino-rule-update-service
 
 1. Create the **trino-rule-update-service/Dockerfile** file with these contents:
 
@@ -222,7 +232,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      hrp-trino-rule-update-service:0.9.0
    ```
 
-## X. Deploy Trino
+## XI. Deploy Trino
 
 1. Download trinodb/trino version 402.
 
@@ -274,7 +284,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      trinodb/trino:402
    ```
 
-## XI. Deploy data-query-service
+## XII. Deploy data-query-service
 
 1. Change the directory and build the application data-query-service and generate a jar file, performing a code test.
 
@@ -309,7 +319,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    sudo docker ps
    ```
 
-## XII. Haproxy Configuration
+## XIII. Haproxy Configuration
 
 1. Create the Haproxy service **haproxy/404.http** file with these contents:
 
@@ -423,7 +433,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
      haproxy:2.6.6
    ```
 
-## XIII. Deploy docker-compose.yml
+## XIV. Deploy docker-compose.yml
 
 1. Create the **docker-compose.yml** file with these contents:
    ```
@@ -575,7 +585,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
 
 # Wrap Up
 
-## XIV. Create Initial Account
+## XV. Create Initial Account
 
 > If you intend to use the web portal and a mail server, skip this step and proceed to [web portal installation and setup](installing-the-portal.md).
 
