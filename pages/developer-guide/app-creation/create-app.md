@@ -1,7 +1,7 @@
 ---
-title: Building the Mobile App
+title: Creating the Mobile App
 sidebar: doc_sidebar
-permalink: build-app.html
+permalink: create-app.html
 toc: false
 
 ---
@@ -29,6 +29,5 @@ With the full stack, an Android mobile app receives data from the wearable devic
 
 # SDK-Only Implementations
 
-With just the SDK, an Android mobile app receives data from the wearable device and stores the data on the device itself. 
-
+With just the SDK, an Android mobile app receives data from the wearable device and stores the data in your own backend or on the device itself. 
 

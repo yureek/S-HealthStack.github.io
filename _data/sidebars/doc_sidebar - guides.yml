@@ -73,7 +73,7 @@ entries:
         subfolderitems:
 
         - title: Building the Mobile App
-          url: /build-app.html
+          url: /create-app.html
           output: web, pdf
 
         - title: Configuring the App

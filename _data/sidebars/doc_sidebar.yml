@@ -52,9 +52,18 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Building the Mobile App
-      url: /build-app.html
+    - title: Overview
+      url: /create-app.html
       output: web, pdf
+
+      subfolders:
+      - title: Building the Mobile App
+        output: web, pdf
+        subfolderitems:
+           
+        - title: Creating Eligibility Questions
+          url: /create-eligibility-questions.html
+          output: web, pdf
 
     - title: Configuring the App
       url: /configure-app.html
