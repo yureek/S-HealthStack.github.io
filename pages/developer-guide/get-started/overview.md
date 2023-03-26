@@ -21,7 +21,7 @@ Develop your app using the full stack (recommended) or just the SDK, depending o
 
 ## The App SDK
 
-The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You can create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to the backend system for further analysis. Building blocks cover:
+The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You can create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to a backend system (yours or ours) for further analysis. Building blocks cover:
 
 - Participant onboarding and consent
 - Survey presentation
@@ -43,8 +43,8 @@ The web portal is a customizable dashboard for interactive data visualization. M
 ## Recommended Workflow
 1.  Set up your environment.
 2.  Set up a study.
-3.  Create a survey to collect user symptom data.
-4.  Create an app to collect wearable device data.
+3.  Create an app to collect wearable device data.
+4.  Create a survey to collect user symptom data.
 5.  Onboard participants.
 6.  Run your study.
 7.  Analyze the results.
