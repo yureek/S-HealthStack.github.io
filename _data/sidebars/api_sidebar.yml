@@ -34,7 +34,7 @@ entries:
       type: homepage
     
     - title: Data Query API Endpoints
-      url: /data-query-api-endpoints.html
+      url: /data-query-service-api-endpoints.html
       output: web, pdf
       type: homepage
 
