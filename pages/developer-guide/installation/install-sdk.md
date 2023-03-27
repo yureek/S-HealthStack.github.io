@@ -7,7 +7,7 @@ toc: false
 
 Follow these instructions to install, build, and verify the app SDK.
 
-> This installation requires successful prior completion of the [backend system installation](install-backend.md).
+> If you are installing the full stack, this installation requires successful prior completion of the [backend system installation](install-backend.md).
 
 # Prerequisites
 
@@ -85,6 +85,6 @@ After app creation, for each app you need to:
 
 Refer to [Configuring the App Environment](../app creation/configure-app.md) for details.
 
-## IX. API Reference Documentation
+## IX. Reference Documentation
 
-Refer to our [API reference documentation](../../api-reference/api-overview.md) for details on all the backend API endpoints.
+Refer to our [API reference](../../api-reference/api-overview.md) and [SDK reference](../../developer_guide_0.9/index.md) documentation for details on all the backend API endpoints and SDK classes and methods.
