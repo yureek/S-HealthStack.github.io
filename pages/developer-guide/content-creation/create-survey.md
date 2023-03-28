@@ -19,9 +19,13 @@ To create a survey using the web portal:
 
 ## API Endpoints
 
-To create a survey using the API endpoints:
+To create a new (empty) survey using the API endpoints:
 
 1. Refer to `POST /projects/{projectId}/tasks` in [Study API Endpoints](../../api-reference/study-api-endpoints.md) in the API reference.
+
+To populate a survey using the API endpoints:
+
+1. Refer to `PATCH /projects/{projectId}/tasks/{taskid}` in [Study API Endpoints](../../api-reference/study-api-endpoints.md) in the API reference.
 
 # SDK-Only Implementations
 
