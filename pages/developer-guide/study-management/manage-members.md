@@ -27,7 +27,7 @@ To invite members and assign their role using the API endpoints:
 
 To assign a role to an existing member using the API endpoints:
 
-1. Refer to `PUT /account-service/user/roles` in [Account Service API Endpoints](../../api-reference/account-service-api-endpoints.md) in the API reference.P
+1. Refer to `PUT /account-service/user/roles` in [Account Service API Endpoints](../../api-reference/account-service-api-endpoints.md) in the API reference.
 
 # SDK-Only Implementations
 

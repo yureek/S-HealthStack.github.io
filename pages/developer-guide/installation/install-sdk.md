@@ -81,10 +81,10 @@ After app creation, for each app you need to:
 
 1. Register your app with your Firebase project by updating the ***\<repository\>*/app/google-service.json** configuration file.
 
-2. Associate your app with the backend system and portal study.
+2. For full-stack implementations only, associate your app with the backend system and portal study.
 
-Refer to [Configuring the App Environment](../app creation/configure-app.md) for details.
+Refer to [Configuring the App Environment](../app-creation/configure-app.md) for details.
 
 ## IX. Reference Documentation
 
-Refer to our [API reference](../../api-reference/api-overview.md) and [SDK reference](../../developer_guide_0.9/index.md) documentation for details on all the backend API endpoints and SDK classes and methods.
+Refer to our [API reference](../../api-reference/api-overview.md) and [SDK reference](../../developer_guide_0.9/index.md) documentation for details on all the backend API endpoints and SDK packages.

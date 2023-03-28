@@ -9,7 +9,7 @@ toc: false
 
 Today’s health studies using wearable devices typically consist of a wearable device to sense input data, a mobile app that tracks the data, and additional tools to store and analyze the data. Developing these studies from scratch is costly and time consuming. Clearly, a common-use framework can lessen the burden for everyone.
 
-A technology stack (tech stack) is a collection of tools, applications, and services used to build a product. Samsung Health Stack is a tech stack packaged as an open-source project that provides end-to-end solutions for collecting and analyzing data from wearable devices in Android and Wear OS environments. Applications include medical research studies to clinician services to whatever your imagination envisions. And as open-source project, you are invited to contribute those visions to grow the project.
+A technology stack (tech stack) is a collection of tools, applications, and services used to build a product. Samsung Health Stack is a tech stack packaged as an open source project that provides end-to-end solutions for collecting and analyzing data from wearable devices in Android and Wear OS environments. Applications include medical research studies to clinician services to whatever your imagination envisions. And as open source project, you are invited to contribute those visions to grow the project.
 
 The stack includes:
 

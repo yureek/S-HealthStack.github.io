@@ -9,7 +9,7 @@ toc: false
 
 Samsung Health Stack is an open source project in the form of a tech stack that provides end-to-end solutions for collecting and analyzing data from wearable devices. Applications include medical research studies to clinician services to whatever your imagination envisions.
 
-As open-source project, you are invited to contribute those visions to grow the project. You can contribute at any time.
+As open source project, you are invited to contribute those visions to grow the project. You can contribute at any time.
 
 Contribute to any or all of the components of the tech stack:
 
