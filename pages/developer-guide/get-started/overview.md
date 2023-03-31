@@ -21,11 +21,11 @@ Develop your app using the full stack (recommended) or just the SDK, depending o
 
 ## The App SDK
 
-The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You can create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to a backend system (yours or ours) for further analysis. Building blocks cover:
+The app SDK provides developers with what’s needed to create mobile apps that collect data from participants. You can create a mobile app that solicits survey responses from the participant, receives data from the wearable device, displays information to the participant, and transmits the data to a backend system (yours or ours) for further analysis. Building blocks include:
 
 - Participant onboarding and consent
 - Survey presentation
-- Participant task creation
+- Creation of participant tasks
 - Visual reporting to keep participants engaged
 - Data management and transmission to the portal
 

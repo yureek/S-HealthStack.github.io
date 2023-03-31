@@ -25,7 +25,7 @@ The app SDK provides developers with what’s needed to create mobile apps that 
 
 - Participant onboarding and consent
 - Survey presentation
-- Participant task creation
+- Creation of participant tasks
 - Visual reporting to keep participants engaged
 - Data management and transmission to the portal
 
