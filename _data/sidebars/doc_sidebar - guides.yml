@@ -52,15 +52,15 @@ entries:
         subfolderitems:
 
         - title: Installing the Backend System
-          url: /installing-the-backend.html
+          url: /install-backend.html
           output: web, pdf
 
         - title: Installing the App SDK
-          url: /installing-the-sdk.html
+          url: /install-sdk.html
           output: web, pdf
 
         - title: Installing the Web Portal
-          url: /installing-the-portal.html
+          url: /install-portal.html
           output: web, pdf
 
         - title: Connect Your Database
@@ -73,15 +73,15 @@ entries:
         subfolderitems:
 
         - title: Building the Mobile App
-          url: /building-the-app.html
+          url: /create-app.html
           output: web, pdf
 
         - title: Configuring the App
-          url: /configuring-the-app.html
+          url: /configure-app.html
           output: web, pdf
 
         - title: Testing the App
-          url: /testing-the-app.html
+          url: /test-app.html
           output: web, pdf
 
       subfolders:
@@ -90,11 +90,11 @@ entries:
         subfolderitems:
 
         - title: Onboarding Participants
-          url: /onboarding-participants.html
+          url: /onboard-participants.html
           output: web, pdf
 
         - title: Collecting Data
-          url: /collecting-data.html
+          url: /collect-data.html
           output: web, pdf
 
       subfolders:
@@ -112,7 +112,7 @@ entries:
         subfolderitems:
 
         - title: Overview
-          url: /api-reference.html
+          url: /api-overview.html
           output: web, pdf
 
         - title: Account Service API Endpoints
@@ -124,7 +124,7 @@ entries:
           output: web, pdf
     
         - title: Data Query API Endpoints
-          url: /data-query-api-endpoints.html
+          url: /data-query-service-api-endpoints.html
           output: web, pdf
 
   - title: PORTAL USER GUIDE
