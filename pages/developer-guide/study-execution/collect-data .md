@@ -10,5 +10,5 @@ Collecting data for the study is straightforward. The connected wearable device 
 Simply instruct each participant to:
 
 - Wear the watch for the duration of the study.
-- Open the app and complete the scheduled survey.
+- Complete the scheduled surveys through the app.
 - Use the app to see visualizations of their data.

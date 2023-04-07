@@ -1,0 +1,50 @@
+{
+  "catalogs": [
+    {
+      "user": "admin",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "catalog": "postgresql",
+      "allow": "all"
+    },
+    {
+      "catalog": "system",
+      "allow": "none"
+    }
+  ],
+  "tables": [
+    {
+      "user": "7149a094-944d-4348-9793-ad33178525be",
+      "catalog": "postgresql",
+      "schema": "project_1_research",
+      "table": ".*",
+      "privileges": [
+        "SELECT"
+      ]
+    },
+    {
+      "user": "7149a094-944d-4348-9793-ad33178525be",
+      "catalog": "postgresql",
+      "schema": "project_2_research",
+      "table": ".*",
+      "privileges": [
+        "SELECT"
+      ]
+    },
+    {
+      "user": "7149a094-944d-4348-9793-ad33178525be",
+      "catalog": "postgresql",
+      "schema": "project_4_research",
+      "table": ".*",
+      "privileges": [
+        "SELECT"
+      ]
+    },
+    {
+      "user": ".*",
+      "privileges": []
+    }
+  ]
+}

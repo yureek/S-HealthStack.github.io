@@ -24,4 +24,4 @@ To create graphs and charts using the API endpoints:
 
 # SDK-Only Implementations
 
-Because the graphs and charts are part of the health stack's web portal and do not interface with the participant app, creating them does not apply to SDK-only implementations. However, you can develop your own graphs and charts to display the information as needed for your use case.
+Because the graphs and charts are part of the Samsung Health Stack's web portal and do not interface with the participant app, these methods do not apply to SDK-only implementations. However, you can utilize the collected data to create your own graphs and charts as needed.

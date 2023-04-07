@@ -1,5 +1,5 @@
 ---
-title: Creating Eligibility Questions
+title: Configuring the Eligibility Survey
 sidebar: doc_sidebar
 permalink: create-eligibility-questions.html
 toc: false

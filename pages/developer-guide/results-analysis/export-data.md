@@ -11,7 +11,7 @@ toc: false
 
 We highly recommend you use the Samsung Health Stack web portal to export your data. The web portal provides a straightforward way to export your data to **.csv** files for further analysis in popular data analysis tools such as SPSS, R, and Matlab. 
 
-To view individual participant records using the web portal:
+To export data using the web portal:
 
 1. Refer to [Exporting Data for External Analysis](../../portal-guide/results-analysis/exporting-data.md) in the web portal user guide.
 
@@ -26,4 +26,4 @@ To export data using the API endpoints:
 
 # SDK-Only Implementations
 
-Because exporting data is part of the health stack's web portal and does not interface with the participant app, exporting data does not apply to SDK-only implementations. However, you can develop your own method to export the data.
+Because exporting data is part of the Samsung Health Stack's web portal and does not interface with the participant app, these methods do not apply to SDK-only implementations. However, you can develop your method to export the data.

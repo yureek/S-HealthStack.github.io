@@ -5,7 +5,7 @@ permalink: v09beta.html
 toc: false
 ---
 
-<span style="color:red">*This open source project is a beta version, provided as is, to give early adopters access to the project, prior to the official release. The wearable devices supported in the beta version are the Galaxy Watch 4 and the Galaxy Watch 5.*</span>
+<span style="color:red">*This open source project is a beta version, provided as is, to give early adopters access to the pilot project prior to the official release. The only wearable device for the pilot project is the Galaxy Watch 4.*</span>
 
 # What's New
 
@@ -26,5 +26,5 @@ Samsung Health Stack has integrated the [Health Connect](https://developer.andro
 
 ## Account Creation
 
-Every member collaborating on a study needs a health stack account. In addition to the [command line account creation](../documentation/installation/install-backend.md#xv-create-initial-account) available in the alpha version, initial account creation is now available through an easy to use [web portal user interface](../documentation/installation/install-portal.md#iii-launch-web-portal-and-create-account).
+Every member collaborating on a study needs a Samsung Health Stack account. In addition to the [command line account creation](../documentation/installation/install-backend.md#xv-create-initial-account) available in the alpha version, initial account creation is now available through an easy to use [web portal user interface](../documentation/installation/install-portal.md#iii-launch-web-portal-and-create-account).
 

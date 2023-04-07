@@ -9,7 +9,7 @@ toc: false
 
 ## Web Portal
 
-We highly recommend you use the Samsung Health Stack web portal to view individual participant records. The web portal reports individual participants' average records per data class. The reporting includes data such as average step count or average heart rate. You can view the records of:
+We recommend using the Samsung Health Stack web portal to view individual participant records. The web portal logs individual participants' average records per data class. The reports include data such as average step count or average heart rate. You can view the records of:
 - A specific participant.
 - A participant relating to a datapoint of interest.
 
@@ -26,4 +26,4 @@ To create graphs and charts using the API endpoints:
 
 # SDK-Only Implementations
 
-Because displaying the individual participant results data is part of the health stack's web portal and does not interface with the participant app, displaying this data does not apply to SDK-only implementations. However, you can develop your own graphs and charts to display the information as needed for your use case.
+Because displaying the individual participants' data is part of the Samsung Health Stack's web portal and does not interface with the participant app, displaying this data does not apply to SDK-only implementations. However, you can develop your own data management system to display the information as needed.

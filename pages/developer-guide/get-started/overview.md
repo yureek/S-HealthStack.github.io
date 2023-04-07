@@ -5,7 +5,7 @@ permalink: overview.html
 toc: false
 ---
 
-<span style="color:red">*This open source project is a beta version, provided as is, to give early adopters access to the project, prior to the official release. The wearable devices supported in the beta version are the Galaxy Watch 4 and the Galaxy Watch 5.*</span>
+<span style="color:red">*This open source project is a beta version, provided as is, to give early adopters access to the pilot project prior to the official release. The only wearable device for the pilot project is the Galaxy Watch 4.*</span>
 
 Today’s health studies using wearable devices typically consist of a wearable device to sense input data, a mobile app that tracks the data, and additional tools to store and analyze the data. Developing these studies from scratch is costly and time consuming. Clearly, a common-use framework can lessen the burden for everyone.
 

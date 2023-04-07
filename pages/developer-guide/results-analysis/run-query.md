@@ -26,4 +26,4 @@ To run a query using the API endpoints:
 
 # SDK-Only Implementations
 
-Because exporting data is part of the health stack's web portal and does not interface with the participant app, exporting data does not apply to SDK-only implementations. However, you can develop your own method to export the data.
+Because exporting data is part of the Samsung Health Stack's web portal and does not interface with the participant app, data cannot be exported as such in SDK-only implementations. However, you can develop your own method to export the data.

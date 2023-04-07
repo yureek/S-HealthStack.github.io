@@ -11,7 +11,7 @@ Follow these instructions to install, build, and verify the web portal.
 
 # I. (Optional) Create Development Environment
 
->  Completing the steps in this section are only necessary if you intent to make changes to the source code.
+>  Completing the steps in this section are only necessary if you intend to make changes to the source code.
 
 1. Set up and install NodeJS version 16.15.0 or higher using the instructions at [https://nodejs.org/en/download/](https://nodejs.org/en/download/){:target="_blank"}
 
@@ -46,7 +46,7 @@ Follow these instructions to install, build, and verify the web portal.
 > 1. Install NodeJS version 16.15.0 or higher.
 > 2. Run `corepack enable` to activate yarn.
 > 3. Run `yarn` to install dependencies.
-> 4. Run `yarn build` with desired variables set using environment. For example `API_URL=https://example.com yarn build`.
+> 4. Run `yarn build` with desired variables set using environment. For example, `API_URL=https://example.com yarn build`.
 > 
 > The resulting static files will be located in the `/build` folder and can be hosted using any web server.
 
@@ -58,7 +58,7 @@ Follow these instructions to install, build, and verify the web portal.
 3. Follow the prompts to generate an account activation email.
 4. Open the email and complete the account creation and sign in process.
 
->  If you are the very first person to create an account, the system adds the `Team Admin` team role to your account settings. Because this role has advanced access to the health stack, we recommend that your system administrator creates the first account.
+>  If you are the very first person to create an account, the system adds the `Team Admin` [team role](/role-based-access-control.md) to your account settings. Because this role has advanced access privileges to the Samsung Health Stack, we recommend that your system administrator creates the first account.
 
 <!-- The system adds the `Team Member` team role to the account settings of all subsequent accounts upon creation. -->
 

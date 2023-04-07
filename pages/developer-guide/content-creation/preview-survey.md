@@ -21,6 +21,3 @@ To preview a survey using the web portal:
 
 There are no API endpoints explicitly dedicated to previewing a survey. Rely on the previewing features of your development environment (for example, Visual Studio Code) if previewing in the portal doesn't meet your needs.
 
-# SDK-Only Implementations
-
-Use the previewing features of your development environment (for example, Visual Studio Code) to preview surveys.

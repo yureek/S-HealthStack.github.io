@@ -1,15 +1,15 @@
 ---
 title: Managing Members
 sidebar: doc_sidebar
-permalink: manage-members.html
+permalink: dev_manage-members.html
 toc: false
 ---
 
-Members are the people who are conducting the study.
+Members are the users who conduct the study and membership status is maintained at the study level
 
 # Full-Stack Implementations
 
-Your team consists of as many members as is pertinent for you. Thus, the health stack puts no restrictions on the number of members working on studies in your organization. Each study can have any number of the members participate in conducting the study. And, member management happens at the study level.
+Samsung Health Stack puts no restrictions on the number of members under an organization, or the number of members working on a study.
 
 ## Web Portal
 
@@ -17,7 +17,7 @@ We highly recommend you manage your team members through the Samsung Health Stac
 
 To manage members using the web portal:
 
-1. Refer to [Managing Members](../../portal-guide/study-management/creating-a-study.md) in the web portal user guide.
+1. Refer to [Managing Members](../../portal-guide/study-management/portal-manage-members.md) in the web portal user guide.
 
 ## API Endpoints
 
@@ -31,4 +31,4 @@ To assign a role to an existing member using the API endpoints:
 
 # SDK-Only Implementations
 
-Because member management is part of the health stack's web portal and does not interface with the participant app, creating managing members does not apply to SDK-only implementations.
+Because member management is part of the Samsung Health Stack's web portal and does not interface with the participant app, member management is not available for SDK-only implementations.

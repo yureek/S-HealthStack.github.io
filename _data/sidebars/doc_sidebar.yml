@@ -16,9 +16,9 @@ entries:
       output: web, pdf
 #      type: homepage
 
-    - title: Getting Started Tutorial
-      url: /tutorial.html
-      output: web, pdf
+    # - title: Getting Started Tutorial
+    #   url: /tutorial.html
+    #   output: web, pdf
 
     - title: Contributing to the Open Source Project
       url: /contribute-to-the-project.html
@@ -56,16 +56,20 @@ entries:
       url: /create-app.html
       output: web, pdf
 
-      subfolders:
-      - title: Building the Mobile App
-        output: web, pdf
-        subfolderitems:
+    - title: Configuring the Eligibility Survey
+      url: /create-eligibility-questions.html
+      output: web, pdf
+# <Below is how to create an additional hierarchy>
+      # subfolders:
+      # - title: foldername
+      #   output: web, pdf
+      #   subfolderitems:
            
-        - title: Creating Eligibility Questions
-          url: /create-eligibility-questions.html
-          output: web, pdf
+      #   - title: Creating Eligibility Questions
+      #     url: /create-eligibility-questions.html
+      #     output: web, pdf
 
-    - title: Configuring the App
+    - title: Configuring the App Environment
       url: /configure-app.html
       output: web, pdf
 
@@ -82,7 +86,7 @@ entries:
       output: web, pdf
 
     - title: Managing Members
-      url: /manage-members.html
+      url: /dev_manage-members.html
       output: web, pdf
 
   - title: Content Creation
@@ -177,7 +181,7 @@ entries:
       output: web, pdf
 
     - title: Managing  Members
-      url: /managing-members.html
+      url: /portal_managing-members.html
       output: web, pdf
 
   - title: Content Creation

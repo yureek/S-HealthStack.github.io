@@ -34,9 +34,9 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: Getting Started Tutorial
-          url: /tutorial.html
-          output: web, pdf
+        # - title: Getting Started Tutorial
+        #   url: /tutorial.html
+        #   output: web, pdf
 
         - title: Contributing to the Open Source Project
           url: /contributing-to-the-project.html
@@ -147,7 +147,7 @@ entries:
         output: web, pdf
 
       - title: Managing  Members
-        url: /managing-members.html
+        url: /portal_managing-members.html
         output: web, pdf
 
     subfolders:

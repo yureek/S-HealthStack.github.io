@@ -31,7 +31,7 @@ Follow these steps to set up managing the MG study:
     > - Study Name: `MG Study`
     > - Study Logo: whichever color you prefer
 
-2. [Invite members and assign their roles](../../portal-guide/study-management/managing-members.md#inviting-members-and-assigning-roles) to help conduct the study.
+2. [Invite members and assign their roles](../../portal-guide/study-management/portal-manage-members.md) to help conduct the study.
 
     > Creating the initial study automatically prompts you to invite members. Let's invite Dr. McCoy as a principal investigator. Enter these parameters:
     >

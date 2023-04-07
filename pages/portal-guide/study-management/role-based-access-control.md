@@ -9,12 +9,12 @@ The role-based access control feature provides security with differing levels of
 
 # Team Roles
 
-Team roles control access at the health stack level. Available roles are:
+Team roles control access at the Samsung Health Stack level. Available roles are:
 
 - Team Admin
 - Team Member
 
-From the version v0.9 web portal, the sole team admin is the first person to create a health stack account. Accounts for all others are team member accounts.
+From the version v0.9 web portal, the sole team admin is the first person to create a Samsung Health Stack account. Accounts for all others are team member accounts.
 
 > From the command line or code, having more than one team admin is possible.
 

@@ -38,4 +38,4 @@ In addition to the one-time [app SDK installation steps](../installation/install
    >
    > Note: The project ID of your study is contained in the JSON response of a `POST /api/projects` request.
 
-3. Make the app available for downloading by study participants.
+3. Make the app available for downloading.

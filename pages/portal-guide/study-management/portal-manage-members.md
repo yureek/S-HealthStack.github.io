@@ -1,13 +1,13 @@
 ---
 title: Managing Members
 sidebar: doc_sidebar
-permalink: managing-members.html
+permalink: portal_managing-members.html
 toc: false
 ---
 
 # Overview
 
-Members are the people who are conducting the study. Your team consists of as many members as is pertinent for you. Thus, the health stack puts no restrictions on the number of members working on studies in your organization. Each study can have any number of the members participate in conducting the study. And, member management happens at the study level.
+Members are the people who are conducting the study. Your team consists of as many members as is pertinent for you. Thus, the Samsung Health Stack puts no restrictions on the number of members working on studies in your organization. Each study can have any number of the members participate in conducting the study. And, member management happens at the study level.
 
 These actions are available for managing the members participating in a given study:
 

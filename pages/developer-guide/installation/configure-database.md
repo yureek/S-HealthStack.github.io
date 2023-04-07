@@ -5,13 +5,13 @@ sidebar: doc_sidebar
 toc: false
 ---
 
-## Connect PostgreSQL Database
+## Configuring the Database
 
-There are two methods to configure your own PostgreSQL database. You can edit the `application.yml` or use `application.properties`
+The Samsung Health Stack is build to work with PostgreSQL Database. There are two methods to configure PostgreSQL database. You can edit `application.yml` or use `application.properties`
 
 ### Using application.yml
 
-To connect your own PostgreSQL database, you would need to update the following properties in the `config` section of the `platform/src/main/resources/application.yml` file:
+`application.yml` file contains configuration settings for a Spring Framework application. To connect your PostgreSQL database, update the following properties in the `codeconfig` section located at `platform/src/main/resources/application.yml`within the backend-system's directory:
 
 ```
 codeconfig:

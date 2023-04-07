@@ -22,7 +22,3 @@ To schedule and publish a survey using the API endpoints:
 
 1. Refer to `PATCH /projects/{projectId}/tasks/{taskId}` in [Study API Endpoints](../../api-reference/study-api-endpoints.md) in the API reference.
 
-# SDK-Only Implementations
-
-<!-- ## Backend Facade -->
-*Coming soon...*
