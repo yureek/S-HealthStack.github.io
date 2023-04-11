@@ -171,7 +171,7 @@ entries:
           output: web, pdf
 
         - title: Interface
-          url: /hl_index.html
+          url: /hl_interface.html
           output: web, pdf
 
     - title: Kit
