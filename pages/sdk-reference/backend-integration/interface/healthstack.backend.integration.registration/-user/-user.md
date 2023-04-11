@@ -3,7 +3,7 @@ title: User
 permalink: /interface/healthstack.backend.integration.registration/-user/-user.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.registration](../index.html)/[User](index.html)/[User](-user.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.registration](../index.html)/[User](index.html)/[User](-user.html)
 
 
 

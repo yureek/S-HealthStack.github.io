@@ -3,7 +3,7 @@ title: hasPermissions
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/has-permissions.html
 
 ---
-//[healthplatform](../../../index.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[hasPermissions](has-permissions.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[hasPermissions](has-permissions.html)
 
 
 

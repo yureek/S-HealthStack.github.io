@@ -3,7 +3,7 @@ title: MultiChoiceQuestionComponent
 permalink: /kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[MultiChoiceQuestionComponent](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[MultiChoiceQuestionComponent](index.html)
 
 
 

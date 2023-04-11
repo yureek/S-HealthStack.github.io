@@ -3,7 +3,7 @@ title: healthstack.healthdata.link.healthconnect
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/index.html
 
 ---
-//[healthconnect](../../index.html)/[healthstack.healthdata.link.healthconnect](index.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: low
 permalink: /interface/healthstack.backend.integration.task/-scale-properties/low.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[low](low.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[low](low.html)
 
 
 

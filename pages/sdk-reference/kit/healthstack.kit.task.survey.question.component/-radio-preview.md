@@ -3,7 +3,7 @@ title: RadioPreview
 permalink: /kit/healthstack.kit.task.survey.question.component/-radio-preview.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.survey.question.component](index.html)/[RadioPreview](-radio-preview.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](index.html)/[RadioPreview](-radio-preview.html)
 
 
 

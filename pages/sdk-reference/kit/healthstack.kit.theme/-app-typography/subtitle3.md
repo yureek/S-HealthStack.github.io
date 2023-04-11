@@ -3,7 +3,7 @@ title: subtitle3
 permalink: /kit/healthstack.kit.theme/-app-typography/subtitle3.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[subtitle3](subtitle3.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[subtitle3](subtitle3.html)
 
 
 

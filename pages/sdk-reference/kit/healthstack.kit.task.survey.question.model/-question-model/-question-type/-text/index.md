@@ -3,7 +3,7 @@ title: Text
 permalink: /kit/healthstack.kit.task.survey.question.model/-question-model/-question-type/-text/index.html
 
 ---
-//[kit](../../../../../index.html)/[healthstack.kit.task.survey.question.model](../../../index.html)/[QuestionModel](../../index.html)/[QuestionType](../index.html)/[Text](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../../../index.html)/[QuestionModel](../../index.html)/[QuestionType](../index.html)/[Text](index.html)
 
 
 

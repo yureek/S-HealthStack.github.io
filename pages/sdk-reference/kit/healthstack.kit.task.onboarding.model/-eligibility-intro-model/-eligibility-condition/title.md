@@ -3,7 +3,7 @@ title: title
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-eligibility-condition/title.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[EligibilityCondition](index.html)/[title](title.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[EligibilityCondition](index.html)/[title](title.html)
 
 
 

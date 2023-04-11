@@ -3,7 +3,7 @@ title: PropertyDeserializer
 permalink: /interface/healthstack.backend.integration.task/-property-deserializer/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[PropertyDeserializer](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[PropertyDeserializer](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: RadioGroup
 permalink: /kit/healthstack.kit.task.survey.question.component/-radio-group.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.survey.question.component](index.html)/[RadioGroup](-radio-group.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](index.html)/[RadioGroup](-radio-group.html)
 
 
 

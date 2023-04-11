@@ -3,7 +3,7 @@ title: BottomRoundButton
 permalink: /kit/healthstack.kit.ui/-bottom-round-button.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[BottomRoundButton](-bottom-round-button.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[BottomRoundButton](-bottom-round-button.html)
 
 
 

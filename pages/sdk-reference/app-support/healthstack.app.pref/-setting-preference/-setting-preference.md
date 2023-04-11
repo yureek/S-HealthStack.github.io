@@ -3,7 +3,7 @@ title: SettingPreference
 permalink: /app-support/healthstack.app.pref/-setting-preference/-setting-preference.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.pref](../index.html)/[SettingPreference](index.html)/[SettingPreference](-setting-preference.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../index.html)/[SettingPreference](index.html)/[SettingPreference](-setting-preference.html)
 
 
 

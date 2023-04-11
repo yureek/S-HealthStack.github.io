@@ -3,7 +3,7 @@ title: isCorrect
 permalink: /kit/healthstack.kit.task.survey.question.model/-question-model/is-correct.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[QuestionModel](index.html)/[isCorrect](is-correct.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[QuestionModel](index.html)/[isCorrect](is-correct.html)
 
 
 

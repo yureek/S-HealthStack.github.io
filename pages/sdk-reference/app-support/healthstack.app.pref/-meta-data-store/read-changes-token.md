@@ -3,7 +3,7 @@ title: readChangesToken
 permalink: /app-support/healthstack.app.pref/-meta-data-store/read-changes-token.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.pref](../index.html)/[MetaDataStore](index.html)/[readChangesToken](read-changes-token.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../index.html)/[MetaDataStore](index.html)/[readChangesToken](read-changes-token.html)
 
 
 

@@ -3,7 +3,7 @@ title: saveChangesToken
 permalink: /app-support/healthstack.app.pref/-meta-data-store/save-changes-token.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.pref](../index.html)/[MetaDataStore](index.html)/[saveChangesToken](save-changes-token.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../index.html)/[MetaDataStore](index.html)/[saveChangesToken](save-changes-token.html)
 
 
 

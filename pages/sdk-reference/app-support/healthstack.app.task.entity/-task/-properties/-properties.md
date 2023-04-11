@@ -3,7 +3,7 @@ title: Properties
 permalink: /app-support/healthstack.app.task.entity/-task/-properties/-properties.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.task.entity](../../index.html)/[Task](../index.html)/[Properties](index.html)/[Properties](-properties.html)
+//[app-support](/app-support.html)/[healthstack.app.task.entity](../../index.html)/[Task](../index.html)/[Properties](index.html)/[Properties](-properties.html)
 
 
 

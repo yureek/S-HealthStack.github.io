@@ -3,7 +3,7 @@ title: FirebaseGoogleAuthContract
 permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)
+//[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)
 
 
 

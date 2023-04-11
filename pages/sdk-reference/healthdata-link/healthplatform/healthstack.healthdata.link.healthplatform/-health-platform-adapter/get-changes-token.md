@@ -3,7 +3,7 @@ title: getChangesToken
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/get-changes-token.html
 
 ---
-//[healthplatform](../../../index.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[getChangesToken](get-changes-token.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[getChangesToken](get-changes-token.html)
 
 
 

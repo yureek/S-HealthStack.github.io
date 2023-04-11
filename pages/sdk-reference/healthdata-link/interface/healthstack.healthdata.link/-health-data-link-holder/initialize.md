@@ -3,7 +3,7 @@ title: initialize
 permalink: /interface/healthstack.healthdata.link/-health-data-link-holder/initialize.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLinkHolder](index.html)/[initialize](initialize.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLinkHolder](index.html)/[initialize](initialize.html)
 
 
 

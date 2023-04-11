@@ -3,7 +3,7 @@ title: getHealthData
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/get-health-data.html
 
 ---
-//[healthplatform](../../../index.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[getHealthData](get-health-data.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[getHealthData](get-health-data.html)
 
 
 

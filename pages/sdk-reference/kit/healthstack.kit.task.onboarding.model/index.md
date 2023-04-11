@@ -3,7 +3,7 @@ title: healthstack.kit.task.onboarding.model
 permalink: /kit/healthstack.kit.task.onboarding.model/index.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.onboarding.model](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](index.html)
 
 
 

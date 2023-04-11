@@ -3,7 +3,7 @@ title: RoundTextField
 permalink: /kit/healthstack.kit.ui/-round-text-field.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[RoundTextField](-round-text-field.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[RoundTextField](-round-text-field.html)
 
 
 

@@ -3,7 +3,7 @@ title: TextInputQuestionModel
 permalink: /kit/healthstack.kit.task.survey.question.model/-text-input-question-model/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)
 
 
 

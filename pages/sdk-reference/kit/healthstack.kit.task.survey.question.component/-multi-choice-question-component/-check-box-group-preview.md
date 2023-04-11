@@ -3,7 +3,7 @@ title: CheckBoxGroupPreview
 permalink: /kit/healthstack.kit.task.survey.question.component/-multi-choice-question-component/-check-box-group-preview.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[MultiChoiceQuestionComponent](index.html)/[CheckBoxGroupPreview](-check-box-group-preview.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[MultiChoiceQuestionComponent](index.html)/[CheckBoxGroupPreview](-check-box-group-preview.html)
 
 
 

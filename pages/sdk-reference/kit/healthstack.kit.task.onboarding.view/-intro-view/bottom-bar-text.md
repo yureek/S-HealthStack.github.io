@@ -3,7 +3,7 @@ title: bottomBarText
 permalink: /kit/healthstack.kit.task.onboarding.view/-intro-view/bottom-bar-text.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[IntroView](index.html)/[bottomBarText](bottom-bar-text.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[IntroView](index.html)/[bottomBarText](bottom-bar-text.html)
 
 
 

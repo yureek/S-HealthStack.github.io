@@ -3,7 +3,7 @@ title: getIcon
 permalink: /app-support/healthstack.app.status/-task-status/get-icon.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[TaskStatus](index.html)/[getIcon](get-icon.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[TaskStatus](index.html)/[getIcon](get-icon.html)
 
 
 

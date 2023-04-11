@@ -3,7 +3,7 @@ title: current
 permalink: /kit/healthstack.kit.task.base/-ordered-task/-progress/current.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.task.base](../../index.html)/[OrderedTask](../index.html)/[Progress](index.html)/[current](current.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../../index.html)/[OrderedTask](../index.html)/[Progress](index.html)/[current](current.html)
 
 
 

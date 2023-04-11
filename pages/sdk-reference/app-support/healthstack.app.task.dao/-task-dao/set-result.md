@@ -3,7 +3,7 @@ title: setResult
 permalink: /app-support/healthstack.app.task.dao/-task-dao/set-result.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.dao](../index.html)/[TaskDao](index.html)/[setResult](set-result.html)
+//[app-support](/app-support.html)/[healthstack.app.task.dao](../index.html)/[TaskDao](index.html)/[setResult](set-result.html)
 
 
 

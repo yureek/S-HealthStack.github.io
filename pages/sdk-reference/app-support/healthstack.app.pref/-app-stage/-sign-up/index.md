@@ -3,7 +3,7 @@ title: SignUp
 permalink: /app-support/healthstack.app.pref/-app-stage/-sign-up/index.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.pref](../../index.html)/[AppStage](../index.html)/[SignUp](index.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../../index.html)/[AppStage](../index.html)/[SignUp](index.html)
 
 
 

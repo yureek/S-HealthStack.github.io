@@ -3,7 +3,7 @@ title: description
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/description.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)/[description](description.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)/[description](description.html)
 
 
 

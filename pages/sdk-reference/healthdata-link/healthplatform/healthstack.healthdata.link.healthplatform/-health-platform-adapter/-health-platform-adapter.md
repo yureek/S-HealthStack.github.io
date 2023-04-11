@@ -3,7 +3,7 @@ title: HealthPlatformAdapter
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/-health-platform-adapter.html
 
 ---
-//[healthplatform](../../../index.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[HealthPlatformAdapter](-health-platform-adapter.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[HealthPlatformAdapter](-health-platform-adapter.html)
 
 
 

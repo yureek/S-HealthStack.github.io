@@ -3,7 +3,7 @@ title: HealthState
 permalink: /app-support/healthstack.app.viewmodel/-health-status-view-model/-health-state/-health-state.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.viewmodel](../../index.html)/[HealthStatusViewModel](../index.html)/[HealthState](index.html)/[HealthState](-health-state.html)
+//[app-support](/app-support.html)/[healthstack.app.viewmodel](../../index.html)/[HealthStatusViewModel](../index.html)/[HealthState](index.html)/[HealthState](-health-state.html)
 
 
 

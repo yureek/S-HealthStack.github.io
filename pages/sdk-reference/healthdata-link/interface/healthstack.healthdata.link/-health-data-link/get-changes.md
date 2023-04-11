@@ -3,7 +3,7 @@ title: getChanges
 permalink: /interface/healthstack.healthdata.link/-health-data-link/get-changes.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getChanges](get-changes.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getChanges](get-changes.html)
 
 
 

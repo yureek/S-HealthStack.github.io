@@ -3,7 +3,7 @@ title: ItemProperties
 permalink: /interface/healthstack.backend.integration.task/-item-properties/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ItemProperties](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ItemProperties](index.html)
 
 
 

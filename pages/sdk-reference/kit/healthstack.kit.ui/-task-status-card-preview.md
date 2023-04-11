@@ -3,7 +3,7 @@ title: TaskStatusCardPreview
 permalink: /kit/healthstack.kit.ui/-task-status-card-preview.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[TaskStatusCardPreview](-task-status-card-preview.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[TaskStatusCardPreview](-task-status-card-preview.html)
 
 
 

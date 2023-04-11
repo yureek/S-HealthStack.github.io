@@ -3,7 +3,7 @@ title: Render
 permalink: /kit/healthstack.kit.task.signup.step/-sign-up-step/-render.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.signup.step](../index.html)/[SignUpStep](index.html)/[Render](-render.html)
+//[kit](/kit.html)/[healthstack.kit.task.signup.step](../index.html)/[SignUpStep](index.html)/[Render](-render.html)
 
 
 

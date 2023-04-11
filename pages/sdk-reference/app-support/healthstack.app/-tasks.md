@@ -3,7 +3,7 @@ title: Tasks
 permalink: /app-support/healthstack.app/-tasks.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app](index.html)/[Tasks](-tasks.html)
+//[app-support](/app-support.html)/[healthstack.app](index.html)/[Tasks](-tasks.html)
 
 
 

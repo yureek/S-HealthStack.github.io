@@ -3,7 +3,7 @@ title: PreviewGenerated
 permalink: /kit/healthstack.kit.annotation/-preview-generated/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.annotation](../index.html)/[PreviewGenerated](index.html)
+//[kit](/kit.html)/[healthstack.kit.annotation](../index.html)/[PreviewGenerated](index.html)
 
 
 

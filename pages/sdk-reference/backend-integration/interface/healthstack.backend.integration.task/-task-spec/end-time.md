@@ -3,7 +3,7 @@ title: endTime
 permalink: /interface/healthstack.backend.integration.task/-task-spec/end-time.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[endTime](end-time.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[endTime](end-time.html)
 
 
 

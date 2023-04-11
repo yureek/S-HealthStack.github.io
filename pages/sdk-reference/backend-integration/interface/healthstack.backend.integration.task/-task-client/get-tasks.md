@@ -3,7 +3,7 @@ title: getTasks
 permalink: /interface/healthstack.backend.integration.task/-task-client/get-tasks.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskClient](index.html)/[getTasks](get-tasks.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskClient](index.html)/[getTasks](get-tasks.html)
 
 
 

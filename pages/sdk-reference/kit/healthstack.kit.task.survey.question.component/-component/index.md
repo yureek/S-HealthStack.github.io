@@ -3,7 +3,7 @@ title: Component
 permalink: /kit/healthstack.kit.task.survey.question.component/-component/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[Component](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[Component](index.html)
 
 
 

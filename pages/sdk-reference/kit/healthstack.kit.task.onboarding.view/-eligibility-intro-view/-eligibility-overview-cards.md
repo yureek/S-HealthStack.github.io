@@ -3,7 +3,7 @@ title: EligibilityOverviewCards
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view/-eligibility-overview-cards.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[EligibilityOverviewCards](-eligibility-overview-cards.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[EligibilityOverviewCards](-eligibility-overview-cards.html)
 
 
 

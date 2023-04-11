@@ -3,7 +3,7 @@ title: getChanges
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/get-changes.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[getChanges](get-changes.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[getChanges](get-changes.html)
 
 
 

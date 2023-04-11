@@ -3,7 +3,7 @@ title: ChoiceProperties
 permalink: /interface/healthstack.backend.integration.task/-choice-properties/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ChoiceProperties](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ChoiceProperties](index.html)
 
 
 

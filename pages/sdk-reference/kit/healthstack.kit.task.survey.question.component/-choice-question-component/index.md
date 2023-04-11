@@ -3,7 +3,7 @@ title: ChoiceQuestionComponent
 permalink: /kit/healthstack.kit.task.survey.question.component/-choice-question-component/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)
 
 
 

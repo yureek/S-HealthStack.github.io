@@ -3,7 +3,7 @@ title: sequence
 permalink: /interface/healthstack.backend.integration.task/-item/sequence.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[Item](index.html)/[sequence](sequence.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[Item](index.html)/[sequence](sequence.html)
 
 
 

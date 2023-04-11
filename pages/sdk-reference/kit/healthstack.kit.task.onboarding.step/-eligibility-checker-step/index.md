@@ -3,7 +3,7 @@ title: EligibilityCheckerStep
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-checker-step/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityCheckerStep](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityCheckerStep](index.html)
 
 
 

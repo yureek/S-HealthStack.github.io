@@ -3,7 +3,7 @@ title: UserRegistrationClient
 permalink: /interface/healthstack.backend.integration.registration/-user-registration-client/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.registration](../index.html)/[UserRegistrationClient](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.registration](../index.html)/[UserRegistrationClient](index.html)
 
 
 

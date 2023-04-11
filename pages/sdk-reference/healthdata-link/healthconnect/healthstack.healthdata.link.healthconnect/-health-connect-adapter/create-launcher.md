@@ -3,7 +3,7 @@ title: createLauncher
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/create-launcher.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[createLauncher](create-launcher.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[createLauncher](create-launcher.html)
 
 
 

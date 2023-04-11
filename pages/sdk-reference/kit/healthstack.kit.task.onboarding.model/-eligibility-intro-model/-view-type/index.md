@@ -3,7 +3,7 @@ title: ViewType
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-view-type/index.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[ViewType](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../../index.html)/[EligibilityIntroModel](../index.html)/[ViewType](index.html)
 
 
 

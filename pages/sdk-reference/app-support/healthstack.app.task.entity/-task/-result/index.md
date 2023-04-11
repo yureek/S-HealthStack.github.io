@@ -3,7 +3,7 @@ title: Result
 permalink: /app-support/healthstack.app.task.entity/-task/-result/index.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.task.entity](../../index.html)/[Task](../index.html)/[Result](index.html)
+//[app-support](/app-support.html)/[healthstack.app.task.entity](../../index.html)/[Task](../index.html)/[Result](index.html)
 
 
 

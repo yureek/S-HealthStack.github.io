@@ -3,7 +3,7 @@ title: UserAlreadyExistsException
 permalink: /interface/healthstack.backend.integration.exception/-user-already-exists-exception/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.exception](../index.html)/[UserAlreadyExistsException](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.exception](../index.html)/[UserAlreadyExistsException](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: BasicSignUpComponent
 permalink: /kit/healthstack.kit.task.signup.view/-basic-sign-up-component.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.signup.view](index.html)/[BasicSignUpComponent](-basic-sign-up-component.html)
+//[kit](/kit.html)/[healthstack.kit.task.signup.view](index.html)/[BasicSignUpComponent](-basic-sign-up-component.html)
 
 
 

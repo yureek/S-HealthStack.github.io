@@ -3,7 +3,7 @@ title: hasAllPermissions
 permalink: /interface/healthstack.healthdata.link/-health-data-link/has-all-permissions.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[hasAllPermissions](has-all-permissions.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[hasAllPermissions](has-all-permissions.html)
 
 
 

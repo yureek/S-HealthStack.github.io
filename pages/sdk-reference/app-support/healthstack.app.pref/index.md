@@ -3,7 +3,7 @@ title: healthstack.app.pref
 permalink: /app-support/healthstack.app.pref/index.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app.pref](index.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](index.html)
 
 
 

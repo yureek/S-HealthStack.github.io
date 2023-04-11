@@ -3,10 +3,6 @@ title: healthstack-adapter
 permalink: /healthstack-adapter.html
 
 ---
-//[healthstack-adapter](index.html)
-
-
-
 # healthstack-adapter
 
 

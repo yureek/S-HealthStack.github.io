@@ -3,7 +3,7 @@ title: create
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-retrofit-factory/create.html
 
 ---
-//[healthstack-adapter](../../../index.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)/[create](create.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)/[create](create.html)
 
 
 

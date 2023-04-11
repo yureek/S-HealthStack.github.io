@@ -3,7 +3,7 @@ title: warningVariant
 permalink: /kit/healthstack.kit.theme/-app-colors/warning-variant.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[warningVariant](warning-variant.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[warningVariant](warning-variant.html)
 
 
 

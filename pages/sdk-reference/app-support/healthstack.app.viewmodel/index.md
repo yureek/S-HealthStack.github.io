@@ -3,7 +3,7 @@ title: healthstack.app.viewmodel
 permalink: /app-support/healthstack.app.viewmodel/index.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app.viewmodel](index.html)
+//[app-support](/app-support.html)/[healthstack.app.viewmodel](index.html)
 
 
 

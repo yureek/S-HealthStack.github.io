@@ -3,7 +3,7 @@ title: items
 permalink: /interface/healthstack.backend.integration.task/-task-spec/items.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[items](items.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[items](items.html)
 
 
 

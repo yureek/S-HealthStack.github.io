@@ -3,7 +3,7 @@ title: title
 permalink: /interface/healthstack.backend.integration.task/-task-spec/title.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[title](title.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[title](title.html)
 
 
 

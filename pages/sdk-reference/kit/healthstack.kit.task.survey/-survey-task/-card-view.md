@@ -3,7 +3,7 @@ title: CardView
 permalink: /kit/healthstack.kit.task.survey/-survey-task/-card-view.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey](../index.html)/[SurveyTask](index.html)/[CardView](-card-view.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey](../index.html)/[SurveyTask](index.html)/[CardView](-card-view.html)
 
 
 

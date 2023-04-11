@@ -3,7 +3,7 @@ title: ConsentTopBarPreview2
 permalink: /kit/healthstack.kit.ui/-consent-top-bar-preview2.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[ConsentTopBarPreview2](-consent-top-bar-preview2.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[ConsentTopBarPreview2](-consent-top-bar-preview2.html)
 
 
 

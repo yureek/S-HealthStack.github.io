@@ -3,7 +3,7 @@ title: validTime
 permalink: /interface/healthstack.backend.integration.task/-task-spec/valid-time.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[validTime](valid-time.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[validTime](valid-time.html)
 
 
 

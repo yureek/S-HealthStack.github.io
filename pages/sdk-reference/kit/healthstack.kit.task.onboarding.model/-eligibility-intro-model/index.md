@@ -3,7 +3,7 @@ title: EligibilityIntroModel
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityIntroModel](index.html)
 
 
 

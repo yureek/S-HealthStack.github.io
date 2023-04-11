@@ -3,7 +3,7 @@ title: setTaskSyncTime
 permalink: /app-support/healthstack.app.pref/-setting-preference/set-task-sync-time.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.pref](../index.html)/[SettingPreference](index.html)/[setTaskSyncTime](set-task-sync-time.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../index.html)/[SettingPreference](index.html)/[setTaskSyncTime](set-task-sync-time.html)
 
 
 

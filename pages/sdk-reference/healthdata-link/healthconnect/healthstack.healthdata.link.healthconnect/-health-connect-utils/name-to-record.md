@@ -3,7 +3,7 @@ title: nameToRecord
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-utils/name-to-record.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectUtils](index.html)/[nameToRecord](name-to-record.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectUtils](index.html)/[nameToRecord](name-to-record.html)
 
 
 

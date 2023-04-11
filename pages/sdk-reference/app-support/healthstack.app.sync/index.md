@@ -3,7 +3,7 @@ title: healthstack.app.sync
 permalink: /app-support/healthstack.app.sync/index.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app.sync](index.html)
+//[app-support](/app-support.html)/[healthstack.app.sync](index.html)
 
 
 

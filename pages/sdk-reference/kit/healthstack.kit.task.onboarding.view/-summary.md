@@ -3,7 +3,7 @@ title: Summary
 permalink: /kit/healthstack.kit.task.onboarding.view/-summary.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.onboarding.view](index.html)/[Summary](-summary.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](index.html)/[Summary](-summary.html)
 
 
 

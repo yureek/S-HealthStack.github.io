@@ -3,7 +3,7 @@ title: Change
 permalink: /interface/healthstack.healthdata.link/-change/-change.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[Change](index.html)/[Change](-change.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[Change](index.html)/[Change](-change.html)
 
 
 

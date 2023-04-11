@@ -3,7 +3,7 @@ title: OrderedTask
 permalink: /kit/healthstack.kit.task.base/-ordered-task/-ordered-task.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[OrderedTask](index.html)/[OrderedTask](-ordered-task.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[OrderedTask](index.html)/[OrderedTask](-ordered-task.html)
 
 
 

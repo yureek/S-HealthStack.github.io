@@ -3,7 +3,7 @@ title: IntroStep
 permalink: /kit/healthstack.kit.task.onboarding.step/-intro-step/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[IntroStep](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[IntroStep](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: getActiveTasks
 permalink: /app-support/healthstack.app.task.repository/-task-repository/get-active-tasks.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.repository](../index.html)/[TaskRepository](index.html)/[getActiveTasks](get-active-tasks.html)
+//[app-support](/app-support.html)/[healthstack.app.task.repository](../index.html)/[TaskRepository](index.html)/[getActiveTasks](get-active-tasks.html)
 
 
 

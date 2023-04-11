@@ -3,7 +3,7 @@ title: ConsentTextModel
 permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)
 
 
 

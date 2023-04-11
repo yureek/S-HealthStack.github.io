@@ -3,7 +3,7 @@ title: WeeklyCard
 permalink: /kit/healthstack.kit.ui/-weekly-card.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[WeeklyCard](-weekly-card.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[WeeklyCard](-weekly-card.html)
 
 
 

@@ -3,7 +3,7 @@ title: SquareButton
 permalink: /kit/healthstack.kit.ui/-square-button.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[SquareButton](-square-button.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[SquareButton](-square-button.html)
 
 
 

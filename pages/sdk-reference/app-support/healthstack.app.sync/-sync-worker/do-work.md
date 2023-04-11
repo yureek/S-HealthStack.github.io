@@ -3,7 +3,7 @@ title: doWork
 permalink: /app-support/healthstack.app.sync/-sync-worker/do-work.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.sync](../index.html)/[SyncWorker](index.html)/[doWork](do-work.html)
+//[app-support](/app-support.html)/[healthstack.app.sync](../index.html)/[SyncWorker](index.html)/[doWork](do-work.html)
 
 
 

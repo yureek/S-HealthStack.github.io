@@ -3,7 +3,7 @@ title: HealthDataSyncSpec
 permalink: /app-support/healthstack.app.sync/-sync-manager/-health-data-sync-spec/-health-data-sync-spec.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.sync](../../index.html)/[SyncManager](../index.html)/[HealthDataSyncSpec](index.html)/[HealthDataSyncSpec](-health-data-sync-spec.html)
+//[app-support](/app-support.html)/[healthstack.app.sync](../../index.html)/[SyncManager](../index.html)/[HealthDataSyncSpec](index.html)/[HealthDataSyncSpec](-health-data-sync-spec.html)
 
 
 

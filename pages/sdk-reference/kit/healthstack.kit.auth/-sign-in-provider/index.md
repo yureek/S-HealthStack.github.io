@@ -3,7 +3,7 @@ title: SignInProvider
 permalink: /kit/healthstack.kit.auth/-sign-in-provider/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[SignInProvider](index.html)
+//[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[SignInProvider](index.html)
 
 
 

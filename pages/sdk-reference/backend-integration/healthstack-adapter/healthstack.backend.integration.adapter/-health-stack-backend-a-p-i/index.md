@@ -3,7 +3,7 @@ title: HealthStackBackendAPI
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-a-p-i/index.html
 
 ---
-//[healthstack-adapter](../../../index.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAPI](index.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAPI](index.html)
 
 
 

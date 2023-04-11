@@ -3,7 +3,7 @@ title: BaseApplication
 permalink: /app-support/healthstack.app/-base-application.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app](index.html)/[BaseApplication](-base-application.html)
+//[app-support](/app-support.html)/[healthstack.app](index.html)/[BaseApplication](-base-application.html)
 
 
 

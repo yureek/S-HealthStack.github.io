@@ -3,7 +3,7 @@ title: name
 permalink: /kit/healthstack.kit.task.survey.question/-question-sub-step/name.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question](../index.html)/[QuestionSubStep](index.html)/[name](name.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question](../index.html)/[QuestionSubStep](index.html)/[name](name.html)
 
 
 

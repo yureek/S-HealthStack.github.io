@@ -3,7 +3,7 @@ title: startTime
 permalink: /interface/healthstack.backend.integration.task/-task-spec/start-time.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[startTime](start-time.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskSpec](index.html)/[startTime](start-time.html)
 
 
 

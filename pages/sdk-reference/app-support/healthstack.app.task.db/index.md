@@ -3,7 +3,7 @@ title: healthstack.app.task.db
 permalink: /app-support/healthstack.app.task.db/index.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app.task.db](index.html)
+//[app-support](/app-support.html)/[healthstack.app.task.db](index.html)
 
 
 

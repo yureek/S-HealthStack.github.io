@@ -3,7 +3,7 @@ title: sync
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-adapter/sync.html
 
 ---
-//[healthstack-adapter](../../../index.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAdapter](index.html)/[sync](sync.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAdapter](index.html)/[sync](sync.html)
 
 
 

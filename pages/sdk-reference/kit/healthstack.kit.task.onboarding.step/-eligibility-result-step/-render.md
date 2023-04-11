@@ -3,7 +3,7 @@ title: Render
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-result-step/-render.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityResultStep](index.html)/[Render](-render.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityResultStep](index.html)/[Render](-render.html)
 
 
 

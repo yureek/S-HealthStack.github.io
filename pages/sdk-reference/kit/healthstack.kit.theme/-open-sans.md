@@ -3,7 +3,7 @@ title: OpenSans
 permalink: /kit/healthstack.kit.theme/-open-sans.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.theme](index.html)/[OpenSans](-open-sans.html)
+//[kit](/kit.html)/[healthstack.kit.theme](index.html)/[OpenSans](-open-sans.html)
 
 
 

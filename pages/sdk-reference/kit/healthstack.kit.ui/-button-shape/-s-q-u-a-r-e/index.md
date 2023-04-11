@@ -3,7 +3,7 @@ title: SQUARE
 permalink: /kit/healthstack.kit.ui/-button-shape/-s-q-u-a-r-e/index.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.ui](../../index.html)/[ButtonShape](../index.html)/[SQUARE](index.html)
+//[kit](/kit.html)/[healthstack.kit.ui](../../index.html)/[ButtonShape](../index.html)/[SQUARE](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: toChange
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/to-change.html
 
 ---
-//[healthconnect](../../index.html)/[healthstack.healthdata.link.healthconnect](index.html)/[toChange](to-change.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](index.html)/[toChange](to-change.html)
 
 
 

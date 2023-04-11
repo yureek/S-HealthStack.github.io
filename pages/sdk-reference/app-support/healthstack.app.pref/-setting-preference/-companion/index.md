@@ -3,7 +3,7 @@ title: Companion
 permalink: /app-support/healthstack.app.pref/-setting-preference/-companion/index.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.pref](../../index.html)/[SettingPreference](../index.html)/[Companion](index.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../../index.html)/[SettingPreference](../index.html)/[Companion](index.html)
 
 
 

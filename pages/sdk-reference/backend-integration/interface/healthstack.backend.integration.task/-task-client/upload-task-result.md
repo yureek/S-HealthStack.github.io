@@ -3,7 +3,7 @@ title: uploadTaskResult
 permalink: /interface/healthstack.backend.integration.task/-task-client/upload-task-result.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskClient](index.html)/[uploadTaskResult](upload-task-result.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskClient](index.html)/[uploadTaskResult](upload-task-result.html)
 
 
 

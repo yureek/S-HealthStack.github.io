@@ -3,7 +3,7 @@ title: Builder
 permalink: /kit/healthstack.kit.task.survey/-survey-task/-builder/-builder.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.task.survey](../../index.html)/[SurveyTask](../index.html)/[Builder](index.html)/[Builder](-builder.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey](../../index.html)/[SurveyTask](../index.html)/[Builder](index.html)/[Builder](-builder.html)
 
 
 

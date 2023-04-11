@@ -3,7 +3,7 @@ title: isIntervalData
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/is-interval-data.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[isIntervalData](is-interval-data.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[isIntervalData](is-interval-data.html)
 
 
 

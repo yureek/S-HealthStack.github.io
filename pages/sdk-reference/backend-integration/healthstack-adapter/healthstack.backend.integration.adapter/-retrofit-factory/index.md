@@ -3,7 +3,7 @@ title: RetrofitFactory
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-retrofit-factory/index.html
 
 ---
-//[healthstack-adapter](../../../index.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)
 
 
 

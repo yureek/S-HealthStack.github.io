@@ -3,7 +3,7 @@ title: SliderGroup
 permalink: /kit/healthstack.kit.task.survey.question.component/-choice-question-component/-slider-group.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)/[SliderGroup](-slider-group.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)/[SliderGroup](-slider-group.html)
 
 
 

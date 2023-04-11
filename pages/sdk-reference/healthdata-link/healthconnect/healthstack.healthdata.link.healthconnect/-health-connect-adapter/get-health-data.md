@@ -3,7 +3,7 @@ title: getHealthData
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/get-health-data.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[getHealthData](get-health-data.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[getHealthData](get-health-data.html)
 
 
 

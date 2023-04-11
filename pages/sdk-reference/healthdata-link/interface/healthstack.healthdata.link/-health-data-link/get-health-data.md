@@ -3,7 +3,7 @@ title: getHealthData
 permalink: /interface/healthstack.healthdata.link/-health-data-link/get-health-data.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getHealthData](get-health-data.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getHealthData](get-health-data.html)
 
 
 

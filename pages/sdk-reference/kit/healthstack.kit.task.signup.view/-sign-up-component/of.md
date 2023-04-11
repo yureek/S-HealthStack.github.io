@@ -3,7 +3,7 @@ title: of
 permalink: /kit/healthstack.kit.task.signup.view/-sign-up-component/of.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.signup.view](../index.html)/[SignUpComponent](index.html)/[of](of.html)
+//[kit](/kit.html)/[healthstack.kit.task.signup.view](../index.html)/[SignUpComponent](index.html)/[of](of.html)
 
 
 

@@ -3,7 +3,7 @@ title: ImageArticleLayoutRoundPreview
 permalink: /kit/healthstack.kit.ui.layout/-image-article-layout-round-preview.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui.layout](index.html)/[ImageArticleLayoutRoundPreview](-image-article-layout-round-preview.html)
+//[kit](/kit.html)/[healthstack.kit.ui.layout](index.html)/[ImageArticleLayoutRoundPreview](-image-article-layout-round-preview.html)
 
 
 

@@ -3,7 +3,7 @@ title: BackendFacadeHolder
 permalink: /interface/healthstack.backend.integration/-backend-facade-holder/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration](../index.html)/[BackendFacadeHolder](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration](../index.html)/[BackendFacadeHolder](index.html)
 
 
 

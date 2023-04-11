@@ -3,7 +3,7 @@ title: getIcon
 permalink: /app-support/healthstack.app.status/-status-data-type/get-icon.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[StatusDataType](index.html)/[getIcon](get-icon.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[StatusDataType](index.html)/[getIcon](get-icon.html)
 
 
 

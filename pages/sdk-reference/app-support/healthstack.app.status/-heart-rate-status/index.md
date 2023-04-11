@@ -3,7 +3,7 @@ title: HeartRateStatus
 permalink: /app-support/healthstack.app.status/-heart-rate-status/index.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: StepModel
 permalink: /kit/healthstack.kit.task.base/-step-model/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)
 
 
 

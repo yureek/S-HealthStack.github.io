@@ -3,7 +3,7 @@ title: SubStepHolder
 permalink: /kit/healthstack.kit.task.survey.question/-sub-step-holder/-sub-step-holder.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question](../index.html)/[SubStepHolder](index.html)/[SubStepHolder](-sub-step-holder.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question](../index.html)/[SubStepHolder](index.html)/[SubStepHolder](-sub-step-holder.html)
 
 
 

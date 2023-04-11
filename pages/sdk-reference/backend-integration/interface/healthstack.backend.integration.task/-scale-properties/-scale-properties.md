@@ -3,7 +3,7 @@ title: ScaleProperties
 permalink: /interface/healthstack.backend.integration.task/-scale-properties/-scale-properties.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[ScaleProperties](-scale-properties.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[ScaleProperties](-scale-properties.html)
 
 
 

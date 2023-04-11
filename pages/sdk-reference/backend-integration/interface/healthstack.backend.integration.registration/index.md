@@ -3,7 +3,7 @@ title: healthstack.backend.integration.registration
 permalink: /interface/healthstack.backend.integration.registration/index.html
 
 ---
-//[interface](../../index.html)/[healthstack.backend.integration.registration](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.registration](index.html)
 
 
 

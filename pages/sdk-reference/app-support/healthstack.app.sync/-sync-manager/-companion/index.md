@@ -3,7 +3,7 @@ title: Companion
 permalink: /app-support/healthstack.app.sync/-sync-manager/-companion/index.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.sync](../../index.html)/[SyncManager](../index.html)/[Companion](index.html)
+//[app-support](/app-support.html)/[healthstack.app.sync](../../index.html)/[SyncManager](../index.html)/[Companion](index.html)
 
 
 

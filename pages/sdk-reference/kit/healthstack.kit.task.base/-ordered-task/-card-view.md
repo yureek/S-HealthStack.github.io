@@ -3,7 +3,7 @@ title: CardView
 permalink: /kit/healthstack.kit.task.base/-ordered-task/-card-view.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[OrderedTask](index.html)/[CardView](-card-view.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[OrderedTask](index.html)/[CardView](-card-view.html)
 
 
 

@@ -3,7 +3,7 @@ title: onFailure
 permalink: /kit/healthstack.kit.auth/-auth-callback/on-failure.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[AuthCallback](index.html)/[onFailure](on-failure.html)
+//[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[AuthCallback](index.html)/[onFailure](on-failure.html)
 
 
 

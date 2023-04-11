@@ -3,7 +3,7 @@ title: tag
 permalink: /interface/healthstack.backend.integration.task/-item-properties/tag.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ItemProperties](index.html)/[tag](tag.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ItemProperties](index.html)/[tag](tag.html)
 
 
 

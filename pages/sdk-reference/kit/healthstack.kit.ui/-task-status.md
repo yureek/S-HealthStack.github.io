@@ -3,7 +3,7 @@ title: TaskStatus
 permalink: /kit/healthstack.kit.ui/-task-status.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[TaskStatus](-task-status.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[TaskStatus](-task-status.html)
 
 
 

@@ -3,7 +3,7 @@ title: completedTasks
 permalink: /app-support/healthstack.app.viewmodel/-task-view-model/completed-tasks.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.viewmodel](../index.html)/[TaskViewModel](index.html)/[completedTasks](completed-tasks.html)
+//[app-support](/app-support.html)/[healthstack.app.viewmodel](../index.html)/[TaskViewModel](index.html)/[completedTasks](completed-tasks.html)
 
 
 

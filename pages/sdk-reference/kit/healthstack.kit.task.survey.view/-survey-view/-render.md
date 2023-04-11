@@ -3,7 +3,7 @@ title: Render
 permalink: /kit/healthstack.kit.task.survey.view/-survey-view/-render.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.view](../index.html)/[SurveyView](index.html)/[Render](-render.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.view](../index.html)/[SurveyView](index.html)/[Render](-render.html)
 
 
 

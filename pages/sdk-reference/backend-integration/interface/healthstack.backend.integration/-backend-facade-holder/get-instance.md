@@ -3,7 +3,7 @@ title: getInstance
 permalink: /interface/healthstack.backend.integration/-backend-facade-holder/get-instance.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration](../index.html)/[BackendFacadeHolder](index.html)/[getInstance](get-instance.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration](../index.html)/[BackendFacadeHolder](index.html)/[getInstance](get-instance.html)
 
 
 

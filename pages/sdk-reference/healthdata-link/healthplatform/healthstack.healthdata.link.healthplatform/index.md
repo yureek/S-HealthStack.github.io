@@ -3,7 +3,7 @@ title: healthstack.healthdata.link.healthplatform
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/index.html
 
 ---
-//[healthplatform](../../index.html)/[healthstack.healthdata.link.healthplatform](index.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](index.html)
 
 
 

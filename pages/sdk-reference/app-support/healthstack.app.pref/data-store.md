@@ -3,7 +3,7 @@ title: dataStore
 permalink: /app-support/healthstack.app.pref/data-store.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app.pref](index.html)/[dataStore](data-store.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](index.html)/[dataStore](data-store.html)
 
 
 

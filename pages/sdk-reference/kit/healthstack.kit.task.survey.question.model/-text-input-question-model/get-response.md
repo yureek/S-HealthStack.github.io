@@ -3,7 +3,7 @@ title: getResponse
 permalink: /kit/healthstack.kit.task.survey.question.model/-text-input-question-model/get-response.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)/[getResponse](get-response.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)/[getResponse](get-response.html)
 
 
 

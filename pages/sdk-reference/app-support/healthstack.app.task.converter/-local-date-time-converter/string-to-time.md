@@ -3,7 +3,7 @@ title: stringToTime
 permalink: /app-support/healthstack.app.task.converter/-local-date-time-converter/string-to-time.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.converter](../index.html)/[LocalDateTimeConverter](index.html)/[stringToTime](string-to-time.html)
+//[app-support](/app-support.html)/[healthstack.app.task.converter](../index.html)/[LocalDateTimeConverter](index.html)/[stringToTime](string-to-time.html)
 
 
 

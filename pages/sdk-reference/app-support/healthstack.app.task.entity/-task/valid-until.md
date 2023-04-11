@@ -3,7 +3,7 @@ title: validUntil
 permalink: /app-support/healthstack.app.task.entity/-task/valid-until.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.entity](../index.html)/[Task](index.html)/[validUntil](valid-until.html)
+//[app-support](/app-support.html)/[healthstack.app.task.entity](../index.html)/[Task](index.html)/[validUntil](valid-until.html)
 
 
 

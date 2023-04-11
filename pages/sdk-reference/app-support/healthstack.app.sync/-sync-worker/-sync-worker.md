@@ -3,7 +3,7 @@ title: SyncWorker
 permalink: /app-support/healthstack.app.sync/-sync-worker/-sync-worker.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.sync](../index.html)/[SyncWorker](index.html)/[SyncWorker](-sync-worker.html)
+//[app-support](/app-support.html)/[healthstack.app.sync](../index.html)/[SyncWorker](index.html)/[SyncWorker](-sync-worker.html)
 
 
 

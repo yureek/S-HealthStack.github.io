@@ -3,7 +3,7 @@ title: getState
 permalink: /kit/healthstack.kit.task.base/-step/get-state.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[getState](get-state.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[getState](get-state.html)
 
 
 

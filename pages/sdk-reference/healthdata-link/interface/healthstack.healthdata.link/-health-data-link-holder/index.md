@@ -3,7 +3,7 @@ title: HealthDataLinkHolder
 permalink: /interface/healthstack.healthdata.link/-health-data-link-holder/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLinkHolder](index.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLinkHolder](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: Builder
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-checker-step/-builder/-builder.html
 
 ---
-//[kit](../../../../index.html)/[healthstack.kit.task.onboarding.step](../../index.html)/[EligibilityCheckerStep](../index.html)/[Builder](index.html)/[Builder](-builder.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../../index.html)/[EligibilityCheckerStep](../index.html)/[Builder](index.html)/[Builder](-builder.html)
 
 
 

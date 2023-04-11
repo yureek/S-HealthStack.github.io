@@ -3,7 +3,7 @@ title: required
 permalink: /interface/healthstack.backend.integration.task/-contents/required.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[Contents](index.html)/[required](required.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[Contents](index.html)/[required](required.html)
 
 
 

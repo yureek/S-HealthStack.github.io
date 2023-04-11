@@ -3,7 +3,7 @@ title: HealthDataStatusRow
 permalink: /kit/healthstack.kit.ui/-health-data-status-row.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusRow](-health-data-status-row.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusRow](-health-data-status-row.html)
 
 
 

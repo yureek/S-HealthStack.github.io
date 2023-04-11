@@ -3,7 +3,7 @@ title: high
 permalink: /interface/healthstack.backend.integration.task/-scale-properties/high.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[high](high.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[high](high.html)
 
 
 

@@ -3,7 +3,7 @@ title: taskDao
 permalink: /app-support/healthstack.app.task.db/-task-room-database/task-dao.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.db](../index.html)/[TaskRoomDatabase](index.html)/[taskDao](task-dao.html)
+//[app-support](/app-support.html)/[healthstack.app.task.db](../index.html)/[TaskRoomDatabase](index.html)/[taskDao](task-dao.html)
 
 
 

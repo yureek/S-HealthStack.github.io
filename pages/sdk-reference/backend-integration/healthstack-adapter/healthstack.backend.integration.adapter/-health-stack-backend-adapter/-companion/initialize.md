@@ -3,7 +3,7 @@ title: initialize
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-adapter/-companion/initialize.html
 
 ---
-//[healthstack-adapter](../../../../index.html)/[healthstack.backend.integration.adapter](../../index.html)/[HealthStackBackendAdapter](../index.html)/[Companion](index.html)/[initialize](initialize.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../../index.html)/[HealthStackBackendAdapter](../index.html)/[Companion](index.html)/[initialize](initialize.html)
 
 
 

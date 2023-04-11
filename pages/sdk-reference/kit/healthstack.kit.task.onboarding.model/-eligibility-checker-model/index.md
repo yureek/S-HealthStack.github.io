@@ -3,7 +3,7 @@ title: EligibilityCheckerModel
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-checker-model/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityCheckerModel](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityCheckerModel](index.html)
 
 
 

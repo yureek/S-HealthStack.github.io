@@ -3,7 +3,7 @@ title: healthstack.backend.integration.adapter
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/index.html
 
 ---
-//[healthstack-adapter](../../index.html)/[healthstack.backend.integration.adapter](index.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](index.html)
 
 
 

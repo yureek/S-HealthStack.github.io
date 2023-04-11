@@ -3,7 +3,7 @@ title: getTasks
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-adapter/get-tasks.html
 
 ---
-//[healthstack-adapter](../../../index.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAdapter](index.html)/[getTasks](get-tasks.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAdapter](index.html)/[getTasks](get-tasks.html)
 
 
 

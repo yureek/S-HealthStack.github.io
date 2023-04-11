@@ -3,7 +3,7 @@ title: getCompletedTasks
 permalink: /app-support/healthstack.app.task.dao/-task-dao/get-completed-tasks.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.dao](../index.html)/[TaskDao](index.html)/[getCompletedTasks](get-completed-tasks.html)
+//[app-support](/app-support.html)/[healthstack.app.task.dao](../index.html)/[TaskDao](index.html)/[getCompletedTasks](get-completed-tasks.html)
 
 
 

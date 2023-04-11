@@ -3,7 +3,7 @@ title: input
 permalink: /kit/healthstack.kit.task.survey.question.model/-text-input-question-model/input.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)/[input](input.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[TextInputQuestionModel](index.html)/[input](input.html)
 
 
 

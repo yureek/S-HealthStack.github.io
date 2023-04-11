@@ -3,7 +3,7 @@ title: healthstack.kit.task.signup
 permalink: /kit/healthstack.kit.task.signup/index.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.task.signup](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.signup](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: hasAllPermissions
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/has-all-permissions.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[hasAllPermissions](has-all-permissions.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[hasAllPermissions](has-all-permissions.html)
 
 
 

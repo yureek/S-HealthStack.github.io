@@ -3,7 +3,7 @@ title: colors
 permalink: /kit/healthstack.kit.theme/-app-theme/colors.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTheme](index.html)/[colors](colors.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppTheme](index.html)/[colors](colors.html)
 
 
 

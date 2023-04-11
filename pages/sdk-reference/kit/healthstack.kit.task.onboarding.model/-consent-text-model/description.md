@@ -3,7 +3,7 @@ title: description
 permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/description.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[description](description.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[description](description.html)
 
 
 

@@ -3,7 +3,7 @@ title: RegisterException
 permalink: /interface/healthstack.backend.integration.exception/-register-exception/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.exception](../index.html)/[RegisterException](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.exception](../index.html)/[RegisterException](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: startedAt
 permalink: /interface/healthstack.backend.integration.task/-task-result/started-at.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration.task](../index.html)/[TaskResult](index.html)/[startedAt](started-at.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[TaskResult](index.html)/[startedAt](started-at.html)
 
 
 

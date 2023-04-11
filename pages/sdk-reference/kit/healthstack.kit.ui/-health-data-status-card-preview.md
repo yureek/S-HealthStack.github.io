@@ -3,7 +3,7 @@ title: HealthDataStatusCardPreview
 permalink: /kit/healthstack.kit.ui/-health-data-status-card-preview.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusCardPreview](-health-data-status-card-preview.html)
+//[kit](/kit.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusCardPreview](-health-data-status-card-preview.html)
 
 
 

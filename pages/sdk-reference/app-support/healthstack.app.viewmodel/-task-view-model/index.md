@@ -3,7 +3,7 @@ title: TaskViewModel
 permalink: /app-support/healthstack.app.viewmodel/-task-view-model/index.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.viewmodel](../index.html)/[TaskViewModel](index.html)
+//[app-support](/app-support.html)/[healthstack.app.viewmodel](../index.html)/[TaskViewModel](index.html)
 
 
 

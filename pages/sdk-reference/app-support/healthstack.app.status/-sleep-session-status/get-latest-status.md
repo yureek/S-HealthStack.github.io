@@ -3,7 +3,7 @@ title: getLatestStatus
 permalink: /app-support/healthstack.app.status/-sleep-session-status/get-latest-status.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[SleepSessionStatus](index.html)/[getLatestStatus](get-latest-status.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[SleepSessionStatus](index.html)/[getLatestStatus](get-latest-status.html)
 
 
 

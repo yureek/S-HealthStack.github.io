@@ -3,7 +3,7 @@ title: buttonText
 permalink: /kit/healthstack.kit.task.signup.model/-registration-completed-model/button-text.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[buttonText](button-text.html)
+//[kit](/kit.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[buttonText](button-text.html)
 
 
 

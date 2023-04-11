@@ -3,7 +3,7 @@ title: Companion
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/-companion/index.html
 
 ---
-//[healthplatform](../../../../index.html)/[healthstack.healthdata.link.healthplatform](../../index.html)/[HealthPlatformAdapter](../index.html)/[Companion](index.html)
+//[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../../index.html)/[HealthPlatformAdapter](../index.html)/[Companion](index.html)
 
 
 

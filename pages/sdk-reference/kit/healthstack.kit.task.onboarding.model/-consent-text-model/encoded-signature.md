@@ -3,7 +3,7 @@ title: encodedSignature
 permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/encoded-signature.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[encodedSignature](encoded-signature.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[encodedSignature](encoded-signature.html)
 
 
 

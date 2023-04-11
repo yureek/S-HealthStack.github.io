@@ -3,7 +3,7 @@ title: getDataKey
 permalink: /app-support/healthstack.app.status/-sample-health-data-status/get-data-key.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[SampleHealthDataStatus](index.html)/[getDataKey](get-data-key.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[SampleHealthDataStatus](index.html)/[getDataKey](get-data-key.html)
 
 
 

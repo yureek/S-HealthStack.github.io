@@ -3,7 +3,7 @@ title: HealthConnectAdapter
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/index.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)
 
 
 

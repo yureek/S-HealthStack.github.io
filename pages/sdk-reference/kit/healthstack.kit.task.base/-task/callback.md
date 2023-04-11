@@ -3,7 +3,7 @@ title: callback
 permalink: /kit/healthstack.kit.task.base/-task/callback.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[callback](callback.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[callback](callback.html)
 
 
 

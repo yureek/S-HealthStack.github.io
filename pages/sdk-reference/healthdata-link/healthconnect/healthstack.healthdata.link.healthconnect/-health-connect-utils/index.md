@@ -3,7 +3,7 @@ title: HealthConnectUtils
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-utils/index.html
 
 ---
-//[healthconnect](../../../index.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectUtils](index.html)
+//[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectUtils](index.html)
 
 
 

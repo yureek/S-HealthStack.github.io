@@ -3,7 +3,7 @@ title: select
 permalink: /kit/healthstack.kit.task.survey.question.model/-multi-choice-question-model/select.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.survey.question.model](../index.html)/[MultiChoiceQuestionModel](index.html)/[select](select.html)
+//[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[MultiChoiceQuestionModel](index.html)/[select](select.html)
 
 
 

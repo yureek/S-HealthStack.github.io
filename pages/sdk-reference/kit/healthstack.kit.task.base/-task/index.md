@@ -3,7 +3,7 @@ title: Task
 permalink: /kit/healthstack.kit.task.base/-task/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)
 
 
 

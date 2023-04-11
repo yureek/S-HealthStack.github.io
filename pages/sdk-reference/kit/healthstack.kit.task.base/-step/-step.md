@@ -3,7 +3,7 @@ title: Step
 permalink: /kit/healthstack.kit.task.base/-step/-step.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[Step](-step.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[Step](-step.html)
 
 
 

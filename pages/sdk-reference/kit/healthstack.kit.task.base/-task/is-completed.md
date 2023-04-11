@@ -3,7 +3,7 @@ title: isCompleted
 permalink: /kit/healthstack.kit.task.base/-task/is-completed.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[isCompleted](is-completed.html)
+//[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[isCompleted](is-completed.html)
 
 
 

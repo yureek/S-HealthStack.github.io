@@ -3,7 +3,7 @@ title: BackendFacade
 permalink: /interface/healthstack.backend.integration/-backend-facade/index.html
 
 ---
-//[interface](../../../index.html)/[healthstack.backend.integration](../index.html)/[BackendFacade](index.html)
+//[interface](/bi_interface.html)/[healthstack.backend.integration](../index.html)/[BackendFacade](index.html)
 
 
 

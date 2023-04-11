@@ -3,7 +3,7 @@ title: healthstack.kit.ui.layout
 permalink: /kit/healthstack.kit.ui.layout/index.html
 
 ---
-//[kit](../../index.html)/[healthstack.kit.ui.layout](index.html)
+//[kit](/kit.html)/[healthstack.kit.ui.layout](index.html)
 
 
 

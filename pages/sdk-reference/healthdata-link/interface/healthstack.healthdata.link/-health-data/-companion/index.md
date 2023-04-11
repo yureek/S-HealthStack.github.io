@@ -3,7 +3,7 @@ title: Companion
 permalink: /interface/healthstack.healthdata.link/-health-data/-companion/index.html
 
 ---
-//[interface](../../../../index.html)/[healthstack.healthdata.link](../../index.html)/[HealthData](../index.html)/[Companion](index.html)
+//[interface](/hl_interface.html)/[healthstack.healthdata.link](../../index.html)/[HealthData](../index.html)/[Companion](index.html)
 
 
 

@@ -3,7 +3,7 @@ title: OverviewTab
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view/-overview-tab.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[OverviewTab](-overview-tab.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[OverviewTab](-overview-tab.html)
 
 
 

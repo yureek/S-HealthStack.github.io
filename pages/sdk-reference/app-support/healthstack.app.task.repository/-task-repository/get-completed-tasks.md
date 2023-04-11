@@ -3,7 +3,7 @@ title: getCompletedTasks
 permalink: /app-support/healthstack.app.task.repository/-task-repository/get-completed-tasks.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.task.repository](../index.html)/[TaskRepository](index.html)/[getCompletedTasks](get-completed-tasks.html)
+//[app-support](/app-support.html)/[healthstack.app.task.repository](../index.html)/[TaskRepository](index.html)/[getCompletedTasks](get-completed-tasks.html)
 
 
 

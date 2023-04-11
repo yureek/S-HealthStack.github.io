@@ -3,7 +3,7 @@ title: createAuthContract
 permalink: /kit/healthstack.kit.auth/-auth-contract-factory/create-auth-contract.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.auth](../index.html)/[AuthContractFactory](index.html)/[createAuthContract](create-auth-contract.html)
+//[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[AuthContractFactory](index.html)/[createAuthContract](create-auth-contract.html)
 
 
 

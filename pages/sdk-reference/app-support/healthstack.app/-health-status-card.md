@@ -3,7 +3,7 @@ title: HealthStatusCard
 permalink: /app-support/healthstack.app/-health-status-card.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app](index.html)/[HealthStatusCard](-health-status-card.html)
+//[app-support](/app-support.html)/[healthstack.app](index.html)/[HealthStatusCard](-health-status-card.html)
 
 
 

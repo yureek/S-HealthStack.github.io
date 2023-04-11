@@ -3,7 +3,7 @@ title: getIcon
 permalink: /app-support/healthstack.app.status/-heart-rate-status/get-icon.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)/[getIcon](get-icon.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)/[getIcon](get-icon.html)
 
 
 

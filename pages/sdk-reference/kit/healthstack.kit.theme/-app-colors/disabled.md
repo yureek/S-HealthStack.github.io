@@ -3,7 +3,7 @@ title: disabled
 permalink: /kit/healthstack.kit.theme/-app-colors/disabled.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[disabled](disabled.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[disabled](disabled.html)
 
 
 

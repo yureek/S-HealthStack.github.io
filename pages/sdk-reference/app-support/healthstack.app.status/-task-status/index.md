@@ -3,7 +3,7 @@ title: TaskStatus
 permalink: /app-support/healthstack.app.status/-task-status/index.html
 
 ---
-//[app-support](../../../index.html)/[healthstack.app.status](../index.html)/[TaskStatus](index.html)
+//[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[TaskStatus](index.html)
 
 
 

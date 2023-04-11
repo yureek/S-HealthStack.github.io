@@ -3,7 +3,7 @@ title: Onboarding
 permalink: /app-support/healthstack.app.pref/-app-stage/-onboarding/index.html
 
 ---
-//[app-support](../../../../index.html)/[healthstack.app.pref](../../index.html)/[AppStage](../index.html)/[Onboarding](index.html)
+//[app-support](/app-support.html)/[healthstack.app.pref](../../index.html)/[AppStage](../index.html)/[Onboarding](index.html)
 
 
 

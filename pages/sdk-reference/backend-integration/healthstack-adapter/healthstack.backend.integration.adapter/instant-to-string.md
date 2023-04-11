@@ -3,7 +3,7 @@ title: instantToString
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/instant-to-string.html
 
 ---
-//[healthstack-adapter](../../index.html)/[healthstack.backend.integration.adapter](index.html)/[instantToString](instant-to-string.html)
+//[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](index.html)/[instantToString](instant-to-string.html)
 
 
 

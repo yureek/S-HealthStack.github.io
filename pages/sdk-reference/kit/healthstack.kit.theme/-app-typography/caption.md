@@ -3,7 +3,7 @@ title: caption
 permalink: /kit/healthstack.kit.theme/-app-typography/caption.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[caption](caption.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[caption](caption.html)
 
 
 

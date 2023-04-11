@@ -1,12 +1,8 @@
 ---
 title: interface
-permalink: /hl_index.html
+permalink: /hl_interface.html
 
 ---
-//[interface](index.html)
-
-
-
 # interface
 
 

@@ -3,7 +3,7 @@ title: isLight
 permalink: /kit/healthstack.kit.theme/-app-colors/is-light.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[isLight](is-light.html)
+//[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[isLight](is-light.html)
 
 
 

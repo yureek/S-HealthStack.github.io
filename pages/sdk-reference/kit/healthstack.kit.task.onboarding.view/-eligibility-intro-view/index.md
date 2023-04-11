@@ -3,7 +3,7 @@ title: EligibilityIntroView
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view/index.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)
 
 
 

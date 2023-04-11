@@ -3,7 +3,7 @@ title: Home
 permalink: /app-support/healthstack.app/-home.html
 
 ---
-//[app-support](../../index.html)/[healthstack.app](index.html)/[Home](-home.html)
+//[app-support](/app-support.html)/[healthstack.app](index.html)/[Home](-home.html)
 
 
 

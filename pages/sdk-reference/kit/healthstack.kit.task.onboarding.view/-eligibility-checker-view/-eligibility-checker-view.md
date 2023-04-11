@@ -3,7 +3,7 @@ title: EligibilityCheckerView
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-checker-view/-eligibility-checker-view.html
 
 ---
-//[kit](../../../index.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityCheckerView](index.html)/[EligibilityCheckerView](-eligibility-checker-view.html)
+//[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityCheckerView](index.html)/[EligibilityCheckerView](-eligibility-checker-view.html)
 
 
 
