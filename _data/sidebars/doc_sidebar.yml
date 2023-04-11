@@ -59,7 +59,7 @@ entries:
     - title: Configuring the Eligibility Survey
       url: /create-eligibility-questions.html
       output: web, pdf
-# <Below is how to create an additional hierarchy>
+      # <Below is how to create an additional hierarchy>
       # subfolders:
       # - title: foldername
       #   output: web, pdf
@@ -141,7 +141,40 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Packages
+    - title: App Support
+      output: web, pdf
+      url: /app-support.html
+      subfolders:
+      - title: Backend Integration
+        output: web, pdf
+        subfolderitems:
+           
+        - title: Healthstack Adapter
+          url: /healthstack-adapter.html
+          output: web, pdf
+
+        - title: Interface
+          url: /bi_interface.html
+          output: web, pdf
+        
+      
+      - title: Healthdata Link
+        output: web, pdf
+        subfolderitems:
+
+        - title: Healthconnect 
+          url: /healthconnect.html
+          output: web, pdf
+
+        - title: Healthplatform 
+          url: /healthplatform.html
+          output: web, pdf
+
+        - title: Interface
+          url: /hl_index.html
+          output: web, pdf
+
+    - title: Kit
       url: /kit.html
       output: web, pdf
 

@@ -18,7 +18,7 @@ To operate the backend system, the system requirement are:
 
 # Prerequisites
 
-## I. Bring the Environment Current
+## I. Update the Environment
 
 1. Open a Linux terminal window.
 
@@ -355,7 +355,7 @@ You don't have to use SuperTokens. You can implement a backend adapter to comple
    mkdir -p trino/etc/catalog && touch trino/etc/catalog/jvm.config 
    ```
 
-4.  Create the **trino/etc/catalog/jvm.config** file with these contents:
+4. Create the **trino/etc/catalog/jvm.config** file with these contents:
 
    ```
    echo "\
