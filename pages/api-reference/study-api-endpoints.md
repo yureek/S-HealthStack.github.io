@@ -2,9 +2,11 @@
 title: Study API Endpoints
 sidebar: doc_sidebar
 permalink: study-api-endpoints.html
-toc: true
+toc: false
 ---
 ## Version: 0.9
+
+You can also find more interactive document here: [SwaggerHub-Study_API/0.9.0](https://app.swaggerhub.com/apis-docs/zainalisamsung/Study_API/0.9.0)
 
 ### /projects
 
