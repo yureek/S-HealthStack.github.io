@@ -3,10 +3,6 @@ title: interface
 permalink: /bi_interface.html
 
 ---
-# interface
-
-
-
 ## Packages
 
 

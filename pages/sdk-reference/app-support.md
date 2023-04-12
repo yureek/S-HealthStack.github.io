@@ -4,10 +4,7 @@ permalink: /app-support.html
 
 ---
 
-
-# app-support
-
-
+Samsung Health Stack app-support includes a variety of packages to make developing research apps quicker and with a robust structure. Explore the following packages to see the structure of SDK. 
 
 ## Packages
 
