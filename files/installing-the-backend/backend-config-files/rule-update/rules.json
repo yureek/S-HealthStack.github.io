@@ -7,41 +7,21 @@
     },
     {
       "catalog": "postgresql",
-      "allow": "all"
+      "allow": "read-only"
     },
     {
       "catalog": "system",
       "allow": "none"
     }
   ],
+  "schemas": [
+    {
+      "user": ".*",
+      "schema": ".*",
+      "owner": false
+    }
+  ],
   "tables": [
-    {
-      "user": "7149a094-944d-4348-9793-ad33178525be",
-      "catalog": "postgresql",
-      "schema": "project_1_research",
-      "table": ".*",
-      "privileges": [
-        "SELECT"
-      ]
-    },
-    {
-      "user": "7149a094-944d-4348-9793-ad33178525be",
-      "catalog": "postgresql",
-      "schema": "project_2_research",
-      "table": ".*",
-      "privileges": [
-        "SELECT"
-      ]
-    },
-    {
-      "user": "7149a094-944d-4348-9793-ad33178525be",
-      "catalog": "postgresql",
-      "schema": "project_4_research",
-      "table": ".*",
-      "privileges": [
-        "SELECT"
-      ]
-    },
     {
       "user": ".*",
       "privileges": []
