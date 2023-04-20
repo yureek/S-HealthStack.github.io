@@ -35,7 +35,7 @@ codeconfig:
 For example, if your PostgreSQL server is listening on `localhost` and you have a database named `mydatabase` with a schema named `public`, and you want to use the username `myusername` and password `mypassword`, you would update the `config` section as follows:
 
 ```
-yamlCopy codeconfig:
+config:
   db:
     url: postgresql://localhost:5432/mydatabase
     host: localhost
@@ -123,7 +123,7 @@ This section defines configuration settings for the Flyway database migration to
 - `password`: The password for connecting to the PostgreSQL database, using the `config.db.password` property defined earlier.
 
 ```
-yamlCopy codeserver:
+server:
   port: 3030
 ```
 
