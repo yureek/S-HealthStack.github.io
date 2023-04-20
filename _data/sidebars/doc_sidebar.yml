@@ -48,6 +48,22 @@ entries:
       url: /configure-database.html
       output: web, pdf
 
+  - title: Tutorials
+    output: web, pdf
+    folderitems:
+
+    - title: Creating a Custom Task
+      url: /healthstack-kit-tutorial.html
+      output: web, pdf
+
+    - title: Manage Health Data
+      url: /manage-health-data-tutorial.html
+      output: web, pdf
+
+    - title: Using HealthStack Backend Integration
+      url: /using-health-backend-integration.html
+      output: web, pdf
+
   - title: App Creation
     output: web, pdf
     folderitems:
