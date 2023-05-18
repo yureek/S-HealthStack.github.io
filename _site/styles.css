@@ -1,0 +1,27 @@
+@font-face {
+    font-family: samsung_font;
+    src: url('{{ site.baseurl }}/SamsungSans-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: samsung_font_thin;
+    src: url('{{ site.baseurl }}/SamsungSans-Thin.ttf') format('ttf');
+}
+
+
+
+h1 {
+    margin-top: 7%;
+    font-family: samsung_font, sans-serif;
+}
+
+p, ul {
+    font-size: medium;
+    font-family: samsung_font_thin, sans-serif;
+    align-items: center;
+    list-style-type: none;
+}
+
+.maintenance {
+    text-align: center;
+        align-items: center;
+  }
