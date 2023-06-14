@@ -1,14 +1,17 @@
 ---
 
 
+
 title: TASK_SYNC_TIME
 permalink: /app-support/healthstack.app.pref/-setting-preference/-companion/-t-a-s-k_-s-y-n-c_-t-i-m-e.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.pref](../../index.html)/[SettingPreference](../index.html)/[Companion](index.html)/[TASK_SYNC_TIME](-t-a-s-k_-s-y-n-c_-t-i-m-e.html)

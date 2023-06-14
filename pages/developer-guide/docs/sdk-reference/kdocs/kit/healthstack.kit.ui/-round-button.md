@@ -1,14 +1,17 @@
 ---
 
 
+
 title: RoundButton
 permalink: /kit/healthstack.kit.ui/-round-button.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[RoundButton](-round-button.html)

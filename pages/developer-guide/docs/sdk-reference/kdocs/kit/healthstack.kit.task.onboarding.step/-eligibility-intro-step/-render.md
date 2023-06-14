@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Render
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-intro-step/-render.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityIntroStep](index.html)/[Render](-render.html)

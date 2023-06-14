@@ -1,14 +1,17 @@
 ---
 
 
+
 title: TaskRepositoryImpl
 permalink: /app-support/healthstack.app.task.repository/-task-repository-impl/-task-repository-impl.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.repository](../index.html)/[TaskRepositoryImpl](index.html)/[TaskRepositoryImpl](-task-repository-impl.html)

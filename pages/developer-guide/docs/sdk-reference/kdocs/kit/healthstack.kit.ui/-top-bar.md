@@ -1,14 +1,17 @@
 ---
 
 
+
 title: TopBar
 permalink: /kit/healthstack.kit.ui/-top-bar.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[TopBar](-top-bar.html)

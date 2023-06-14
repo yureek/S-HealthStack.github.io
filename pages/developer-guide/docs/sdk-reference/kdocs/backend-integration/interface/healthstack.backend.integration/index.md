@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.backend.integration
 permalink: /interface/healthstack.backend.integration/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration](index.html)

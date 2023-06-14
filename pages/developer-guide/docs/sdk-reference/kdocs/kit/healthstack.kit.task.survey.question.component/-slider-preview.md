@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SliderPreview
 permalink: /kit/healthstack.kit.task.survey.question.component/-slider-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.component](index.html)/[SliderPreview](-slider-preview.html)

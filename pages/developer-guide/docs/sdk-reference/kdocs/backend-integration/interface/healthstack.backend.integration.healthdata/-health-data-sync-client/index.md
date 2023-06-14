@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HealthDataSyncClient
 permalink: /interface/healthstack.backend.integration.healthdata/-health-data-sync-client/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.healthdata](../index.html)/[HealthDataSyncClient](index.html)

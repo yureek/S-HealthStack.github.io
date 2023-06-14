@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Render
 permalink: /kit/healthstack.kit.task.survey.view/-survey-view/-render.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.view](../index.html)/[SurveyView](index.html)/[Render](-render.html)

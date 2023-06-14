@@ -1,14 +1,17 @@
 ---
 
 
+
 title: BackendFacade
 permalink: /interface/healthstack.backend.integration/-backend-facade/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration](../index.html)/[BackendFacade](index.html)

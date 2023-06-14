@@ -1,14 +1,17 @@
 ---
 
 
+
 title: AuthContractFactory
 permalink: /kit/healthstack.kit.auth/-auth-contract-factory/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[AuthContractFactory](index.html)

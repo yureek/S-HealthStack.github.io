@@ -1,14 +1,17 @@
 ---
 
 
+
 title: pageCallbacks
 permalink: /kit/healthstack.kit.task.onboarding/-onboarding-task/page-callbacks.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding](../index.html)/[OnboardingTask](index.html)/[pageCallbacks](page-callbacks.html)

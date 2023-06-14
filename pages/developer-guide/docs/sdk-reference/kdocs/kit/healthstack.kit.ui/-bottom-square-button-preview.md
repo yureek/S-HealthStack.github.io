@@ -1,14 +1,17 @@
 ---
 
 
+
 title: BottomSquareButtonPreview
 permalink: /kit/healthstack.kit.ui/-bottom-square-button-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[BottomSquareButtonPreview](-bottom-square-button-preview.html)

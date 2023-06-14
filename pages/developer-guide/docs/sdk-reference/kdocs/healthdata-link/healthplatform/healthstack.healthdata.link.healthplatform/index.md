@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.healthdata.link.healthplatform
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](index.html)

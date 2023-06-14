@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SettingPreference
 permalink: /app-support/healthstack.app.pref/-setting-preference/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.pref](../index.html)/[SettingPreference](index.html)

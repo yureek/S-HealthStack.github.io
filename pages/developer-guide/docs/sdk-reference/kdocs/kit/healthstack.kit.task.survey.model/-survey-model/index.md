@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SurveyModel
 permalink: /kit/healthstack.kit.task.survey.model/-survey-model/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.model](../index.html)/[SurveyModel](index.html)

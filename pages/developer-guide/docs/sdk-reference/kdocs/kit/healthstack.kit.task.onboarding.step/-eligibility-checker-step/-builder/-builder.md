@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Builder
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-checker-step/-builder/-builder.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../../index.html)/[EligibilityCheckerStep](../index.html)/[Builder](index.html)/[Builder](-builder.html)

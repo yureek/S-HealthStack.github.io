@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getHealthData
 permalink: /interface/healthstack.healthdata.link/-health-data-link/get-health-data.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getHealthData](get-health-data.html)

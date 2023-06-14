@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SignUp
 permalink: /app-support/healthstack.app.pref/-app-stage/-sign-up/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.pref](../../index.html)/[AppStage](../index.html)/[SignUp](index.html)

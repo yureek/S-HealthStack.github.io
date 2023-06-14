@@ -45,7 +45,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Healthconnect 
+    - title:     Healthconnect 
       url: /healthconnect.html
       output: web, pdf
 

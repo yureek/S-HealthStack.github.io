@@ -1,14 +1,17 @@
 ---
 
 
+
 title: isCompleted
 permalink: /kit/healthstack.kit.task.base/-task/is-completed.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Task](index.html)/[isCompleted](is-completed.html)

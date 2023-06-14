@@ -1,11 +1,14 @@
 ---
 
+
 title: Creating a Study
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: create-study.html
 toc: false
 
+
 ---
+
 
 
 A Samsung Health Stack study project manages all aspects of the research process. Authorized users can access the team members running the study, the list of participants, participant surveys, survey results, participant vital signs tracked through the wearable device, graphs giving insights into the data collected, and more.

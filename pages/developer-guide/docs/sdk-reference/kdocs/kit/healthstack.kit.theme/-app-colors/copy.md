@@ -1,14 +1,17 @@
 ---
 
 
+
 title: copy
 permalink: /kit/healthstack.kit.theme/-app-colors/copy.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[copy](copy.html)

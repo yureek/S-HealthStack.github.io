@@ -1,14 +1,17 @@
 ---
 
 
+
 title: isIntervalData
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/is-interval-data.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[isIntervalData](is-interval-data.html)

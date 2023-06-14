@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Render
 permalink: /kit/healthstack.kit.task.base/-step/-render.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[Render](-render.html)

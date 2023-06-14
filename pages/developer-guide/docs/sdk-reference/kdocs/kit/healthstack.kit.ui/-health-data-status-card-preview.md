@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HealthDataStatusCardPreview
 permalink: /kit/healthstack.kit.ui/-health-data-status-card-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusCardPreview](-health-data-status-card-preview.html)

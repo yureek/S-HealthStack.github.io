@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthplatform
 permalink: /healthplatform.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 ## Packages

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: KitButton
 permalink: /kit/healthstack.kit.ui/-kit-button.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[KitButton](-kit-button.html)

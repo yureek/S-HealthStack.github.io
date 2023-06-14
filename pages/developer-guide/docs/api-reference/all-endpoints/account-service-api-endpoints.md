@@ -1,11 +1,14 @@
 ---
 
+
 title: Account Service API Endpoints
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: account-service-api-endpoints.html
 toc: false
 
+
 ---
+
 
 # Account Service
 ## Version: 0.7.0

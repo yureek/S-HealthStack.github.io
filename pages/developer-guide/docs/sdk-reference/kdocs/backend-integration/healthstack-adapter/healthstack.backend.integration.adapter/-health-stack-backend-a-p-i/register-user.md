@@ -1,14 +1,17 @@
 ---
 
 
+
 title: registerUser
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-a-p-i/register-user.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAPI](index.html)/[registerUser](register-user.html)

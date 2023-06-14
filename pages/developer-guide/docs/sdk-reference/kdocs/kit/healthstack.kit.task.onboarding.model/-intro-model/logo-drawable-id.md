@@ -1,14 +1,17 @@
 ---
 
 
+
 title: logoDrawableId
 permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/logo-drawable-id.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[logoDrawableId](logo-drawable-id.html)

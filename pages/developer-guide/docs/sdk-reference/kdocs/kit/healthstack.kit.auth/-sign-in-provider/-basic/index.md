@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Basic
 permalink: /kit/healthstack.kit.auth/-sign-in-provider/-basic/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.auth](../../index.html)/[SignInProvider](../index.html)/[Basic](index.html)

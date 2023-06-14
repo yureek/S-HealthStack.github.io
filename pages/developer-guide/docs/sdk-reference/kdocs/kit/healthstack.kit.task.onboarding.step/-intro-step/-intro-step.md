@@ -1,14 +1,17 @@
 ---
 
 
+
 title: IntroStep
 permalink: /kit/healthstack.kit.task.onboarding.step/-intro-step/-intro-step.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[IntroStep](index.html)/[IntroStep](-intro-step.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.app.task.db
 permalink: /app-support/healthstack.app.task.db/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.db](index.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SignUpModel
 permalink: /kit/healthstack.kit.task.signup.model/-sign-up-model/-sign-up-model.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.model](../index.html)/[SignUpModel](index.html)/[SignUpModel](-sign-up-model.html)

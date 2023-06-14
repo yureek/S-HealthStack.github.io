@@ -1,14 +1,17 @@
 ---
 
 
+
 title: size
 permalink: /kit/healthstack.kit.task.survey.question/-sub-step-holder/size.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question](../index.html)/[SubStepHolder](index.html)/[size](size.html)

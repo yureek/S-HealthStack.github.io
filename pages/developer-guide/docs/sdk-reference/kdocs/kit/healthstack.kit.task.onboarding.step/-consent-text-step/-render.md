@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Render
 permalink: /kit/healthstack.kit.task.onboarding.step/-consent-text-step/-render.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[ConsentTextStep](index.html)/[Render](-render.html)

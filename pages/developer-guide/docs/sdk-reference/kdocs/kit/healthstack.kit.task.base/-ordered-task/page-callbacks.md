@@ -1,14 +1,17 @@
 ---
 
 
+
 title: pageCallbacks
 permalink: /kit/healthstack.kit.task.base/-ordered-task/page-callbacks.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[OrderedTask](index.html)/[pageCallbacks](page-callbacks.html)

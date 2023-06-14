@@ -1,14 +1,17 @@
 ---
 
 
+
 title: TasksState
 permalink: /app-support/healthstack.app.viewmodel/-task-view-model/-tasks-state/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.viewmodel](../../index.html)/[TaskViewModel](../index.html)/[TasksState](index.html)

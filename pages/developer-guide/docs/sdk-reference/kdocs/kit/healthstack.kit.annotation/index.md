@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.kit.annotation
 permalink: /kit/healthstack.kit.annotation/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.annotation](index.html)

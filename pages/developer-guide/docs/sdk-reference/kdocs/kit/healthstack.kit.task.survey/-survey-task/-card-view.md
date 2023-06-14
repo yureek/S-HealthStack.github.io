@@ -1,14 +1,17 @@
 ---
 
 
+
 title: CardView
 permalink: /kit/healthstack.kit.task.survey/-survey-task/-card-view.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey](../index.html)/[SurveyTask](index.html)/[CardView](-card-view.html)

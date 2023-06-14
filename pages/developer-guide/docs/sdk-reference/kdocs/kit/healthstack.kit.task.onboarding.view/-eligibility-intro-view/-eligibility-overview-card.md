@@ -1,14 +1,17 @@
 ---
 
 
+
 title: EligibilityOverviewCard
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-intro-view/-eligibility-overview-card.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[EligibilityIntroView](index.html)/[EligibilityOverviewCard](-eligibility-overview-card.html)

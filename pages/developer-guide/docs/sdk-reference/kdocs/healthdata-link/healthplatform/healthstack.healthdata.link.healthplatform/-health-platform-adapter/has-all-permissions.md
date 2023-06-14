@@ -1,14 +1,17 @@
 ---
 
 
+
 title: hasAllPermissions
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/has-all-permissions.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[hasAllPermissions](has-all-permissions.html)

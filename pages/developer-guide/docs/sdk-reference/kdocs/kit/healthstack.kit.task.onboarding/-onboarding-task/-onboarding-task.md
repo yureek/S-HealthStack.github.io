@@ -1,14 +1,17 @@
 ---
 
 
+
 title: OnboardingTask
 permalink: /kit/healthstack.kit.task.onboarding/-onboarding-task/-onboarding-task.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding](../index.html)/[OnboardingTask](index.html)/[OnboardingTask](-onboarding-task.html)

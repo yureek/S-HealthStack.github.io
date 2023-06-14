@@ -1,14 +1,17 @@
 ---
 
 
+
 title: EligibilityResultViewFailPreview
 permalink: /kit/healthstack.kit.task.onboarding.view/-eligibility-result-view-fail-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.view](index.html)/[EligibilityResultViewFailPreview](-eligibility-result-view-fail-preview.html)

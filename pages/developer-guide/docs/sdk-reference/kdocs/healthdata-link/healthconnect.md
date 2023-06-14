@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthconnect
 permalink: /healthconnect.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 # healthconnect

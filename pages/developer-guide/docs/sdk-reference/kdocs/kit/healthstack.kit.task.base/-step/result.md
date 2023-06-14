@@ -1,14 +1,17 @@
 ---
 
 
+
 title: result
 permalink: /kit/healthstack.kit.task.base/-step/result.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[Step](index.html)/[result](result.html)

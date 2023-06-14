@@ -1,14 +1,17 @@
 ---
 
 
+
 title: candidates
 permalink: /kit/healthstack.kit.task.survey.question.model/-multi-choice-question-model/candidates.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[MultiChoiceQuestionModel](index.html)/[candidates](candidates.html)

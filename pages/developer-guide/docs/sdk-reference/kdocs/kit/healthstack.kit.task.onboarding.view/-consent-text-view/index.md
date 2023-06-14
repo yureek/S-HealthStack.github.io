@@ -1,14 +1,17 @@
 ---
 
 
+
 title: ConsentTextView
 permalink: /kit/healthstack.kit.task.onboarding.view/-consent-text-view/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.view](../index.html)/[ConsentTextView](index.html)

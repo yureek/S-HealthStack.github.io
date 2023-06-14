@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HealthDataStatusRow
 permalink: /kit/healthstack.kit.ui/-health-data-status-row.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[HealthDataStatusRow](-health-data-status-row.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: success
 permalink: /kit/healthstack.kit.task.onboarding.step/-eligibility-result-step/success.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.step](../index.html)/[EligibilityResultStep](index.html)/[success](success.html)

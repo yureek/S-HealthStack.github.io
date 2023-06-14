@@ -1,14 +1,17 @@
 ---
 
 
+
 title: initialize
 permalink: /interface/healthstack.backend.integration/-backend-facade-holder/initialize.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration](../index.html)/[BackendFacadeHolder](index.html)/[initialize](initialize.html)

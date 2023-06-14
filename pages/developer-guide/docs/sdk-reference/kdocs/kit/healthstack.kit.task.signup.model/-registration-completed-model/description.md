@@ -1,14 +1,17 @@
 ---
 
 
+
 title: description
 permalink: /kit/healthstack.kit.task.signup.model/-registration-completed-model/description.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[description](description.html)

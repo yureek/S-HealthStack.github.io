@@ -1,14 +1,17 @@
 ---
 
 
+
 title: selections
 permalink: /kit/healthstack.kit.task.onboarding.model/-consent-text-model/selections.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[ConsentTextModel](index.html)/[selections](selections.html)

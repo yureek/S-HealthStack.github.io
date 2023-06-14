@@ -1,14 +1,17 @@
 ---
 
 
+
 title: properties
 permalink: /app-support/healthstack.app.task.entity/-task/properties.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.entity](../index.html)/[Task](index.html)/[properties](properties.html)

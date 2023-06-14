@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SliderGroup
 permalink: /kit/healthstack.kit.task.survey.question.component/-choice-question-component/-slider-group.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[ChoiceQuestionComponent](index.html)/[SliderGroup](-slider-group.html)

@@ -1,11 +1,14 @@
 ---
 
+
 title: Onboarding Participants
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: onboard-participants.html
 toc: false
 
+
 ---
+
 
 
 After inviting prospective participants to join the study, instruct each participant to:

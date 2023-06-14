@@ -1,14 +1,17 @@
 ---
 
 
+
 title: onSuccess
 permalink: /kit/healthstack.kit.auth/-auth-callback/on-success.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[AuthCallback](index.html)/[onSuccess](on-success.html)

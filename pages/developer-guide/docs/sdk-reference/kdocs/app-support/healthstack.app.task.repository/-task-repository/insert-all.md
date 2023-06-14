@@ -1,14 +1,17 @@
 ---
 
 
+
 title: insertAll
 permalink: /app-support/healthstack.app.task.repository/-task-repository/insert-all.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.repository](../index.html)/[TaskRepository](index.html)/[insertAll](insert-all.html)

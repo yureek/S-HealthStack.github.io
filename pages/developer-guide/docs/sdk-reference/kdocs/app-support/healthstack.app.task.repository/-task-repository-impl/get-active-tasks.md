@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getActiveTasks
 permalink: /app-support/healthstack.app.task.repository/-task-repository-impl/get-active-tasks.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.repository](../index.html)/[TaskRepositoryImpl](index.html)/[getActiveTasks](get-active-tasks.html)

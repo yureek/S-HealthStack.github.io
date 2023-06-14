@@ -1,14 +1,17 @@
 ---
 
 
+
 title: title
 permalink: /kit/healthstack.kit.task.base/-step-model/title.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[StepModel](index.html)/[title](title.html)

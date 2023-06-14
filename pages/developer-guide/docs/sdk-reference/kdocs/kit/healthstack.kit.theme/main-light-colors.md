@@ -1,14 +1,17 @@
 ---
 
 
+
 title: mainLightColors
 permalink: /kit/healthstack.kit.theme/main-light-colors.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](index.html)/[mainLightColors](main-light-colors.html)

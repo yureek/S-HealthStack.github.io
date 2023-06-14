@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HealthStatusCard
 permalink: /app-support/healthstack.app/-health-status-card.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app](index.html)/[HealthStatusCard](-health-status-card.html)

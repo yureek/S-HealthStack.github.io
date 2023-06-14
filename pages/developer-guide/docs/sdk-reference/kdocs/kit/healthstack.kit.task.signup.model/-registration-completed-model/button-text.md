@@ -1,14 +1,17 @@
 ---
 
 
+
 title: buttonText
 permalink: /kit/healthstack.kit.task.signup.model/-registration-completed-model/button-text.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[buttonText](button-text.html)

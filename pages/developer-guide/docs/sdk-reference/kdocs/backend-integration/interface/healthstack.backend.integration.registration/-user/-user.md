@@ -1,14 +1,17 @@
 ---
 
 
+
 title: User
 permalink: /interface/healthstack.backend.integration.registration/-user/-user.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.registration](../index.html)/[User](index.html)/[User](-user.html)

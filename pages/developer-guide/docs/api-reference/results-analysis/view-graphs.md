@@ -1,11 +1,14 @@
 ---
 
+
 title: Viewing Graphs and Charts
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: view-graphs.html
 toc: false
 
+
 ---
+
 
 
 # Full-Stack Implementations

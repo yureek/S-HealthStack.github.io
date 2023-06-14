@@ -1,14 +1,17 @@
 ---
 
 
+
 title: EligibilityCheckerViewPreview
 permalink: /kit/healthstack.kit.task.survey.view/-eligibility-checker-view-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.view](index.html)/[EligibilityCheckerViewPreview](-eligibility-checker-view-preview.html)

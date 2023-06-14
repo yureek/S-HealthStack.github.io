@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getLatestStatus
 permalink: /app-support/healthstack.app.status/-sleep-session-status/get-latest-status.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[SleepSessionStatus](index.html)/[getLatestStatus](get-latest-status.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.kit.ui.layout
 permalink: /kit/healthstack.kit.ui.layout/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui.layout](index.html)

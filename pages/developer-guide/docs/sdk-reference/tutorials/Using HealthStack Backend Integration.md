@@ -1,15 +1,18 @@
 ---
 
 
+
 title: Using HealthStack Backend Integration
 
 permalink: using-health-backend-integration.html
 toc: true
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 

@@ -1,11 +1,14 @@
 ---
 
+
 title: Creating a Survey
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: create-survey.html
 toc: false
 
+
 ---
+
 
 
 A survey is a sequence of questions that collect information from the participants in your study.

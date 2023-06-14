@@ -1,11 +1,14 @@
 ---
 
+
 title: Study API Endpoints
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: study-api-endpoints.html
 toc: false
 
+
 ---
+
 
 ## Version: 0.9
 

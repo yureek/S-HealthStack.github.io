@@ -1,14 +1,17 @@
 ---
 
 
+
 title: jsonToObject
 permalink: /app-support/healthstack.app.task.converter/-result-converter/json-to-object.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.converter](../index.html)/[ResultConverter](index.html)/[jsonToObject](json-to-object.html)

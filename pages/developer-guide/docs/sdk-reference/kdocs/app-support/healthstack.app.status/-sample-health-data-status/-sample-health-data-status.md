@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SampleHealthDataStatus
 permalink: /app-support/healthstack.app.status/-sample-health-data-status/-sample-health-data-status.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[SampleHealthDataStatus](index.html)/[SampleHealthDataStatus](-sample-health-data-status.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getUnitString
 permalink: /app-support/healthstack.app.status/-sleep-session-status/get-unit-string.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[SleepSessionStatus](index.html)/[getUnitString](get-unit-string.html)

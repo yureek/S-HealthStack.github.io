@@ -1,14 +1,17 @@
 ---
 
 
+
 title: stringToDate
 permalink: /app-support/healthstack.app.task.spec/-time-util/string-to-date.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.spec](../index.html)/[TimeUtil](index.html)/[stringToDate](string-to-date.html)

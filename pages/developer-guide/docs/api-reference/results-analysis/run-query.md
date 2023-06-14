@@ -1,11 +1,14 @@
 ---
 
+
 title: Running a Data Query
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: run-query.html
 toc: false
 
+
 ---
+
 
 
 # Full-Stack Implementations

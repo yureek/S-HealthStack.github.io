@@ -1,14 +1,17 @@
 ---
 
 
+
 title: BottomRoundButton
 permalink: /kit/healthstack.kit.ui/-bottom-round-button.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[BottomRoundButton](-bottom-round-button.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: LockScreenOrientation
 permalink: /kit/healthstack.kit.task.onboarding.view.layout/-lock-screen-orientation.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[LockScreenOrientation](-lock-screen-orientation.html)

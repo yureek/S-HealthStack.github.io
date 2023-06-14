@@ -1,14 +1,17 @@
 ---
 
 
+
 title: sections
 permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/sections.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[sections](sections.html)

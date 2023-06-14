@@ -1,14 +1,17 @@
 ---
 
 
+
 title: ChoiceQuestionModel
 permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/-choice-question-model.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../index.html)/[ChoiceQuestionModel](index.html)/[ChoiceQuestionModel](-choice-question-model.html)

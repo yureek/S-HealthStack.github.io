@@ -1,11 +1,14 @@
 ---
 
+
 title: Scheduling and Publishing a Survey
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: publish-survey.html
 toc: false
 
+
 ---
+
 
 Once you've completed creating your survey questions, the next step is to schedule and publish the survey.
 

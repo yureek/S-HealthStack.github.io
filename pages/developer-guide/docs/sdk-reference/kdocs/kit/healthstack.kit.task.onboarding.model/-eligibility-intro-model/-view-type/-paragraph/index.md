@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Paragraph
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-intro-model/-view-type/-paragraph/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../../../index.html)/[EligibilityIntroModel](../../index.html)/[ViewType](../index.html)/[Paragraph](index.html)

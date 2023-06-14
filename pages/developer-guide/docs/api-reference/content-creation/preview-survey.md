@@ -1,11 +1,14 @@
 ---
 
+
 title: Previewing a Survey
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: preview-survey.html
 toc: false
 
+
 ---
+
 
 
 Previewing allows you to see how your survey will look in the app.

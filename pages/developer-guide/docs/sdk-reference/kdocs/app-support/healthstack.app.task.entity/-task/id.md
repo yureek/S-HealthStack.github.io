@@ -1,14 +1,17 @@
 ---
 
 
+
 title: id
 permalink: /app-support/healthstack.app.task.entity/-task/id.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.entity](../index.html)/[Task](index.html)/[id](id.html)

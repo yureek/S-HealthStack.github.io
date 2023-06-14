@@ -1,11 +1,14 @@
 ---
 
+
 title: Viewing Individual Results
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: view-individual-results.html
 toc: false
 
+
 ---
+
 
 
 # Full-Stack Implementations

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getChangesToken
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-adapter/get-changes-token.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectAdapter](index.html)/[getChangesToken](get-changes-token.html)

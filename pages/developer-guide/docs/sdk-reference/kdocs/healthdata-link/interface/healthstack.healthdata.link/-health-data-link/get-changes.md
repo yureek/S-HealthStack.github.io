@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getChanges
 permalink: /interface/healthstack.healthdata.link/-health-data-link/get-changes.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthDataLink](index.html)/[getChanges](get-changes.html)

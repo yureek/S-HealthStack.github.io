@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SignInProvider
 permalink: /kit/healthstack.kit.auth/-sign-in-provider/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[SignInProvider](index.html)

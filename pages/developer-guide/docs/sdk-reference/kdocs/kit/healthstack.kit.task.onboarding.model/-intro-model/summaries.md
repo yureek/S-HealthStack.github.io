@@ -1,14 +1,17 @@
 ---
 
 
+
 title: summaries
 permalink: /kit/healthstack.kit.task.onboarding.model/-intro-model/summaries.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[IntroModel](index.html)/[summaries](summaries.html)

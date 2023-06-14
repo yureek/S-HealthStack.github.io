@@ -1,14 +1,17 @@
 ---
 
 
+
 title: objectToJson
 permalink: /app-support/healthstack.app.task.converter/-properties-type-converter/object-to-json.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.task.converter](../index.html)/[PropertiesTypeConverter](index.html)/[objectToJson](object-to-json.html)

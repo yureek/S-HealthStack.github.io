@@ -1,14 +1,17 @@
 ---
 
 
+
 title: AppColors
 permalink: /kit/healthstack.kit.theme/-app-colors/-app-colors.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[AppColors](-app-colors.html)

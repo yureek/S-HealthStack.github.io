@@ -1,14 +1,17 @@
 ---
 
 
+
 title: convertStringToHealthDataType
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/-companion/convert-string-to-health-data-type.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../../index.html)/[HealthPlatformAdapter](../index.html)/[Companion](index.html)/[convertStringToHealthDataType](convert-string-to-health-data-type.html)

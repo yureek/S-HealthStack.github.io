@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getChangesToken
 permalink: /healthplatform/healthstack.healthdata.link.healthplatform/-health-platform-adapter/get-changes-token.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthplatform](/healthplatform.html)/[healthstack.healthdata.link.healthplatform](../index.html)/[HealthPlatformAdapter](index.html)/[getChangesToken](get-changes-token.html)

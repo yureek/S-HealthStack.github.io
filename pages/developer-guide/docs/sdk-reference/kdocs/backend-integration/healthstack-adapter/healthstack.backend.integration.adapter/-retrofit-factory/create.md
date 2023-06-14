@@ -1,14 +1,17 @@
 ---
 
 
+
 title: create
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-retrofit-factory/create.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)/[create](create.html)

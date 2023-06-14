@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HeartRateStatus
 permalink: /app-support/healthstack.app.status/-heart-rate-status/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)

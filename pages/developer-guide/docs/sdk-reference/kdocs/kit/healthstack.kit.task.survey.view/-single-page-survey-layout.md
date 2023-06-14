@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SinglePageSurveyLayout
 permalink: /kit/healthstack.kit.task.survey.view/-single-page-survey-layout.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.view](index.html)/[SinglePageSurveyLayout](-single-page-survey-layout.html)

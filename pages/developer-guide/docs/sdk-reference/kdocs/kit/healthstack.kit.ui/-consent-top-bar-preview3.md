@@ -1,14 +1,17 @@
 ---
 
 
+
 title: ConsentTopBarPreview3
 permalink: /kit/healthstack.kit.ui/-consent-top-bar-preview3.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[ConsentTopBarPreview3](-consent-top-bar-preview3.html)

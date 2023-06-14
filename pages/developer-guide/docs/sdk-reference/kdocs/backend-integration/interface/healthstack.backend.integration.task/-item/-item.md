@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Item
 permalink: /interface/healthstack.backend.integration.task/-item/-item.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[Item](index.html)/[Item](-item.html)

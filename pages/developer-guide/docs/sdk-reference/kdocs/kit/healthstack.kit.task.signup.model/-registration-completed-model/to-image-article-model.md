@@ -1,14 +1,17 @@
 ---
 
 
+
 title: toImageArticleModel
 permalink: /kit/healthstack.kit.task.signup.model/-registration-completed-model/to-image-article-model.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.model](../index.html)/[RegistrationCompletedModel](index.html)/[toImageArticleModel](to-image-article-model.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Radio
 permalink: /kit/healthstack.kit.task.survey.question.model/-choice-question-model/-view-type/-radio/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.model](../../../index.html)/[ChoiceQuestionModel](../../index.html)/[ViewType](../index.html)/[Radio](index.html)

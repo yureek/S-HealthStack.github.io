@@ -1,14 +1,17 @@
 ---
 
 
+
 title: setEligibility
 permalink: /kit/healthstack.kit.task.base/-callback-collection/set-eligibility.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.base](../index.html)/[CallbackCollection](index.html)/[setEligibility](set-eligibility.html)

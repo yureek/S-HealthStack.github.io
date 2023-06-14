@@ -1,14 +1,17 @@
 ---
 
 
+
 title: RetrofitFactory
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-retrofit-factory/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[RetrofitFactory](index.html)

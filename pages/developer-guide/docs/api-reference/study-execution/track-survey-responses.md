@@ -1,11 +1,14 @@
 ---
 
+
 title: Tracking Survey Responses
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: track-survey-responses.html
 toc: false
 
+
 ---
+
 
 
 The web portal provides easy visualization of survey response percentages. For each question in published survey, an appropriate chart shows options chosen by percentage. Up-to-the-minute data is available throughout your study and after.

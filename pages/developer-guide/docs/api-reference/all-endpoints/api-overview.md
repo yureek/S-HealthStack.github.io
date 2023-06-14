@@ -1,11 +1,14 @@
 ---
 
+
 title: API Reference
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: api-overview.html
 toc: false
 
+
 ---
+
 
 
 The API reference contains both portal/backend interfaces and app/backend interfaces. And many of the APIs are for both.

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack-adapter
 permalink: /healthstack-adapter.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 ## Packages

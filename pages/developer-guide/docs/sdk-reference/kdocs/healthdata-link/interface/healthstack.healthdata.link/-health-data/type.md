@@ -1,14 +1,17 @@
 ---
 
 
+
 title: type
 permalink: /interface/healthstack.healthdata.link/-health-data/type.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/hl_interface.html)/[healthstack.healthdata.link](../index.html)/[HealthData](index.html)/[type](type.html)

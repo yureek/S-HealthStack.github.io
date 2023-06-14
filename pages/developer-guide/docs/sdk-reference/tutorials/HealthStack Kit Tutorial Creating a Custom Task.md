@@ -1,15 +1,18 @@
 ---
 
 
+
 title: Creating a Custom Task Using HealthStack Kit
 
 permalink: healthstack-kit-tutorial.html
 toc: true
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: GoogleSignInButton
 permalink: /kit/healthstack.kit.task.signup.view/-google-sign-in-button.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.view](index.html)/[GoogleSignInButton](-google-sign-in-button.html)

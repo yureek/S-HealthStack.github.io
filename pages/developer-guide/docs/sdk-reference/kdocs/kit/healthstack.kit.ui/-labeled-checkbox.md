@@ -1,14 +1,17 @@
 ---
 
 
+
 title: LabeledCheckbox
 permalink: /kit/healthstack.kit.ui/-labeled-checkbox.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[LabeledCheckbox](-labeled-checkbox.html)

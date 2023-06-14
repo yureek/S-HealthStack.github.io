@@ -1,14 +1,17 @@
 ---
 
 
+
 title: HealthConnectUtils
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/-health-connect-utils/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](../index.html)/[HealthConnectUtils](index.html)

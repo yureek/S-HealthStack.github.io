@@ -1,14 +1,17 @@
 ---
 
 
+
 title: ChoiceProperties
 permalink: /interface/healthstack.backend.integration.task/-choice-properties/-choice-properties.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ChoiceProperties](index.html)/[ChoiceProperties](-choice-properties.html)

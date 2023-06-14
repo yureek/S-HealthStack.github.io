@@ -1,14 +1,17 @@
 ---
 
 
+
 title: ViewUtil
 permalink: /kit/healthstack.kit.ui.util/-view-util/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui.util](../index.html)/[ViewUtil](index.html)

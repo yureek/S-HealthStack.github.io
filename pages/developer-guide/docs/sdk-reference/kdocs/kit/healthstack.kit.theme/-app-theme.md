@@ -1,14 +1,17 @@
 ---
 
 
+
 title: AppTheme
 permalink: /kit/healthstack.kit.theme/-app-theme.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](index.html)/[AppTheme](-app-theme.html)

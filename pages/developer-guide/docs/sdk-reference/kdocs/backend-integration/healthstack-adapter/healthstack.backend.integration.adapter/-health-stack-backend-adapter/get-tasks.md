@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getTasks
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-adapter/get-tasks.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAdapter](index.html)/[getTasks](get-tasks.html)

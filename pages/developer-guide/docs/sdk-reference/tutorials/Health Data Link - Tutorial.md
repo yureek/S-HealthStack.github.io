@@ -1,15 +1,18 @@
 ---
 
 
+
 title: Manage Health Data Using Health Data Link
 
 permalink: manage-health-data-tutorial.html
 toc: true
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 

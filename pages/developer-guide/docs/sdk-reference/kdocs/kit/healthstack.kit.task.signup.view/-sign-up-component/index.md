@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SignUpComponent
 permalink: /kit/healthstack.kit.task.signup.view/-sign-up-component/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.view](../index.html)/[SignUpComponent](index.html)

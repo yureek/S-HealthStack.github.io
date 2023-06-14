@@ -1,14 +1,17 @@
 ---
 
 
+
 title: lowLabel
 permalink: /interface/healthstack.backend.integration.task/-scale-properties/low-label.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.task](../index.html)/[ScaleProperties](index.html)/[lowLabel](low-label.html)

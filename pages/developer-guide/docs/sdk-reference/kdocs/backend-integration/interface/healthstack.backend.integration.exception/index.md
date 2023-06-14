@@ -1,14 +1,17 @@
 ---
 
 
+
 title: healthstack.backend.integration.exception
 permalink: /interface/healthstack.backend.integration.exception/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.exception](index.html)

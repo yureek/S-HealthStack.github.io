@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getDataKey
 permalink: /app-support/healthstack.app.status/-heart-rate-status/get-data-key.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[HeartRateStatus](index.html)/[getDataKey](get-data-key.html)

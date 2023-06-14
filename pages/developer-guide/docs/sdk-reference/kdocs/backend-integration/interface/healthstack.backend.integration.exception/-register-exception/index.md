@@ -1,14 +1,17 @@
 ---
 
 
+
 title: RegisterException
 permalink: /interface/healthstack.backend.integration.exception/-register-exception/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[interface](/bi_interface.html)/[healthstack.backend.integration.exception](../index.html)/[RegisterException](index.html)

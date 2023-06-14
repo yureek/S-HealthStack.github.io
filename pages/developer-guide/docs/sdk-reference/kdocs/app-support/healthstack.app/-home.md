@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Home
 permalink: /app-support/healthstack.app/-home.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app](index.html)/[Home](-home.html)

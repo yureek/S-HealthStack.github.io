@@ -1,14 +1,17 @@
 ---
 
 
+
 title: toChange
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/to-change.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](index.html)/[toChange](to-change.html)

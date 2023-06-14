@@ -1,14 +1,17 @@
 ---
 
 
+
 title: getIcon
 permalink: /app-support/healthstack.app.status/-status-data-type/get-icon.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.status](../index.html)/[StatusDataType](index.html)/[getIcon](get-icon.html)

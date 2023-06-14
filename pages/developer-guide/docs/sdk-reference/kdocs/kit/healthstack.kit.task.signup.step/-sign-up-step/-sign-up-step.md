@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SignUpStep
 permalink: /kit/healthstack.kit.task.signup.step/-sign-up-step/-sign-up-step.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.signup.step](../index.html)/[SignUpStep](index.html)/[SignUpStep](-sign-up-step.html)

@@ -1,11 +1,14 @@
 ---
 
+
 title: Viewing Survey Analytics
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: view-survey-analytics.html
 toc: false
 
+
 ---
+
 
 
 The web portal provides easy visualization of survey response analytics. For each published survey, participation details and charts showing response percentages by gender and by age give you up-to-the-minute analytic data.

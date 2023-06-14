@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SubStepHolder
 permalink: /kit/healthstack.kit.task.survey.question/-sub-step-holder/-sub-step-holder.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question](../index.html)/[SubStepHolder](index.html)/[SubStepHolder](-sub-step-holder.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: surface
 permalink: /kit/healthstack.kit.theme/-app-colors/surface.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppColors](index.html)/[surface](surface.html)

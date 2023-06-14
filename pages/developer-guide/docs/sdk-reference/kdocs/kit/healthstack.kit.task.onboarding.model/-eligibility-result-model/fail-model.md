@@ -1,14 +1,17 @@
 ---
 
 
+
 title: failModel
 permalink: /kit/healthstack.kit.task.onboarding.model/-eligibility-result-model/fail-model.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.model](../index.html)/[EligibilityResultModel](index.html)/[failModel](fail-model.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: toHealthData
 permalink: /healthconnect/healthstack.healthdata.link.healthconnect/to-health-data.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthconnect](/healthconnect.html)/[healthstack.healthdata.link.healthconnect](index.html)/[toHealthData](to-health-data.html)

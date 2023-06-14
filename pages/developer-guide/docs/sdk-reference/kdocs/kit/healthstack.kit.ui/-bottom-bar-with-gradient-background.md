@@ -1,14 +1,17 @@
 ---
 
 
+
 title: BottomBarWithGradientBackground
 permalink: /kit/healthstack.kit.ui/-bottom-bar-with-gradient-background.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.ui](index.html)/[BottomBarWithGradientBackground](-bottom-bar-with-gradient-background.html)

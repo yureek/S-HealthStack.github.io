@@ -1,14 +1,17 @@
 ---
 
 
+
 title: caption
 permalink: /kit/healthstack.kit.theme/-app-typography/caption.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.theme](../index.html)/[AppTypography](index.html)/[caption](caption.html)

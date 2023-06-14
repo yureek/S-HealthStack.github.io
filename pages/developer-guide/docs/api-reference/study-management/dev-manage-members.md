@@ -1,11 +1,14 @@
 ---
 
+
 title: Managing Members
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: dev_manage-members.html
 toc: false
 
+
 ---
+
 
 
 Members are the users who conduct the study and membership status is maintained at the study level

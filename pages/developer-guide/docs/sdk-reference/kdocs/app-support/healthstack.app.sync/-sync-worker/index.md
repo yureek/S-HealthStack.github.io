@@ -1,14 +1,17 @@
 ---
 
 
+
 title: SyncWorker
 permalink: /app-support/healthstack.app.sync/-sync-worker/index.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[app-support](/app-support.html)/[healthstack.app.sync](../index.html)/[SyncWorker](index.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: DropdownPreview
 permalink: /kit/healthstack.kit.task.survey.question.component/-dropdown-preview.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.component](index.html)/[DropdownPreview](-dropdown-preview.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: Component
 permalink: /kit/healthstack.kit.task.survey.question.component/-component/-component.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.survey.question.component](../index.html)/[Component](index.html)/[Component](-component.html)

@@ -1,14 +1,17 @@
 ---
 
 
+
 title: uploadTaskResult
 permalink: /healthstack-adapter/healthstack.backend.integration.adapter/-health-stack-backend-a-p-i/upload-task-result.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[healthstack-adapter](/healthstack-adapter.html)/[healthstack.backend.integration.adapter](../index.html)/[HealthStackBackendAPI](index.html)/[uploadTaskResult](upload-task-result.html)

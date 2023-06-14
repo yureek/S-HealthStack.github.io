@@ -1,14 +1,17 @@
 ---
 
 
+
 title: createIntent
 permalink: /kit/healthstack.kit.auth/-firebase-google-auth-contract/create-intent.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.auth](../index.html)/[FirebaseGoogleAuthContract](index.html)/[createIntent](create-intent.html)

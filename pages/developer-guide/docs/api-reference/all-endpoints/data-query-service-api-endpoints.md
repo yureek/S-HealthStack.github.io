@@ -1,11 +1,14 @@
 ---
 
+
 title: Data Query ServicAPI Endpoints
-sidebar: api_doc_sidebar
+sidebar: dev_doc_sidebar
 permalink: data-query-service-api-endpoints.html
 toc: false
 
+
 ---
+
 
 # Data Query Service
 ## Version: 0.5.0

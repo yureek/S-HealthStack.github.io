@@ -1,14 +1,17 @@
 ---
 
 
+
 title: findActivity
 permalink: /kit/healthstack.kit.task.onboarding.view.layout/find-activity.html
 
 
 
-sidebar: sdk_doc_sidebar
+sidebar: dev_doc_sidebar
+
 
 ---
+
 
 
 //[kit](/kit.html)/[healthstack.kit.task.onboarding.view.layout](index.html)/[findActivity](find-activity.html)
