@@ -2,7 +2,7 @@
 
 entries:
 - product: Documentation
-  version: v0.9 (beta)
+  version: v1.0
 
 - title: Developer Guide 
   folders:

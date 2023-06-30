@@ -5,6 +5,8 @@ permalink: previewing-a-survey.html
 toc: false
 ---
 
+<span style="color:red">*Documentation for v1.0 official release is currently under construction. Note that the information on this page may be outdated.*</span>
+
 Previewing allows you to see how your survey will look in the app. Preview is available at any point in the survey question creation process.
 
 To preview a survey:
