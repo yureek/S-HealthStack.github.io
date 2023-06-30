@@ -11,8 +11,7 @@ Use the app SDK to create your app. While you are welcome to develop from scratc
 2. In Android Studio, clone the [starter-app](https://github.com/S-HealthStack/starter-app){:target="_blank"} GitHub repository to retrieve the app starter code.
 3. Edit the code in the `main` branch to customize it for your study.
 
-   > The `mg-study`branch contains the completed code described in the tutorial and demoed at the Samsung Developer Conference (SDC22). Compare  the `main` and `mg-study` branches to see the minimal changes needed to make the app your own.
-
+   
 The app needs to be able to:
 
 * Determine participant eligibility.

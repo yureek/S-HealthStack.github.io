@@ -5,6 +5,8 @@ permalink: creating-a-survey.html
 toc: false
 ---
 
+<span style="color:red">*Documentation for v1.0 official release is currently under construction. Note that the information on this page may be outdated.*</span>
+
 A survey is a sequence of questions that collect information from the participants in your study. You create surveys through the Samsung Health Stack web portal.
 
 > As you create the survey, the portal automatically saves your changes. During moments when network connectivity is lost, your changes are temporarily held offline and then automatically saved when connectivity returns.

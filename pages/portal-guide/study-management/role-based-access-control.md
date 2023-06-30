@@ -14,11 +14,11 @@ Team roles control access at the Samsung Health Stack level. Available roles are
 - Team Admin
 - Team Member
 
-From the version v0.9 web portal, the sole team admin is the first person to create a Samsung Health Stack account. Accounts for all others are team member accounts.
+From the v1.0 web portal, the sole team admin is the first person to create a Samsung Health Stack account. Accounts for all others are team member accounts.
 
 > From the command line or code, having more than one team admin is possible.
 
-In version v0.9, the team admin can create studies and invite members.
+In v1.0, the team admin can create studies and invite members.
 
 # Study Roles
 
@@ -27,8 +27,6 @@ Study roles control access to various aspects of the study. To be part of the te
 - Principal Investigator - has full access to all aspects of the study.
 - Research Assistant - has access to most aspects of the study.
 - Data Scientist - has access to most aspects of the study, but no access to participants' personal information.
-
-> The portal UI for this feature is complete, but the backend code wasn't completed in time to be included in the beta version. For beta, the`Research Assistant`and `Data Scientist` study roles are not available and the `Principal Investigator` study role displays  as `Researcher`in the **Members and access** table.
 
 The table shows available features for each role.
 

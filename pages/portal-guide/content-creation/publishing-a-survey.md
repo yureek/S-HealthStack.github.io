@@ -4,6 +4,9 @@ sidebar: doc_sidebar
 permalink: publishing-a-survey.html
 toc: false
 ---
+
+<span style="color:red">*Documentation for v1.0 official release is currently under construction. Note that the information on this page may be outdated.*</span>
+
 Once you've completed creating your survey questions, the next step is to schedule and publish the survey. You schedule and publish surveys through the Samsung Health Stack web portal.
 
 To schedule and publish a survey:
